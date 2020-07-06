@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1081" viewBox="0 0 1920 1081">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 4000 2668">
+      <image width="4000" height="2668" xlink:href="home-image.jpg"/>
+    </pattern>
+    <pattern id="pattern-2" width="1" height="1" viewBox="100.333 245.82 708.109 375.585">
+      <image preserveAspectRatio="xMidYMid slice" width="888" height="888" xlink:href="home-image2.png"/>
+    </pattern>
+    <clipPath id="clip-path">
+      <rect width="1920" height="137" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-home">
+      <rect width="1920" height="1081"/>
+    </clipPath>
+  </defs>
+  <g id="home" clip-path="url(#clip-home)">
+    <rect width="1920" height="1081" fill="#fff"/>
+    <g id="_62602440_451046305708947_1811642382551089152_n" data-name="62602440_451046305708947_1811642382551089152_n" stroke="#707070" stroke-width="1" fill="url(#pattern)">
+      <rect width="1920" height="1079" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1919" height="1078" fill="none"/>
+    </g>
+    <g id="logo" transform="translate(1 137)">
+      <rect id="logo-bg" width="1920" height="944" fill="rgba(0,0,0,0.3)"/>
+      <rect id="logo-white" width="888" height="471" transform="translate(516 237)" fill="url(#pattern-2)"/>
+    </g>
+    <g id="navigation" transform="translate(-1)" clip-path="url(#clip-path)">
+      <g id="Nav-bg" fill="rgba(0,0,0,0.7)" stroke="#707070" stroke-width="1">
+        <rect width="1920" height="137" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1919" height="136" fill="none"/>
+      </g>
+      <text id="いろは" transform="translate(256 76)" fill="#fff" font-size="40" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.2em"><tspan x="0" y="0">いろは</tspan></text>
+      <text id="暮らしの体験宿_" data-name="暮らしの体験宿 " transform="translate(49 78)" fill="#fff" font-size="23" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.2em"><tspan x="0" y="0">暮らしの体験宿</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan></text>
+      <text id="_-Yakushima_Lodge_Food_Atelier-" data-name="-Yakushima Lodge&amp; Food Atelier-" transform="translate(49 103)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="0.2em"><tspan x="0" y="0">-Yakushima Lodge&amp; Food Atelier-</tspan></text>
+      <g id="グループ_37" data-name="グループ 37" transform="translate(0 2)">
+        <text id="About_iroha" data-name="About iroha" transform="translate(851 64)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">About iroha</tspan></text>
+        <text id="_-いろはのこと-" data-name="-いろはのこと-" transform="translate(885 90)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">-</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">いろはのこと</tspan><tspan y="0">-</tspan></text>
+      </g>
+      <g id="グループ_38" data-name="グループ 38" transform="translate(0 2)">
+        <text id="Lodge" transform="translate(1094 64)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">Lodge</tspan></text>
+        <text id="_-宿泊ロッジ-" data-name="-宿泊ロッジ-" transform="translate(1089 90)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">-</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">宿泊ロッジ</tspan><tspan y="0">-</tspan></text>
+      </g>
+      <g id="グループ_39" data-name="グループ 39">
+        <text id="Food_Atelier_Lounge" data-name="Food Atelier
+&amp; Lounge" transform="translate(1338 47)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="-81.06" y="0">Food Atelier</tspan><tspan x="-63.431" y="30">&amp; Lounge</tspan></text>
+        <text id="_-食工房_ラウンジ-" data-name="-食工房/ラウンジ-" transform="translate(1271 110)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">-</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">食工房</tspan><tspan y="0">/</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">ラウンジ</tspan><tspan y="0">-</tspan></text>
+      </g>
+      <g id="グループ_40" data-name="グループ 40" transform="translate(0 -1)">
+        <text id="Interactive_Program" data-name="Interactive
+Program" transform="translate(1577 49)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="-69.94" y="0">Interactive</tspan><tspan x="-55.004" y="30">Program</tspan></text>
+        <text id="_-体験プログラム-" data-name="-体験プログラム-" transform="translate(1514 110)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">-</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">体験プログラム</tspan><tspan y="0">-</tspan></text>
+      </g>
+      <g id="グループ_41" data-name="グループ 41" transform="translate(0 3)">
+        <text id="Booking" transform="translate(1782 62)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="-52.99" y="0">Booking</tspan></text>
+        <text id="_-ご予約-" data-name="-ご予約-" transform="translate(1752 90)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">-</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">ご予約</tspan><tspan y="0">-</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="888" height="471" viewBox="0 0 888 471">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="100.333 245.82 708.109 375.585">
+      <image preserveAspectRatio="xMidYMid slice" width="888" height="888" xlink:href="logo-white-image.png"/>
+    </pattern>
+  </defs>
+  <rect id="logo-white" width="888" height="471" fill="url(#pattern)"/>
+</svg>
