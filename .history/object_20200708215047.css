@@ -107,7 +107,7 @@
 }
 
 
-/******************** タブレット ************************************/
+/* タブレット */
 
 @media screen and (max-width: 768px) {
    .bgImage {
@@ -183,7 +183,7 @@
   }
 
   .clicked .navList .navItem {
-      transform: translateY(0px);
+      transform: translateX(0px);
   }
 
   .navItem {
@@ -193,7 +193,7 @@
   }
 
   .navList li{
-      transform: translateY(-220px);
+      transform: translateX(200px);
 
       transition: transform .6s ease, opacity .2s ease;
   }
@@ -275,7 +275,7 @@
 
 }
 
-/******************************* スマホ版 ********************************/
+/* スマホ版 */
 
 @media screen and ( max-width: 378px){
    .responSive {
@@ -361,8 +361,7 @@
           position: absolute;
           display: block;
           top: 54px;
-          width: 100%;
-          left: 376px;
+          width: 15rem;
           max-height: auto;
           cursor: pointer;
           /* transition: all 0.2s ease-in-out; */
@@ -380,10 +379,10 @@
           /* right: 100%; */
           visibility: visible;
           opacity: 1;
-          width: 310px;
+          width: 100%;
           top: 54px;
-          height: 616.85px;
-          left: 65px;
+          height: 753.85px;
+          left: -162vw;
       }
 
       .clicked .navList .navItem {

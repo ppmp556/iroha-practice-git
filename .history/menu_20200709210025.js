@@ -5,17 +5,17 @@ const toggler = document.getElementById('navToggle');
 const navList = document.getElementById('navLists');
 //#navListsを取得し、navListに格納
 
-const navBoxs = document.getElementById('ly-navBox');
+const navBoxs = document.getElementById('navBoxs');
 
 toggler.addEventListener('click', function() {　
     //togglerクリックされたら、
     
-    navBoxs.classList.toggle('clicked');
+    
     toggler.classList.toggle('clicked');　
     //clickedクラスがあれば削除
     //clickedクラスがなければ付与
     
     navList.classList.toggle('clicked');
 
-    
+    navBoxs.classList.toggle('clicked');
 });

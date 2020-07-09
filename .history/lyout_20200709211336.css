@@ -210,7 +210,7 @@ a:link, a:visited, a:hover, a:active {
    }
    .clicked .ly-navBox {
      width: 310px;
-     display: block;
+     display: inline-block;
      height: 54.31px;
      
      display: flex;

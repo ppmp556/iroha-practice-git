@@ -10,12 +10,12 @@ const navBoxs = document.getElementById('ly-navBox');
 toggler.addEventListener('click', function() {　
     //togglerクリックされたら、
     
-    navBoxs.classList.toggle('clicked');
+    
     toggler.classList.toggle('clicked');　
     //clickedクラスがあれば削除
     //clickedクラスがなければ付与
     
     navList.classList.toggle('clicked');
 
-    
+    navBoxs.classList.toggle('clicked');
 });

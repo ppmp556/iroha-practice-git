@@ -361,8 +361,7 @@
           position: absolute;
           display: block;
           top: 54px;
-          width: 100%;
-          left: 376px;
+          width: 15rem;
           max-height: auto;
           cursor: pointer;
           /* transition: all 0.2s ease-in-out; */
@@ -380,10 +379,10 @@
           /* right: 100%; */
           visibility: visible;
           opacity: 1;
-          width: 310px;
+          width: 100%;
           top: 54px;
-          height: 616.85px;
-          left: 65px;
+          height: 753.85px;
+          left: -162vw;
       }
 
       .clicked .navList .navItem {
