@@ -88,7 +88,9 @@
       /* margin-top: 33px; */
   }
   
-  
+ .clicked .u-navColor{
+      background-color: rgba(0,0,0,0.7);
+  }
   
   /*　ナビ小文字 */
   .u-navTxt-s {
