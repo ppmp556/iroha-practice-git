@@ -272,10 +272,6 @@
       /* top: 20px; */
   }
 
-  .fa-facebook-official {
-      font-size: 20px;
-  }
-
 
 }
 
@@ -400,7 +396,7 @@
         top: 0;
         width: 31px;
         height: 50px;
-        right: 80px;
+        right: 26.3px;
         cursor: pointer;
         transition: all .30s ease-in-out;/*0.3秒かけて変化*/
     }

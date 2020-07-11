@@ -272,10 +272,6 @@
       /* top: 20px; */
   }
 
-  .fa-facebook-official {
-      font-size: 20px;
-  }
-
 
 }
 
@@ -393,17 +389,6 @@
       .clicked .navList .navItem {
           transform: translateX(0px);
       }
-      .clicked .toggleBtn {
-        /* display: none; */
-        z-index: 2000;
-        position: absolute;
-        top: 0;
-        width: 31px;
-        height: 50px;
-        right: 80px;
-        cursor: pointer;
-        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
-    }
 
       .navItem {
           padding: 2px 0;
@@ -492,8 +477,6 @@
           transform: translateY(-5px) rotate(315deg);/*反時計周りに45度回転*/
           /* top: 20px; */
       }
-
-      
 
 
 
