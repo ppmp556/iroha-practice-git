@@ -277,18 +277,12 @@
   .fa-square {
       display: none;
   }
-  .clicked .fa-square {
-      position: relative;
-      top: 2px;
-  }
-
-  .clicked .fa-facebook-f {
-      font-size: 20px;
-      
+  
+  .clicked .fa-facebook-official {
+      font-size: 10px;
   }
   .clicked .fa-stack-2x {
       font-size: 1.3em;
-   
   }
 
 

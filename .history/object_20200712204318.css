@@ -70,7 +70,7 @@
    z-index: -100;
    position: absolute;
    object-fit: contain;
-   background-position-y: -40px;
+   background-position-y: -65px;
    margin: 0;
    padding-top: 67%;
 
@@ -157,7 +157,7 @@
       top: -394px;
       left: 0px;
       width: 100%;
-      height: 41.8rem;
+      height: 39.4rem;
       cursor: pointer;
       /* transition: all 0.2s ease-in-out; */
       overflow-y: auto;/*縦方向の表示*/
@@ -278,17 +278,10 @@
       display: none;
   }
   .clicked .fa-square {
-      position: relative;
-      top: 2px;
-  }
 
-  .clicked .fa-facebook-f {
-      font-size: 20px;
-      
   }
-  .clicked .fa-stack-2x {
-      font-size: 1.3em;
-   
+  .clicked .fa-facebook-official {
+      font-size: 20px;
   }
 
 

@@ -115,11 +115,6 @@ a:link, a:visited, a:hover, a:active {
   position: absolute;
 }
 
-.ly-share {
-  display: none;
-}
-
-
 /***************************** タブレット版 *****************************
 
 ***********************************************************************/
@@ -175,11 +170,7 @@ a:link, a:visited, a:hover, a:active {
 
    .clicked .ly-share {
      position: absolute;
-     top: 311.3px;
-     left: 624px;
-     display: initial;
-     
-
+     top: 100px;
    }
 
 }
@@ -269,14 +260,6 @@ a:link, a:visited, a:hover, a:active {
      position: absolute;
    }
    
-   .clicked .ly-share {
-    position: absolute;
-    top: 311.3px;
-    left: 624px;
-    display: initial;
-    
-
-  }
 
 
  

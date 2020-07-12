@@ -284,11 +284,10 @@
 
   .clicked .fa-facebook-f {
       font-size: 20px;
-      
+      margin-top: auto;
   }
   .clicked .fa-stack-2x {
       font-size: 1.3em;
-   
   }
 
 

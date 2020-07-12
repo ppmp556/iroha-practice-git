@@ -284,11 +284,13 @@
 
   .clicked .fa-facebook-f {
       font-size: 20px;
-      
+      flex-direction: column;
+      display: flex;
   }
   .clicked .fa-stack-2x {
       font-size: 1.3em;
-   
+      flex-direction: column;
+      display: flex;
   }
 
 
