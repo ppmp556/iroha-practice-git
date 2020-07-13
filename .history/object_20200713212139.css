@@ -406,8 +406,6 @@
       }
 
       .clicked .navList .navItem {
-          top: -22px;
-          position: relative;
           transform: translateX(0px);
       }
       .clicked .toggleBtn {

@@ -271,11 +271,10 @@ a:link, a:visited, a:hover, a:active {
    
    .clicked .ly-share {
     position: relative;
-    top: 52.6px;
+    top: 0px;
     left: 0px;
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
+    display: initial;
+    
 
   }
 

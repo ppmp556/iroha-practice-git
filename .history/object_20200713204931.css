@@ -406,8 +406,6 @@
       }
 
       .clicked .navList .navItem {
-          top: -22px;
-          position: relative;
           transform: translateX(0px);
       }
       .clicked .toggleBtn {
@@ -424,9 +422,8 @@
 
       .navItem {
           padding: 2px 0;
-          font-size: 1.3rem;
+          font-size: 2rem;
           margin-bottom: 40px;
-          line-height: 1.06;
 
           transition: transform 6s ease, opacity .2s ease;
       }
@@ -515,33 +512,7 @@
           /* top: 20px; */
       }
 
-      .fa-stack {
-          margin: 0 31px;
-      }
-
-      .fa-facebook-official,
-      .fa-square {
-          display: none;
-      }
-      .clicked .fa-square {
-          position: relative;
-          top: 2px;
-      }
-    
-      .clicked .fa-facebook-f {
-          font-size: 37px;
-          top: 6px;
-          left: 6px;
-          
-      }
-      .clicked .fa-stack-2x {
-          font-size: 2.3em;
-       
-      }
-      .clicked .fa-instagram {
-          font-size: 5.3rem;
-      }
-
+      
 
 
 
