@@ -35,9 +35,7 @@
 
 }
 
-/* *******************調整用 **********************/
-
-@media screen and ( max-width: 1152px){
+@media screen and ( max-width: 1132px){
     /*　ナビ小文字 */
  .u-navTxt-s {
     font-size: 1.15rem;
@@ -46,10 +44,11 @@
     letter-spacing: 0.2em;
 }
 .u-navTxt-s2 {
-    font-size: 0.7rem;
-    line-height: 1.2;
+    font-size: 1.2rem;
+    line-height: 1.33;
     letter-spacing: 0.2em;
-   
+    display: flex;
+    justify-content: center;
    
 
 }
@@ -107,16 +106,19 @@
 /* スマホ版 */
 @media screen and ( max-width: 378px){
     .u-navTxt {
-      font-size: 0.9rem;
-      line-height: 1.347;
-      letter-spacing: 0.2em;
+              
+      font-size: 1.0rem;
+      line-height: 1.347;/*行間31px÷fontsize23px*/
+      letter-spacing: 0.2em;/*AV200÷1000 + em*/
+      /* margin-top: 53px; */
       margin-right: 5px;
   }
   
   .u-navTxt-bgs {
       font-size: 1.7rem;
-      line-height: 1.325;
-      letter-spacing: 0.2em;
+      line-height: 1.325;/*行間53px÷fontsize40px */
+      letter-spacing: 0.2em;/* AV200 ÷1000 +em*/
+      /* margin-top: 33px; */
   }
   
  .clicked .u-navColor{
@@ -125,10 +127,11 @@
   
   /*　ナビ小文字 */
   .u-navTxt-s {
-      font-size: 0.15rem;
+      font-size: 0.6rem;
       transform: scale(0.95);
-      line-height: 1.33;
-      letter-spacing: 0.2em;
+      /* padding-top: 3px; */
+      line-height: 1.33;/*行間20px÷fontsize15px */
+      letter-spacing: 0.2em;/* AV200 ÷1000 +em*/
   }
   
   

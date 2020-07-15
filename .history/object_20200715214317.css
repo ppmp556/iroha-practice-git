@@ -325,21 +325,7 @@
 
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 512px){
-    .bgImage {
-        
-        background-size: contain;
-        position: absolute;
-        object-fit: contain;
-        background-position-y: -2rem;
-        margin: 0;
-        padding-top: 67%;
-     }
-
-     .bgImage2 {
-        width: 44vw;
-        height: 133px;
-
-     }
+    
 }
 
 

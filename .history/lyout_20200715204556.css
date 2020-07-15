@@ -119,9 +119,6 @@ a:link, a:visited, a:hover, a:active {
   display: none;
 }
 
-
-/* *************調整用 ***********************/
-
 @media screen and ( max-width: 1152px){
   .ly-navBox {
     width: 100%;
@@ -139,7 +136,7 @@ a:link, a:visited, a:hover, a:active {
 @media screen and (max-width: 768px) {
     
   .ly-wrapper {
-      width: 100%;
+      width: 769px;
       height: auto;
       overflow: hidden;
   }
@@ -171,7 +168,7 @@ a:link, a:visited, a:hover, a:active {
      background-color: rgba(0,0,0,0.7);
    }
     .ly-nav {
-     width: 0;
+     width: 100%;
      margin-right: auto;
    }
     .ly-navTitle {
@@ -204,7 +201,7 @@ a:link, a:visited, a:hover, a:active {
 
     
   .ly-wrapper {
-     width: 100%;
+     width: 376.34px;
      height: auto;
  }
 

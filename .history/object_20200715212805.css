@@ -323,28 +323,6 @@
 
 }
 
-/* *****************調整用 ****************************/
-@media screen and ( max-width: 512px){
-    .bgImage {
-        
-        background-size: contain;
-        position: absolute;
-        object-fit: contain;
-        background-position-y: -2rem;
-        margin: 0;
-        padding-top: 67%;
-     }
-
-     .bgImage2 {
-        width: 44vw;
-        height: 133px;
-
-     }
-}
-
-
-
-
 /******************************* スマホ版 ********************************/
 
 @media screen and ( max-width: 378px){
@@ -468,7 +446,7 @@
         top: -2px;
         width: 31px;
         height: 50px;
-        left: 249.5px;
+        left: 265.5px;
         cursor: pointer;
         transition: all .30s ease-in-out;/*0.3秒かけて変化*/
     }
