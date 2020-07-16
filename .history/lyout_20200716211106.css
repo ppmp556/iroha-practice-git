@@ -210,7 +210,7 @@ a:link, a:visited, a:hover, a:active {
 ***********************************************************************/
 @media screen and ( max-width: 512px){
   .clicked .ly-share {
-    top: 145px;
+    top: 168px;
     left: 300px;
   }
  

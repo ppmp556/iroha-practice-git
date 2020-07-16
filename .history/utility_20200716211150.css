@@ -49,6 +49,9 @@
         font-size: 0.7rem;
         line-height: 1.2;
         letter-spacing: 0.2em;
+    
+    
+
     }
 }
 
@@ -89,17 +92,7 @@
     }
 }
 
-/* 調整用 */
 
-@media screen and ( max-width: 512px){
-
-
-    .u-navTxt-s2 {
-        font-size: 0.7rem;
-        line-height: 1.2;
-        letter-spacing: 0.2em;
-    }
-}
 
 
 
