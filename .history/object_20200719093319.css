@@ -57,7 +57,6 @@
    align-items: center;
    text-align: center;/*テキスト中央ぞろえ*/
    justify-content: center;
-   cursor: pointer;
 
 }
 
@@ -188,6 +187,7 @@
       left: 0px;
       width: 100%;
       height: 41.8rem;
+      cursor: pointer;
       /* transition: all 0.2s ease-in-out; */
       overflow-y: auto;/*縦方向の表示*/
 
@@ -319,16 +319,11 @@
 
   .clicked .fa-facebook-f {
       font-size: 20px;
-      cursor: pointer;
+      
   }
   .clicked .fa-stack-2x {
       font-size: 1.3em;
-      
    
-  }
-  .clicked .fa-instagram {
-      font-size: 30px;
-      cursor: pointer;
   }
 
 
@@ -452,6 +447,7 @@
           width: 100%;
           left: 376px;
           max-height: auto;
+          cursor: pointer;
           /* transition: all 0.2s ease-in-out; */
           overflow-y: auto;/*縦方向の表示*/
           justify-content: center;
@@ -592,7 +588,6 @@
 
       .fa-stack {
           margin: 0 31px;
-          cursor: pointer;
       }
 
       .fa-facebook-official,
@@ -616,7 +611,6 @@
       }
       .clicked .fa-instagram {
           font-size: 5.3rem;
-          cursor: pointer;
       }
 
 }
@@ -657,7 +651,7 @@
         left: 0;
     }
        .clicked .fa-stack-2x {
-        font-size: 1.4em;
+        font-size: 1.3em;
      
        }
        .clicked .fa-facebook-f {
@@ -668,7 +662,6 @@
        }
        .clicked .fa-instagram {
         font-size: 4rem;
-        cursor: pointer;
     }
 
 }

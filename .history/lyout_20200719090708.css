@@ -323,12 +323,5 @@ a:link, a:visited, a:hover, a:active {
   .ly-wrapper {
     width: 100%;
     height: auto;
-  }
-  .clicked .ly-share {
-    top: -10px;
-    left: -15px;
-    width: 70%;
-
-  }
- 
+}
 }

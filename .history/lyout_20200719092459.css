@@ -325,10 +325,20 @@ a:link, a:visited, a:hover, a:active {
     height: auto;
   }
   .clicked .ly-share {
+    position: relative;
     top: -10px;
-    left: -15px;
-    width: 70%;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
 
   }
+  .clicked .fa-facebook-f {
+    font-size: 20px;
+    
+}
+.clicked .fa-stack-2x {
+    font-size: 1.3em;
  
+}
 }

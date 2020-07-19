@@ -315,20 +315,16 @@
   .clicked .fa-square {
       position: relative;
       top: 2px;
+      cursor: pointer;
   }
 
   .clicked .fa-facebook-f {
       font-size: 20px;
-      cursor: pointer;
+      
   }
   .clicked .fa-stack-2x {
       font-size: 1.3em;
-      
    
-  }
-  .clicked .fa-instagram {
-      font-size: 30px;
-      cursor: pointer;
   }
 
 
@@ -592,7 +588,6 @@
 
       .fa-stack {
           margin: 0 31px;
-          cursor: pointer;
       }
 
       .fa-facebook-official,
@@ -616,7 +611,6 @@
       }
       .clicked .fa-instagram {
           font-size: 5.3rem;
-          cursor: pointer;
       }
 
 }
@@ -668,7 +662,6 @@
        }
        .clicked .fa-instagram {
         font-size: 4rem;
-        cursor: pointer;
     }
 
 }
