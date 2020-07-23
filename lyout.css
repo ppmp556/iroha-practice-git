@@ -115,6 +115,7 @@ a:link, a:visited, a:hover, a:active {
   display: flex;
   /* justify-content: center; */
   position: absolute;
+
 }
 
 .ly-share {

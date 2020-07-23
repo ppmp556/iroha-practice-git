@@ -186,7 +186,7 @@
  
  
  }
-
+/* スライドショーここから */
  .bgBox {
      position: relative;
      width: 100%;
@@ -194,19 +194,17 @@
      left: 0;
      height: 100%;
      overflow: hidden;
-    
-
      margin: 0;
  }
 
- .bgBox.animeBg {
+ .bgBox .bgImg {
      top: 0;
      left: 0;
      bottom: 0;
      right: 0;
      opacity: 0;
 
-     animation: animeBg 60s 0s infinite;
+     animation: animeBg 60s infinite;
  }
 
 
@@ -218,7 +216,7 @@
      100%{opacity: 0;}
  }
 
-
+/* スライドショーここまで */
 
 .bgImageMin {
    display: flex;
