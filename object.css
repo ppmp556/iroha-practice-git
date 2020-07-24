@@ -195,6 +195,7 @@
      height: 100%;
      overflow: hidden;
      margin: 0;
+     opacity: 0;
  }
 
  .bgBox .bgImg {
@@ -203,6 +204,7 @@
      bottom: 0;
      right: 0;
      opacity: 0;
+     
 
      animation: animeBg 60s infinite;
  }
