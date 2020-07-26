@@ -87,9 +87,15 @@
 
 
 /* スライドショーここまで */
+.bgBox {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
 
 
-.bgImage {
+.bgBox .bgImage {
    background: url("image.svg/home-image.jpg");
    background-size: contain;
    background-repeat: no-repeat;
@@ -107,7 +113,19 @@
 
 
 }
-
+.bgImageMin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    max-width: 1619px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
 
 
 .bgImage2 {
@@ -127,6 +145,7 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%,-50%);
+
 }
 .bgImage4 {
     background: url("image.svg/66785460_332855247605145_6936626599722745856_n.png");
@@ -209,21 +228,15 @@
 
  }
 
-.bgImageMin {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: fixed;
-   flex-direction: column;
-   width: 100%;
-   height: auto;
-   max-width: 1619px;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
+
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 1152px){
+    .bgBox {
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+
     .navItem {
         
         font-size: 1.35rem;
@@ -249,6 +262,13 @@
         width: 46vw;
         height: 248px;
 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
      }
 }
 
@@ -256,8 +276,16 @@
 /******************** タブレット ************************************/
 
 @media screen and (max-width: 768px) {
+    .bgBox {
+        position: relative;
+        height: 428.31px;
+        width: 768px;
+    }
+
+
    .bgImage {
       padding-top: 67%;
+      background-size: -39px;
     }
 
     .bgImage2 {
@@ -267,6 +295,42 @@
        height: 187.1px;
  
     }
+
+
+    .bgImage4 {
+        background-position-y: 0;
+        background-size: cover;
+        padding-top: 61%;
+
+        animation-delay: 10s;
+     }
+    .bgImage5 {
+        background-position-y: 0;
+        background-size: cover;
+        padding-top: 61%;
+
+        animation-delay: 20s;
+     }
+    .bgImage6 {
+        background-position-y: 0;
+        background-size: cover;
+        padding-top: 61%;
+        animation-delay: 30s;
+     }
+    .bgImage7 {
+        background-position-y: 0;
+        background-size: cover;
+        padding-top: 61%;
+        animation-delay: 40s;
+     }
+    .bgImage8 {
+        background-position-y: 0;
+        background-size: cover;
+        padding-top: 61%;
+        animation-delay: 50s;
+    
+     }
+    
 
 
     .bgImageMin {
@@ -452,6 +516,11 @@
 
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 512px){
+    .bgBox {
+        position: relative;
+        height: 42%;
+        width: 100%;
+    }
     .bgImage {
         
         background-size: contain;
@@ -465,6 +534,13 @@
      .bgImage2 {
         width: 44vw;
         height: 133px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
      }
      .navList {
@@ -599,10 +675,7 @@
    }
 
    .bgImageMin {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
+     display: none;
    }
    /* ヘッダー */
    .headerTitle {
@@ -816,6 +889,24 @@
         width: 90%;
         height: 90%;
     }
+    .responSive2 {
+        background-image: url("image.svg/66785460_332855247605145_6936626599722745856_n.png");
+        
+        animation-delay: 10s;
+      
+     
+     }
+     .responSive3 {
+        background-image: url("image.svg/65467287_496617880878565_1611677239349346304_n.png");
+     
+        animation-delay: 20s;
+     
+     }
+     .responSive4 {
+        background-image: url("image.svg/65470401_355624348470844_9079785503418482688_n.png");
+    
+        animation-delay: 30s;
+     }
 
     .toggleBtn {
         position: absolute;
