@@ -96,7 +96,7 @@
 
 
 .bgBox .bgImage {
-   background: url("image.svg/home-image.jpg");
+   background: url("image.svg/62602440_451046305708947_1811642382551089152_n-image.jpg");
    background-size: contain;
    background-repeat: no-repeat;
    width: 100%;
@@ -137,8 +137,8 @@
    background-repeat: no-repeat;
    z-index: 1;
    /* width: 888px; */
-   width: 58vw;
-   height: 353px;
+   width: 50%;
+   height: 50%;
    /* top: 300px; */
    /* left: 370px; */
    object-fit: cover;
@@ -233,7 +233,7 @@
 @media screen and ( max-width: 1152px){
     .bgBox {
         position: relative;
-        height: 50%;
+        height: 100%;
         width: 100%;
     }
 
@@ -259,10 +259,10 @@
      }
 
      .bgImage2 {
-        width: 46vw;
-        height: 248px;
+        width: 50%;
+        height: 50%;
 
-        top: 50%;
+        top: 50vw;
         left: 50%;
         transform: translate(-50%,-50%);
         display: flex;
@@ -278,54 +278,57 @@
 @media screen and (max-width: 768px) {
     .bgBox {
         position: relative;
-        height: 428.31px;
-        width: 768px;
+        height: 100%;
+        width: 100%;
     }
 
 
-   .bgImage {
+   .bgBox .bgImage {
       padding-top: 67%;
-      background-size: -39px;
+      background-position-y: -48px;
     }
 
-    .bgImage2 {
+    .bgBox .bgImage2 {
        z-index: 100;
    
-       width: 48vw;
-       height: 187.1px;
+       width: 50%;
+       height: 50vw;
+       top: 50vw;
+       left: 50%;
+       transform: translate(-50%,-50%);
  
     }
 
 
     .bgImage4 {
         background-position-y: 0;
-        background-size: cover;
+        background-size: contain;
         padding-top: 61%;
 
         animation-delay: 10s;
      }
     .bgImage5 {
         background-position-y: 0;
-        background-size: cover;
+        background-size: contain;
         padding-top: 61%;
 
         animation-delay: 20s;
      }
     .bgImage6 {
         background-position-y: 0;
-        background-size: cover;
+        background-size: contain;
         padding-top: 61%;
         animation-delay: 30s;
      }
     .bgImage7 {
         background-position-y: 0;
-        background-size: cover;
+        background-size: contain;
         padding-top: 61%;
         animation-delay: 40s;
      }
     .bgImage8 {
         background-position-y: 0;
-        background-size: cover;
+        background-size: contain;
         padding-top: 61%;
         animation-delay: 50s;
     
@@ -367,7 +370,8 @@
       top: -410px;
       left: 0px;
       width: 100%;
-      height: 41.8rem;
+      /* height: 41.8rem; */
+      height: 38.8rem;
       /* transition: all 0.2s ease-in-out; */
       overflow-y: auto;/*縦方向の表示*/
 
@@ -518,9 +522,18 @@
 @media screen and ( max-width: 512px){
     .bgBox {
         position: relative;
-        height: 42%;
+        height: 100%;
         width: 100%;
     }
+
+
+    .bgBox .bgImage {
+        
+        background-position-y: -10px;
+
+     
+     
+     }
     .bgImage {
         
         background-size: contain;
@@ -532,8 +545,8 @@
      }
 
      .bgImage2 {
-        width: 44vw;
-        height: 133px;
+        width: 50%;
+        height: 50%;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -882,28 +895,34 @@
 }
 /* ********************** 調整用 **********************************/
 @media screen and ( max-width: 340px) {
+
+    .bgImage, .bgImage2, .bgImage4,
+   .bgImage5, .bgImage6, .bgImage7,
+   .bgImage8 {
+       display: none;
+   }
     .responSive {
-        background-image: url("image.svg/62602440_451046305708947_1811642382551089152_n@2x.png");
+        background-image: url(image.svg/アセット-2.jpg);
         
         background-position-x: 1px;
         width: 90%;
         height: 90%;
     }
     .responSive2 {
-        background-image: url("image.svg/66785460_332855247605145_6936626599722745856_n.png");
+        background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png");
         
         animation-delay: 10s;
       
      
      }
      .responSive3 {
-        background-image: url("image.svg/65467287_496617880878565_1611677239349346304_n.png");
+        background-image: url("image.svg/アセット-6.png");
      
         animation-delay: 20s;
      
      }
      .responSive4 {
-        background-image: url("image.svg/65470401_355624348470844_9079785503418482688_n.png");
+        background-image: url("image.svg/アセット-4.png");
     
         animation-delay: 30s;
      }
