@@ -87,6 +87,38 @@
     line-height: 1.2;
     letter-spacing: 0.2em;
   }
+  .u-navTxt {
+    font-size: 0.9rem;
+    line-height: 1.347;
+    letter-spacing: 0.2em;
+    margin-right: 5px;
+  }
+
+  .u-navTxt-bgs {
+    font-size: 1.7rem;
+    line-height: 1.325;
+    letter-spacing: 0.2em;
+  }
+
+  .clicked .u-navColor {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /*　ナビ小文字 */
+  .u-navTxt-s {
+    font-size: 0.6rem;
+    transform: scale(0.95);
+    line-height: 1.33;
+    letter-spacing: 0.2em;
+  }
+
+  .u-navTxt-s2 {
+    font-size: 1.3rem;
+    line-height: 1.33;
+    letter-spacing: 0.2em;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* スマホ版 */
