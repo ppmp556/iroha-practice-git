@@ -39,6 +39,11 @@ a:link, a:visited, a:hover, a:active {
   position: relative;
 }
 
+.ly-imageBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
 .ly-headerWrapper {
   width: 100%;
@@ -210,6 +215,7 @@ a:link, a:visited, a:hover, a:active {
 
 ***********************************************************************/
 @media screen and ( max-width: 512px){
+
   .clicked .ly-share {
     top: 0;
     left: -10px;

@@ -294,6 +294,7 @@
         position: relative;
         height: 100%;
         width: 100%;
+
     }
 
 
@@ -551,7 +552,7 @@
 
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 512px){
-    .responSive {
+    /* .responSive {
         background-image: url("image.svg/アセット-2.jpg");
         background-size: contain;
         background-repeat: no-repeat;
@@ -607,12 +608,12 @@
         object-fit: cover;
         background-position-x: 1px;
         animation-delay: 30s;
-     }
-     .bgImage, .bgImage2, .bgImage4,
+     } */
+     /* .bgImage, .bgImage2, .bgImage4,
      .bgImage5, .bgImage6, .bgImage7,
      .bgImage8 {
          display: none;
-     }
+     } */
 
     .bgBox {
         position: relative;
@@ -621,7 +622,7 @@
     }
 
 
-    /* .bgBox .bgImage {
+    .bgBox .bgImage {
         
         background-position-y: -10px;
 
@@ -638,13 +639,13 @@
         padding-top: 67%;
      }
 
-     .bgImage2 {
+     .bgBox .bgImage2 {
         width: 50%;
         height: 50%;
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%,-50%);
-
+        background-repeat: no-repeat;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -689,19 +690,9 @@
         animation-delay: 50s;
     
      }
- */
+
  .bgImageMin2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    max-width: 1619px;
-    top: calc(100% - 40%);
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: none;
  }
    
    .bgImage3{
@@ -778,6 +769,11 @@
     }
 }
 
+/******************************* 調整用 ********************************/
+
+@media screen and ( max-width: 512px){
+
+}
 
 
 
