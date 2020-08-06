@@ -367,10 +367,10 @@
         flex-direction: column;
         width: 100%;
         height: 100%;
-        max-width: 1619px;
-        top: calc(100% - 62%);
-        left: 50%;
-        transform: translate(-50%, -50%);
+        max-height: 374px;
+        top: 54px;
+        left: 0;
+        transform: initial;
      }
 
 
@@ -642,7 +642,7 @@
      .bgBox .bgImage2 {
         width: 50%;
         height: 50%;
-        top: 55%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
         background-repeat: no-repeat;
@@ -769,11 +769,7 @@
     }
 }
 
-/******************************* 調整用 ********************************/
 
-@media screen and ( max-width: 512px){
-
-}
 
 
 
