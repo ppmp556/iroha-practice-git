@@ -128,6 +128,16 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
+.ly-mainContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: cyan;
+}
+
+
+
+
 /* *************調整用 ***********************/
 
 @media screen and ( max-width: 1152px){
@@ -203,6 +213,13 @@ a:link, a:visited, a:hover, a:active {
 
    }
 
+   main .ly-mainContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: cyan;
+  }
+
 }
 
 
@@ -215,11 +232,24 @@ a:link, a:visited, a:hover, a:active {
 
 ***********************************************************************/
 @media screen and ( max-width: 512px){
-
+  .ly-bgimageBox {
+    height: 736px;
+    width: 100%;
+    position: absolute;
+  }
   .clicked .ly-share {
     top: 0;
     left: -10px;
     position: relative;
+  }
+  .ly-navBox {
+    width: 100%;
+    height: 54.31px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px bold #707070;
+    background-color: rgba(0,0,0,0.7);
   }
  
 }
@@ -337,6 +367,13 @@ a:link, a:visited, a:hover, a:active {
     left: -15px;
     width: 70%;
 
+  }
+  .ly-bgimageBox {
+    height: 632.85px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    position: absolute;
   }
  
 }

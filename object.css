@@ -552,7 +552,7 @@
 
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 512px){
-    /* .responSive {
+    .responSive {
         background-image: url("image.svg/アセット-2.jpg");
         background-size: contain;
         background-repeat: no-repeat;
@@ -608,7 +608,7 @@
         object-fit: cover;
         background-position-x: 1px;
         animation-delay: 30s;
-     } */
+     }
      /* .bgImage, .bgImage2, .bgImage4,
      .bgImage5, .bgImage6, .bgImage7,
      .bgImage8 {
@@ -616,20 +616,25 @@
      } */
 
     .bgBox {
-        position: relative;
-        height: 100%;
-        width: 100%;
+        display: none;
     }
 
-
+/* 
     .bgBox .bgImage {
         
         background-position-y: -10px;
 
-     
-     
+     } */
+
+     .bgImage, .bgImage2, .bgImage4,
+     .bgImage5, .bgImage6, .bgImage7,
+     .bgImage8 {
+         display: none;
      }
-    .bgImage {
+     .bgImageMin {
+         display: none;
+     }
+    /* .bgImage {
         
         background-size: contain;
         position: absolute;
@@ -689,15 +694,12 @@
         padding: 57.4%;
         animation-delay: 50s;
     
-     }
+     } */
 
- .bgImageMin2 {
-    display: none;
- }
-   
+ 
    .bgImage3{
     
-      background-image: url("image.svg/logo-white-3-image.png");
+      background-image: url("image.svg/logo-white-3.png");
       z-index: 100;
       background-size: contain;
       background-position: center top;
@@ -866,6 +868,9 @@
    .bgImage8 {
        display: none;
    }
+   .bgImageMin {
+       display: none;
+   }
 
    .bgImageMin2 {
     display: flex;
@@ -875,15 +880,15 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    max-width: 1619px;
-    top: calc(100% - 55%);
+    max-height: 568px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
  }
    
    .bgImage3{
     
-      background-image: url("image.svg/logo-white-3-image.png");
+      background-image: url("image.svg/logo-white-3.png");
       z-index: 100;
       background-size: contain;
       background-position: center top;
@@ -1141,17 +1146,34 @@
         animation-delay: 30s;
      }
      .bgImageMin {
+         display: none;
+     }
+     .bgImageMin2 {
         display: flex;
         justify-content: center;
         align-items: center;
         position: fixed;
         flex-direction: column;
+        width: 50%;
+        height: 50%;
+        max-height: 568px;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+     .bgImage3{
+    
+        background-image: url("image.svg/logo-white-3.png");
+        z-index: 100;
+        background-size: contain;
+        background-position: center top;
+        position: absolute;
+        background-repeat: no-repeat;
+        height: 100%;
         width: 100%;
-        height: calc(100% - 50%);
-        max-width: 1619px;
-        top: 0;
-        left: 0;
-        /* transform: translate(-50%, -50%); */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
      }
     .toggleBtn {
         position: absolute;
