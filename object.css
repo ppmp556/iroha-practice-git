@@ -88,8 +88,8 @@
 
 /* スライドショーここまで */
 .bgBox {
-    position: relative;
-    height: 100%;
+    position: absolute;
+    height: 1079px;
     width: 100%;
     margin: auto;
 }
@@ -122,8 +122,8 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    max-width: 1619px;
-    top: calc(100% - 40%);
+    max-width: initial;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
  }
@@ -141,9 +141,9 @@
    width: 888px;
    height: 50%;
    object-fit: cover;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
+   top: initial;
+   left: initial;
+   transform: initial;
 
 }
 .bgImage4 {
@@ -291,8 +291,8 @@
 
 @media screen and (max-width: 768px) {
     .bgBox {
-        position: relative;
-        height: 100%;
+        position: absolute;
+        height: 463px;
         width: 100%;
 
     }
@@ -552,6 +552,31 @@
 
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 512px){
+    /* スライドショーここから */
+    .bgImg2 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        animation: animeBg2 40s infinite;
+    }
+
+
+    @keyframes animeBg2 {
+        0%{opacity: 0;}
+        1%{opacity: 1;}
+        25%{opacity: 1;}
+        26%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+
+
     .responSive {
         background-image: url("image.svg/アセット-2.jpg");
         background-size: contain;
@@ -695,7 +720,19 @@
         animation-delay: 50s;
     
      } */
-
+     .bgImageMin2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        max-height: 736px;
+        top: calc(50% - -108px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
  
    .bgImage3{
     
@@ -706,11 +743,11 @@
       position: absolute;
       background-repeat: no-repeat;
   
-      height: 26%;
+      height: 50%;
       width: 289.31px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
+      top: initial;
+      left: initial;
+      transform: initial;
 
    }
 
@@ -730,45 +767,111 @@
         /* right: 100%; */
         visibility: visible;
         opacity: 1;
-        width: 310px;
+        width: 350px;
         top: 53px;
         height: 681.85px;
-        left: 106px;
+        left: 0;
     }
 
     .clicked .navList .navItem {
-        top: -22px;
+        top: 0;
         position: relative;
         transform: translateX(0px);
     }
-    .fa-stack {
-        margin: 0 31px;
-        cursor: pointer;
+    .toggleBox {
+        display: flex;
+        justify-content: center;
+        width: calc (25% - -100px);
     }
 
-    .fa-facebook-official,
-    .fa-square {
-        display: none;
-    }
-    .clicked .fa-square {
-        position: relative;
-        top: -14px;
-    }
-  
-    .clicked .fa-facebook-f {
-        font-size: 37px;
-        top: -7px;
-        left: 6px;
+      .toggleBtn {
+          /* display: none; */
+          z-index: 2000;
+          position: absolute;
+          top: 0;
+          width: 22.96px;
+          height: 18.02px;
+          right: 14px;
+          cursor: pointer;
+          transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+      }
+
+      .toggleLine {
+          display: block;
+          position: absolute;
+          z-index: 2100;
+          right: 6.3px;
+          top: 14px;
+          width: 100%;
+          height: 2px;
+          background-color: #ffffff;
+      }
+      .tg1 {
+            top: 21.8px;
+        }
+        .tg2 {
+            top: 30.8px;
+        }
+        .tg3 {
+            top: 39.8px;
+        }
+        .clicked .toggleBtn {
+            /* display: none; */
+            z-index: 2000;
+            position: absolute;
+            top: -5px;
+            width: 31px;
+            height: 50px;
+            left: 305.5px;
+            cursor: pointer;
+            transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+        }
+        .clicked .tg1 {
+        transform: translateY(9px) rotate(-315deg);/*時計回りに45度回転*/
+        /* top: 20px; */
+        }
+        .clicked .tg2 {
+            /* width: 0px; */
+            opacity: 0;
+        }
+        .clicked .tg3 {
+            transform: translateY(-9px) rotate(315deg);/*反時計周りに45度回転*/
+            /* top: 20px; */
+        }
+        .navItem {
+    
+            font-size: 1.35rem;
+            }
+    
+    
+        .fa-stack {
+            margin: 0 31px;
+            cursor: pointer;
+        }
+
+        .fa-facebook-official,
+        .fa-square {
+            display: none;
+        }
+        .clicked .fa-square {
+            position: relative;
+            top: -14px;
+        }
+    
+        .clicked .fa-facebook-f {
+            font-size: 37px;
+            top: -7px;
+            left: 6px;
+            
+        }
+        .clicked .fa-stack-2x {
+            font-size: 2.3em;
         
-    }
-    .clicked .fa-stack-2x {
-        font-size: 2.3em;
-     
-    }
-    .clicked .fa-instagram {
-        font-size: 5.3rem;
-        cursor: pointer;
-    }
+        }
+        .clicked .fa-instagram {
+            font-size: 5.3rem;
+            cursor: pointer;
+        }
 }
 
 
@@ -880,7 +983,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    max-height: 568px;
+    max-height: 530px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -895,11 +998,11 @@
       position: absolute;
       background-repeat: no-repeat;
   
-      height: 26%;
+      height: 50%;
       width: 289.31px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
+      top: initial;
+      left: initial;
+      transform: initial;
 
    }
    .clicked .bgImage2 {
@@ -1157,7 +1260,7 @@
         width: 50%;
         height: 50%;
         max-height: 568px;
-        top: 68%;
+        top: calc(50% - 25px);
         left: 50%;
         transform: translate(-50%, -50%);
      }
@@ -1169,11 +1272,11 @@
         background-position: center top;
         position: absolute;
         background-repeat: no-repeat;
-        height: 100%;
-        width: 100%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+        height: 50%;
+        width: 289.31;
+        top: initial;
+        left: initial;
+        transform: initial;
      }
     .toggleBtn {
         position: absolute;

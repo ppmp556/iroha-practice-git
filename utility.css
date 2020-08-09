@@ -106,7 +106,7 @@
 
   /*　ナビ小文字 */
   .u-navTxt-s {
-    font-size: 0.6rem;
+    font-size: 0.45rem;
     transform: scale(0.95);
     line-height: 1.33;
     letter-spacing: 0.2em;
@@ -142,7 +142,24 @@
 
   /*　ナビ小文字 */
   .u-navTxt-s {
-    font-size: 0.6rem;
+    font-size: 0.4rem;
+    transform: scale(0.95);
+    line-height: 1.33;
+    letter-spacing: 0.2em;
+  }
+
+  .u-navTxt-s2 {
+    font-size: 1.3rem;
+    line-height: 1.33;
+    letter-spacing: 0.2em;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .u-navTxt-s {
+    font-size: 0.5rem;
     transform: scale(0.95);
     line-height: 1.33;
     letter-spacing: 0.2em;
