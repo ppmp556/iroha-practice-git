@@ -228,11 +228,7 @@ a:link, a:visited, a:hover, a:active {
 
 ***********************************************************************/
 @media screen and ( max-width: 512px){
-  .ly-bgimageBox {
-    height: 736px;
-    width: 100%;
-    position: absolute;
-  }
+  
   .clicked .ly-share {
     top: 0;
     left: -10px;
