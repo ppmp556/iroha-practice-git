@@ -26,7 +26,123 @@
   letter-spacing: 0.2em;
   display: flex;
   justify-content: center;
+
 }
+
+/* *******************main top **********************/
+
+
+.u-topTitle {
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  font-size: 5.0rem;
+  letter-spacing: 0.1em;
+  line-height: 0.6;
+  color: #000;
+  margin-bottom: 63.1px;
+
+  position: relative;
+  left: 40px;
+}
+
+.u-topPara, .u-topPara2, .u-topPara3 {
+  font-size: 3.5rem;
+  font-family: "Toppan Bunkyu Mincho";
+  letter-spacing: 0.1em;
+  line-height: 1.43;
+  color: #000;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  
+
+
+}
+.u-topPara {
+  margin-bottom: 40px;
+}
+
+.u-topPara3 {
+  margin-top: 55.6px;
+}
+
+.u-topBtn {
+ display: inline-block;
+ background: transparent;
+ color: #000;
+ border: 1px solid #000;
+ text-align: center;
+ cursor: pointer;
+ width: 200px;
+ height: 67.38px;
+
+ font-size: 2.0rem;
+ font-family: "Toppan Bunkyu Midashi Mincho";
+ letter-spacing: 0.1em;
+ line-height: 1.35px;
+
+ text-shadow: 0 4px 7px rgba(0, 0, 0, 0.16);
+
+}
+/* *******************section lodge **********************/
+
+.u-secoTitle {
+  font-size: 5rem;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+  /* font-weight: bold; */
+  
+}
+
+
+.u-secoSub {
+  position: relative;
+  font-size: 14rem;
+  line-height: 0.21;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
+  /* font-weight: bold; */
+  opacity: 0.2;
+  transform: rotate(-90deg);
+
+}
+
+.u-secoInner {
+  background-color: #fff;
+  opacity: 0.1;
+}
+
+
+
+
+.u-secPara {
+  font-size: 1.8rem;
+  font-family: "Toppan Bunkyu Mincho";
+  letter-spacing: 0.1em;
+  line-height: 1.67;
+  color: #000;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.u-secoBtn {
+  display: inline-block;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  height: 67.38px;
+ 
+  font-size: 2.0rem;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  letter-spacing: 0.1em;
+  line-height: 1.35px;
+ 
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.16);
+ 
+ }
+
+
 
 /* *******************調整用 **********************/
 
@@ -106,7 +222,7 @@
 
   /*　ナビ小文字 */
   .u-navTxt-s {
-    font-size: 0.45rem;
+    font-size: 0.6rem;
     transform: scale(0.95);
     line-height: 1.33;
     letter-spacing: 0.2em;
