@@ -155,7 +155,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
-/* ********************************secton second ********************************************/
+/* ********************************secton lodge ********************************************/
 .ly-secoSec {
   position: relative;
   width: 100%;
@@ -169,23 +169,56 @@ a:link, a:visited, a:hover, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 157.2px;
+  top: 128px;
+  left: 139px;
   position: relative;
-  width: 90%;
-  margin: 0 auto;
 }
 
-/* ********************************secton third ********************************************/
+.ly-secophotoBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 153px;
+}
+
+
+/* ********************************secton food ********************************************/
 .ly-triSec {
   position: absolute;
   width: 100%;
   height: 1406.24px;
 
   top: 3656px;
-  background-color: red;
+  background-color: #ffffff;
+}
+
+.ly-triSecbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 131px;
+  left: 139px;
+  position: relative;
+}
+
+.ly-triphotoBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 153px;
 }
 
 
+/* ********************************secton intaractive ********************************************/
+.ly-fourSec {
+  position: absolute;
+  width: 100%;
+  height: 1420.24px;
+
+  top: 5062px;
+  background-color: red;
+
+}
 
 
 
