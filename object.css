@@ -92,6 +92,7 @@
     height: 1079px;
     width: 100%;
     margin: auto;
+    overflow: hidden;
 }
 
 
@@ -118,7 +119,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: relative;
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -272,9 +273,9 @@
     
 }
 .topImgbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
     height: 926px;
 }
 
@@ -305,7 +306,7 @@
     text-align: left;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 210px;
     
 }
 
@@ -413,13 +414,13 @@
     text-align: left;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 164px;
     
 }
 
 .tribgTitle {
     position: absolute;
-    top: 315px;
+    top: 345px;
     left: -395px;
 }
 
@@ -428,7 +429,7 @@
     height: 455.1px;
     position: absolute;
     top: 125.9px;
-    left: 896.4px;
+    left: 945px;
     z-index: 5;
 }
 
@@ -441,7 +442,7 @@
     bottom: 0;
     position: absolute;
     left: 215.8px;
-    top: 125.5px;
+    top: 90px;
 
 
 }
@@ -521,7 +522,7 @@
     text-align: left;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 165px;
     
 }
 
@@ -670,7 +671,12 @@
 
 }
  /* **************************footer ***********************************/
- .footerImgbox {
+ .footerWrap {
+     background-color: rgba(0,0,0,0.95);
+     width: 100%;
+     height: 332.55px;
+ }
+ .footerImg {
     background-image: url("image.svg/logo-white.png");
     z-index: -80;
     background-size: contain;
@@ -680,15 +686,93 @@
     z-index: 1;
     
     width: 418px;
-    height: 100%;
+    height: 398.55px;
     object-fit: contain;
-    
+   
 
  }
 
- 
+ .footerParabox {
+     display: flex;
+     /* justify-content: space-between; */
+     
+ }
+
+ .footerParainner {
+     display: flex;
+     /* width: 100%; */
+     top: 42.7px;
+     left: 528px;
+     position: relative;
+     flex-direction: column;
 
 
+    }
+ .footerParaTitle {
+     font-size: 3rem;
+     padding-bottom: 5px;
+     border-bottom: 1px solid #ffffff;
+     font-family: "Toppan Bunkyu Midashi Mincho";
+     letter-spacing: 0.1em;
+     line-height: 1;
+     
+ }
+ .footerPara {
+     font-size: 2.3rem;
+     
+     font-family: "Toppan Bunkyu Midashi Mincho";
+     letter-spacing: 0.1em;
+     line-height: 1.3;
+     position: relative;
+     top: 62.7px;
+ }
+
+ .Parainner {
+     position: absolute;
+ /*     left: 525px; */
+ }
+
+ .footer-fa-stack {
+    margin: 0 31px;
+    cursor: pointer;
+}
+
+.fa-facebook-official,
+.fa-square {
+    display: none;
+}
+.footer-fa-square {
+    position: relative;
+    top: -14px;
+}
+
+.fa-facebook-f {
+    font-size: 37px;
+    top: -7px;
+    left: 6px;
+    
+}
+.footer-fa-stack-2x {
+    font-size: 8em;
+
+}
+.fa-instagram {
+    font-size: 5.3rem;
+    cursor: pointer;
+}
+
+ .copyRight {
+    font-size: 1.5rem;
+    font-family: "Toppan Bunkyu Midashi Mincho";
+    letter-spacing: 0.1em;
+    line-height: 2;
+    color: #ffffff;
+    position: relative;
+    margin-top: 23px;
+    margin-left: 64px;
+
+    
+ }
 
 
 
