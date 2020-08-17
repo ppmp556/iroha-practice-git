@@ -261,20 +261,23 @@ a:link, a:visited, a:hover, a:active {
   width: 100%;
   height: 399.55px;
 
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .ly-footerImgbox{
   position: relative;
-  display: flex;
-  justify-content: flex-start;
-  left: 52px;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* left: 52px; */
   margin-right: 53px;
+  margin-left: 57px;
+  top: 15%;
 }
 .ly-footerShare {
-  position: relative;
+  position: absolute;
   top: 250.9px;
+  left: 1283px;
 }
 .ly-footerCRight {
   position: absolute;

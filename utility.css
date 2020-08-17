@@ -218,7 +218,7 @@
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   position: relative;
   top: 74.1px;
-  left: 75px;
+  padding-left: 75px;
 }
 .u-triPara2 {
   font-size: 1.5rem;
@@ -414,10 +414,12 @@
   text-shadow: 0 4px 7px rgba(0, 0, 0, 0.16);
  
  }
- /* .u-footerPara { */
-   /* position: relative; */
-   /* left: 0; */
- /* } */
+ .u-footerPara {
+   position: relative;
+   left: 416.5px;
+ }
+ 
+ }
 
 
 
