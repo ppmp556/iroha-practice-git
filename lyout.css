@@ -49,14 +49,9 @@ a:link, a:visited, a:hover, a:active {
 
 .ly-headerWrapper {
   width: 100%;
-  /* min-width: 200rem; */
-  /* z-index: 1; */
-
-  /* display: flex; */
   position: relative;
   justify-content: center;
   max-height: 100vh;
-  /* max-width: 1920px; */
   background-color: rgba(0,0,0,0.7);
 
 
@@ -81,31 +76,18 @@ a:link, a:visited, a:hover, a:active {
   align-items: center;
 
   border: 1px bold #707070;
-  /* background-color: rgba(0,0,0,0.7); */
 
 
 }
 
  .ly-nav {
-  /* display: flex;
-  align-items: center; */
-  /* justify-content: center; */
   width: 100%;
-  /* height: 100%; */
+
   margin-right: auto;
 
 
 }
 
-
- /* .ly-nav:first-child {
-   margin-right: auto;
-} */
-
-/* .navList:first-child {
-  margin-right: auto;
-
-} */
 
  .ly-navTitle {
   display: flex;
@@ -195,8 +177,7 @@ a:link, a:visited, a:hover, a:active {
 
 .ly-triSecbox {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+
   top: 131px;
   position: relative;
   width: 90%;
@@ -225,8 +206,6 @@ a:link, a:visited, a:hover, a:active {
 
 .ly-fourSecbox {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   top: 128px;
   left: 0;
   width: 90%;
@@ -267,15 +246,10 @@ a:link, a:visited, a:hover, a:active {
   width: 100%;
   height: 399.55px;
 
-  /* display: flex; */
-  /* justify-content: center; */
 }
 
 .ly-footerImgbox{
   position: relative;
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* left: 52px; */
   margin-right: 53px;
   margin-left: 57px;
   top: 15%;
@@ -375,9 +349,10 @@ a:link, a:visited, a:hover, a:active {
     .ly-mainContainer {
       /* width: 100%; */
       max-width: 768px;
-      /* position: relative; */
+      position: relative;
       
-      height: 6964.4px;
+      height: 100%;
+      
     }
     .ly-topSec {
       /* position: absolute; */
@@ -418,111 +393,109 @@ a:link, a:visited, a:hover, a:active {
   }
 
   /* ********************************タブレット768px secton food ********************************************/
-.ly-triSec {
-  position: relative;
-  width: 100%;
-  height: 562.06px;
-  top: 0;
-  background-color: #ffffff;
+  .ly-triSec {
+    position: relative;
+    width: 100%;
+    height: 562.06px;
+    top: 0;
+    background-color: #ffffff;
 
-}
+  }
 
-.ly-triSecbox {
+  .ly-triSecbox {
+    display: flex;
+    top: 57.4px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ly-triphotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 102.9px;
+    left: 72.4px;
+  }
+
+
+  /* ********************************タブレット768px secton interactive ********************************************/
+  .ly-fourSec {
+    position: relative;
+    width: 100%;
+    height: 567.65px;
+
+    top: 0;
+    background-color: #F8F8F8;
+    
+
+  }
+
+  .ly-fourSecbox {
+
   display: flex;
-  top: 57.4px;
+  justify-content: flex-end;
+  top: 56.2px;
   position: relative;
   width: 90%;
   margin: 0 auto;
-}
+  }
 
-.ly-triphotoBox {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 102.9px;
-  left: 72.4px;
-}
+  .ly-fourphotoBox {
 
+    left: 0;
+    top: 56.3px;
+  }
+  /* ********************************タブレット768px secton contact ********************************************/
+  .ly-fifSec {
+    position: relative;
+    width: 100%;
+    height: 600.8px;
 
-/* ********************************タブレット768px secton interactive ********************************************/
-.ly-fourSec {
-  position: relative;
-  width: 100%;
-  height: 567.65px;
+    top: 0px;
+    background-color: #ffffff;
+    
+  }
 
-  top: 0;
-  background-color: #F8F8F8;
+  .ly-fifSecbox {
+    display: flex;
+    justify-content: center;
+    top: 90.4px;
+    position: relative;
+
+  }
+
+  /* **************************タブレット768px footer *******************************************/ 
+  .ly-footer {
+    
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 160.62px;
+
   
+  }
 
-}
-
-.ly-fourSecbox {
-
-display: flex;
-justify-content: flex-end;
-top: 56.2px;
-position: relative;
-width: 90%;
-margin: 0 auto;
-}
-
-.ly-fourphotoBox {
-
-  left: 0;
-  top: 56.3px;
-}
-/* ********************************タブレット768px secton contact ********************************************/
-.ly-fifSec {
-  position: relative;
-  width: 100%;
-  height: 600.8px;
-
-  top: 0px;
-  background-color: #ffffff;
-  
-}
-
-.ly-fifSecbox {
-  display: flex;
-  justify-content: center;
-  top: 90.4px;
-  position: relative;
-
-}
-
-/* **************************footer *******************************************/ 
-.ly-footer {
-  position: absolute;
-  top: 8044.4px;
-  width: 100%;
-  height: 399.55px;
-
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
-.ly-footerImgbox{
-  position: relative;
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* left: 52px; */
-  margin-right: 53px;
-  margin-left: 57px;
-  top: 15%;
-}
-.ly-footerShare {
-  position: absolute;
-  top: 250.9px;
-  left: 1283px;
-}
-.ly-footerCRight {
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.8);
-  width: 100%;
-  height: 69px;
-}
+  .ly-footerImgbox{
+    position: relative;
+    
+    margin-right: 21.2px;
+    margin-left: 22.8px;
+    top: 15%;
+  }
+  .ly-footerShare {
+    position: absolute;
+    top: 100.4px;
+    left: 513.2px;
+  }
+  .ly-footerCRight {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 27.6px;
+  }
 
 
 
@@ -585,14 +558,10 @@ margin: 0 auto;
  }
 
   .ly-headerWrapper {
-
-   
      display: flex;
      position: relative;
      justify-content: center;
-     max-height: 671px;
-     /* max-width: 769px; */
-   
+     min-height: 671px;
    }
    
    
@@ -671,8 +640,160 @@ margin: 0 auto;
     width: 100%;
     height: auto;
     position: relative;
-    background-color: gray;
+  
   }
+
+
+  /* *************** スマホ 375px main top************************************************************/
+
+
+  .ly-mainContainer {
+    max-width: 375px;
+    position: relative;
+    height: 100%;
+    
+  }
+  .ly-topSec {
+    height: 375px;
+    top: 0px;
+    
+
+  }
+
+  .ly-topSecbox {
+    top: 0px;
+    width: 100%;
+
+  }
+  /* ********************************スマホ 375px secton lodge ********************************************/
+  .ly-secoSec {
+    position: relative;
+    width: 100%;
+    height: 565.19px;
+
+    top: 848.2px;
+    background-color: #F8F8F8;
+  }
+
+  .ly-secoSecbox {
+    display: flex;
+    justify-content: flex-end;
+    top: 0px;
+    /* left: -74px; */
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ly-secophotoBox {
+
+    top: 575px;
+  }
+  /* ********************************スマホ375px secton food ********************************************/
+  .ly-triSec {
+    position: relative;
+    width: 100%;
+    height: 562.06px;
+    top: 1799.2px;
+    background-color: #ffffff;
+
+  }
+
+  .ly-triSecbox {
+    display: flex;
+    top: 57.4px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ly-triphotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 102.9px;
+    left: 72.4px;
+  }
+
+
+  /* ********************************スマホ375px secton interactive ********************************************/
+  .ly-fourSec {
+    position: relative;
+    width: 100%;
+    height: 567.65px;
+
+    top: 0;
+    background-color: #F8F8F8;
+    
+
+  }
+
+  .ly-fourSecbox {
+
+  display: flex;
+  justify-content: flex-end;
+  top: 56.2px;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  }
+
+  .ly-fourphotoBox {
+
+    left: 0;
+    top: 56.3px;
+  }
+  /* ********************************スマホ375px secton contact ********************************************/
+  .ly-fifSec {
+    position: relative;
+    width: 100%;
+    height: 600.8px;
+
+    top: 0px;
+    background-color: #ffffff;
+    
+  }
+
+  .ly-fifSecbox {
+    display: flex;
+    justify-content: center;
+    top: 90.4px;
+    position: relative;
+
+  }
+
+  /* **************************スマホ375px footer *******************************************/ 
+  .ly-footer {
+    
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 160.62px;
+
+  
+  }
+
+  .ly-footerImgbox{
+    position: relative;
+    
+    margin-right: 21.2px;
+    margin-left: 22.8px;
+    top: 15%;
+  }
+  .ly-footerShare {
+    position: absolute;
+    top: 100.4px;
+    left: 513.2px;
+  }
+  .ly-footerCRight {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 27.6px;
+  }
+
 }
 
 /* ********************** 調整用 **********************************/

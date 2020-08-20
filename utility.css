@@ -618,7 +618,7 @@
 
  }
 
- /* *******************section interactive **********************/
+ /* *******************タブレット768px section interactive **********************/
 
 .u-fourTitle {
   line-height: 0.52;
@@ -684,23 +684,23 @@
  
  }
 
- /* *******************section contact **********************/
+ /* *******************タブレット768px section contact **********************/
 
 .u-fifTitle {
-  font-size: 4rem;
-  letter-spacing: 0.1em;
-  line-height: 0.75;
-  color: #000;
-  font-family: "Toppan Bunkyu Midashi Mincho";
-  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
-  /* font-weight: bold; */
-
+  font-size: 1.5rem;
+  line-height: 0.73;
+  font-family: "凸版文久見出し明朝 StdN";
+ 
 }
 
 .u-fifInner {
   opacity: 0.9;
   
 
+}
+.u-fifTtl {
+  position: relative;
+  left: -18.6px;
 }
 
 
@@ -744,9 +744,11 @@
   line-height: 1.28;
  
  }
+
+ /* *******************タブレット768px section footer **********************/
  .u-footerPara {
    position: relative;
-   left: 416.5px;
+   left: 0px;
  }
 
 
@@ -794,7 +796,11 @@
   }
 }
 
-/* スマホ版 */
+/*************************************************************************
+
+スマホ版
+
+**************************************************************************/
 @media screen and (max-width: 378px) {
   .u-navTxt {
     font-size: 0.9rem;
@@ -828,6 +834,303 @@
     display: flex;
     justify-content: center;
   }
+
+  /* *******************スマホ375px main top **********************/
+  .u-topTitle {
+    font-size: 2.2rem;
+    line-height: 1.36;
+    margin-bottom: 90.8px;
+    font-family: "Toppan Bunkyu Midashi Mincho";
+    position: relative;
+    left: 0;
+  }
+  
+  .u-topPara, .u-topPara2, .u-topPara3 {
+    font-size: 1.5rem;
+    font-family: "Toppan Bunkyu Mincho";
+    line-height: 1.67;
+  
+  }
+  .u-topPara2 {
+    position: relative;
+    top: -20px;
+    
+  }
+
+  .u-topPara {
+    margin-bottom: 20px;
+  }
+  .u-topPara2 span,.u-topPara3 {
+    display: none;
+  }
+  
+  .u-topPara4 {
+    font-size: 1.5rem;
+    font-family: "Toppan Bunkyu Mincho";
+    line-height: 1.67;
+    color: #000;
+    text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  }
+  
+  .u-topBtn {
+   border: 1px solid #000;
+   font-family: "Toppan Bunkyu Midashi Mincho";
+   width: 122.45px;
+   height: 34.44px;
+   font-size: 1.2rem;
+   line-height: 2.25px;
+  
+  }
+  /* *******************スマホ375px section lodge **********************/
+
+.u-secoTitle {
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  font-family: "凸版文久見出し明朝 StdN";
+  
+}
+
+.u-secoTtl {
+  font-size: 2.5rem;
+  left: 0;
+  position: relative;
+  font-family: "凸版文久見出し明朝 StdN";
+}
+
+
+.u-secoSub {
+  position: relative;
+  font-size: 5.6rem;
+
+
+}
+
+.u-secoInner {
+  background-color: #ffffff;
+  opacity: 0.9;
+  
+
+}
+
+
+.u-secoPara {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  line-height: 1.67;
+ 
+  position: relative;
+  top: 30.7px;
+  left: 30.4px;
+}
+.u-secoPara2 {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  
+  position: absolute;
+  top: 100.5px;
+  left: 30.4px;
+}
+
+.u-secoBtn {
+  width: 62.6px;
+  height: 19.63px;
+ 
+  font-size: .5rem;
+  font-family: "凸版文久見出し明朝 StdN";
+ }
+
+ /* *******************スマホ375px section food **********************/
+
+.u-triTitle {
+  font-size: 2.3rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  line-height: 0.52;
+
+}
+
+.u-triTtl {
+  font-size: 2.3rem;
+  left: 15px;
+  position: relative;
+  font-family: "凸版文久見出し明朝 StdN";
+}
+
+
+.u-triSub {
+  position: relative;
+  font-size: 2.8rem;
+  line-height: 0.42;
+  font-family: "凸版文久見出し明朝 StdN";
+
+}
+
+.u-triInner {
+  background-color: #ffffff;
+  opacity: 0.9;
+  
+
+}
+
+
+.u-triPara {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  position: relative;
+  top: 29.8px;
+  padding-left: 30.4px;
+}
+.u-triPara2 {
+  font-size: .5rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  line-height: 3.4;
+ 
+  position: absolute;
+  top: 98.2px;
+  left: 30.4px;
+}
+
+.u-triBtn {
+
+  width: 62.52px;
+  height: 19.61px;
+  font-size: .5rem;
+  font-family: "凸版文久見出し明朝 StdN";
+
+ }
+
+ /* *******************スマホ375px section interactive **********************/
+
+.u-fourTitle {
+  line-height: 0.52;
+  font-size: 2.3rem;
+  letter-spacing: 0.1em;
+  font-family: "凸版文久見出し明朝 StdN";
+
+}
+
+.u-fourTtl {
+  line-height: 0.52;
+  font-size: 2.3rem;
+  left: 0;
+  position: relative;
+  font-family: "凸版文久見出し明朝 StdN";
+
+}
+
+
+.u-fourSub {
+  position: relative;
+  font-size: 3.9rem;
+  line-height: 0.30;
+
+}
+
+.u-fourInner {
+  background-color: #ffffff;
+  opacity: 0.9;
+  
+
+}
+
+
+
+
+.u-fourPara {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  line-height: 1.67;
+ 
+  position: relative;
+  top: 30.7px;
+  left: 30.4px;
+
+
+}
+.u-fourPara2 {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  
+  position: absolute;
+  top: 100.5px;
+  left: 30.4px;
+}
+
+.u-fourBtn {
+  width: 62.6px;
+  height: 19.63px;
+ 
+  font-size: .5rem;
+  font-family: "凸版文久見出し明朝 StdN";
+ 
+ }
+
+ /* *******************スマホ 375px section contact **********************/
+
+.u-fifTitle {
+  font-size: 1.5rem;
+  line-height: 0.73;
+  font-family: "凸版文久見出し明朝 StdN";
+ 
+}
+
+.u-fifInner {
+  opacity: 0.9;
+  
+
+}
+.u-fifTtl {
+  position: relative;
+  left: -18.6px;
+}
+
+
+.u-fifPara, .u-fifPara3,
+.u-fifPara4 {
+  font-size: 1.2rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  line-height: 2.33;
+  margin-bottom: 10px;
+}
+.u-fifPara2 {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  position: absolute;
+  top: 43.5px;
+  left: 32.8px;
+}
+.u-fifPara3 {
+  margin: 35px 0;
+}
+
+.u-fifPara5 {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  position: absolute;
+  top: 80.5px;
+  left: 32.8px;
+}
+
+.u-fifBtn {
+  display: inline-block;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  cursor: pointer;
+  width: 91.42px;
+  height: 30.93px;
+  font-size: .7rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  line-height: 1.28;
+ 
+ }
+
+ /* *******************スマホ375px section footer **********************/
+ .u-footerPara {
+   position: relative;
+   left: 0px;
+ }
+
 }
 
 @media screen and (max-width: 340px) {
