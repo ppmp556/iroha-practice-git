@@ -843,6 +843,7 @@
     font-family: "Toppan Bunkyu Midashi Mincho";
     position: relative;
     left: 0;
+    margin: 0 auto;
   }
   
   .u-topPara, .u-topPara2, .u-topPara3 {
@@ -851,17 +852,22 @@
     line-height: 1.67;
   
   }
-  .u-topPara2 {
-    position: relative;
-    top: -20px;
-    
-  }
-
-  .u-topPara {
-    margin-bottom: 20px;
-  }
-  .u-topPara2 span,.u-topPara3 {
+  
+   .u-topPara {
+     margin-bottom: 20px;
+     margin-left: 46.7px;
+   }
+    .u-topPara2 {
+     position: relative;
+     top: -20px;
+     margin-left: 46.7px;
+          
+        }
+  .u-topPara2 span {
     display: none;
+  }
+  .u-topPara3,.u-topPara4 {
+    margin-left: 46.7px;
   }
   
   .u-topPara4 {
@@ -884,23 +890,26 @@
   /* *******************スマホ375px section lodge **********************/
 
 .u-secoTitle {
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 0.1em;
-  font-family: "凸版文久見出し明朝 StdN";
-  
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  line-height: 1.2;
 }
 
 .u-secoTtl {
   font-size: 2.5rem;
-  left: 0;
+  left: 2px;
   position: relative;
-  font-family: "凸版文久見出し明朝 StdN";
+  font-family: "Toppan Bunkyu Midashi Mincho";
 }
 
 
 .u-secoSub {
   position: relative;
-  font-size: 5.6rem;
+  font-size: 8.0rem;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  line-height: 0.37;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.3);
 
 
 }
@@ -914,29 +923,32 @@
 
 
 .u-secoPara {
-  font-size: .6rem;
-  font-family: "凸版文久見出し明朝 StdN";
-  line-height: 1.67;
- 
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
   position: relative;
-  top: 30.7px;
-  left: 30.4px;
+  top: 24.1px;
+  left: 22px;
+  width: 227px;
+
+
 }
 .u-secoPara2 {
-  font-size: .6rem;
-  font-family: "凸版文久見出し明朝 StdN";
-  
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
+  width: 227px;
   position: absolute;
-  top: 100.5px;
-  left: 30.4px;
+  top: 276.7px;
+  left: 22px;
+  line-height: 1.33;
 }
 
 .u-secoBtn {
-  width: 62.6px;
-  height: 19.63px;
+  width: 122.45px;
+  height: 34.44px;
  
-  font-size: .5rem;
-  font-family: "凸版文久見出し明朝 StdN";
+  font-size: 1.2rem;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  line-height: 2.25;
  }
 
  /* *******************スマホ375px section food **********************/

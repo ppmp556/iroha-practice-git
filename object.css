@@ -2260,7 +2260,8 @@
 
     .topBtnbox {
         position: absolute;
-        top: 269.1px;
+        top: 280.6px;
+        left: 239.3px;
         display: flex;
         justify-content: center;
         width: 35%;
@@ -2271,7 +2272,11 @@
 
     .topParabox {
         position: absolute;
-        top: 0.5px;
+        top: -69.8px;
+    }
+    .topParaboxinner {
+        position: relative;
+        top: 90.8px;
     }
 
 
@@ -2280,7 +2285,7 @@
         background: #f2f2f2;
         width: 208.14px;
         height: 754.59px;
-        top: 57px;
+        top: 60px;
         
         margin-left: auto;
         left: 0;
@@ -2293,7 +2298,7 @@
         flex-direction: column-reverse;
         height: 100%;
         position: relative;
-        top: 465.7px;
+        top: 492.7px;
         left: 0;
         width: 100%;
     }
@@ -2307,7 +2312,7 @@
         position: relative;
         margin-left: auto;
         margin-bottom: 0;
-        left: 0;
+        left: 10px;
     }
     .topPhoto2 {
         background: url("image.svg/topphoto2.png");
@@ -2325,47 +2330,53 @@
 
     /* *****************スマホ 375px section lodge ****************************/
 
+    
     .secoParabox {
 
-        text-align: left;
+        text-align: center;
         position: absolute;
-        top: 0;
+        top: 44px;
         left: 0;
+        width: 100%;
         
     }
+   
 
     .secobgTitle {
         position: absolute;
-        top: -30px;
-        left: -105px;
+        top: 150px;
+        left: -115px;
+        z-index: 10;
     }
 
     .secoParainner {
-        width: 304.56px;
-        height: 186.1px;
+        width: 269px;
+        height: 400px;
         position: absolute;
-        top: 113.1px;
-        left: 69.7px;
+        top: 107px;
+        left: 106px;
         z-index: 5;
+        margin-right: auto;
+        text-align: left;
     }
 
     .secoLine::after {
         content: "";
         display: block;
-        width: 116.46px;
-        height: .8px;
+        width: 192px;
+        height: 1px;
         background-color: #000;
         bottom: 0;
         position: absolute;
-        left: 95.9px;
+        left: 136.5px;
 
 
     }
 
     .secoBtnbox {
         position: absolute;
-        top: 148.7px;
-        left: 205.7px;
+        top: 346.4px;
+        left: 126.3px;
 
     }
     .secobgBox {
@@ -2378,10 +2389,10 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 359.39px;
-        height: 233.32px;
+        width: 375px;
+        height: 245px;
 
-        margin-bottom: 40.4px;
+        margin-bottom: 30px;
     }
 
 
@@ -2394,40 +2405,40 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        width: 75px;
+        height: 75px;
     }
     .secoPhoto2 {
         background: url("image.svg/Lodgephoto2.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        width: 75px;
+        height: 75px;
     }
     .secoPhoto3 {
         background: url("image.svg/Lodgephoto3.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        width: 75px;
+        height: 75px;
     }
     .secoPhoto4 {
         background: url("image.svg/Lodgephoto4.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        width: 75px;
+        height: 75px;
     }
     .secoPhoto5 {
         background: url("image.svg/Lodgephoto5.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        width: 75px;
+        height: 75px;
     }
     /* *****************スマホ375px section food ****************************/
 

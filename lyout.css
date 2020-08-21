@@ -650,12 +650,13 @@ a:link, a:visited, a:hover, a:active {
   .ly-mainContainer {
     max-width: 375px;
     position: relative;
-    height: 100%;
+    /* height: 100%; */
+    height: 5000px;
     
   }
   .ly-topSec {
     height: 375px;
-    top: 0px;
+    top: -5px;
     
 
   }
@@ -669,7 +670,7 @@ a:link, a:visited, a:hover, a:active {
   .ly-secoSec {
     position: relative;
     width: 100%;
-    height: 565.19px;
+    height: 951.24px;
 
     top: 848.2px;
     background-color: #F8F8F8;
@@ -687,11 +688,11 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-secophotoBox {
 
-    top: 575px;
+    top: 570px;
   }
   /* ********************************スマホ375px secton food ********************************************/
   .ly-triSec {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 562.06px;
     top: 1799.2px;
@@ -718,11 +719,11 @@ a:link, a:visited, a:hover, a:active {
 
   /* ********************************スマホ375px secton interactive ********************************************/
   .ly-fourSec {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 567.65px;
 
-    top: 0;
+    top: 2875.2px;
     background-color: #F8F8F8;
     
 
@@ -749,7 +750,8 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     height: 600.8px;
 
-    top: 0px;
+    /* top: 0px; */
+    top: 3000px;
     background-color: #ffffff;
     
   }
