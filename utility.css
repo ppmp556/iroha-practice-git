@@ -961,79 +961,93 @@
 }
 
 .u-triTtl {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   left: 15px;
   position: relative;
-  font-family: "凸版文久見出し明朝 StdN";
+  font-family: "Toppan Bunkyu Midashi Mincho";
 }
 
 
 .u-triSub {
-  position: relative;
-  font-size: 2.8rem;
-  line-height: 0.42;
-  font-family: "凸版文久見出し明朝 StdN";
+  position: absolute;
+  font-size: 4rem;
+  line-height: 0.75;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.3);
 
 }
 
 .u-triInner {
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   opacity: 0.9;
   
 
 }
 
-
-.u-triPara {
-  font-size: .6rem;
-  font-family: "凸版文久見出し明朝 StdN";
-  position: relative;
-  top: 29.8px;
-  padding-left: 30.4px;
+.u-triParaSP {
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
+  line-height: 1.67;
+  color: #000;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 29px;
 }
+
 .u-triPara2 {
-  font-size: .5rem;
-  font-family: "凸版文久見出し明朝 StdN";
-  line-height: 3.4;
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
+  line-height: 1.4;
  
   position: absolute;
-  top: 98.2px;
-  left: 30.4px;
+  top: 266.8px;
+  left: 27px;
+}
+
+
+.u-triPara {
+  display: none;
+
 }
 
 .u-triBtn {
 
-  width: 62.52px;
-  height: 19.61px;
-  font-size: .5rem;
-  font-family: "凸版文久見出し明朝 StdN";
+  width: 122.45px;
+  height: 34.44px;
+  font-size: 1.2rem;
+  font-family: "Toppan Bunkyu Midashi Mincho";
 
  }
 
  /* *******************スマホ375px section interactive **********************/
 
 .u-fourTitle {
-  line-height: 0.52;
-  font-size: 2.3rem;
+  line-height: 0.12;
+  font-size: 2.5rem;
   letter-spacing: 0.1em;
-  font-family: "凸版文久見出し明朝 StdN";
+  font-family: "Toppan Bunkyu Midashi Mincho";
 
 }
 
 .u-fourTtl {
-  line-height: 0.52;
-  font-size: 2.3rem;
-  left: 0;
+  line-height: 0.12;
+  font-size: 2.5rem;
+  left: 25px;
+  top: 25px;
   position: relative;
-  font-family: "凸版文久見出し明朝 StdN";
+  font-family: "Toppan Bunkyu Midashi Mincho";
 
 }
 
 
 .u-fourSub {
-  position: relative;
-  font-size: 3.9rem;
-  line-height: 0.30;
+  position: absolute;
+  font-size: 6.0rem;
+  line-height: 0.50;
+  letter-spacing: 0.1em;
+  font-family: "Toppan Bunkyu Midashi Mincho";
 
 }
 
@@ -1044,35 +1058,41 @@
 
 }
 
-
-
-
 .u-fourPara {
-  font-size: .6rem;
-  font-family: "凸版文久見出し明朝 StdN";
+  display: none;
+}
+
+
+.u-fourParaSP {
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
   line-height: 1.67;
- 
+  letter-spacing: 0.1em;
+  color: #000;
   position: relative;
-  top: 30.7px;
-  left: 30.4px;
+  top: 24.1px;
+  left: 22px;
+  text-align: left;
 
 
 }
 .u-fourPara2 {
-  font-size: .6rem;
-  font-family: "凸版文久見出し明朝 StdN";
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
   
   position: absolute;
-  top: 100.5px;
-  left: 30.4px;
+  top: 276.7px;
+  left: 22px;
+  text-align: left;
+  line-height: 1.4;
 }
 
 .u-fourBtn {
-  width: 62.6px;
-  height: 19.63px;
- 
-  font-size: .5rem;
-  font-family: "凸版文久見出し明朝 StdN";
+  width: 122.45px;
+  height: 34.44px;
+  line-height: 2.27; 
+  font-size: 1.2rem;
+  font-family: "Toppan Bunkyu Mincho";
  
  }
 

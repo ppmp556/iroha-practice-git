@@ -2445,24 +2445,30 @@
     .triParabox {
 
         text-align: left;
+        width: 100%;
         position: absolute;
         top: 0;
         left: 0;
         
     }
+    .triTitle {
+        text-align: center;
+    }
 
     .tribgTitle {
         position: absolute;
-        top: 130px;
-        left: -160px;
+        top: 315px;
+        left: -165px;
+        z-index: 10;
+        
     }
 
     .triParainner {
-        width: 322.47px;
-        height: 181.9px;
+        width: 270px;
+        height: 415.91px;
         position: absolute;
-        top: 45px;
-        left: 363.9px;
+        top: 119.2px;
+        left: 105px;
         z-index: 5;
     }
 
@@ -2472,16 +2478,16 @@
         height: 2px;
         bottom: 0;
         position: absolute;
-        left: 92.2px;
-        top: 41.1px;
+        left: 200px;
+        top: 60.5px;
 
 
     }
 
     .triBtnbox {
         position: absolute;
-        top: 144.6px;
-        left: 224px;
+        top: 355.2px;
+        left: 129.3px;
 
     }
     .tribgBox {
@@ -2494,10 +2500,10 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 324.15px;
-        height: 198.64px;
+        width: 375px;
+        height: 255px;
 
-        margin-bottom: 26.8px;
+        margin-bottom: 0;
     }
 
 
@@ -2510,82 +2516,89 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
     .triPhoto2 {
         background: url("image.svg/foodphoto2.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
     .triPhoto3 {
         background: url("image.svg/foodphoto3.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
     .triPhoto4 {
         background: url("image.svg/foodphoto4.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
     .triPhoto5 {
         background: url("image.svg/foodphoto5.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
-    /* *****************タブレット768px section interactive ****************************/
+    /* *****************スマホ375px section interactive ****************************/
 
     .fourParabox {
 
-        text-align: left;
+        text-align: center;
         position: absolute;
         top: 0;
         left: 0;
         
     }
 
+    .fourTitle {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
     .fourbgTitle {
         position: absolute;
-        top: -40px;
-        left: -220px
+        top: 280px;
+        left: -130px;
+        z-index: 10;
     }
 
     .fourParainner {
-        width: 304.56px;
-        height: 186.1px;
+        width: 269px;
+        height: 400px;
         position: absolute;
-        top: 113.1px;
-        left: 69.7px;
+        top: 138px;
+        left: 85px;
         z-index: 5;
     }
 
     .fourLine::after {
         content: "";
         display: block;
-        width: 190.25px;
-        height: 1.2px;
+        width: 197.5px;
+        height: 2px;
         background-color: #000;
-        top: 46.3px;
+        top: 82.5px;
         position: absolute;
-        left: 85.2px;
+        left: 125px;
     }
 
     .fourBtnbox {
         position: absolute;
-        top: 148.7px;
-        left: 205.7px;
+        top: 346.4px;
+        left: 126.3px;
 
     }
     .fourbgBox {
@@ -2598,10 +2611,10 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 358.92px;
-        height: 233.02px;
+        width: 375px;
+        height: 250px;
 
-        margin-bottom: 40.4px;
+        margin-bottom: 39px;
     }
 
 
@@ -2614,40 +2627,40 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
     .fourPhoto2 {
         background: url("image.svg/intephoto2.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
     .fourPhoto3 {
         background: url("image.svg/intephoto3.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
     .fourPhoto4 {
         background: url("image.svg/intephoto4.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
     .fourPhoto5 {
         background: url("image.svg/intephoto5.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        width: 75px;
+        height: 75px;
     }
 
     /* *****************スマホ375px section contact ****************************/

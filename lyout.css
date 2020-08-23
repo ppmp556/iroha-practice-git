@@ -712,8 +712,8 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 102.9px;
-    left: 72.4px;
+    top: 615px;
+    left: 0;
   }
 
 
@@ -741,8 +741,8 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-fourphotoBox {
 
-    left: 0;
-    top: 56.3px;
+    left: 20px;
+    top: 586px;
   }
   /* ********************************スマホ375px secton contact ********************************************/
   .ly-fifSec {
