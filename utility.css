@@ -200,7 +200,7 @@
 }
 
 .u-triInner {
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   opacity: 0.9;
   
 
@@ -476,7 +476,7 @@
     margin-bottom: 29px;
   
     position: relative;
-    left: 0;
+    left: 20.4px;
   }
   
   .u-topPara, .u-topPara2, .u-topPara3 {
@@ -585,7 +585,7 @@
 }
 
 .u-triInner {
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   opacity: 0.9;
   
 
@@ -1098,12 +1098,32 @@
 
  /* *******************スマホ 375px section contact **********************/
 
-.u-fifTitle {
-  font-size: 1.5rem;
-  line-height: 0.73;
-  font-family: "凸版文久見出し明朝 StdN";
+.u-noShow {
+  display: none;
+}
+
+.u-fifTitle, .u-fifTitleSp {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  color: #000;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.1em;
+ 
  
 }
+
+
+.u-fifTitleSp span {
+  font-size: 1.5rem;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  color: #000;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+ 
+}
+
 
 .u-fifInner {
   opacity: 0.9;
@@ -1118,28 +1138,33 @@
 
 .u-fifPara, .u-fifPara3,
 .u-fifPara4 {
-  font-size: 1.2rem;
-  font-family: "凸版文久見出し明朝 StdN";
-  line-height: 2.33;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
+  line-height: 2;
+  /* margin-bottom: 10px; */
 }
 .u-fifPara2 {
-  font-size: .6rem;
-  font-family: "凸版文久見出し明朝 StdN";
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
   position: absolute;
-  top: 43.5px;
-  left: 32.8px;
+  top: 105.4px;
+  left: 0;
+  width: 211px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 .u-fifPara3 {
   margin: 35px 0;
 }
 
 .u-fifPara5 {
-  font-size: .6rem;
-  font-family: "凸版文久見出し明朝 StdN";
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
   position: absolute;
-  top: 80.5px;
-  left: 32.8px;
+  top: 182.7px;
+  left: 52px;
+  text-align: center;
 }
 
 .u-fifBtn {
@@ -1154,6 +1179,22 @@
   font-size: .7rem;
   font-family: "凸版文久見出し明朝 StdN";
   line-height: 1.28;
+ 
+ }
+.u-fifBtnSp,.u-fifBtnSp2 {
+  display: inline-block;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  height: 34.44px;
+  font-size: 1.2rem;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  line-height: 2.25;
+
+  margin-bottom: 14.5px;
  
  }
 
