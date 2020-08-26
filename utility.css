@@ -897,39 +897,33 @@
 }
 
 .u-secoTtl {
-  font-size: 2.5rem;
   left: 2px;
-  position: relative;
   font-family: "Toppan Bunkyu Midashi Mincho";
 }
 
 
 .u-secoSub {
-  position: relative;
   font-size: 8.0rem;
   font-family: "Toppan Bunkyu Midashi Mincho";
   line-height: 0.37;
   text-shadow: 3px 3px 2px rgba(0,0,0,0.3);
-
-
 }
-
-.u-secoInner {
-  background-color: #ffffff;
-  opacity: 0.9;
-  
-
-}
-
 
 .u-secoPara {
-  font-size: 1.5rem;
-  font-family: "Toppan Bunkyu Mincho";
+  display: none;
+
+
+}
+.u-secoParaSP {
   position: relative;
   top: 24.1px;
   left: 22px;
-  width: 227px;
-
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  line-height: 1.67;
+  font-family: "Toppan Bunkyu Mincho";
+  color: #000;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16);
 
 }
 .u-secoPara2 {
@@ -954,16 +948,14 @@
  /* *******************スマホ375px section food **********************/
 
 .u-triTitle {
-  font-size: 2.3rem;
-  font-family: "凸版文久見出し明朝 StdN";
-  line-height: 0.52;
+  font-size: 2.5rem;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  line-height: 1.2;
 
 }
 
 .u-triTtl {
   font-size: 2.5rem;
-  left: 15px;
-  position: relative;
   font-family: "Toppan Bunkyu Midashi Mincho";
 }
 
@@ -984,6 +976,7 @@
   
 
 }
+
 
 .u-triParaSP {
   font-size: 1.5rem;
@@ -1007,7 +1000,7 @@
 }
 
 
-.u-triPara {
+p.u-triPara {
   display: none;
 
 }
@@ -1026,7 +1019,6 @@
 .u-fourTitle {
   line-height: 0.12;
   font-size: 2.5rem;
-  letter-spacing: 0.1em;
   font-family: "Toppan Bunkyu Midashi Mincho";
 
 }
@@ -1041,7 +1033,6 @@
 
 }
 
-
 .u-fourSub {
   position: absolute;
   font-size: 6.0rem;
@@ -1051,12 +1042,6 @@
 
 }
 
-.u-fourInner {
-  background-color: #ffffff;
-  opacity: 0.9;
-  
-
-}
 
 .u-fourPara {
   display: none;
@@ -1124,12 +1109,6 @@
  
 }
 
-
-.u-fifInner {
-  opacity: 0.9;
-  
-
-}
 .u-fifTtl {
   position: relative;
   left: -18.6px;
@@ -1141,7 +1120,6 @@
   font-size: 1.5rem;
   font-family: "Toppan Bunkyu Mincho";
   line-height: 2;
-  /* margin-bottom: 10px; */
 }
 .u-fifPara2 {
   font-size: 1.5rem;

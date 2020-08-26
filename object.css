@@ -18,9 +18,8 @@
     justify-content:space-between;
     align-self: flex-start;
     align-items: flex-end;
-    /* font-size: 2.3rem; */
-    line-height: 1.347;/*行間31px÷fontsize23px*/
-    letter-spacing: 0.2em;/*AV200÷1000 + em*/
+    line-height: 1.347;
+    letter-spacing: 0.2em;
   
  }
 
@@ -29,19 +28,13 @@
    height: 100%;
    display: flex;
    justify-content: flex-end;
-   
-
-   
 }
-
 
  .navList {
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
     width: 100%;
     margin: 0 auto;
-    
     justify-content: space-around;
 
     font-size: 2.5rem;
@@ -55,7 +48,7 @@
    line-height: 1.6;
    letter-spacing: 0.1em;
    align-items: center;
-   text-align: center;/*テキスト中央ぞろえ*/
+   text-align: center;
    justify-content: center;
    cursor: pointer;
 
@@ -97,12 +90,10 @@
 
 
 .bgBox .bgImage {
-   /* background: url("image.svg/62602440_451046305708947_1811642382551089152_n-image.jpg"); */
    background: url("image.svg/home-image.jpg");
    background-size: contain;
    background-repeat: no-repeat;
    width: 100%;
-   /* height: 1079px; */
    z-index: -100;
    position: absolute;
    object-fit: contain;
@@ -133,13 +124,11 @@
 
 .bgImage2 {
    background-image: url("image.svg/logo-white.png");
-   z-index: -80;
    background-size: contain;
    background-position: center top;
    position: absolute;
    background-repeat: no-repeat;
-   z-index: 1;
-   
+   z-index: 100;
    width: 888px;
    height: 50%;
    object-fit: cover;
@@ -153,7 +142,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 1079px; */
     z-index: -100;
     position: absolute;
     object-fit: contain;
@@ -166,9 +154,9 @@
 .bgImage5 {
     background: url("image.svg/65467287_496617880878565_1611677239349346304_n.png");
     background-size: contain;
+
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 1079px; */
     z-index: -100;
     position: absolute;
     object-fit: contain;
@@ -177,15 +165,14 @@
     padding: 50%;
 
     animation-delay: 20s;
- 
- 
+
  }
 .bgImage6 {
     background: url("image.svg/65470401_355624348470844_9079785503418482688_n.png");
     background-size: contain;
+
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 1079px; */
     z-index: -100;
     position: absolute;
     object-fit: contain;
@@ -196,14 +183,13 @@
 
     animation-delay: 30s;
  
- 
  }
 .bgImage7 {
     background: url("image.svg/65662181_736199493480161_3564494926337015808_n.png");
     background-size: contain;
+
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 1079px; */
     z-index: -100;
     position: absolute;
     object-fit: contain;
@@ -216,6 +202,7 @@
 .bgImage8 {
     background: url("image.svg/65716664_2514457691971614_8615425300211171328_n.png");
     background-size: contain;
+
     background-repeat: no-repeat;
     width: 100%;
     /* height: 1079px; */
@@ -1111,8 +1098,6 @@
 
     .topParainner {
         position: absolute;
-        
-
     }
 
     .topBtnbox {
@@ -1124,14 +1109,10 @@
 
     }
 
-
-
     .topParabox {
         top: 0;
         left: 62px;
     }
-
-
 
     .topBgimg {
         width: 459.6px;
@@ -1146,7 +1127,6 @@
         flex-direction: row-reverse;
         align-items: baseline;
         height: 0;
-
         position: relative;
         top: 138.9px;
         left: 0;
@@ -1183,7 +1163,6 @@
         position: absolute;
         top: 0;
         left: 0;
-        
     }
 
     .secobgTitle {
@@ -1240,47 +1219,29 @@
     .secoPhotobox {
         display: flex;
     }
-
-    .secoPhoto1 {
-        background: url("image.svg/Lodgephoto1.png");
-        background-size: contain;
+    .secoPhoto1,.secoPhoto2,.secoPhoto3,
+    .secoPhoto4,.secoPhoto5 {
         background-repeat: no-repeat;
         z-index: 1;
         width: 122.94px;
         height: 119.26px;
+    }
+    .secoPhoto1 {
+        background: url("image.svg/Lodgephoto1.png") contain;
     }
     .secoPhoto2 {
-        background: url("image.svg/Lodgephoto2.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        background: url("image.svg/Lodgephoto2.png") contain;
     }
     .secoPhoto3 {
-        background: url("image.svg/Lodgephoto3.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        background: url("image.svg/Lodgephoto3.png") contain;
     }
     .secoPhoto4 {
-        background: url("image.svg/Lodgephoto4.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        background: url("image.svg/Lodgephoto4.png") contain;
     }
     .secoPhoto5 {
-        background: url("image.svg/Lodgephoto5.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.94px;
-        height: 119.26px;
+        background: url("image.svg/Lodgephoto5.png") contain;
     }
+
     /* *****************タブレット768px section food ****************************/
 
     .triParabox {
@@ -1289,7 +1250,6 @@
         position: absolute;
         top: 0;
         left: 0;
-        
     }
 
     .tribgTitle {
@@ -1308,7 +1268,6 @@
     }
 
     .triLine::after {
-    
         width: 153.08px;
         height: 2px;
         bottom: 0;
@@ -1345,46 +1304,29 @@
     .triPhotobox {
         display: flex;
     }
+    .triPhoto1,.triPhoto2,.triPhoto3,
+    .triPhoto4,.triPhoto5 {
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 122.78px;
+        height: 119.11px;
+    }
 
     .triPhoto1 {
-        background: url("image.svg/foodphoto1.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/foodphoto1.png") contain;
     }
     .triPhoto2 {
-        background: url("image.svg/foodphoto2.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/foodphoto2.png") contain;
     }
     .triPhoto3 {
-        background: url("image.svg/foodphoto3.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/foodphoto3.png") contain;
     }
     .triPhoto4 {
-        background: url("image.svg/foodphoto4.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/foodphoto4.png") contain;
+    
     }
     .triPhoto5 {
-        background: url("image.svg/foodphoto5.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/foodphoto5.png") contain;
     }
     /* *****************タブレット768px section interactive ****************************/
 
@@ -1449,46 +1391,29 @@
     .fourPhotobox {
         display: flex;
     }
+    .fourPhoto1,.fourPhoto2,.fourPhoto3,
+    .fourPhoto4,.fourPhoto5 {
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 122.78px;
+        height: 119.11px;
+    }
 
     .fourPhoto1 {
-        background: url("image.svg/intephoto1.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/intephoto1.png") contain;
     }
     .fourPhoto2 {
-        background: url("image.svg/intephoto2.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/intephoto2.png") contain;
     }
     .fourPhoto3 {
-        background: url("image.svg/intephoto3.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/intephoto3.png") contain;
     }
     .fourPhoto4 {
-        background: url("image.svg/intephoto4.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/intephoto4.png") contain;
     }
     .fourPhoto5 {
-        background: url("image.svg/intephoto5.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 122.78px;
-        height: 119.11px;
+        background: url("image.svg/intephoto5.png") contain;
+
     }
 
     /* *****************タブレット768px section contact ****************************/
@@ -1551,10 +1476,8 @@
  .footerWrap {
      width: 100%;
      height: 133.02px;
-     
      background-color: rgba(0,0,0,0.95);
-     
-} 
+}
  .footerImg {
     background-image: url("image.svg/logo-white.png");
     z-index: -80;
@@ -1581,8 +1504,6 @@
 
  .footerParainner {
      display: flex;
-     /* width: 100%; */
-     /* left: 528px; */
      top: 19.1px;
      left: 188.4px;
      position: relative;
@@ -1612,6 +1533,7 @@
 .footerPara2 {
     left: 10px;
 }
+
 
 
 .footer-fa-stack {
@@ -1919,8 +1841,7 @@
 @media screen and ( max-width: 378px){
     .bgimageBox {
         height: 667px;
-        width: 100%;
-        position: absolute;
+
       }
 
     /* スライドショーここから */
@@ -1949,64 +1870,44 @@
 
 
 /* スライドショーここまで */
+   .responSive,.responSive2,
+   .responSive3,.responSive4 {
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    position: absolute;
+    object-fit: cover;
+    background-position-x: 1px;
+   }
+
 
    .responSive {
-      background-image: url("image.svg/アセット-2.jpg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      max-width: 100%;
-      width: 100%;
-      height: 100%;
-      z-index: -100;
-      position: absolute;
-      object-fit: cover;
-      background-position-x: 1px;
-    
-   
-   }
-   .responSive2 {
-      background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      max-width: 100%;
-      width: 100%;
-      height: 100%;
-      z-index: -100;
-      position: absolute;
-      object-fit: cover;
+      background-image: url("image.svg/アセット-2.jpg") contain;
       background-position-x: 1px;
 
+     
+   }
+   .responSive2 {
+      background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png") contain;
       animation-delay: 10s;
-    
-   
+
    }
    .responSive3 {
-      background-image: url("image.svg/アセット-6.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      max-width: 100%;
-      width: 100%;
-      height: 100%;
-      z-index: -100;
-      position: absolute;
-      object-fit: cover;
-      background-position-x: 1px;
+      background-image: url("image.svg/アセット-6.png") contain;
       animation-delay: 20s;
+
    
    }
    .responSive4 {
-      background-image: url("image.svg/アセット-4.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      max-width: 100%;
-      width: 100%;
-      height: 100%;
-      z-index: -100;
-      position: absolute;
-      object-fit: cover;
-      background-position-x: 1px;
+      background-image: url("image.svg/アセット-4.png") contain;
       animation-delay: 30s;
+      
    }
+
+
+
    .bgImage, .bgImage2, .bgImage4,
    .bgImage5, .bgImage6, .bgImage7,
    .bgImage8 {
@@ -2122,7 +2023,8 @@
         top: -5px;
         width: 31px;
         height: 50px;
-        left: 274.5px;
+        left: 266.5px;
+        /* left: 274.5px; */
         cursor: pointer;
         transition: all .30s ease-in-out;/*0.3秒かけて変化*/
       }
@@ -2141,7 +2043,6 @@
 
       .navList li {
           transform: translateX(200px);
-
           transition: transform .6s ease, opacity .2s ease;
       }
 
@@ -2172,13 +2073,13 @@
     }
 
       .toggleBtn {
-          /* display: none; */
           z-index: 2000;
           position: absolute;
           top: 0;
           width: 22.96px;
           height: 18.02px;
-          right: 14px;
+          /* right: 14px; */
+          left: 327.8px;
           cursor: pointer;
           transition: all .30s ease-in-out;/*0.3秒かけて変化*/
       }
@@ -2203,9 +2104,6 @@
       .tg3 {
           top: 39.8px;
       }
-  /* .toggleBtn span:nth-child(1){top:14px;}
-  .toggleBtn span:nth-child(2){top: 27.5px;}
-  .toggleBtn span:nth-child(3){top: 40.5px;} */
 
 
       .toggleLine {
@@ -2259,9 +2157,6 @@
       /* *************************スマホ375px main top******************************************/
 
     .topParainner {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 100%;
 
     }
@@ -2270,16 +2165,11 @@
         position: absolute;
         top: 280.6px;
         left: 239.3px;
-        display: flex;
-        justify-content: center;
-        width: 35%;
 
     }
 
-
-
     .topParabox {
-        position: absolute;
+        left: 0;
         top: -69.8px;
     }
     .topParaboxinner {
@@ -2340,16 +2230,10 @@
 
     
     .secoParabox {
-
         text-align: center;
-        position: absolute;
         top: 44px;
-        left: 0;
         width: 100%;
-        
     }
-   
-
     .secobgTitle {
         position: absolute;
         top: 150px;
@@ -2367,18 +2251,11 @@
         margin-right: auto;
         text-align: left;
     }
+    
 
     .secoLine::after {
-        content: "";
-        display: block;
         width: 192px;
-        height: 1px;
-        background-color: #000;
-        bottom: 0;
-        position: absolute;
         left: 136.5px;
-
-
     }
 
     .secoBtnbox {
@@ -2396,7 +2273,6 @@
         background: url("image.svg/Lodge\ photo.png");
         background-size: contain;
         background-repeat: no-repeat;
-        z-index: 1;
         width: 375px;
         height: 245px;
 
@@ -2407,57 +2283,35 @@
     .secoPhotobox {
         display: flex;
     }
-
-    .secoPhoto1 {
-        background: url("image.svg/Lodgephoto1.png");
+    .secoPhoto1,.secoPhoto2,.secoPhoto3,
+    .secoPhoto4,.secoPhoto5 {
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
         width: 75px;
         height: 75px;
+    }
+    .secoPhoto1 {
+        background: url("image.svg/Lodgephoto1.png") contain;
     }
     .secoPhoto2 {
-        background: url("image.svg/Lodgephoto2.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/Lodgephoto2.png") contain;
     }
     .secoPhoto3 {
-        background: url("image.svg/Lodgephoto3.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/Lodgephoto3.png") contain;
     }
     .secoPhoto4 {
-        background: url("image.svg/Lodgephoto4.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/Lodgephoto4.png") contain;
+
     }
     .secoPhoto5 {
-        background: url("image.svg/Lodgephoto5.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/Lodgephoto5.png") contain;
+
     }
     /* *****************スマホ375px section food ****************************/
 
     .triParabox {
-
-        text-align: left;
         width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        
     }
     .triTitle {
         text-align: center;
@@ -2468,41 +2322,25 @@
         top: 315px;
         left: -165px;
         z-index: 10;
-        
     }
 
     .triParainner {
         width: 270px;
         height: 415.91px;
-        position: absolute;
         top: 119.2px;
         left: 105px;
-        z-index: 5;
     }
 
     .triLine::after {
-    
-        width: 153.08px;
-        height: 2px;
-        bottom: 0;
-        position: absolute;
         left: 200px;
         top: 60.5px;
-
-
     }
 
     .triBtnbox {
-        position: absolute;
         top: 355.2px;
         left: 129.3px;
 
     }
-    .tribgBox {
-        display: flex;
-        justify-content: flex-start;
-    }
-
     .tribgPhoto {
         background: url("image.svg/65716664_2514457691971614_8615425300211171328_n.png");
         background-size: contain;
@@ -2513,61 +2351,33 @@
 
         margin-bottom: 0;
     }
-
-
-    .triPhotobox {
-        display: flex;
+    .triPhoto1,.triPhoto2,.triPhoto3,
+    .triPhoto4,.triPhoto5 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 75px;
+        height: 75px;
     }
 
     .triPhoto1 {
-        background: url("image.svg/foodphoto1.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/foodphoto1.png") contain;
     }
     .triPhoto2 {
-        background: url("image.svg/foodphoto2.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/foodphoto2.png") contain;
     }
     .triPhoto3 {
-        background: url("image.svg/foodphoto3.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/foodphoto3.png") contain;
     }
     .triPhoto4 {
-        background: url("image.svg/foodphoto4.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/foodphoto4.png") contain;
     }
     .triPhoto5 {
-        background: url("image.svg/foodphoto5.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/foodphoto5.png") contain;
     }
     /* *****************スマホ375px section interactive ****************************/
 
     .fourParabox {
-
         text-align: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-        
     }
 
     .fourTitle {
@@ -2593,27 +2403,16 @@
     }
 
     .fourLine::after {
-        content: "";
-        display: block;
         width: 197.5px;
-        height: 2px;
-        background-color: #000;
         top: 82.5px;
-        position: absolute;
-        left: 125px;
+        left: 90px;
     }
 
     .fourBtnbox {
-        position: absolute;
         top: 346.4px;
         left: 126.3px;
 
     }
-    .fourbgBox {
-        display: flex;
-        justify-content: flex-end;
-    }
-
     .fourbgPhoto {
         background: url("image.svg/intephoto.png");
         background-size: contain;
@@ -2624,51 +2423,28 @@
 
         margin-bottom: 39px;
     }
-
-
-    .fourPhotobox {
-        display: flex;
-    }
-
-    .fourPhoto1 {
-        background: url("image.svg/intephoto1.png");
+    .fourPhoto1,.fourPhoto2,.fourPhoto3,
+    .fourPhoto4,.fourPhoto5 {
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
         width: 75px;
-        height: 75px;
+        height: 75px
+    }
+    .fourPhoto1 {
+        background: url("image.svg/intephoto1.png") contain;
     }
     .fourPhoto2 {
-        background: url("image.svg/intephoto2.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/intephoto2.png") contain;
     }
     .fourPhoto3 {
-        background: url("image.svg/intephoto3.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/intephoto3.png") contain;
     }
     .fourPhoto4 {
-        background: url("image.svg/intephoto4.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/intephoto4.png") contain;
     }
     .fourPhoto5 {
-        background: url("image.svg/intephoto5.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 75px;
-        height: 75px;
+        background: url("image.svg/intephoto5.png") contain;
     }
 
     /* *****************スマホ375px section contact ****************************/
@@ -2682,30 +2458,12 @@
     
 }
 
-.fifParawrap {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    margin: 0 80.2px 0 69.2px;
-}
-
-
-.fifParainner {
-    position: absolute;
-    z-index: 5;
-    text-align: center;
-
-}
 .fifParainner2 {
     width: 294px;
     height: 372.13px;
-    position: relative;
     top: 481.7px;
     left: 48px;
     z-index: 5;
-    background-color: #f4f4f4;
 }
 
 .fifTitleSp {
@@ -2718,14 +2476,6 @@
 }
 
 
-
-
-.fifBtnbox {
-    position: absolute;
-    top: 110px;
-    left: 200px;
-
-}
 .fifBtnboxSp {
     position: absolute;
     top: 251px;
@@ -2738,17 +2488,13 @@
 
  /* **************************スマホ375px footer ***********************************/
  .footerWrap {
-     width: 100%;
      height: 391.55px;
-     background-color: rgba(0,0,0,0.95);
-     display: flex;
-     flex-direction: column;
 } 
  .footerImg {
     background-image: url("image.svg/logo-white.png");
     z-index: -80;
     background-size: contain;
-    background-position: center top;
+    background-position: center;
     position: absolute;
     background-repeat: no-repeat;
     z-index: 1;
@@ -2769,33 +2515,19 @@
 
  }
 
- .footerParainner {
-     display: flex;
-
-     top: 19.1px;
-     left: 188.4px;
-     position: relative;
-     flex-direction: column;
-
-
-    }
-
  .Parainner {
-     position: absolute;
      text-align: center;
  }
 
  .footerParaTitle {
      display: none;
  }
- 
 
-
-
- .footerPara {
-     display: none;
- }
+ /* .footerPara { */
+     /* display: none; */
+ /* } */
  .footerPara2 {
+     display: block;
      font-size: 1.3rem;
      font-family: "YuMincho";
      line-height: 1.6;
@@ -2808,6 +2540,10 @@
  
 .footerPara2 {
     left: 0px;
+}
+.footerPara2 .u-noShow {
+    display: block;
+
 }
 
 
@@ -2846,14 +2582,16 @@
     font-family: "Toppan Bunkyu Midashi Mincho";
     line-height: 1.3;
     position: relative;
-    margin-top: 0;
-    margin-left: 0;
     text-align: center;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
  }
  .copyRight.u-noshow {
     display: none;
+ }
+
+ .copyRightSp {
+     display: inline;
  }
 
 
