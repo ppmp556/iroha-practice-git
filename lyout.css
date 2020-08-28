@@ -15,7 +15,7 @@ body {
   overflow: hidden;
   height: 100vh;
 
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1920px;
 
 
@@ -253,7 +253,6 @@ a:link, a:visited, a:hover, a:active {
   position: relative;
   margin-right: 53px;
   margin-left: 57px;
-  top: 15%;
 }
 .ly-footerShare {
   position: absolute;
@@ -479,14 +478,13 @@ a:link, a:visited, a:hover, a:active {
   .ly-footerImgbox{
     position: relative;
     
-    margin-right: 21.2px;
+    margin-right: 0;
     margin-left: 22.8px;
-    top: 15%;
   }
   .ly-footerShare {
     position: absolute;
     top: 100.4px;
-    left: 513.2px;
+    left: 490.4px;
   }
   .ly-footerCRight {
     position: absolute;
@@ -540,6 +538,101 @@ a:link, a:visited, a:hover, a:active {
   
 }
 
+/***************************** 調整用 *****************************
+
+***********************************************************************/
+@media screen and ( max-width: 414px){
+
+
+  /* ********************* 414px ヘッダー ************************************/
+    .ly-wrapper {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .ly-headerWrapper {
+      max-width: 414px;
+    }
+    .ly-header {
+      width: 100%;
+      height: 100%;
+    }
+    .ly-navBox {
+      height: 29.24px;
+    }
+    .clicked .ly-navBox{
+      width: 100%;
+      left: 0;
+ 
+    }
+     .ly-nav {
+      width: 0;
+      margin-right: auto;
+    }
+
+
+
+
+     .ly-navTitle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0;
+    }
+ 
+    .ly-bgimageBox {
+      height: 100%;
+      width: 100vw;
+    }
+ 
+    .clicked .ly-share {
+      display: none;
+    }
+
+    /******************** 414px main top *******************************/
+
+    .ly-mainContainer {
+      max-width: 414px;
+      margin-top: 201px;
+
+    }
+    .ly-topSec {
+      position: relative;
+      height: 406px;
+      top: 0;
+
+    }
+
+    .ly-topSecbox {
+      top: 37.8px;
+      position: absolute;
+
+    }
+
+    /******************** 414px main lodge *******************************/
+    
+    .ly-secoSec {
+      height: 651.19px;
+    }
+
+    .ly-secoSecbox {
+      top: 0;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .ly-secophotoBox {
+
+      top: 248.5px;
+    }
+
+
+
+ 
+ 
+
+}
+
 
 
 
@@ -549,7 +642,7 @@ a:link, a:visited, a:hover, a:active {
 
 ***********************************************************************/
 
-@media screen and ( max-width: 378px){
+@media screen and ( max-width: 376px){
 
     
   .ly-wrapper {
@@ -567,7 +660,6 @@ a:link, a:visited, a:hover, a:active {
    .ly-navBox {
      width: 100%;
      height: 54.31px;
-     
      display: flex;
      justify-content: center;
      align-items: center;
@@ -580,7 +672,6 @@ a:link, a:visited, a:hover, a:active {
      width: 100%;
      left: 64.7px;
      position: relative;
-     /* background-color: rgba(0,0,0,0.7); */
    }
 
 
@@ -588,7 +679,6 @@ a:link, a:visited, a:hover, a:active {
    .clicked .ly-nav {
      width: 100%;
      height: 54.31px;
-     /* background-color: rgba(0,0,0,0.7); */
      left: 0px;
      display: flex;
      justify-content: center;
@@ -615,7 +705,6 @@ a:link, a:visited, a:hover, a:active {
      height: 670.85px;
      width: 100%;
      display: flex;
-     /* justify-content: center; */
      position: absolute;
    }
    
@@ -631,17 +720,17 @@ a:link, a:visited, a:hover, a:active {
   
 
 
-  /* *************** スマホ 375px main top************************************************************/
+  /* *************** スマホ 376px main top************************************************************/
 
 
   .ly-mainContainer {
     max-width: 375px;
     margin-top: 0;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 2608px;
 
-
-
-    overflow: scroll;
-    
   }
   .ly-topSec {
     height: 375px;
@@ -653,18 +742,18 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
 
   }
-  /* ********************************スマホ 375px secton lodge ********************************************/
+  /* ********************************スマホ 376px secton lodge ********************************************/
   .ly-secoSec {
     position: relative;
     height: 951.24px;
     top: 473.5px;
+    max-width: 375px;
   }
 
   .ly-secoSecbox {
     display: flex;
     justify-content: flex-end;
     top: 0px;
-    /* left: -74px; */
     position: relative;
     width: 100%;
     margin: 0 auto;
@@ -674,11 +763,12 @@ a:link, a:visited, a:hover, a:active {
 
     top: 570px;
   }
-  /* ********************************スマホ375px secton food ********************************************/
+  /* ********************************スマホ376px secton food ********************************************/
   .ly-triSec {
     position: absolute;
     height: 1076.42px;
     top: 1799.2px;
+    max-width: 375px;
 
   }
 
@@ -693,11 +783,12 @@ a:link, a:visited, a:hover, a:active {
   }
 
 
-  /* ********************************スマホ375px secton interactive ********************************************/
+  /* ********************************スマホ376px secton interactive ********************************************/
   .ly-fourSec {
     position: absolute;
     height: 1056.75px;
     top: 2875.2px;
+    max-width: 375px;
   }
 
   .ly-fourphotoBox {
@@ -705,16 +796,17 @@ a:link, a:visited, a:hover, a:active {
     left: 20px;
     top: 586px;
   }
-  /* ********************************スマホ375px secton contact ********************************************/
+  /* ********************************スマホ376px secton contact ********************************************/
   .ly-fifSec {
     height: 1023.7px;
     top: 2608px;
+    max-width: 375px;
   }
 
 
-  /* **************************スマホ375px footer *******************************************/ 
+  /* **************************スマホ376px footer *******************************************/ 
   .ly-footer {
-    
+    max-width: 375px;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -730,10 +822,10 @@ a:link, a:visited, a:hover, a:active {
   }
   .ly-footerShare {
     top: 196px;
-    left: 0;
+    left: 50px;
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 72%;
     align-items: center;
     height: 20%;
   }

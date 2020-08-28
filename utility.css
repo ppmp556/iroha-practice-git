@@ -352,6 +352,9 @@
     opacity: 0.9;
   }
 
+  .u-fifParaSp,.u-fifParaSp2 {
+    display: none;
+  }
 
   .u-fifPara, .u-fifPara3,
   .u-fifPara4 {
@@ -411,7 +414,6 @@
     position: relative;
     left: 416.5px;
   }
-}
 
 
 
@@ -685,7 +687,10 @@
  }
 
  /* *******************タブレット768px section contact **********************/
-
+ 
+ /* .u-fifTitle.u-noShow { */
+   /* display: none; */
+ /* } */
 .u-fifTitle {
   font-size: 1.5rem;
   line-height: 0.73;
@@ -794,6 +799,133 @@
     display: flex;
     justify-content: center;
   }
+   
+}
+
+/***************************** 調整用 *****************************
+
+***********************************************************************/
+@media screen and ( max-width: 414px){
+  .u-navTxt {
+    font-size: .1rem;
+    line-height: 1.347;
+    letter-spacing: 0.2em;
+    margin-right: 5px;
+  }
+
+  .u-navTxt-bgs {
+    font-size: .9rem;
+    line-height: 1.325;
+    letter-spacing: 0.2em;
+  }
+  /*　ナビ小文字 */
+  .u-navTxt-s {
+    font-size: 0.9rem;
+    transform: scale(0.5);
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    position: relative;
+    left: -80px;
+  }
+
+  .u-navTxt-s2 {
+    font-size: .6rem;
+    line-height: 1.33;
+    letter-spacing: 0.2em;
+    margin-top: 5px;
+  
+  }
+  /* *******************414px main top **********************/
+  .u-topTitle {
+    font-family: "凸版文久見出し明朝 Std";
+    font-size: 1.4rem;
+    line-height: 2;
+    margin-bottom: 23px;
+    left: 0;
+  }
+  
+  .u-topPara, .u-topPara2, .u-topPara3 {
+    font-size: 0.9rem;
+    font-family: "凸版文久見出し明朝 Std";
+    line-height: 1.44;
+  
+  }
+  .u-topPara {
+    margin-bottom: 20px;
+  }
+  
+  .u-topPara3 {
+    margin-top: 33.4px;
+  }
+  .u-topPara4 {
+    display: none;
+  }
+
+  
+  .u-topBtn {
+   border: 1px solid #707070;
+   font-family: "凸版文久見出し明朝 Std";
+   width: 80.1px;
+   height: 26.95px;
+   font-size: .7rem;
+   line-height: 1.26px;
+  
+  }
+/* *******************414px section lodge **********************/
+
+.u-secoTitle {
+  font-size: 2rem;
+  
+}
+
+.u-secoTtl {
+  font-size: 2rem;
+}
+
+
+.u-secoSub {
+  position: relative;
+  font-size: 5.6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+
+}
+
+.u-secoInner {
+  background-color: #ffffff;
+  opacity: 0.9;
+  
+
+}
+
+
+.u-secoPara {
+  font-size: .9rem;
+  line-height: 1.1;
+  position: relative;
+  top: 27.7px;
+}
+.u-secoPara2 {
+  font-size: .9rem;
+  line-height: 2.22;
+  font-family: "凸版文久見出し明朝 StdN";
+  
+  position: absolute;
+  top: 97.5px;
+  left: 30.4px;
+}
+
+.u-secoBtn {
+  width: 62.6px;
+  height: 19.63px;
+ 
+  font-size: .5rem;
+  font-family: "凸版文久見出し明朝 StdN";
+ }
+
+  
+
+
+
 }
 
 /*************************************************************************
@@ -801,7 +933,7 @@
 スマホ版
 
 **************************************************************************/
-@media screen and (max-width: 378px) {
+@media screen and (max-width: 376px) {
   .u-navTxt {
     font-size: 0.9rem;
     line-height: 1.347;
@@ -835,7 +967,7 @@
     justify-content: center;
   }
 
-  /* *******************スマホ375px main top **********************/
+  /* *******************スマホ376px main top **********************/
   .u-topTitle {
     font-size: 2.2rem;
     line-height: 1.36;
@@ -852,22 +984,13 @@
     line-height: 1.67;
   
   }
-  
-   .u-topPara {
-     margin-bottom: 20px;
-     margin-left: 46.7px;
-   }
-    .u-topPara2 {
-     position: relative;
-     top: -20px;
-     margin-left: 46.7px;
-          
-        }
+
+
   .u-topPara2 span {
     display: none;
   }
   .u-topPara3,.u-topPara4 {
-    margin-left: 46.7px;
+    letter-spacing: 0.1em;
   }
   
   .u-topPara4 {
@@ -887,7 +1010,7 @@
    line-height: 2.25px;
   
   }
-  /* *******************スマホ375px section lodge **********************/
+  /* *******************スマホ376px section lodge **********************/
 
 .u-secoTitle {
   font-size: 2.5rem;
@@ -916,14 +1039,16 @@
 }
 .u-secoParaSP {
   position: relative;
-  top: 24.1px;
-  left: 22px;
+  top: 7.2px;
+  left: 0;
   font-size: 1.5rem;
   letter-spacing: 0.1em;
   line-height: 1.67;
   font-family: "Toppan Bunkyu Mincho";
   color: #000;
   text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  margin: 24.1px 20px 25.5px 22px;
+
 
 }
 .u-secoPara2 {
@@ -945,7 +1070,7 @@
   line-height: 2.25;
  }
 
- /* *******************スマホ375px section food **********************/
+ /* *******************スマホ376px section food **********************/
 
 .u-triTitle {
   font-size: 2.5rem;
@@ -984,9 +1109,8 @@
   line-height: 1.67;
   color: #000;
   opacity: 0.8;
-  position: absolute;
-  top: 30px;
-  left: 29px;
+  letter-spacing: 0.1em;
+  margin: 30px 15px 0px 27px;
 }
 
 .u-triPara2 {
@@ -997,6 +1121,8 @@
   position: absolute;
   top: 266.8px;
   left: 27px;
+
+  
 }
 
 
@@ -1014,7 +1140,7 @@ p.u-triPara {
 
  }
 
- /* *******************スマホ375px section interactive **********************/
+ /* *******************スマホ376px section interactive **********************/
 
 .u-fourTitle {
   line-height: 0.12;
@@ -1055,9 +1181,12 @@ p.u-triPara {
   letter-spacing: 0.1em;
   color: #000;
   position: relative;
-  top: 24.1px;
-  left: 22px;
+  top: 0;
+  left: 0;
   text-align: left;
+  margin: 24.1px 20px 0 22px;
+
+  
 
 
 }
@@ -1081,7 +1210,7 @@ p.u-triPara {
  
  }
 
- /* *******************スマホ 375px section contact **********************/
+ /* *******************スマホ 376px section contact **********************/
 
 .u-noShow {
   display: none;
@@ -1114,24 +1243,38 @@ p.u-triPara {
   left: -18.6px;
 }
 
+.u-fifPara,.u-fifPara2 {
+  display: none;
+}
 
-.u-fifPara, .u-fifPara3,
-.u-fifPara4 {
+.u-fifParaSp {
+  display: inline;
+  font-size: 1.5rem;
+  font-family: "Toppan Bunkyu Mincho";
+  line-height: 2;
+  color: #000;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+.u-fifParaSp2 {
+  display: inline;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  font-family: "Toppan Bunkyu Mincho";
+  line-height: 2;
+  color: #000;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  text-align: center;
+
+  position: absolute;
+  top: 105.4px;
+}
+
+.u-fifPara3,.u-fifPara4 {
   font-size: 1.5rem;
   font-family: "Toppan Bunkyu Mincho";
   line-height: 2;
 }
-.u-fifPara2 {
-  font-size: 1.5rem;
-  font-family: "Toppan Bunkyu Mincho";
-  position: absolute;
-  top: 105.4px;
-  left: 0;
-  width: 211px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
+
 .u-fifPara3 {
   margin: 35px 0;
 }
@@ -1157,8 +1300,17 @@ p.u-triPara {
   font-size: .7rem;
   font-family: "凸版文久見出し明朝 StdN";
   line-height: 1.28;
- 
+
  }
+/*  */
+ /* .fifBtnboxSp .u-fifBtnSp { */
+  /* padding: 9.3px 18.2px 9.2px 25.2px; */
+/* } */
+/* .fifBtnboxSp .u-fifBtnSp2 { */
+  /* padding: 7.3px 18.2px 11.2px; */
+/* } */
+
+
 .u-fifBtnSp,.u-fifBtnSp2 {
   display: inline-block;
   background: transparent;
@@ -1170,13 +1322,14 @@ p.u-triPara {
   height: 34.44px;
   font-size: 1.2rem;
   font-family: "Toppan Bunkyu Midashi Mincho";
-  line-height: 2.25;
+  text-shadow: 0 4px 7px rgba(0,0,0,0.16);
 
   margin-bottom: 14.5px;
  
  }
+ 
 
- /* *******************スマホ375px section footer **********************/
+ /* *******************スマホ376px section footer **********************/
  .u-footerPara {
    position: relative;
    left: 0px;
