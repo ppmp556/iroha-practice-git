@@ -2076,7 +2076,8 @@
         height: 186.1px;
         position: absolute;
         top: 62.3px;
-        left: 69.7px;
+        /* left: 69.7px; */
+        left: 80px;
         z-index: 5;
     }
 
@@ -2094,7 +2095,7 @@
     }
     .secobgBox {
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .secobgPhoto {
@@ -2111,6 +2112,8 @@
 
     .secoPhotobox {
         display: flex;
+        position: relative;
+        left: 20px;
     }
     .secoPhoto1,.secoPhoto2,.secoPhoto3,
     .secoPhoto4,.secoPhoto5 {
@@ -2146,6 +2149,86 @@
         background-repeat: no-repeat;
 
     }
+/* *****************414px section food ****************************/
+
+.triParabox {
+
+    text-align: left;
+    position: absolute;
+    top: -85px;
+    left: 0;
+}
+
+.tribgTitle {
+    position: absolute;
+    top: 160px;
+    left: -160px;
+}
+
+.triParainner {
+    width: 304.56px;
+    height: 186.1px;
+    top: 27px;
+    left: 74px;
+}
+
+.triLine::after {
+    display: none;
+}
+
+.triBtnbox {
+    position: absolute;
+    top: 144.6px;
+    left: 224px;
+
+}
+.tribgBox {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tribgPhoto {
+    background: url("image.svg/65716664_2514457691971614_8615425300211171328_n.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 366.15px;
+    height: 234.64px;
+
+    margin-bottom: 19.8px;
+}
+
+
+.triPhotobox {
+    display: flex;
+    position: relative;
+    left: -22px;
+    width: 68%;
+}
+.triPhoto1,.triPhoto2,.triPhoto3,
+.triPhoto4,.triPhoto5 {
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 122.78px;
+    height: 80.3px;
+}
+
+.triPhoto1 {
+    background: url("image.svg/foodphoto1.png") contain;
+}
+.triPhoto2 {
+    background: url("image.svg/foodphoto2.png") contain;
+}
+.triPhoto3 {
+    background: url("image.svg/foodphoto3.png") contain;
+}
+.triPhoto4 {
+    background: url("image.svg/foodphoto4.png") contain;
+
+}
+.triPhoto5 {
+    background: url("image.svg/foodphoto5.png") contain;
+}
     
     
 
@@ -2209,27 +2292,29 @@
 
 
    .responSive {
+      display: block;
       background-image: url("image.svg/アセット-2.jpg") contain;
       background-position-x: 1px;
 
      
    }
    .responSive2 {
+      display: block;
       background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png") contain;
       animation-delay: 10s;
 
-   }
-   .responSive3 {
-      background-image: url("image.svg/アセット-6.png") contain;
-      animation-delay: 20s;
+}
+.responSive3 {
+    display: block;
+    background-image: url("image.svg/アセット-6.png") contain;
+    animation-delay: 20s;
+}
 
-   
-   }
-   .responSive4 {
-      background-image: url("image.svg/アセット-4.png") contain;
-      animation-delay: 30s;
-      
-   }
+.responSive4 {
+    display: block;
+    background-image: url("image.svg/アセット-4.png") contain;
+    animation-delay: 30s;
+}
 
 
 
@@ -2243,6 +2328,7 @@
    }
 
    .bgImageMin2 {
+    display: block;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2257,7 +2343,7 @@
  }
    
    .bgImage3{
-    
+       display: block;
       background-image: url("image.svg/logo-white-3.png");
       z-index: 100;
       background-size: contain;
@@ -2488,6 +2574,7 @@
         position: absolute;
         top: 280.6px;
         left: 239.3px;
+        display: block;
 
     }
 
@@ -2506,6 +2593,7 @@
 
 
     .topBgimg {
+        display: block;
         background: #f2f2f2;
         width: 208.14px;
         height: 754.59px;
@@ -2558,9 +2646,8 @@
         width: 100%;
     }
     .secobgTitle {
-        /* position: absolute; */
+        left: -115px;
         top: 150px;
-        /* left: -115px; */
         z-index: 10;
         margin-left: auto;
     }
@@ -2606,6 +2693,8 @@
 
     .secoPhotobox {
         display: flex;
+        position: relative;
+        left: 0;
     }
     .secoPhoto1,.secoPhoto2,.secoPhoto3,
     .secoPhoto4,.secoPhoto5 {
@@ -2639,6 +2728,8 @@
     }
     .triTitle {
         text-align: center;
+        position: relative;
+        top: 91px;
     }
 
     .tribgTitle {
@@ -2657,8 +2748,10 @@
     }
 
     .triLine::after {
-        left: 200px;
-        top: 60.5px;
+        display: block;
+        left: 145px;
+        top: 135px;
+        width: 210.36px;
     }
 
     .triBtnbox {
@@ -2795,7 +2888,7 @@
     width: 294px;
     height: 372.13px;
     top: 481.7px;
-    left: 0;
+    left: 10px;
     z-index: 5;
     margin: inherit;
     margin-right: auto;

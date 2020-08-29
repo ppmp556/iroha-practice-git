@@ -625,6 +625,32 @@ a:link, a:visited, a:hover, a:active {
 
       top: 248.5px;
     }
+/* ********************************414px section food ********************************************/
+.ly-triSec {
+  position: relative;
+  width: 100%;
+  height: 651.19px;
+  top: 0;
+  background-color: #ffffff;
+
+}
+
+.ly-triSecbox {
+  display: flex;
+  top: 57.4px;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ly-triphotoBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 118.3px;
+  left: 0;
+}
+
 
 
 
@@ -710,7 +736,7 @@ a:link, a:visited, a:hover, a:active {
    
    .clicked .ly-share {
     position: relative;
-    top: 52.6px;
+    top: 5px;
     left: 0px;
     display: flex;
     justify-content: space-around;
