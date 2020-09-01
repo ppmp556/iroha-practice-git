@@ -680,27 +680,22 @@
 .u-fourBtn {
   width: 62.6px;
   height: 19.63px;
- 
   font-size: .5rem;
   font-family: "凸版文久見出し明朝 StdN";
- 
- }
+
+}
 
  /* *******************タブレット768px section contact **********************/
- 
- /* .u-fifTitle.u-noShow { */
-   /* display: none; */
- /* } */
+
 .u-fifTitle {
   font-size: 1.5rem;
   line-height: 0.73;
   font-family: "凸版文久見出し明朝 StdN";
- 
+
 }
 
 .u-fifInner {
   opacity: 0.9;
-  
 
 }
 .u-fifTtl {
@@ -925,16 +920,28 @@
 
 
 .u-triInner {
-  background-color: #f8f8f8;
-  height: 375px;
+  background-color: #ffffff;
+  height: 186.2px;
+  opacity: inherit;
   
 }
 
 
 .u-triPara {
+  display: none;
+  /* font-size: .9rem; */
+  /* position: relative; */
+  /* line-height: 1.11; */
+}
+.u-triParaSP {
   font-size: .9rem;
-  position: relative;
+  font-family: "凸版文久見出し明朝 StdN";
+  letter-spacing: 0.1em;
   line-height: 1.11;
+  color: #000;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  padding-top: 42px;
+  margin-left: 30.4px;
 }
 
 .u-triPara2 {
@@ -949,11 +956,134 @@
   font-size: .5rem;
   font-family: "凸版文久見出し明朝 StdN";
 
+}
+/* *******************414px section interactive **********************/
+
+.u-fourTitle {
+  line-height: 0.67;
+  font-size: 1.8rem;
+
+}
+
+.u-fourTtl {
+  line-height: 0.67;
+  font-size: 1.6rem;
+  left: 0;
+
+
+}
+
+
+.u-fourSub {
+  position: relative;
+  font-size: 2.8rem;
+  line-height: 0.42;
+  font-family: "凸版文久見出し明朝 StdN";
+}
+
+.u-fourInner {
+  background-color: #ffffff;
+  opacity: 0.9;
+
+}
+
+.u-fourPara {
+  display: none;
+
+}
+.u-fourParaSP {
+  font-size: .9rem;
+  letter-spacing: 0.1em;
+  line-height: 1.1;
+  font-family: "凸版文久見出し明朝 StdN";
+  color: #000;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16%);
+  background-color: #ffffff;
+  padding-top: 27.7px;
+  margin-left: 30.4px;
+
+
+
+}
+.u-fourPara2 {
+  font-size: .9rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  
+  position: absolute;
+  top: 100.5px;
+  left: 30.4px;
+}
+
+.u-fourBtn {
+  width: 80px;
+  height: 26px;
+ 
+  font-size: .7rem;
+  font-family: "凸版文久見出し明朝 StdN";
+ 
  }
 
+/* *******************タブレット768px section contact **********************/
 
-  
+.u-fifTitle {
+  font-size: 1.5rem;
+  line-height: 0.73;
+  font-family: "凸版文久見出し明朝 StdN";
 
+}
+
+.u-fifInner {
+  opacity: 0.9;
+
+}
+.u-fifTtl {
+  position: relative;
+  left: -18.6px;
+}
+
+
+.u-fifPara, .u-fifPara3,
+.u-fifPara4 {
+  display: none;
+}
+.u-fifPara2 {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  position: absolute;
+  top: 43.5px;
+  left: 32.8px;
+}
+.u-fifPara3 {
+  margin: 35px 0;
+}
+
+.u-fifPara5 {
+  font-size: .6rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  position: absolute;
+  top: 80.5px;
+  left: 32.8px;
+}
+
+.u-fifBtn {
+  display: inline-block;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  cursor: pointer;
+  width: 91.42px;
+  height: 30.93px;
+  font-size: .7rem;
+  font-family: "凸版文久見出し明朝 StdN";
+  line-height: 1.28;
+ 
+ }
+ /* *******************414px section footer **********************/
+ .u-footerPara {
+  position: relative;
+  left: 0px;
+}
 
 
 }
@@ -1128,6 +1258,7 @@
 
 .u-triInner {
   background-color: #f8f8f8;
+  height: 415.19px;
   opacity: 0.9;
   
 
@@ -1141,6 +1272,7 @@
   color: #000;
   opacity: 0.8;
   letter-spacing: 0.1em;
+  padding-top: 0;
   margin: 30px 15px 0px 27px;
 }
 
@@ -1148,7 +1280,7 @@
   font-size: 1.5rem;
   font-family: "Toppan Bunkyu Mincho";
   line-height: 1.4;
- 
+
   position: absolute;
   top: 266.8px;
   left: 27px;
@@ -1216,6 +1348,7 @@ p.u-triPara {
   left: 0;
   text-align: left;
   margin: 24.1px 20px 0 22px;
+  padding-top: 0;
 
   
 

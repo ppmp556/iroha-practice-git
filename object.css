@@ -1441,10 +1441,6 @@
     left: -10px;
 }
 
-/* .fifTitleSp { */
-    /* display: none; */
-/* } */
-
 .fifBtnbox {
     position: absolute;
     top: 110px;
@@ -2179,7 +2175,7 @@
 .triBtnbox {
     position: absolute;
     top: 144.6px;
-    left: 224px;
+    left: 197.7px;
 
 }
 .tribgBox {
@@ -2195,7 +2191,7 @@
     width: 366.15px;
     height: 234.64px;
 
-    margin-bottom: 19.8px;
+    margin-bottom: 0;
 }
 
 
@@ -2229,8 +2225,230 @@
 .triPhoto5 {
     background: url("image.svg/foodphoto5.png") contain;
 }
-    
-    
+
+/* *****************414px section interactive ****************************/
+
+/* .fourParabox { */
+/*  */
+    /* text-align: left; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /*  */
+/* } */
+
+.fourbgTitle {
+    position: absolute;
+    top: -32px;
+    left: -140px
+}
+
+.fourParainner {
+    width: 304.56px;
+    height: 186.1px;
+    position: absolute;
+    top: 41.1px;
+    left: 70px;
+}
+
+.fourLine {
+    display: none;
+}
+
+.fourBtnbox {
+    position: absolute;
+    top: 148.7px;
+    left: 205.7px;
+
+}
+.fourbgBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fourbgPhoto {
+    background: url("image.svg/intephoto.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 358.92px;
+    height: 233.02px;
+
+    margin-bottom: 40.4px;
+}
+
+
+.fourPhotobox {
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+.fourPhoto1,.fourPhoto2,.fourPhoto3,
+.fourPhoto4,.fourPhoto5 {
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 82.78px;
+    height: 80.3px;
+}
+
+.fourPhoto1 {
+    background: url("image.svg/intephoto1.png") contain;
+}
+.fourPhoto2 {
+    background: url("image.svg/intephoto2.png") contain;
+}
+.fourPhoto3 {
+    background: url("image.svg/intephoto3.png") contain;
+}
+.fourPhoto4 {
+    background: url("image.svg/intephoto4.png") contain;
+}
+.fourPhoto5 {
+    background: url("image.svg/intephoto5.png") contain;
+
+}
+
+/* ********************************414px secton contact ********************************************/
+
+
+.fifParawrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.fifParainner {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+}
+.fifParainner2 {
+    top: 57px;
+    margin-bottom: 19px;
+}
+
+.fifTitle {
+    position: absolute;
+    top: 11.8px;
+    left: -10px;
+}
+
+.fifBtnbox {
+    position: absolute;
+    top: 110px;
+    left: 200px;
+
+}
+.fifBtnboxSp {
+    display: none;
+}
+ /* **************************タブレット768px footer ***********************************/
+ 
+ .footerWrap {
+    width: 100%;
+    height: 71.71;
+    background-color: rgba(0,0,0,0.95);
+}
+.footerImg {
+   background-image: url("image.svg/logo-white.png");
+   width: 90.13px;
+   height: 85.94px;
+   object-fit: contain;
+   margin-top: 0;
+
+}
+
+.footerParabox {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+    margin: 0 auto;
+
+}
+
+.footerParainner {
+    display: flex;
+    top: 8.3px;
+    left: 108px;
+    position: relative;
+    flex-direction: column;
+    width: 14%;
+
+
+   }
+
+.Parainner {
+    position: absolute;
+}
+
+.footerParaTitle {
+        font-size: .7rem;
+
+}
+
+
+.footerPara,.footerPara2 {
+    font-size: .7rem;
+    font-family: "凸版文久見出し明朝 StdN";
+    line-height: 1.14;
+    top: 13.5px;
+    position: relative;
+    color: #ffffff;
+}
+.footerPara {
+    margin-left: 11.4px;
+}
+
+
+.footerPara2 {
+   left: 0;
+}
+
+
+
+.footer-fa-stack {
+   margin: 0 2px;
+   cursor: pointer;
+}
+
+.footer-fa-stack .fa-square {
+   position: relative;
+   top: 0;
+   left: 15px;
+}
+
+.footer-fa-stack .fa-facebook-f {
+   font-size: 13px;
+   left: 18px;
+   top: 3px;
+   
+}
+.footer-fa-stack .fa-stack-2x {
+   font-size: 3em;
+
+}
+.footer-fa-stack2 .fa-instagram {
+   font-size: 2.0rem;
+   cursor: pointer;
+   position: relative;
+   top: -20px;
+   left: 50px;
+}
+
+.copyRight {
+   font-size: .1rem;
+   font-family: "凸版文久見出し明朝 StdN";
+   margin-top: 5.7px;
+   margin-left: 11.1px;
+   transform: scale(0.5);
+}
+.copyRightSp {
+    display: none;
+}
 
 
 
@@ -2725,16 +2943,17 @@
 
     .triParabox {
         width: 100%;
+        top: -58px;
     }
     .triTitle {
         text-align: center;
         position: relative;
-        top: 91px;
+        top: 64px;
     }
 
     .tribgTitle {
         /* position: absolute; */
-        top: 285px;
+        top: 382px;
         /* left: -165px; */
         margin-left: auto;
         z-index: 10;
@@ -2743,14 +2962,14 @@
     .triParainner {
         width: 270px;
         height: 415.91px;
-        top: 119.2px;
+        top: 183.2px;
         left: 105px;
     }
 
     .triLine::after {
         display: block;
-        left: 145px;
-        top: 135px;
+        left: 129.5px;
+        top: 124.3px;
         width: 210.36px;
     }
 
@@ -2768,6 +2987,10 @@
         height: 255px;
 
         margin-bottom: 0;
+    }
+    .triPhotobox {
+        left: 0;
+        width: 100%;
     }
     .triPhoto1,.triPhoto2,.triPhoto3,
     .triPhoto4,.triPhoto5 {
@@ -2821,16 +3044,31 @@
     }
 
     .fourLine::after {
+        /* display: inline-block; */
+        /* border: 1px solid #000; */
+        /* width: 197.5px; */
+        /* height: 2px; */
+        /* top: 82.5px; */
+        /* left: 90px; */
+
+    }
+    .fourLineSp::after {
+        border: 1px solid #000;
         width: 197.5px;
+        height: 2px;
         top: 82.5px;
         left: 90px;
+
     }
 
     .fourBtnbox {
         top: 346.4px;
         left: 126.3px;
-
     }
+    .fourPhotobox{
+        left: 0;
+    }
+
     .fourbgPhoto {
         background: url("image.svg/intephoto.png");
         background-size: contain;
