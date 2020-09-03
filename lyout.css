@@ -272,11 +272,62 @@ a:link, a:visited, a:hover, a:active {
 /* *************調整用 ***********************/
 
 @media screen and ( max-width: 1152px){
-  .ly-navBox {
-    width: 100%;
-    height: 76px;
+
+  .ly-wrapper {
+  
+    max-width: 1152px;
     
   }
+  .ly-navBox {
+    height: 76px;
+
+  }
+  /* *************** main top************************************************************/
+
+
+  .ly-topSec {
+    height: 900px;
+    top: 943px;
+
+  }
+
+  .ly-topSecbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 157.2px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* ********************************secton lodge ********************************************/
+.ly-secoSec {
+  height: 1412.12px;
+  top: 1843px;
+  background-color: #F8F8F8;
+}
+
+.ly-secoSecbox {
+  display: flex;
+  justify-content: flex-end;
+  top: 128px;
+  /* left: -74px; */
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ly-secophotoBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 153px;
+}
+
+
+
+
+
 }
 
 
@@ -286,7 +337,7 @@ a:link, a:visited, a:hover, a:active {
 
 ***********************************************************************/
 @media screen and (max-width: 768px) {
-    
+
   .ly-wrapper {
       width: 100%;
       height: auto;
@@ -295,52 +346,52 @@ a:link, a:visited, a:hover, a:active {
 
 
 
-  .ly-headerWrapper {
-     display: inherit;
-     position: relative;
-     justify-content: center;
-     min-height: 5;
-     background-color: inherit;
-     max-width: 769px;
-   }
-   .ly-header {
-     position: relative;
-     z-index: 5;
-     width: 100%;
-     height: 100%;
-     display: inherit;
-   }
-   .ly-navBox {
-     width: 100%;
-     height: 54.31px;
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
-     border: 1px bold #707070;
-     background-color: rgba(0,0,0,0.7);
-   }
+    .ly-headerWrapper {
+      display: inherit;
+      position: relative;
+      justify-content: center;
+      min-height: 5;
+      background-color: inherit;
+      max-width: 769px;
+    }
+    .ly-header {
+      position: relative;
+      z-index: 5;
+      width: 100%;
+      height: 100%;
+      display: inherit;
+    }
+    .ly-navBox {
+      width: 100%;
+      height: 54.31px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      border: 1px bold #707070;
+      background-color: rgba(0,0,0,0.7);
+    }
     .ly-nav {
-     width: 0;
-     margin-right: auto;
-   }
+      width: 0;
+      margin-right: auto;
+    }
     .ly-navTitle {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     margin: 0;
-   }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0;
+    }
 
-   .ly-bgimageBox {
-     height: 100%;
-     width: 100vw;
-   }
+  .ly-bgimageBox {
+    height: 100%;
+    width: 100vw;
+  }
 
-   .clicked .ly-share {
-     position: absolute;
-     top: 311.3px;
-     left: 624px;
-     display: initial;
-   }
+  .clicked .ly-share {
+    position: absolute;
+    top: 311.3px;
+    left: 624px;
+    display: initial;
+  }
 
 
 
@@ -363,7 +414,6 @@ a:link, a:visited, a:hover, a:active {
     .ly-topSecbox {
       top: 61.5px;
       position: absolute;
-      
 
     }
 
@@ -381,7 +431,6 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     justify-content: flex-end;
     top: 56.2px;
-    /* left: -74px; */
     position: relative;
     width: 90%;
     margin: 0 auto;
@@ -427,18 +476,17 @@ a:link, a:visited, a:hover, a:active {
 
     top: 0;
     background-color: #F8F8F8;
-    
 
   }
 
   .ly-fourSecbox {
 
-  display: flex;
-  justify-content: flex-end;
-  top: 56.2px;
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    top: 56.2px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .ly-fourphotoBox {
@@ -446,7 +494,7 @@ a:link, a:visited, a:hover, a:active {
     left: 0;
     top: 56.3px;
   }
-  /* ********************************タブレット768px secton contact ********************************************/
+/* ********************************タブレット768px secton contact ********************************************/
   .ly-fifSec {
     position: relative;
     width: 100%;
@@ -454,7 +502,7 @@ a:link, a:visited, a:hover, a:active {
 
     top: 0px;
     background-color: #ffffff;
-    
+
   }
 
   .ly-fifSecbox {
@@ -467,18 +515,16 @@ a:link, a:visited, a:hover, a:active {
 
   /* **************************タブレット768px footer *******************************************/ 
   .ly-footer {
-    
+
     position: relative;
     top: 0;
     width: 100%;
     height: 160.62px;
-
-  
   }
 
   .ly-footerImgbox{
     position: relative;
-    
+
     margin-right: 0;
     margin-left: 22.8px;
   }
@@ -496,9 +542,6 @@ a:link, a:visited, a:hover, a:active {
     height: 27.6px;
   }
 
-
-
-
 }
 
 
@@ -514,7 +557,7 @@ a:link, a:visited, a:hover, a:active {
 
 ***********************************************************************/
 @media screen and ( max-width: 512px){
-  
+
   .clicked .ly-share {
     top: 0;
     left: -10px;
@@ -534,9 +577,9 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     left: 64.7px;
     position: relative;
-    /* background-color: rgba(0,0,0,0.7); */
+
   }
-  
+
 }
 
 /***************************** 調整用 *****************************
@@ -545,87 +588,87 @@ a:link, a:visited, a:hover, a:active {
 @media screen and ( max-width: 414px){
 
 
-  /* ********************* 414px ヘッダー ************************************/
-    .ly-wrapper {
-      width: 100%;
-      height: auto;
-      overflow: hidden;
-    }
-    .ly-headerWrapper {
-      max-width: 414px;
-    }
-    .ly-header {
-      width: 100%;
-      height: 100%;
-    }
-    .ly-navBox {
-      height: 29.24px;
-    }
-    .clicked .ly-navBox{
-      width: 100%;
-      left: 0;
- 
-    }
-     .ly-nav {
-      width: 0;
-      margin-right: auto;
-    }
+/* ********************* 414px ヘッダー ************************************/
+  .ly-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .ly-headerWrapper {
+    max-width: 414px;
+  }
+  .ly-header {
+    width: 100%;
+    height: 100%;
+  }
+  .ly-navBox {
+    height: 29.24px;
+  }
+  .clicked .ly-navBox{
+    width: 100%;
+    left: 0;
+
+  }
+  .ly-nav {
+    width: 0;
+    margin-right: auto;
+  }
 
 
 
 
-     .ly-navTitle {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin: 0;
-    }
- 
-    .ly-bgimageBox {
-      height: 100%;
-      width: 100vw;
-    }
- 
-    .clicked .ly-share {
-      display: none;
-    }
+    .ly-navTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
 
-    /******************** 414px main top *******************************/
+  .ly-bgimageBox {
+    height: 100%;
+    width: 100vw;
+  }
 
-    .ly-mainContainer {
-      max-width: 414px;
-      margin-top: 201px;
+  .clicked .ly-share {
+    display: none;
+  }
 
-    }
-    .ly-topSec {
-      position: relative;
-      height: 406px;
-      top: 0;
+/******************** 414px main top *******************************/
 
-    }
+  .ly-mainContainer {
+    max-width: 414px;
+    margin-top: 201px;
 
-    .ly-topSecbox {
-      top: 37.8px;
-      position: absolute;
+  }
+  .ly-topSec {
+    position: relative;
+    height: 406px;
+    top: 0;
 
-    }
+  }
 
-    /******************** 414px main lodge *******************************/
-    
-    .ly-secoSec {
-      height: 651.19px;
-    }
+  .ly-topSecbox {
+    top: 37.8px;
+    position: absolute;
 
-    .ly-secoSecbox {
-      top: 0;
-      width: 90%;
-      margin: 0 auto;
-    }
+  }
 
-    .ly-secophotoBox {
+/******************** 414px main lodge *******************************/
 
-      top: 248.5px;
-    }
+  .ly-secoSec {
+    height: 651.19px;
+  }
+
+  .ly-secoSecbox {
+    top: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ly-secophotoBox {
+
+    top: 248.5px;
+  }
 /* ********************************414px section food ********************************************/
 .ly-triSec {
   position: relative;
@@ -653,84 +696,62 @@ a:link, a:visited, a:hover, a:active {
 }
 
  /* ********************************414px secton interactive ********************************************/
- .ly-fourSec {
-  /* position: relative; */
-  /* width: 100%; */
+  .ly-fourSec {
   height: 567.65px;
-
-  /* top: 0; */
   background-color: #ffffff;
-  
-
 }
 
-.ly-fourSecbox {
+  .ly-fourSecbox {
 
-/* display: flex; */
-/* justify-content: flex-end; */
-top: 41.2px;
-/* position: relative; */
-/* width: 90%; */
-/* margin: 0 auto; */
-}
+  top: 41.2px;
+  }
 
-.ly-fourphotoBox {
+  .ly-fourphotoBox {
 
-  left: 0;
-  top: 227.1px;
-}
+    left: 0;
+    top: 227.1px;
+  }
 
 /* ********************************414px secton contact ********************************************/
-.ly-fifSec {
-  position: relative;
-  width: 100%;
-  height: 421.1px;
+  .ly-fifSec {
+    position: relative;
+    width: 100%;
+    height: 421.1px;
+    top: 0px;
+    background-color: #ffffff;
+  }
 
-  top: 0px;
-  background-color: #ffffff;
-  
-}
+  .ly-fifSecbox {
+    display: flex;
+    justify-content: center;
+    top: 52px;
+    position: relative;
 
-.ly-fifSecbox {
-  display: flex;
-  justify-content: center;
-  top: 52px;
-  position: relative;
-
-}
+  }
 /* **************************414px footer *******************************************/ 
-.ly-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 86.59px;
-  margin-top: 54.1px;
+  .ly-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 86.59px;
+    margin-top: 54.1px;
+  }
 
-
-}
-
-.ly-footerImgbox{
-  position: relative;
-  
-  margin-right: 0;
-  margin-left: 12.3px;
-}
-.ly-footerShare {
-  position: absolute;
-  top: 54.1px;
-  left: 250px;
-}
-.ly-footerCRight {
-  position: absolute;
-  bottom: 0;
-  height: 14.88px;
-}
-
-
-
-
- 
- 
+  .ly-footerImgbox{
+    position: relative;
+    margin-right: 0;
+    margin-left: 12.3px;
+  }
+  .ly-footerShare {
+    position: absolute;
+    top: 54.1px;
+    left: 250px;
+  }
+  .ly-footerCRight {
+    position: absolute;
+    bottom: 0;
+    height: 14.88px;
+  }
 
 }
 
@@ -745,83 +766,76 @@ top: 41.2px;
 
 @media screen and ( max-width: 376px){
 
-    
+
   .ly-wrapper {
-     width: 375px;
-     height: auto;
- }
+      width: 375px;
+      height: auto;
+  }
 
   .ly-headerWrapper {
-     display: flex;
-     position: relative;
-     justify-content: center;
-     min-height: 671px;
-   }
+    display: flex;
+    position: relative;
+    justify-content: center;
+    min-height: 671px;
+  }
 
-   .ly-navBox {
-     width: 100%;
-     height: 54.31px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   
-     border: 1px bold #707070;
-     background-color: rgba(0,0,0,0.7);
+  .ly-navBox {
+    width: 100%;
+    height: 54.31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px bold #707070;
+    background-color: rgba(0,0,0,0.7);
+  }
 
-   }
-   .clicked .ly-navBox{
-     width: 100%;
-     left: 64.7px;
-     position: relative;
-   }
+  .clicked .ly-navBox{
+    width: 100%;
+    left: 64.7px;
+    position: relative;
+  }
 
+  .clicked .ly-nav {
+    width: 100%;
+    height: 54.31px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    transition: transform 6s ease, opacity .2s ease;
+  }
 
-   
-   .clicked .ly-nav {
-     width: 100%;
-     height: 54.31px;
-     left: 0px;
-     display: flex;
-     justify-content: center;
-     transition: transform 6s ease, opacity .2s ease;
-   }
+  .ly-nav {
+    width: 98%;
+    margin-right: auto;
 
+  }
 
-   
-    .ly-nav {
-     width: 98%;
-     margin-right: auto;
-   
-   
-   }
-   
-    .ly-navTitle {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-   
-     margin: 0;
-   }
-   .ly-bgimageBox {
-     height: 670.85px;
-     width: 100%;
-     display: flex;
-     position: absolute;
-   }
-   
-   .clicked .ly-share {
+  .ly-navTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0;
+  }
+  .ly-bgimageBox {
+    height: 670.85px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+  }
+
+  .clicked .ly-share {
     position: relative;
     top: 5px;
     left: 0px;
     display: flex;
     justify-content: space-around;
     width: 80%;
-
   }
-  
 
 
-  /* *************** スマホ 376px main top************************************************************/
+
+/* *************** スマホ 376px main top************************************************************/
 
 
   .ly-mainContainer {
@@ -830,7 +844,7 @@ top: 41.2px;
     width: 100%;
     min-height: 100vh;
     position: relative;
-    padding-bottom: 2608px;
+    padding-bottom: 2553.4px;
 
   }
   .ly-topSec {
@@ -884,8 +898,8 @@ top: 41.2px;
   }
 
 
-  /* ********************************スマホ376px secton interactive ********************************************/
-  
+/* ********************************スマホ376px secton interactive ********************************************/
+
   .ly-fourSec {
     position: absolute;
     height: 1056.75px;
@@ -894,13 +908,7 @@ top: 41.2px;
     background-color: #f8f8f8;
   }
   .ly-fourSecbox {
-
-    /* display: flex; */
-    /* justify-content: flex-end; */
     top: 71.6px;
-    /* position: relative; */
-    /* width: 90%; */
-    /* margin: 0 auto; */
     }
 
   .ly-fourphotoBox {
@@ -908,7 +916,7 @@ top: 41.2px;
     left: 20px;
     top: 586px;
   }
-  /* ********************************スマホ376px secton contact ********************************************/
+/* ********************************スマホ376px secton contact ********************************************/
   .ly-fifSec {
     height: 1023.7px;
     top: 2608px;
@@ -916,15 +924,14 @@ top: 41.2px;
   }
 
 
-  /* **************************スマホ376px footer *******************************************/ 
+/* **************************スマホ376px footer *******************************************/ 
   .ly-footer {
     max-width: 375px;
     position: relative;
     bottom: 0;
     width: 100%;
     height: 428.55px;
-
-  
+    margin-top: 0;
   }
 
   .ly-footerImgbox{
@@ -953,6 +960,7 @@ top: 41.2px;
     width: 100%;
     height: auto;
   }
+
   .clicked .ly-share {
     top: -10px;
     left: -15px;
@@ -963,8 +971,63 @@ top: 41.2px;
     height: 632.85px;
     width: 100%;
     display: flex;
-    /* justify-content: center; */
     position: absolute;
   }
- 
+
+
+  .ly-headerWrapper {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    min-height: 671px;
+  }
+
+  .ly-navBox {
+    width: 100%;
+    height: 54.31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px bold #707070;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  .clicked .ly-navBox{
+    width: 100%;
+    left: 64.7px;
+    position: relative;
+  }
+
+  .clicked .ly-nav {
+    width: 100%;
+    height: 54.31px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    transition: transform 6s ease, opacity .2s ease;
+  }
+
+  .ly-nav {
+    width: 98%;
+    margin-right: auto;
+
+  }
+
+  .ly-navTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0;
+  }
+
+  .clicked .ly-share {
+    position: relative;
+    top: 5px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+
 }
