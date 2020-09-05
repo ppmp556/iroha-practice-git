@@ -273,56 +273,88 @@ a:link, a:visited, a:hover, a:active {
 
 @media screen and ( max-width: 1152px){
 
-  .ly-wrapper {
-  
-    max-width: 1152px;
+    .ly-wrapper {
     
+      max-width: 1152px;
+      
+    }
+    .ly-navBox {
+      height: 76px;
+
+    }
+    /* *************** main top************************************************************/
+
+
+    .ly-topSec {
+      height: 900px;
+      top: 943px;
+
+    }
+
+    .ly-topSecbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 157.2px;
+      position: relative;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+/* ********************************secton lodge ********************************************/
+  .ly-secoSec {
+    height: 950px;
+    top: 1843px;
+    /* background-color: #F8F8F8; */
   }
-  .ly-navBox {
-    height: 76px;
 
-  }
-  /* *************** main top************************************************************/
-
-
-  .ly-topSec {
-    height: 900px;
-    top: 943px;
-
+  .ly-secoSecbox {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    top: 128px;
+    /* left: -74px; */
+    /* position: relative; */
+    /* width: 90%; */
+    /* margin: 0 auto; */
   }
 
-  .ly-topSecbox {
+  .ly-secophotoBox {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: relative; */
+    top: 153px;
+    left: 25px;
+  }
+
+/* ********************************secton food ********************************************/
+  .ly-triSec {
+    position: absolute;
+    width: 100%;
+    height: 1406.24px;
+
+    top: 2792px;
+    background-color: #ffffff;
+    /* background-color: red; */
+  }
+
+  /* .ly-triSecbox { */
+    /* display: flex; */
+/*  */
+    /* top: 131px; */
+    /* position: relative; */
+    /* width: 90%; */
+    /* margin: 0 auto; */
+  /* } */
+
+  .ly-triphotoBox {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 157.2px;
+    flex-direction: column;
     position: relative;
-    width: 90%;
-    margin: 0 auto;
+    top: 200px;
+    left: 120px;
   }
-  /* ********************************secton lodge ********************************************/
-.ly-secoSec {
-  height: 1412.12px;
-  top: 1843px;
-  background-color: #F8F8F8;
-}
 
-.ly-secoSecbox {
-  display: flex;
-  justify-content: flex-end;
-  top: 128px;
-  /* left: -74px; */
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-}
 
-.ly-secophotoBox {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 153px;
-}
 
 
 

@@ -994,7 +994,7 @@ left: 30px;
 
     .topBtnbox {
         position: absolute;
-        top: 177.4px;
+        top: 100px;
         display: flex;
         justify-content: center;
         width: 60%;
@@ -1047,15 +1047,15 @@ left: 30px;
 
     .secobgTitle {
         position: absolute;
-        top: 90px;
+        top: -20px;
         left: -190px;
     }
 
     .secoParainner {
-        width: 761px;
-        height: 465px;
+        width: 420px;
+        height: 280px;
         position: absolute;
-        top: 293px;
+        top: 230px;
         left: 170px;
         z-index: 5;
     }
@@ -1073,8 +1073,8 @@ left: 30px;
 
     .secoBtnbox {
         position: absolute;
-        top: 372.2px;
-        left: 515px;
+        top: 211px;
+        left: 265px;
 
     }
     .secobgBox {
@@ -1087,9 +1087,9 @@ left: 30px;
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 898px;
-        height: 583px;
-        margin-bottom: 101px;
+        width: 530px;
+        height: 340px;
+        margin-bottom: 60px;
     }
 
     .secoPhotobox {
@@ -1101,8 +1101,8 @@ left: 30px;
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 200px;
+        height: 193px;
     }
 
     .secoPhoto2 {
@@ -1110,8 +1110,8 @@ left: 30px;
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 200px;
+        height: 193px;
     }
 
     .secoPhoto3 {
@@ -1119,8 +1119,8 @@ left: 30px;
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 200px;
+        height: 193px;
     }
 
     .secoPhoto4 {
@@ -1128,8 +1128,8 @@ left: 30px;
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 200px;
+        height: 193px;
     }
 
     .secoPhoto5 {
@@ -1137,9 +1137,119 @@ left: 30px;
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 200px;
+        height: 193px;
     }
+/* *****************section food ****************************/
+
+    /* .triParabox { */
+        /* text-align: left; */
+        /* position: absolute; */
+        /* top: 0; */
+        /* left: 0; */
+    /* } */
+
+    .tribgTitle {
+        position: absolute;
+        top: 250px;
+        left: -265px;
+    }
+
+    .triParainner {
+        /* width: 806.8px; */
+        /* height: 455.1px; */
+        position: absolute;
+        top: 90px;
+        left: 533px;
+        z-index: 5;
+
+        width: 420px;
+        height: 280px;
+        position: absolute;
+        /* top: 230px; */
+        /* left: 170px; */
+    }
+
+    .triLine::after {
+        /* content: ""; */
+        /* display: block; */
+        /* height: 2px; */
+        /* background-color: #000; */
+        /* bottom: 0; */
+        /* position: absolute; */
+        width: 270px;
+        left: 130px;
+        top: 60px;
+
+    }
+
+    .triBtnbox {
+        /* position: absolute; */
+        top: 211px;
+        left: 260px;
+
+    }
+    .tribgBox {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .tribgPhoto {
+        background: url("image.svg/65716664_2514457691971614_8615425300211171328_n.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 450px;
+        height: 251px;
+        margin-bottom: 60px;
+    }
+
+
+    .triPhoto1 {
+        background: url("image.svg/foodphoto1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 180px;
+        height: 174px;
+    }
+
+    .triPhoto2 {
+        background: url("image.svg/foodphoto2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 180px;
+        height: 174px;
+    }
+
+    .triPhoto3 {
+        background: url("image.svg/foodphoto3.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 180px;
+        height: 174px;
+    }
+
+    .triPhoto4 {
+        background: url("image.svg/foodphoto4.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 180px;
+        height: 174px;
+    }
+
+    .triPhoto5 {
+        background: url("image.svg/foodphoto5.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 180px;
+        height: 174px;
+    }
+
 
 
 
