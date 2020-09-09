@@ -2567,6 +2567,97 @@ left: 30px;
         font-size: 3.5rem;
         cursor: pointer;
     }
+
+/* ********************* 512px top ************************************/
+
+.topImgbox {
+    left: 20px;
+}
+
+.topBgimg {
+    width: 260px;
+    height: 163px;
+    top: 33px;
+    left: 130px;
+}
+.topPhoto1 {
+    width: 240px;
+    height: 163px;
+}
+
+/* ********************* 512px lodge ************************************/
+
+.secoPhoto1,.secoPhoto2,.secoPhoto3,
+    .secoPhoto4,.secoPhoto5 {
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 102px;
+        height: 100px;
+    }
+
+
+
+
+
+/* ********************* 512px interacive ************************************/
+
+.triPhoto1,.triPhoto2,.triPhoto3,
+    .triPhoto4,.triPhoto5 {
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 102px;
+        height: 100px;
+    }
+
+/* ********************* 512px contact ************************************/
+
+.fourPhoto1,.fourPhoto2,.fourPhoto3,
+    .fourPhoto4,.fourPhoto5 {
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 102px;
+        height: 100px;
+    }
+
+
+
+/* ********************* 512px contact ************************************/
+.fifBtnbox {
+    left: 120px;
+}
+
+
+/* ********************* 512px footer ************************************/
+
+
+
+.footerWrap {
+    width: 512px;
+}
+
+.footerParabox {
+    width: 100%;
+}
+
+.footerPara, .footerPara2 {
+    transform: scale(0.7);
+}
+
+.footerPara {
+    left: -30px;
+}
+.footerPara2 {
+    left: -25px;
+}
+
+
+.copyRight {
+    transform: scale(0.8);
+    margin-left: -90px;
+}
+
+
+
 }
 
 /***************************** 調整用 *****************************

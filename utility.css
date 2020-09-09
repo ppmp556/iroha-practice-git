@@ -1155,6 +1155,34 @@
     justify-content: center;
   }
    
+
+
+
+/* ******************* 512px contact **********************/
+
+  .u-fifTitle {
+    font-size: 1.2rem;
+  }
+  .u-fifPara2 {
+    top: 30px;
+    left: 3px;
+    transform: scale(0.8);
+  }
+  .u-fifPara5 {
+    top: 75px;
+    left: 15px;
+    transform: scale(0.8);
+  }
+/* ******************* 512px footer **********************/
+
+.u-footerPara {
+  left: 40px;
+}
+
+
+
+
+
 }
 
 /***************************** 調整用 *****************************
