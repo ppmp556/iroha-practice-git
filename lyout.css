@@ -19,9 +19,6 @@ body {
   overflow: scroll;
   width: 1920px;
 
-
-
-  
 }
 
 *, *::before, *::after {
@@ -665,7 +662,12 @@ a:link, a:visited, a:hover, a:active {
 /***************************** 調整用 *****************************
 
 ***********************************************************************/
-512@media screen and ( max-width: 512px){
+@media screen and ( max-width: 512px){
+
+  .ly-headerWrapper {
+    max-width: 512px;
+  }
+  
 
   .clicked .ly-share {
     top: 0;
@@ -684,10 +686,18 @@ a:link, a:visited, a:hover, a:active {
 
   .clicked .ly-navBox{
     width: 100%;
-    left: 64.7px;
+    left: 0;
     position: relative;
 
   }
+
+/* ********************* 512px top ************************************/
+
+  .ly-mainContainer {
+    min-width: 512px;
+    margin-top: 270px;
+  }
+
 
 }
 
@@ -853,8 +863,9 @@ a:link, a:visited, a:hover, a:active {
   }
   .ly-footerShare {
     position: absolute;
-    top: 54.1px;
-    left: 250px;
+    top: 50px;
+    left: 235px;
+    transform: scale(0.7);
   }
   .ly-footerCRight {
     position: absolute;
@@ -872,7 +883,6 @@ a:link, a:visited, a:hover, a:active {
 /***************************** スマホ版 *****************************
 
 ***********************************************************************/
-
 @media screen and ( max-width: 376px){
 
 
@@ -1056,6 +1066,7 @@ a:link, a:visited, a:hover, a:active {
     width: 72%;
     align-items: center;
     height: 20%;
+    transform: inherit;
   }
   .ly-footerCRight {
     height: 37px;
@@ -1064,18 +1075,15 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* ********************** 調整用 **********************************/
+
 @media screen and ( max-width: 340px) {
+
   .ly-wrapper {
     width: 100%;
     height: auto;
   }
 
-  .clicked .ly-share {
-    top: -10px;
-    left: -15px;
-    width: 70%;
-
-  }
+  
   .ly-bgimageBox {
     height: 632.85px;
     width: 100%;
@@ -1131,12 +1139,26 @@ a:link, a:visited, a:hover, a:active {
   }
 
   .clicked .ly-share {
-    position: relative;
-    top: 5px;
-    left: 0px;
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
+    top: 10px;
+    left: -10px;
+
+
+  }
+
+/* *******************スマホ340px main top **********************/
+
+  .ly-mainContainer {
+    padding-bottom: 2341px;
+  }
+
+  .ly-topSec {
+    top: -103px;
+  }
+
+/* *******************スマホ340px lodge **********************/
+
+  .ly-secophotoBox {
+    left: 0;
   }
 
 }

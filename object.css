@@ -2233,7 +2233,8 @@ left: 30px;
         font-size: .5rem;
         font-family: "凸版文久見出し明朝 StdN";
         position: relative;
-        margin-top: 10.5px;
+        line-height: 27px;
+        margin-top: 0;
         margin-left: 20.5px;
     }
 
@@ -2270,99 +2271,181 @@ left: 30px;
         100%{opacity: 0;}
     }
 
-    .responSive {
-        background-image: url("image.svg/アセット-2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        width: 100%;
-        height: 100%;
-        z-index: -100;
+    .bgBox {
         position: absolute;
-        object-fit: cover;
-        background-position-x: 1px;
+        height: 330px;
+        width: 512px;
     }
 
 
-    .responSive2 {
-        background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        max-width: 100%;
+    .bgBox .bgImage {
+        padding-top: 0;
+        background-position-y: -17px;
         width: 100%;
-        height: 100%;
-        z-index: -100;
-        position: absolute;
-        object-fit: cover;
-        background-position-x: 1px;
+        padding: 34%;
+    }
+
+    .bgBox .bgImage2 {
+        /* z-index: 100; */
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+
+    .bgImage4 {
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
+
+
         animation-delay: 10s;
     }
-
-    .responSive3 {
-        background-image: url("image.svg/アセット-6.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        width: 100%;
-        height: 100%;
-        z-index: -100;
-        position: absolute;
-        object-fit: cover;
-        background-position-x: 1px;
+    .bgImage5 {
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
         animation-delay: 20s;
-
     }
 
-    .responSive4 {
-        background-image: url("image.svg/アセット-4.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        width: 100%;
-        height: 100%;
-        z-index: -100;
-        position: absolute;
-        object-fit: cover;
-        background-position-x: 1px;
+    .bgImage6 {
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
         animation-delay: 30s;
     }
 
-
-    .bgImage, .bgImage2, .bgImage4,
-    .bgImage5, .bgImage6, .bgImage7,
-    .bgImage8, .bgImageMin, .bgBox, .bgImg {
-        display: none;
+    .bgImage7 {
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
+        animation-delay: 40s;
     }
 
-    .bgImageMin2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        flex-direction: column;
+    .bgImage8 {
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
+        animation-delay: 50s;
+    }
+
+    .bgImageMin {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* position: relative; */
+        /* flex-direction: column; */
         width: 100%;
         height: 100%;
-        max-height: 736px;
-        top: calc(50% - -108px);
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .bgImage3 {
-        background-image: url("image.svg/logo-white-3.png");
-        z-index: 100;
-        background-size: contain;
-        background-position: center top;
-        position: absolute;
-        background-repeat: no-repeat;
-        height: 50%;
-        width: 289.31px;
-        top: initial;
-        left: initial;
+        max-height: 374px;
+        top: 18px;
+        left: 0;
         transform: initial;
     }
+    
 
+    /* .responSive { */
+        /* background-image: url("image.svg/アセット-2.jpg"); */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        /* max-width: 100%; */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* z-index: -100; */
+        /* position: absolute; */
+        /* object-fit: cover; */
+        /* background-position-x: 1px; */
+    /* } */
+/*  */
+/*  */
+    /* .responSive2 { */
+        /* background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png"); */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        /* max-width: 100%; */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* z-index: -100; */
+        /* position: absolute; */
+        /* object-fit: cover; */
+        /* background-position-x: 1px; */
+        /* animation-delay: 10s; */
+    /* } */
+/*  */
+    /* .responSive3 { */
+        /* background-image: url("image.svg/アセット-6.png"); */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        /* max-width: 100%; */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* z-index: -100; */
+        /* position: absolute; */
+        /* object-fit: cover; */
+        /* background-position-x: 1px; */
+        /* animation-delay: 20s; */
+/*  */
+    /* } */
+/*  */
+    /* .responSive4 { */
+        /* background-image: url("image.svg/アセット-4.png"); */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        /* max-width: 100%; */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* z-index: -100; */
+        /* position: absolute; */
+        /* object-fit: cover; */
+        /* background-position-x: 1px; */
+        /* animation-delay: 30s; */
+    /* } */
+/*  */
+/*  */
+    /* .bgImage, .bgImage2, .bgImage4, */
+    /* .bgImage5, .bgImage6, .bgImage7, */
+    /* .bgImage8, .bgImageMin, .bgBox, .bgImg { */
+        /* display: none; */
+    /* } */
+/*  */
+    /* .bgImageMin2 { */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* position: fixed; */
+        /* flex-direction: column; */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* max-height: 736px; */
+        /* top: calc(50% - -108px); */
+        /* left: 50%; */
+        /* transform: translate(-50%, -50%); */
+    /* } */
+/*  */
+    /* .bgImage3 { */
+        /* background-image: url("image.svg/logo-white-3.png"); */
+        /* z-index: 100; */
+        /* background-size: contain; */
+        /* background-position: center top; */
+        /* position: absolute; */
+        /* background-repeat: no-repeat; */
+        /* height: 50%; */
+        /* width: 289.31px; */
+        /* top: initial; */
+        /* left: initial; */
+        /* transform: initial; */
+    /* } */
 
+.headerTitle {
+    width: 70%;
+}
 
     .navList {
         top: -410px;
@@ -2379,9 +2462,9 @@ left: 30px;
         /* right: 100%; */
         visibility: visible;
         opacity: 1;
-        width: 350px;
+        width: 512px;
         top: 53px;
-        height: 681.85px;
+        height: 400px;
         left: 0;
     }
 
@@ -2435,7 +2518,7 @@ left: 30px;
         top: -5px;
         width: 31px;
         height: 50px;
-        left: 305.5px;
+        left: 470px;
         cursor: pointer;
         transition: all .30s ease-in-out;/*0.3秒かけて変化*/
     }
@@ -2458,6 +2541,7 @@ left: 30px;
 
 
     .fa-stack {
+        height: 1em;
         margin: 0 31px;
         cursor: pointer;
     }
@@ -2472,15 +2556,15 @@ left: 30px;
     }
 
     .clicked .fa-facebook-f {
-        font-size: 37px;
-        top: -7px;
-        left: 6px;
+        font-size: 28px;
+        top: -19px;
+        left: 5px;
     }
     .clicked .fa-stack-2x {
-        font-size: 2.3em;
+        font-size: 1.5em;
     }
     .clicked .fa-instagram {
-        font-size: 5.3rem;
+        font-size: 3.5rem;
         cursor: pointer;
     }
 }
@@ -3007,7 +3091,7 @@ left: 30px;
 
     .footerWrap {
         width: 100%;
-        height: 71.71;
+        height: 71.71px;
         background-color: rgba(0,0,0,0.95);
     }
 
@@ -3033,7 +3117,7 @@ left: 30px;
         left: 108px;
         position: relative;
         flex-direction: column;
-        width: 14%;
+        width: 20%;
 
 
     }
@@ -3044,25 +3128,27 @@ left: 30px;
 
     .footerParaTitle {
         font-size: .7rem;
+        transform: scale(0.6);
 
     }
 
 
     .footerPara,.footerPara2 {
         font-size: .7rem;
-        font-family: "凸版文久見出し明朝 StdN";
-        line-height: 1.14;
-        top: 13.5px;
-        position: relative;
-        color: #ffffff;
+        /* font-family: "凸版文久見出し明朝 StdN"; */
+        /* line-height: 1.14; */
+        top: 5px;
+        /* position: relative; */
+        /* color: #ffffff; */
+        transform: scale(0.6);
     }
     .footerPara {
-        margin-left: 11.4px;
+        margin-left: -50px;
     }
 
 
     .footerPara2 {
-        left: 0;
+        left: -30px;
     }
 
 
@@ -3098,9 +3184,10 @@ left: 30px;
     .copyRight {
         font-size: .1rem;
         font-family: "凸版文久見出し明朝 StdN";
-        margin-top: 5.7px;
-        margin-left: -1260px;
-        transform: scale(0.2);
+        margin-top: 0;
+        line-height: 20px;
+        margin-left: -600px;
+        transform: scale(0.3);
     }
     .copyRightSp {
         display: none;
@@ -3236,10 +3323,11 @@ left: 30px;
     }
     /* ヘッダー */
     .headerTitle {
-        position: relative;
-        display: flex;
-        flex-direction: column;
+        /* position: relative; */
+        /* display: flex; */
+        /* flex-direction: column; */
         padding-left: 23px;
+        width: 100%;
 
 
     }
@@ -3837,6 +3925,8 @@ left: 30px;
         margin: 0 auto;
         text-align: center;
         left: -120px;
+
+        transform: inherit;
     }
     .footerPara-min {
         display: none;
@@ -3891,6 +3981,7 @@ left: 30px;
 
 }
 /* ********************** 調整用 **********************************/
+
 @media screen and ( max-width: 340px) {
     .bgimageBox {
         height: 568px;
@@ -3904,32 +3995,47 @@ left: 30px;
         display: none;
     }
 
-    .responSive {
-        background-image: url(image.svg/アセット-2.jpg);
-        background-position-x: 1px;
-        width: 100%;
+
+    .responSive,.responSive2,
+    .responSive3,.responSive4 {
+        background-repeat: no-repeat;
+        max-width: 100%;
+        width: 30%;
         height: 100%;
+        z-index: -100;
+        position: absolute;
+        object-fit: cover;
+        background-position-x: 1px;
+   }
+
+
+    .responSive {
+        display: block;
+        background-image: url("image.svg/アセット-2.jpg") contain;
+        background-position-x: 1px;
     }
     .responSive2 {
-        background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png");
-        width: 100%;
-        height: 100%;
+        display: block;
+        background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png") contain;
         animation-delay: 10s;
 
     }
     .responSive3 {
-        background-image: url("image.svg/アセット-6.png");
-        width: 100%;
-        height: 100%;
+        display: block;
+        background-image: url("image.svg/アセット-6.png") contain;
         animation-delay: 20s;
-
     }
+
     .responSive4 {
-        background-image: url("image.svg/アセット-4.png");
-        width: 100%;
-        height: 100%;
+        display: block;
+        background-image: url("image.svg/アセット-4.png") contain;
         animation-delay: 30s;
     }
+
+    .navItem {
+        margin-bottom: 29px;
+    }
+
     .bgImageMin {
         display: none;
     }
@@ -3963,12 +4069,12 @@ left: 30px;
     .toggleBtn {
         position: absolute;
         top: 0;
-        right: 70px;
+        left: 300px;
         cursor: pointer;
         transition: all .30s ease-in-out;/*0.3秒かけて変化*/
     }
     .clicked .navList .navItem {
-        top: -56px;
+        top: -12px;
     }
     .clicked .toggleBtn {
         top: -3px;
@@ -3976,11 +4082,12 @@ left: 30px;
     }
     .clicked .navList {
         /* right: 100%; */
+        width: 275px;
         visibility: visible;
         opacity: 1;
-        width: 255px;
         top: 54px;
-        height: 616.85px;
+        /* height: 616.85px; */
+        height: 513px;
         left: 0;
     }
     .clicked .fa-stack-2x {
@@ -3995,6 +4102,73 @@ left: 30px;
     .clicked .fa-instagram {
         font-size: 4rem;
         cursor: pointer;
+    }
+
+/* *************************スマホ340px main top******************************************/
+
+    .topBtnbox {
+        position: absolute;
+        top: 280.6px;
+        left: 200px;
+        display: block;
+
+    }
+
+/* *************************スマホ340px lodge top******************************************/
+    .secoBtnbox {
+        left: 91px;
+        top: 280px;
+    }
+
+    .secoParainner {
+        height: 360px;
+    }
+
+/* *************************スマホ340px foot top******************************************/
+
+
+    .triTitle {
+        left: -20px;
+    }
+
+    .triLine::after {
+        left: 120px;
+        top: 110px;
+        width: 190px;
+    }
+
+    .triParainner {
+        height: 360px;
+    }
+
+    .triBtnbox {
+        left: 91px;
+        top: 280px;
+    }
+
+/* *************************スマホ340px interactive top******************************************/
+
+    .fourTitle {
+        margin-left: 25px;
+    }
+    .fourLine::after {
+        left: 120px;
+        top: 110px;
+        width: 190px;
+    }
+
+    .fourParainner {
+        height: 360px;
+    }
+
+    .fourBtnbox {
+        left: 91px;
+        top: 280px;
+    }
+
+/* *************************スマホ340px contact******************************************/
+    .fifParainner2 {
+        top: 270px;
     }
 
 }
