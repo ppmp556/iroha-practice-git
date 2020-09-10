@@ -139,7 +139,7 @@
     z-index: -100;
     position: absolute;
     object-fit: contain;
-    background-position-y: 2px;
+    background-position-y: 11px;
     margin: 0;
     padding: 50%;
     animation-delay: 10s;
@@ -930,9 +930,6 @@ left: 30px;
     animation-delay: 50s;
 }
 
-
-
-
     .bgBox {
         position: relative;
         height: 100%;
@@ -943,45 +940,6 @@ left: 30px;
         font-size: 1.35rem;
     }
 
-    /* .bgImage { */
-        /* background: url("image.svg/home-image.jpg"); */
-        /* background-size: contain; */
-        /* background-repeat: no-repeat; */
-        /* width: 100%; */
-        /* z-index: -100; */
-        /* position: absolute; */
-        /* object-fit: contain; */
-        /* background-position-y: -40px; */
-        /* margin: 0; */
-        /* padding-top: 67%; */
-    /* } */
-
-    /* .bgImageMin { */
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* position: fixed; */
-        /* flex-direction: column; */
-        /* width: 100%; */
-        /* height: calc(100% - -25%); */
-        /* max-width: 1619px; */
-        /* top: 50%; */
-        /* left: 50%; */
-        /* transform: translate(-50%, -50%); */
-    /* } */
-/*  */
-    /* .bgImage2 { */
-        /* width: 50%; */
-        /* height: 50%; */
-/*  */
-        /* top: 50vw; */
-        /* top: 50%; */
-        /* left: 50%; */
-        /* transform: translate(-50%,-50%); */
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-    /* } */
 
 /* ************************* main top******************************************/
 
@@ -1001,10 +959,6 @@ left: 30px;
     }
 
     .topParabox {
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* text-align: left; */
-        /* position: absolute; */
         top: -241px;
     }
 
@@ -1142,12 +1096,6 @@ left: 30px;
     }
 /* *****************section food ****************************/
 
-    /* .triParabox { */
-        /* text-align: left; */
-        /* position: absolute; */
-        /* top: 0; */
-        /* left: 0; */
-    /* } */
 
     .tribgTitle {
         position: absolute;
@@ -1156,8 +1104,6 @@ left: 30px;
     }
 
     .triParainner {
-        /* width: 806.8px; */
-        /* height: 455.1px; */
         position: absolute;
         top: 90px;
         left: 533px;
@@ -1165,18 +1111,10 @@ left: 30px;
 
         width: 485px;
         height: 280px;
-        /* position: absolute; */
-        /* top: 230px; */
-        /* left: 170px; */
     }
 
     .triLine::after {
-        /* content: ""; */
-        /* display: block; */
-        /* height: 2px; */
-        /* background-color: #000; */
-        /* bottom: 0; */
-        /* position: absolute; */
+
         width: 270px;
         left: 130px;
         top: 60px;
@@ -1184,7 +1122,6 @@ left: 30px;
     }
 
     .triBtnbox {
-        /* position: absolute; */
         top: 211px;
         left: 260px;
 
@@ -1255,12 +1192,7 @@ left: 30px;
     }
 /* *****************section interactive ****************************/
 
-    /* .fourParabox { */
-        /* text-align: left; */
-        /* position: absolute; */
-        /* top: 0; */
-        /* left: 0; */
-    /* } */
+
 
     .fourbgTitle {
         position: absolute;
@@ -1271,20 +1203,13 @@ left: 30px;
     .fourParainner {
         width: 485px;
         height: 280px;
-        /* position: absolute; */
         top: 230px;
         left: 100px;
-        /* z-index: 5; */
     }
 
     .fourLine::after {
-        /* content: ""; */
-        /* display: block; */
         width: 300px;
         height: 3px;
-        /* background-color: #000; */
-        /* bottom: 0; */
-        /* position: absolute; */
         left: 98px;
         top: 60px;
     }
@@ -1295,10 +1220,6 @@ left: 30px;
         left: 290px;
 
     }
-    /* .fourbgBox { */
-        /* display: flex; */
-        /* justify-content: flex-end; */
-    /* } */
 
     .fourbgPhoto {
         background: url("image.svg/intephoto.png");
@@ -1388,8 +1309,6 @@ left: 30px;
         position: relative;
         top: 470px;
         left: 0;
-        /* z-index: 5; */
-        /* background-color: #f4f4f4; */
         margin: 0 83px;
     }
 
@@ -1431,19 +1350,14 @@ left: 30px;
     }
 
     .footerParabox {
-        /* display: flex; */
-        /* justify-content: space-between; */
         width: 60%;
         margin: 0;
     }
 
     .footerParainner {
-        /* display: flex; */
-        /* width: 100%; */
         top: 42.7px;
         left: 420px;
-        /* position: relative; */
-        /* flex-direction: column; */
+
     }
 
     .Parainner {
@@ -1453,17 +1367,9 @@ left: 30px;
     .footerParaTitle {
         font-size: 2rem;
         padding-bottom: 5px;
-        /* border-bottom: 1px solid #ffffff; */
-        /* font-family: "Toppan Bunkyu Midashi Mincho"; */
-        /* letter-spacing: 0.1em; */
-        /* line-height: 1; */
     }
     .footerPara,.footerPara2 {
         font-size: 1.4rem;
-        /* font-family: "Toppan Bunkyu Midashi Mincho"; */
-        /* letter-spacing: 0.1em; */
-        /* line-height: 1.3; */
-        /* position: relative; */
         top: 70.7px;
     }
     .footerPara2 {
@@ -1494,31 +1400,16 @@ left: 30px;
     }
     .footer-fa-stack2 .fa-instagram {
         font-size: 4.5rem;
-        /* cursor: pointer; */
-        /* position: relative; */
         top: -45px;
         left: 30px;
     }
 
     .copyRight {
-        /* font-size: 1.5rem; */
-        /* font-family: "Toppan Bunkyu Midashi Mincho"; */
-        /* letter-spacing: 0.1em; */
-        /* line-height: 2; */
-        /* color: #ffffff; */
-        /* position: relative; */
-        /* margin-top: 23px; */
         margin-left: 40px;
     }
     .copyRightSp {
         display: none;
     }
-
-
-
-
-
-
 
 }
 
@@ -1634,7 +1525,6 @@ left: 30px;
         left: 0px;
         width: 100%;
         height: 40.9rem;
-        /* transition: all 0.2s ease-in-out; */
         overflow-y: auto;/*縦方向の表示*/
 
         display: flex;
@@ -1691,7 +1581,6 @@ left: 30px;
 
 
     .toggleBtn {
-        /* display: none; */
         z-index: 2000;
         position: absolute;
         top: 0;
@@ -2250,17 +2139,7 @@ left: 30px;
         position: absolute;
     }
     .resShow {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        margin: 0;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        opacity: 0;
-        animation: animeBg2 40s infinite;
+            display: none;
     }
 
     @keyframes animeBg2 {
@@ -2286,7 +2165,6 @@ left: 30px;
     }
 
     .bgBox .bgImage2 {
-        /* z-index: 100; */
         width: 50%;
         height: 50%;
         top: 50%;
@@ -2296,16 +2174,14 @@ left: 30px;
 
 
     .bgImage4 {
-        background-position-y: -32px;
+        background-position-y: -6px;
         background-position-x: -60px;
         background-size: contain;
         padding: 57.4%;
-
-
         animation-delay: 10s;
     }
     .bgImage5 {
-        background-position-y: -32px;
+        background-position-y: -6px;
         background-position-x: -60px;
         background-size: contain;
         padding: 57.4%;
@@ -2313,7 +2189,7 @@ left: 30px;
     }
 
     .bgImage6 {
-        background-position-y: -32px;
+        background-position-y: -6px;
         background-position-x: -60px;
         background-size: contain;
         padding: 57.4%;
@@ -2321,7 +2197,7 @@ left: 30px;
     }
 
     .bgImage7 {
-        background-position-y: -32px;
+        background-position-y: -6px;
         background-position-x: -60px;
         background-size: contain;
         padding: 57.4%;
@@ -2329,7 +2205,7 @@ left: 30px;
     }
 
     .bgImage8 {
-        background-position-y: -32px;
+        background-position-y: -6px;
         background-position-x: -60px;
         background-size: contain;
         padding: 57.4%;
@@ -2337,11 +2213,6 @@ left: 30px;
     }
 
     .bgImageMin {
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* position: relative; */
-        /* flex-direction: column; */
         width: 100%;
         height: 100%;
         max-height: 374px;
@@ -2349,99 +2220,6 @@ left: 30px;
         left: 0;
         transform: initial;
     }
-    
-
-    /* .responSive { */
-        /* background-image: url("image.svg/アセット-2.jpg"); */
-        /* background-size: cover; */
-        /* background-repeat: no-repeat; */
-        /* max-width: 100%; */
-        /* width: 100%; */
-        /* height: 100%; */
-        /* z-index: -100; */
-        /* position: absolute; */
-        /* object-fit: cover; */
-        /* background-position-x: 1px; */
-    /* } */
-/*  */
-/*  */
-    /* .responSive2 { */
-        /* background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png"); */
-        /* background-size: cover; */
-        /* background-repeat: no-repeat; */
-        /* max-width: 100%; */
-        /* width: 100%; */
-        /* height: 100%; */
-        /* z-index: -100; */
-        /* position: absolute; */
-        /* object-fit: cover; */
-        /* background-position-x: 1px; */
-        /* animation-delay: 10s; */
-    /* } */
-/*  */
-    /* .responSive3 { */
-        /* background-image: url("image.svg/アセット-6.png"); */
-        /* background-size: cover; */
-        /* background-repeat: no-repeat; */
-        /* max-width: 100%; */
-        /* width: 100%; */
-        /* height: 100%; */
-        /* z-index: -100; */
-        /* position: absolute; */
-        /* object-fit: cover; */
-        /* background-position-x: 1px; */
-        /* animation-delay: 20s; */
-/*  */
-    /* } */
-/*  */
-    /* .responSive4 { */
-        /* background-image: url("image.svg/アセット-4.png"); */
-        /* background-size: cover; */
-        /* background-repeat: no-repeat; */
-        /* max-width: 100%; */
-        /* width: 100%; */
-        /* height: 100%; */
-        /* z-index: -100; */
-        /* position: absolute; */
-        /* object-fit: cover; */
-        /* background-position-x: 1px; */
-        /* animation-delay: 30s; */
-    /* } */
-/*  */
-/*  */
-    /* .bgImage, .bgImage2, .bgImage4, */
-    /* .bgImage5, .bgImage6, .bgImage7, */
-    /* .bgImage8, .bgImageMin, .bgBox, .bgImg { */
-        /* display: none; */
-    /* } */
-/*  */
-    /* .bgImageMin2 { */
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* position: fixed; */
-        /* flex-direction: column; */
-        /* width: 100%; */
-        /* height: 100%; */
-        /* max-height: 736px; */
-        /* top: calc(50% - -108px); */
-        /* left: 50%; */
-        /* transform: translate(-50%, -50%); */
-    /* } */
-/*  */
-    /* .bgImage3 { */
-        /* background-image: url("image.svg/logo-white-3.png"); */
-        /* z-index: 100; */
-        /* background-size: contain; */
-        /* background-position: center top; */
-        /* position: absolute; */
-        /* background-repeat: no-repeat; */
-        /* height: 50%; */
-        /* width: 289.31px; */
-        /* top: initial; */
-        /* left: initial; */
-        /* transform: initial; */
-    /* } */
 
 .headerTitle {
     width: 70%;
@@ -2481,7 +2259,6 @@ left: 30px;
     }
 
     .toggleBtn {
-        /* display: none; */
         z-index: 2000;
         position: absolute;
         top: 0;
@@ -2512,7 +2289,6 @@ left: 30px;
         top: 39.8px;
     }
     .clicked .toggleBtn {
-        /* display: none; */
         z-index: 2000;
         position: absolute;
         top: -5px;
@@ -2524,15 +2300,12 @@ left: 30px;
     }
     .clicked .tg1 {
     transform: translateY(9px) rotate(-315deg);/*時計回りに45度回転*/
-    /* top: 20px; */
     }
     .clicked .tg2 {
-        /* width: 0px; */
         opacity: 0;
     }
     .clicked .tg3 {
         transform: translateY(-9px) rotate(315deg);/*反時計周りに45度回転*/
-        /* top: 20px; */
     }
     .navItem {
 
@@ -2552,12 +2325,12 @@ left: 30px;
     }
     .clicked .fa-square {
         position: relative;
-        top: -14px;
+        top: -3px;
     }
 
     .clicked .fa-facebook-f {
         font-size: 28px;
-        top: -19px;
+        top: -9px;
         left: 5px;
     }
     .clicked .fa-stack-2x {
@@ -2572,6 +2345,7 @@ left: 30px;
 
 .topImgbox {
     left: 20px;
+    top: 195px;
 }
 
 .topBgimg {
@@ -2580,6 +2354,14 @@ left: 30px;
     top: 33px;
     left: 130px;
 }
+
+
+.topBtnbox {
+    top: 83px;
+    width: 100px;
+    left: 380px;
+}
+
 .topPhoto1 {
     width: 240px;
     height: 163px;
@@ -2587,37 +2369,100 @@ left: 30px;
 
 /* ********************* 512px lodge ************************************/
 
+.secobgPhoto {
+    width: 333px;
+    height: 214px;
+    margin-bottom: 20px;
+}
+
 .secoPhoto1,.secoPhoto2,.secoPhoto3,
-    .secoPhoto4,.secoPhoto5 {
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 102px;
-        height: 100px;
-    }
+.secoPhoto4,.secoPhoto5 {
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 102px;
+    height: 100px;
+}
+
+.secobgBox {
+    display: flex;
+    justify-content: center;
+}
+
+.secoBtnbox {
+    top: 120px;
+}
+
+.secoParainner {
+    top: 57px;
+    left: 73px;
+    z-index: 0;
+}
 
 
 
 
 
-/* ********************* 512px interacive ************************************/
+/* ********************* 512px food ************************************/
+
+.tribgBox {
+    display: flex;
+    justify-content: center;
+}
+
+.triParainner {
+    top: 30px;
+    left: 90px;
+    z-index: 0;
+}
 
 .triPhoto1,.triPhoto2,.triPhoto3,
-    .triPhoto4,.triPhoto5 {
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 102px;
-        height: 100px;
-    }
+.triPhoto4,.triPhoto5 {
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 102px;
+    height: 100px;
+}
 
-/* ********************* 512px contact ************************************/
+.tribgPhoto {
+    width: 365px;
+    height: 214px;
+    margin-bottom: 27px;
+}
+
+.triBtnbox {
+    top: 130px;
+}
+
+
+
+/* ********************* 512px interactive ************************************/
+
+.fourbgBox {
+    display: flex;
+    justify-content: center;
+}
 
 .fourPhoto1,.fourPhoto2,.fourPhoto3,
-    .fourPhoto4,.fourPhoto5 {
-        background-repeat: no-repeat;
-        z-index: 1;
-        width: 102px;
-        height: 100px;
-    }
+.fourPhoto4,.fourPhoto5 {
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 102px;
+    height: 100px;
+}
+
+.fourbgPhoto {
+    width: 365px;
+    height: 214px;
+    margin-bottom: 27px;
+}
+
+.fourParainner {
+    top: 45px;
+    z-index: 0;
+}
+.fourBtnbox {
+    top: 120px;
+}
 
 
 
@@ -2914,7 +2759,6 @@ left: 30px;
         height: 186.1px;
         position: absolute;
         top: 62.3px;
-        /* left: 69.7px; */
         left: 80px;
         z-index: 5;
     }
@@ -2933,7 +2777,6 @@ left: 30px;
     }
     .secobgBox {
         display: flex;
-        /* justify-content: center; */
     }
 
     .secobgPhoto {
@@ -2951,7 +2794,7 @@ left: 30px;
     .secoPhotobox {
         display: flex;
         position: relative;
-        left: 20px;
+        left: 0;
     }
     .secoPhoto1,.secoPhoto2,.secoPhoto3,
     .secoPhoto4,.secoPhoto5 {
@@ -3226,12 +3069,9 @@ left: 30px;
 
     .footerPara,.footerPara2 {
         font-size: .7rem;
-        /* font-family: "凸版文久見出し明朝 StdN"; */
-        /* line-height: 1.14; */
         top: 5px;
-        /* position: relative; */
-        /* color: #ffffff; */
         transform: scale(0.6);
+
     }
     .footerPara {
         margin-left: -50px;
@@ -3303,6 +3143,7 @@ left: 30px;
 
     /* スライドショーここから */
     .resShow {
+        display: block;
         position: relative;
         width: 100%;
         height: 100%;
@@ -3342,28 +3183,30 @@ left: 30px;
 
     .responSive {
         display: block;
-        background-image: url("image.svg/アセット-2.jpg") contain;
+        background-image: url("image.svg/アセット-2.jpg");
         background-position-x: 1px;
     }
     .responSive2 {
         display: block;
-        background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png") contain;
+        background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png");
         animation-delay: 10s;
 
     }
     .responSive3 {
         display: block;
-        background-image: url("image.svg/アセット-6.png") contain;
+        background-image: url("image.svg/アセット-6.png");
         animation-delay: 20s;
     }
 
     .responSive4 {
         display: block;
-        background-image: url("image.svg/アセット-4.png") contain;
+        background-image: url("image.svg/アセット-4.png");
         animation-delay: 30s;
     }
 
-
+    .bgBox {
+        display: none;
+    }
 
     .bgImage, .bgImage2, .bgImage4,
     .bgImage5, .bgImage6, .bgImage7,
@@ -3409,14 +3252,8 @@ left: 30px;
         opacity: 0.6;
     }
 
-    .bgImageMin {
-        display: none;
-    }
     /* ヘッダー */
     .headerTitle {
-        /* position: relative; */
-        /* display: flex; */
-        /* flex-direction: column; */
         padding-left: 23px;
         width: 100%;
 
@@ -3433,10 +3270,6 @@ left: 30px;
         letter-spacing: 0.2em;/*AV200÷1000 + em*/
 
     }
-
-
-
-
 
     /* ハンバーガーメニュー */
     .navList {
@@ -3500,13 +3333,10 @@ left: 30px;
 
     .navList li:nth-child(2) {
         transition-delay: .15s;
-        
 
     }
     .navList li:nth-child(3) {
         transition-delay: .3s;
-    
-
     }
     .navList li:nth-child(4) {
         transition-delay: .45s;
@@ -3530,7 +3360,6 @@ left: 30px;
         top: 0;
         width: 22.96px;
         height: 18.02px;
-        /* right: 14px; */
         left: 327.8px;
         cursor: pointer;
         transition: all .30s ease-in-out;/*0.3秒かけて変化*/
@@ -3854,7 +3683,7 @@ left: 30px;
         left: 85px;
         z-index: 5;
     }
-    .fourLine::after { 
+    .fourLine::after {
         border: 1px solid #000;
         width: 197.5px;
         height: 2px;
@@ -4068,30 +3897,44 @@ left: 30px;
     .copyRightSp {
         display: inline-block;
     }
-
-
 }
+
+
+
 /* ********************** 調整用 **********************************/
 
 @media screen and ( max-width: 340px) {
-    .bgimageBox {
-        height: 568px;
+
+    .resShow {
+        position: relative;
         width: 100%;
-        position: absolute;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        animation: animeBg2 40s infinite;
     }
 
-    .bgImage, .bgImage2, .bgImage4,
-    .bgImage5, .bgImage6, .bgImage7,
-    .bgImage8 {
-        display: none;
+
+    @keyframes animeBg2 {
+        0%{opacity: 0;}
+        1%{opacity: 1;}
+        25%{opacity: 1;}
+        26%{opacity: 0;}
+        100%{opacity: 0;}
     }
 
 
+/* スライドショーここまで */
     .responSive,.responSive2,
     .responSive3,.responSive4 {
         background-repeat: no-repeat;
         max-width: 100%;
-        width: 30%;
+        width: 100%;
         height: 100%;
         z-index: -100;
         position: absolute;
@@ -4123,6 +3966,21 @@ left: 30px;
         animation-delay: 30s;
     }
 
+
+
+
+    .bgimageBox {
+        height: 568px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .bgImage, .bgImage2, .bgImage4,
+    .bgImage5, .bgImage6, .bgImage7,
+    .bgImage8 {
+        display: none;
+    }
+
     .navItem {
         margin-bottom: 29px;
     }
@@ -4140,7 +3998,7 @@ left: 30px;
         height: 50%;
         max-height: 50%;
         top: 50%;
-        left: 50%;
+        left: 15%;
         transform: translate(-50%, -50%);
 
     }
@@ -4172,12 +4030,10 @@ left: 30px;
         left: 218px;
     }
     .clicked .navList {
-        /* right: 100%; */
         width: 275px;
         visibility: visible;
         opacity: 1;
         top: 54px;
-        /* height: 616.85px; */
         height: 513px;
         left: 0;
     }

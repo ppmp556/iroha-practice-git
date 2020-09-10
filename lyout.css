@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 html {
   font-size: 62.5%;
   overflow: hidden;
@@ -77,16 +78,15 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
- .ly-nav {
+.ly-nav {
   width: 100%;
-
   margin-right: auto;
 
 
 }
 
 
- .ly-navTitle {
+.ly-navTitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +96,7 @@ a:link, a:visited, a:hover, a:active {
 
 
 .ly-bgimageBox {
- display: none;
+  display: none;
 
 }
 
@@ -111,15 +111,14 @@ a:link, a:visited, a:hover, a:active {
   width: 100%;
   height: 100%;
   position: relative;
-  
 }
+
+
 .ly-topSec {
   position: absolute;
   width: 100%;
   height: 1301px;
   top: 943px;
-
-
 
 }
 
@@ -217,6 +216,7 @@ a:link, a:visited, a:hover, a:active {
   top: 153px;
   left: 190px;
 }
+
 /* ********************************secton contact ********************************************/
 .ly-fifSec {
   position: absolute;
@@ -264,6 +264,8 @@ a:link, a:visited, a:hover, a:active {
   height: 69px;
 }
 
+
+
 /* *************調整用 ***********************/
 
 @media screen and ( max-width: 1152px){
@@ -287,7 +289,6 @@ a:link, a:visited, a:hover, a:active {
     .ly-topSec {
       height: 900px;
       top: 574px;
-      /* background-color: red; */
 
     }
 
@@ -328,35 +329,20 @@ a:link, a:visited, a:hover, a:active {
 
 /* ********************************secton food ********************************************/
   .ly-triSec {
-    /* position: absolute; */
-    /* width: 100%; */
-    /* height: 1406.24px; */
+
 
     top: 2426px;
-    /* background-color: #ffffff; */
-    /* background-color: red; */
+
   }
 
-  /* .ly-triSecbox { */
-    /* display: flex; */
-/*  */
-    /* top: 131px; */
-    /* position: relative; */
-    /* width: 90%; */
-    /* margin: 0 auto; */
-  /* } */
+
 
   .ly-triphotoBox {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* position: relative; */
     top: 200px;
     left: 120px;
   }
 /* ********************************secton interactive ********************************************/
   .ly-fourSec {
-    /* position: absolute; */
-    /* width: 100%; */
     height: 1000px;
 
     top: 3384px;
@@ -374,9 +360,7 @@ a:link, a:visited, a:hover, a:active {
   }
 
   .ly-fourphotoBox {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* position: relative; */
+
     top: 153px;
     left: 25px;
   }
@@ -401,9 +385,7 @@ a:link, a:visited, a:hover, a:active {
 
   /* **************************footer *******************************************/ 
   .ly-footer {
-    /* position: absolute; */
     top: 5586px;
-    /* width: 100%; */
     height: 363px;
 
   }
@@ -426,13 +408,6 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     height: 69px;
   }
-
-
-
-
-
-
-
 
 }
 
@@ -651,14 +626,6 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
-
-
-
-
-
-
-
-
 /***************************** 調整用 *****************************
 
 ***********************************************************************/
@@ -667,7 +634,7 @@ a:link, a:visited, a:hover, a:active {
   .ly-headerWrapper {
     max-width: 512px;
   }
-  
+
 
   .clicked .ly-share {
     top: 0;
@@ -700,6 +667,7 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-topSec {
     width: 512px;
+    height: 490px;
   }
 
 
@@ -707,16 +675,27 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-secoSec {
     width: 512px;
+    height: 600px;
   }
 
+  .ly-secoSecbox {
+    top: 29px;
+  }
 
-
-
+  .ly-secophotoBox {
+    top: 215px;
+  }
 
 /* ********************* 512px food ************************************/
 
   .ly-triSec {
     width: 512px;
+    height: 650px;
+
+  }
+  .ly-triphotoBox {
+    left: -25px;
+    top: 200px;
   }
 
 
@@ -724,6 +703,11 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-fourSec {
     width: 512px;
+    height: 650px;
+  }
+  .ly-fourphotoBox {
+    left: 25px;
+    top: 200px;
   }
 
 
@@ -733,22 +717,13 @@ a:link, a:visited, a:hover, a:active {
     width: 512px;
   }
 
-
-/* ********************* 512px contact ************************************/
-
-  .ly-fifSec {
-    width: 512px;
-  }
 
 
 /* ********************* 512px footer ************************************/
 
-  .ly-fifSec {
-    width: 512px;
+  .ly-footerShare {
+    left: 325px;
   }
-
-
-
 
 }
 
@@ -841,7 +816,9 @@ a:link, a:visited, a:hover, a:active {
   .ly-secophotoBox {
 
     top: 248.5px;
+    left: -75px;
   }
+
 /* ********************************414px section food ********************************************/
 .ly-triSec {
   position: relative;
@@ -881,7 +858,7 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-fourphotoBox {
 
-    left: 0;
+    left: -90px;
     top: 227.1px;
   }
 
@@ -930,15 +907,10 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
-
-
-
-
 /***************************** スマホ版 *****************************
 
 ***********************************************************************/
 @media screen and ( max-width: 376px){
-
 
   .ly-wrapper {
       width: 375px;
@@ -1022,6 +994,7 @@ a:link, a:visited, a:hover, a:active {
   }
   .ly-topSec {
     height: 375px;
+    width: 375px;
 
   }
 
@@ -1048,8 +1021,8 @@ a:link, a:visited, a:hover, a:active {
   }
 
   .ly-secophotoBox {
-
     top: 570px;
+    left: 0;
   }
   /* ********************************スマホ376px secton food ********************************************/
   .ly-triSec {
@@ -1137,7 +1110,6 @@ a:link, a:visited, a:hover, a:active {
     height: auto;
   }
 
-  
   .ly-bgimageBox {
     height: 632.85px;
     width: 100%;
