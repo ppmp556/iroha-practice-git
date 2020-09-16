@@ -139,7 +139,7 @@
     z-index: -100;
     position: absolute;
     object-fit: contain;
-    background-position-y: 11px;
+    background-position-y: 0;
     margin: 0;
     padding: 50%;
     animation-delay: 10s;
@@ -822,7 +822,7 @@ left: 30px;
 
     /* *****************main top ****************************/
     .topBgimg {
-        background-color: blue;
+        /* background-color: blue; */
         width: 70%;
         height: 75%;
     }
@@ -842,6 +842,135 @@ left: 30px;
     }
     .topParabox {
         top: -345px;
+    }
+    .topBtnbox {
+        top: 120px;
+        width: 50%;
+    }
+
+/* *************** 1440px lodge************************************************************/
+    .secobgTitle {
+        top: -50px;
+    }
+
+    .secoPhotobox {
+        width: 87%;
+        margin-left: auto;
+    }
+
+    .secobgPhoto {
+        width: 600px;
+        height: 389px;
+        margin-bottom: 60px;
+    }
+    .secoParainner {
+        width: 600px;
+        height: 340px;
+        top: 240px;
+        left: 170px;
+    }
+    .secoBtnbox {
+        top: 75%;
+        left: 65%;
+    }
+
+/* *************** 1440px food************************************************************/
+
+
+
+    .tribgTitle {
+        top: 250px;
+        left: -290px;
+    }
+
+    .triPhotobox {
+        width: 90%;
+        /* margin-left: auto; */
+    }
+
+    .tribgPhoto {
+        width: 600px;
+        height: 389px;
+        margin-bottom: 60px;
+    }
+    .triParainner {
+        width: 600px;
+        height: 340px;
+        top: 60px;
+        left: 660px;
+    }
+    .triBtnbox {
+        top: 75%;
+        left: 65%;
+    }
+    .triLine::after {
+        width: 280px;
+        left: 130px;
+        top: 60px;
+    }
+/* *************** 1440px interacitve************************************************************/
+    .fourbgTitle {
+        top: -170px;
+        left: -400px;
+    }
+
+    .fourPhotobox {
+        width: 87%;
+        margin-left: auto;
+    }
+
+    .fourbgPhoto {
+        width: 600px;
+        height: 389px;
+        margin-bottom: 60px;
+    }
+    .fourParainner {
+        width: 600px;
+        height: 340px;
+        top: 150px;
+        left: 137px;
+    }
+    .fourBtnbox {
+        top: 75%;
+        left: 65%;
+    }
+    .fourLine::after {
+        width: 360px;
+        top: 60px;
+        left: 100px;
+    }
+
+/* *************** 1440px contact************************************************************/
+    .fifParainner2 {
+        height: 350px;
+    }
+
+    .fifBtnbox {
+        top: 260px;
+        left: 450px;
+    }
+/* *************** 1440px footer************************************************************/
+    .footerWrap {
+        height: 300px;
+    }
+    .footerParaTitle {
+        font-size: 2rem;
+    }
+
+    .footerParainner {
+        left: 460px;
+    }
+
+
+    .footerPara, .footerPara2 {
+        font-size: 1.5rem;
+    }
+    .footerPara2 {
+        left: 30px;
+    }
+    .footerImg {
+        height: 300px;
+
     }
 
 

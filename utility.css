@@ -421,6 +421,93 @@
     margin-bottom: 25px;
   }
 
+  /* *************** 1440px lodge************************************************************/
+  .u-secoSub {
+    font-size: 9rem;
+  }
+
+  .u-secoPara {
+    font-size: 1.4rem;
+    top: 50px;
+  }
+  .u-secoPara2 {
+    font-size: 1.4rem;
+    top: 170px;
+  }
+
+  /* *************** 1440px food************************************************************/
+
+
+  .u-triTitle {
+    font-size: 4rem;
+  }
+  .u-triTtl {
+    font-size: 4rem;
+  }
+  .u-triSub {
+    font-size: 5rem;
+  }
+
+  .u-triPara {
+    font-size: 1.4rem;
+    top: 50px;
+  }
+  .u-triPara2 {
+    font-size: 1.4rem;
+    top: 170px;
+  }
+  .u-triBtn {
+    font-size: 1.2rem;
+    width: 150px;
+    height: 50px;
+
+
+  }
+
+  /* *************** 1440px interacitve************************************************************/
+
+  .u-fourTitle {
+    font-size: 4rem;
+  }
+  .u-fourSub {
+    font-size: 5rem;
+  }
+  .u-fourTtl {
+    font-size: 4rem;
+  }
+
+
+  .u-fourPara {
+    font-size: 1.4rem;
+    top: 50px;
+  }
+  .u-fourPara2 {
+    font-size: 1.4rem;
+    top: 170px;
+  }
+
+  .u-fourBtn {
+    font-size: 1.2rem;
+    width: 150px;
+    height: 50px;
+
+
+  }
+/* *************** 1440px contact************************************************************/
+
+  .u-fifTitle {
+    font-size: 3rem;
+  }
+
+  .u-fifPara, .u-fifPara3, .u-fifPara4 {
+    font-size: 3rem;
+  }
+/* *************** 1440px footer************************************************************/
+
+  .u-footerPara{
+    left: 270px;
+  }
+
 
 }
 

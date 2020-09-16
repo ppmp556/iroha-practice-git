@@ -276,23 +276,80 @@ a:link, a:visited, a:hover, a:active {
 /* *************** main top************************************************************/
 
 
-.ly-topSec {
-  height: 900px;
-  top: 759px;
-  /* background: red; */
+  .ly-topSec {
+    height: 940px;
+    top: 759px;
+    /* background: red; */
 
+  }
+
+  .ly-topSecbox {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    top: 157.2px;
 }
 
-.ly-topSecbox {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-  top: 157.2px;
-}
+/* *************** 1440px lodge************************************************************/
 
+  .ly-secoSec {
+    top: 1698px;
+    height: 1000px;
+    /* background-color: red; */
+  }
+  .ly-secophotoBox {
+    width: 100%;
+    
+  }
+
+
+/* *************** 1440px food************************************************************/
+  .ly-triSec {
+    top: 2699px;
+    height: 1000px;
+    /* background-color: red; */
+  }
+
+  .ly-triphotoBox {
+    width: 100%;
+    top: 150px;
+    left: 100px;
+  }
+
+/* *************** 1440px interacitve************************************************************/
+  .ly-fourSec {
+    top: 3696px;
+    height: 920px;
+    /* background-color: red; */
+  }
+
+  .ly-fourphotoBox {
+    width: 100%;
+    top: 70px;
+    left: -30px;
+  }
+
+/* *************** 1440px contact************************************************************/
+  .ly-fifSec {
+    top: 4616px;
+    height: 1350px;
+
+    /* background-color: red; */
+  }
+
+/* *************** 1440px footer************************************************************/
+  .ly-footer {
+    top: 6104px;
+    height: 368px;
+  }
+
+  .ly-footerShare {
+    top: 200px;
+    left: 1020px;
+  }
 
 
 
