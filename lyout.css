@@ -33,235 +33,476 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
-/* lyout 接頭にly-をつける */
+@media screen and ( min-width: 2560px){
+  /* lyout 接頭にly-をつける */
 
-.ly-wrapper {
-  width: 100%;
-  position: relative;
+  .ly-wrapper {
+    width: 100%;
+    position: relative;
+  }
+
+  .ly-imageBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ly-headerWrapper {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    max-height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+
+
+  }
+
+
+  .ly-header {
+    position: relative;
+    z-index: 5;
+    /* max-width: 192.0rem; */
+    width: 100vw;
+    height: 100%;
+    display: contents;
+  }
+
+  .ly-navBox {
+    width: 100%;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px bold #707070;
+
+
+  }
+
+  .ly-nav {
+    width: 100%;
+    margin-right: auto;
+
+
+  }
+
+
+  .ly-navTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0;
+  }
+
+
+  .ly-bgimageBox {
+    display: none;
+
+  }
+
+  .ly-share {
+    display: none;
+  }
+
+  /* *************** main top************************************************************/
+
+
+  .ly-mainContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+
+  .ly-topSec {
+    position: absolute;
+    width: 100%;
+    height: 1301px;
+    top: 943px;
+
+  }
+
+  .ly-topSecbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 157.2px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+  /* ********************************secton lodge ********************************************/
+  .ly-secoSec {
+    position: relative;
+    width: 100%;
+    height: 1412.12px;
+
+    top: 2244px;
+    background-color: #F8F8F8;
+  }
+
+  .ly-secoSecbox {
+    display: flex;
+    justify-content: flex-end;
+    top: 128px;
+    /* left: -74px; */
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ly-secophotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 153px;
+  }
+
+
+  /* ********************************secton food ********************************************/
+  .ly-triSec {
+    position: absolute;
+    width: 100%;
+    height: 1406.24px;
+
+    top: 3656px;
+    background-color: #ffffff;
+  }
+
+  .ly-triSecbox {
+    display: flex;
+
+    top: 131px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ly-triphotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 270.2px;
+    left: 190px;
+  }
+
+
+  /* ********************************secton interactive ********************************************/
+  .ly-fourSec {
+    position: absolute;
+    width: 100%;
+    height: 1420.24px;
+
+    top: 5062px;
+    background-color: #F8F8F8;
+
+  }
+
+  .ly-fourSecbox {
+    display: flex;
+    top: 128px;
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .ly-fourphotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 153px;
+    left: 190px;
+  }
+
+  /* ********************************secton contact ********************************************/
+  .ly-fifSec {
+    position: absolute;
+    width: 100%;
+    height: 1425.2px;
+
+    top: 6482.24px;
+    background-color: #ffffff;
+
+  }
+
+  .ly-fifSecbox {
+    display: flex;
+    justify-content: center;
+    top: 219.9px;
+    position: relative;
+
+  }
+
+  /* **************************footer *******************************************/ 
+  .ly-footer {
+    position: absolute;
+    top: 8044.4px;
+    width: 100%;
+    height: 399.55px;
+
+  }
+
+  .ly-footerImgbox{
+    position: relative;
+    margin-right: 53px;
+    margin-left: 57px;
+  }
+  .ly-footerShare {
+    position: absolute;
+    top: 250.9px;
+    left: 1283px;
+  }
+  .ly-footerCRight {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 69px;
+  }
+
+
+
+
 }
-
-.ly-imageBox {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.ly-headerWrapper {
-  width: 100%;
-  position: relative;
-  justify-content: center;
-  max-height: 100vh;
-  background-color: rgba(0,0,0,0.7);
+@media screen and ( max-width: 1920px){
 
 
-}
+  /* lyout 接頭にly-をつける */
+
+  .ly-wrapper {
+    width: 100%;
+    position: relative;
+  }
+
+  .ly-imageBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ly-headerWrapper {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    max-height: 100vh;
+    background-color: rgba(0,0,0,0.7);
 
 
-.ly-header {
-  position: relative;
-  z-index: 5;
-  /* max-width: 192.0rem; */
-  width: 100vw;
-  height: 100%;
-  display: contents;
-}
-
-.ly-navBox {
-  width: 100%;
-  height: 137px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border: 1px bold #707070;
+  }
 
 
-}
+  .ly-header {
+    position: relative;
+    z-index: 5;
+    /* max-width: 192.0rem; */
+    width: 100vw;
+    height: 100%;
+    display: contents;
+  }
 
-.ly-nav {
-  width: 100%;
-  margin-right: auto;
+  .ly-navBox {
+    width: 100%;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
-}
-
-
-.ly-navTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  margin: 0;
-}
-
-
-.ly-bgimageBox {
-  display: none;
-
-}
-
-.ly-share {
-  display: none;
-}
-
-/* *************** main top************************************************************/
+    border: 1px bold #707070;
 
 
-.ly-mainContainer {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
+  }
+
+  .ly-nav {
+    width: 100%;
+    margin-right: auto;
 
 
-.ly-topSec {
-  position: absolute;
-  width: 100%;
-  height: 1301px;
-  top: 943px;
-
-}
-
-.ly-topSecbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 157.2px;
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-}
+  }
 
 
-/* ********************************secton lodge ********************************************/
-.ly-secoSec {
-  position: relative;
-  width: 100%;
-  height: 1412.12px;
+  .ly-navTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  top: 2244px;
-  background-color: #F8F8F8;
-}
-
-.ly-secoSecbox {
-  display: flex;
-  justify-content: flex-end;
-  top: 128px;
-  /* left: -74px; */
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.ly-secophotoBox {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 153px;
-}
+    margin: 0;
+  }
 
 
-/* ********************************secton food ********************************************/
-.ly-triSec {
-  position: absolute;
-  width: 100%;
-  height: 1406.24px;
+  .ly-bgimageBox {
+    display: none;
 
-  top: 3656px;
-  background-color: #ffffff;
-}
+  }
 
-.ly-triSecbox {
-  display: flex;
+  .ly-share {
+    display: none;
+  }
 
-  top: 131px;
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.ly-triphotoBox {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 270.2px;
-  left: 190px;
-}
+  /* *************** main top************************************************************/
 
 
-/* ********************************secton interactive ********************************************/
-.ly-fourSec {
-  position: absolute;
-  width: 100%;
-  height: 1420.24px;
+  .ly-mainContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
 
-  top: 5062px;
-  background-color: #F8F8F8;
 
-}
+  .ly-topSec {
+    position: absolute;
+    width: 100%;
+    height: 1301px;
+    top: 943px;
 
-.ly-fourSecbox {
-  display: flex;
-  top: 128px;
-  left: 0;
-  width: 90%;
-  margin: 0 auto;
-  position: relative;
-}
+  }
 
-.ly-fourphotoBox {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 153px;
-  left: 190px;
-}
+  .ly-topSecbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 157.2px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
 
-/* ********************************secton contact ********************************************/
-.ly-fifSec {
-  position: absolute;
-  width: 100%;
-  height: 1425.2px;
 
-  top: 6482.24px;
-  background-color: #ffffff;
+  /* ********************************secton lodge ********************************************/
+  .ly-secoSec {
+    position: relative;
+    width: 100%;
+    height: 1412.12px;
 
-}
+    top: 2244px;
+    background-color: #F8F8F8;
+  }
 
-.ly-fifSecbox {
-  display: flex;
-  justify-content: center;
-  top: 219.9px;
-  position: relative;
+  .ly-secoSecbox {
+    display: flex;
+    justify-content: flex-end;
+    top: 128px;
+    /* left: -74px; */
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
 
-}
+  .ly-secophotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 153px;
+  }
 
-/* **************************footer *******************************************/ 
-.ly-footer {
-  position: absolute;
-  top: 8044.4px;
-  width: 100%;
-  height: 399.55px;
 
-}
+  /* ********************************secton food ********************************************/
+  .ly-triSec {
+    position: absolute;
+    width: 100%;
+    height: 1406.24px;
 
-.ly-footerImgbox{
-  position: relative;
-  margin-right: 53px;
-  margin-left: 57px;
-}
-.ly-footerShare {
-  position: absolute;
-  top: 250.9px;
-  left: 1283px;
-}
-.ly-footerCRight {
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.8);
-  width: 100%;
-  height: 69px;
+    top: 3656px;
+    background-color: #ffffff;
+  }
+
+  .ly-triSecbox {
+    display: flex;
+
+    top: 131px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ly-triphotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 270.2px;
+    left: 190px;
+  }
+
+
+  /* ********************************secton interactive ********************************************/
+  .ly-fourSec {
+    position: absolute;
+    width: 100%;
+    height: 1420.24px;
+
+    top: 5062px;
+    background-color: #F8F8F8;
+
+  }
+
+  .ly-fourSecbox {
+    display: flex;
+    top: 128px;
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .ly-fourphotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 153px;
+    left: 190px;
+  }
+
+  /* ********************************secton contact ********************************************/
+  .ly-fifSec {
+    position: absolute;
+    width: 100%;
+    height: 1425.2px;
+
+    top: 6482.24px;
+    background-color: #ffffff;
+
+  }
+
+  .ly-fifSecbox {
+    display: flex;
+    justify-content: center;
+    top: 219.9px;
+    position: relative;
+
+  }
+
+  /* **************************footer *******************************************/ 
+  .ly-footer {
+    position: absolute;
+    top: 8044.4px;
+    width: 100%;
+    height: 399.55px;
+
+  }
+
+  .ly-footerImgbox{
+    position: relative;
+    margin-right: 53px;
+    margin-left: 57px;
+  }
+  .ly-footerShare {
+    position: absolute;
+    top: 250.9px;
+    left: 1283px;
+  }
+  .ly-footerCRight {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 69px;
+  }
+
 }
 /* *************調整用 ***********************/
 
@@ -360,10 +601,10 @@ a:link, a:visited, a:hover, a:active {
 
 /* *************調整用 ***********************/
 
-@media screen and ( max-width: 1152px){
+@media screen and ( max-width: 1024px){
 
     .ly-wrapper {
-      max-width: 1152px;
+      max-width: 1024px;
     }
 
     .ly-imageBox {
@@ -490,7 +731,7 @@ a:link, a:visited, a:hover, a:active {
   .ly-footerShare {
     position: absolute;
     top: 210px;
-    left: 800px;
+    left: 740px;
   }
   .ly-footerCRight {
     position: absolute;
@@ -1267,16 +1508,50 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-mainContainer {
     padding-bottom: 2341px;
+    max-width: 340px;
   }
 
   .ly-topSec {
     top: -103px;
+    max-width: 340px;
   }
 
 /* *******************スマホ340px lodge **********************/
+  .ly-secoSec {
+    max-width: 340px;
+  }
 
   .ly-secophotoBox {
     left: 0;
   }
+
+/* *******************スマホ340px food **********************/
+.ly-triSec {
+  max-width: 340px;
+}
+
+/* *******************スマホ340px interactive **********************/
+.ly-fourSec {
+  max-width: 340px;
+}
+
+.ly-fourSecbox {
+  width: 100%;
+}
+.ly-fourphotoBox {
+  left: 0;
+}
+
+/* *******************スマホ340px contact **********************/
+.ly-fifSec {
+  max-width: 340px;
+}
+/* *******************スマホ340px footer **********************/
+.ly-footer {
+  max-width: 340px;
+}
+.ly-footerImgbox {
+  margin: auto 40px;
+}
 
 }
