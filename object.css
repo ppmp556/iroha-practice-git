@@ -1,5 +1,5 @@
 /* 接頭辞なし */
-
+/*  */
 @media screen and ( min-width: 2560px){
 
     body {
@@ -82,7 +82,7 @@
     /* スライドショーここまで */
     .bgBox {
         position: absolute;
-        height: 1079px;
+        height: 1362px;
         width: 100%;
         margin: auto;
         overflow: hidden;
@@ -96,7 +96,7 @@
         z-index: -100;
         position: absolute;
         object-fit: contain;
-        background-position-y: -111px;
+        background-position-y: -190px;
         margin: 0;
         padding: 50%;
         left: 0;
@@ -213,10 +213,10 @@
 
     .topBtnbox {
         position: absolute;
-        top: 177.4px;
+        top: 240px;
         display: flex;
         justify-content: center;
-        width: 60%;
+        width: 65%;
     }
 
     .topParabox {
@@ -269,34 +269,34 @@
 
     .secobgTitle {
         position: absolute;
-        top: 90px;
-        left: -190px;
+        top: -144px;
+        left: -380px;
     }
 
     .secoParainner {
-        width: 761px;
-        height: 465px;
+        width: 1090px;
+        height: 580px;
         position: absolute;
         top: 293px;
-        left: 170px;
+        left: 330px;
         z-index: 5;
     }
 
     .secoLine::after {
         content: "";
         display: block;
-        width: 291px;
+        width: 540px;
         height: 2px;
         background-color: #000;
         bottom: 0;
         position: absolute;
-        left: 200px;
+        left: 350px;
     }
 
     .secoBtnbox {
         position: absolute;
-        top: 372.2px;
-        left: 515px;
+        top: 400px;
+        left: 780px;
 
     }
     .secobgBox {
@@ -309,9 +309,9 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 898px;
-        height: 583px;
-        margin-bottom: 101px;
+        width: 1000px;
+        height: 650px;
+        margin-bottom: 130px;
     }
 
     .secoPhotobox {
@@ -323,8 +323,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .secoPhoto2 {
@@ -332,8 +332,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .secoPhoto3 {
@@ -341,8 +341,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .secoPhoto4 {
@@ -350,8 +350,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .secoPhoto5 {
@@ -359,8 +359,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
 
@@ -375,36 +375,36 @@
 
     .tribgTitle {
         position: absolute;
-        top: 345px;
-        left: -395px;
+        top: 435px;
+        left: -500px;
     }
 
     .triParainner {
-        width: 806.8px;
-        height: 455.1px;
+        width: 1090px;
+        height: 580px;
         position: absolute;
         top: 125.9px;
-        left: 945px;
+        left: 1190px;
         z-index: 5;
     }
 
     .triLine::after {
         content: "";
         display: block;
-        width: 383px;
+        width: 550px;
         height: 2px;
         background-color: #000;
         bottom: 0;
         position: absolute;
-        left: 215.8px;
+        left: 300px;
         top: 90px;
 
     }
 
     .triBtnbox {
         position: absolute;
-        top: 362.3px;
-        left: 560.8px;
+        top: 460px;
+        left: 790px;
 
     }
     .tribgBox {
@@ -417,9 +417,9 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 811px;
-        height: 497px;
-        margin-bottom: 67px;
+        width: 1000px;
+        height: 565px;
+        margin-bottom: 130px;
     }
 
 
@@ -432,8 +432,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .triPhoto2 {
@@ -441,8 +441,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .triPhoto3 {
@@ -450,8 +450,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .triPhoto4 {
@@ -459,8 +459,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .triPhoto5 {
@@ -468,8 +468,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     /* *****************section interactive ****************************/
@@ -488,11 +488,11 @@
     }
 
     .fourParainner {
-        width: 761px;
-        height: 465px;
+        width: 1090px;
+        height: 580px;
         position: absolute;
         top: 293px;
-        left: 170px;
+        left: 330px;
         z-index: 5;
     }
 
@@ -524,9 +524,9 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 898px;
-        height: 583px;
-        margin-bottom: 101px;
+        width: 1000px;
+        height: 650px;
+        margin-bottom: 130px;
     }
 
     .fourPhotobox {
@@ -538,8 +538,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .fourPhoto2 {
@@ -547,8 +547,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .fourPhoto3 {
@@ -556,8 +556,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .fourPhoto4 {
@@ -565,8 +565,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     .fourPhoto5 {
@@ -574,8 +574,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 307.2px;
-        height: 298px;
+        width: 393px;
+        height: 380px;
     }
 
     /* *****************section contact ****************************/
@@ -4591,6 +4591,7 @@
         display: flex;
         position: relative;
         left: 0;
+        width: 100%;
     }
     .secoPhoto1,.secoPhoto2,.secoPhoto3,
     .secoPhoto4,.secoPhoto5 {
@@ -4933,7 +4934,20 @@
         display: inline-block;
     }
 }
-
+/* ********************** 調整用 **********************************/
+/* @media screen and ( max-width: 360px) { */
+    /* .topBtnbox { */
+        /* left: 220px; */
+    /* } */
+/*  */
+    /* .fourPhotobox { */
+        /* width: 100%; */
+    /* } */
+/*  */
+    /* .fifParainner2 { */
+        /* left: 25px; */
+    /* } */
+/* } */
 
 
 /* ********************** 調整用 **********************************/
@@ -5153,8 +5167,14 @@
     }
 
 /* *************************スマホ340px contact******************************************/
-    .fifParainner2 {
-        top: 270px;
-    }
+.fifParainner2 {
+    top: 270px;
+    left: 30px;
+}
+
+/* *************************スマホ340px contact******************************************/
+.footerPara2 {
+    top: 270px;
+}
 
 }

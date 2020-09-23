@@ -2,22 +2,19 @@
 
   .u-navTxt {
     font-size: 4rem;
-    line-height: 1.347; /*行間31px÷fontsize23px*/
-    letter-spacing: 0.2em; /*AV200÷1000 + em*/
+
     margin-right: 25px;
   }
 
   .u-navTxt-bgs {
     font-size: 5rem;
-    line-height: 1.05; /*行間53px÷fontsize40px */
-    letter-spacing: 0.1em; /* AV200 ÷1000 +em*/
+  
   }
 
-  /*　ナビ小文字 */
+  /* 　ナビ小文字 */
   .u-navTxt-s {
     font-size: 2.3rem;
-    line-height: 1.33; /*行間20px÷fontsize15px */
-    letter-spacing: 0.2em; /* AV200 ÷1000 +em*/
+
   }
   .u-navTxt-s2 {
     font-size: 2rem;
@@ -28,12 +25,12 @@
 
   }
 
-  /* *******************main top **********************/
+  /* *******************main top ********************* */
 
 
   .u-topTitle {
     font-family: "Toppan Bunkyu Midashi Mincho";
-    font-size: 5.0rem;
+    font-size: 7.0rem;
     letter-spacing: 0.1em;
     line-height: 0.6;
     color: #000;
@@ -44,7 +41,7 @@
   }
 
   .u-topPara, .u-topPara2, .u-topPara3 {
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-family: "Toppan Bunkyu Mincho";
     letter-spacing: 0.1em;
     line-height: 1.43;
@@ -59,6 +56,9 @@
   .u-topPara3 {
     margin-top: 55.6px;
   }
+  .u-topPara4 {
+    display: none;
+  }
 
   .u-topBtn {
     display: inline-block;
@@ -67,10 +67,10 @@
     border: 1px solid #000;
     text-align: center;
     cursor: pointer;
-    width: 200px;
-    height: 67.38px;
+    width: 270px;
+    height: 76px;
 
-    font-size: 2.0rem;
+    font-size: 3.0rem;
     font-family: "Toppan Bunkyu Midashi Mincho";
     letter-spacing: 0.1em;
     line-height: 1.35px;
@@ -78,10 +78,10 @@
     text-shadow: 0 4px 7px rgba(0, 0, 0, 0.16);
 
   }
-  /* *******************section lodge **********************/
+  /* *******************section lodge ********************* */
 
   .u-secoTitle {
-    font-size: 5rem;
+    font-size: 9rem;
     letter-spacing: 0.1em;
     color: #000;
     font-family: "Toppan Bunkyu Midashi Mincho";
@@ -89,7 +89,7 @@
   }
 
   .u-secoTtl {
-    font-size: 4rem;
+    font-size: 8rem;
     left: 40px;
     position: relative;
     font-family: "Toppan Bunkyu Midashi Mincho";
@@ -98,7 +98,7 @@
 
   .u-secoSub {
     position: relative;
-    font-size: 14rem;
+    font-size: 15rem;
     line-height: 0.21;
     letter-spacing: 0.1em;
     color: #000;
@@ -117,7 +117,7 @@
 
 
   .u-secoPara {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-family: "Toppan Bunkyu Mincho";
     letter-spacing: 0.1em;
     line-height: 1.67;
@@ -128,14 +128,14 @@
     left: 75px;
   }
   .u-secoPara2 {
-    font-size: 1.5rem;
+    font-size: 2.8rem;
     font-family: "Toppan Bunkyu Mincho";
     letter-spacing: 0.1em;
     line-height: 3.33;
     color: #000;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     position: absolute;
-    top: 248.1px;
+    top: 280px;
     left: 76px;
   }
 
@@ -146,10 +146,10 @@
     border: 1px solid #000;
     text-align: center;
     cursor: pointer;
-    width: 156.42px;
-    height: 49.06px;
+    width: 230px;
+    height: 70px;
 
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-family: "Toppan Bunkyu Midashi Mincho";
     letter-spacing: 0.1em;
     line-height: 1.8;
@@ -157,10 +157,10 @@
     text-shadow: 0 4px 7px rgba(0, 0, 0, 0.16);
 
   }
-  /* *******************section food **********************/
+  /* *******************section food ********************* */
 
   .u-triTitle {
-    font-size: 6rem;
+    font-size: 9rem;
     letter-spacing: 0.1em;
     color: #000;
     font-family: "Toppan Bunkyu Midashi Mincho";
@@ -170,8 +170,8 @@
   }
 
   .u-triTtl {
-    font-size: 6rem;
-    left: 15px;
+    font-size: 9rem;
+    /* left: 15px; */
     position: relative;
     font-family: "Toppan Bunkyu Midashi Mincho";
   }
@@ -179,7 +179,7 @@
 
   .u-triSub {
     position: relative;
-    font-size: 7rem;
+    font-size: 9rem;
     line-height: 0.42;
     letter-spacing: 0.1em;
     font-family: "Toppan Bunkyu Midashi Mincho";
@@ -201,7 +201,7 @@
 
 
   .u-triPara {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-family: "Toppan Bunkyu Mincho";
     letter-spacing: 0.1em;
     line-height: 1.67;
@@ -212,14 +212,14 @@
     padding-left: 75px;
   }
   .u-triPara2 {
-    font-size: 1.5rem;
+    font-size: 2.8rem;
     font-family: "Toppan Bunkyu Mincho";
     letter-spacing: 0.1em;
     line-height: 3.33;
     color: #000;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     position: absolute;
-    top: 248.1px;
+    top: 280px;
     left: 76px;
   }
 
@@ -230,9 +230,10 @@
     border: 1px solid #000;
     text-align: center;
     cursor: pointer;
-    width: 200.02px;
-    height: 67.38px;
-    font-size: 1.5rem;
+    width: 230px;
+    height: 70px;
+
+    font-size: 2.5rem;
     font-family: "Toppan Bunkyu Midashi Mincho";
     letter-spacing: 0.1em;
     line-height: 1.8;
@@ -241,7 +242,7 @@
 
   }
 
-  /* *******************section interactive **********************/
+  /* *******************section interactive ********************* */
 
     .u-fourTitle {
       font-size: 6rem;
@@ -284,7 +285,7 @@
 
 
     .u-fourPara {
-      font-size: 1.8rem;
+      font-size: 2.8rem;
       font-family: "Toppan Bunkyu Mincho";
       letter-spacing: 0.1em;
       line-height: 1.67;
@@ -295,14 +296,14 @@
       left: 75px;
     }
     .u-fourPara2 {
-      font-size: 1.5rem;
+      font-size: 2.8rem;
       font-family: "Toppan Bunkyu Mincho";
       letter-spacing: 0.1em;
       line-height: 3.33;
       color: #000;
       text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
       position: absolute;
-      top: 248.1px;
+      top: 280px;
       left: 76px;
     }
 
@@ -313,9 +314,9 @@
       border: 1px solid #000;
       text-align: center;
       cursor: pointer;
-      width: 156.42px;
-      height: 49.06px;
-      font-size: 1.5rem;
+      width: 230px;
+      height: 70px;
+      font-size: 2.5rem;
       font-family: "Toppan Bunkyu Midashi Mincho";
       letter-spacing: 0.1em;
       line-height: 1.8;
@@ -324,7 +325,7 @@
 
     }
 
-  /* *******************section contact **********************/
+  /* *******************section contact ********************* */
 
     .u-fifTitle {
       font-size: 4rem;
@@ -399,7 +400,6 @@
     }
 
     .u-footerPara {
-      position: relative;
       left: 416.5px;
     }
 
@@ -411,22 +411,22 @@
 @media screen and ( max-width: 1920px){
   .u-navTxt {
     font-size: 1.7rem;
-    line-height: 1.347; /*行間31px÷fontsize23px*/
-    letter-spacing: 0.2em; /*AV200÷1000 + em*/
+    line-height: 1.347; 
+    letter-spacing: 0.2em; 
     margin-right: 25px;
   }
 
   .u-navTxt-bgs {
     font-size: 3rem;
-    line-height: 1.05; /*行間53px÷fontsize40px */
-    letter-spacing: 0.1em; /* AV200 ÷1000 +em*/
+    line-height: 1.05; 
+    letter-spacing: 0.1em; 
   }
 
   /*　ナビ小文字 */
   .u-navTxt-s {
     font-size: 1.15rem;
-    line-height: 1.33; /*行間20px÷fontsize15px */
-    letter-spacing: 0.2em; /* AV200 ÷1000 +em*/
+    line-height: 1.33; 
+    letter-spacing: 0.2em; 
   }
   .u-navTxt-s2 {
     font-size: 1.2rem;
@@ -1998,7 +1998,7 @@
     font-size: 0.1rem;
     transform: scale(0.8);
     line-height: 1.33;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     left: -13px;
   }
 
@@ -2083,10 +2083,10 @@
   .u-secoParaSP {
     position: relative;
     top: 7.2px;
-    left: 0;
-    font-size: 1.5rem;
+    left: -10px;
+    font-size: 1.3rem;
     letter-spacing: 0.1em;
-    line-height: 1.67;
+    line-height: 1.9;
     font-family: "Toppan Bunkyu Mincho";
     color: #000;
     text-shadow: 0 3px 6px rgba(0,0,0,0.16);
@@ -2147,7 +2147,8 @@
 
 
   .u-triParaSP {
-    font-size: 1.5rem;
+    left: -10px;
+    font-size: 1.3rem;
     font-family: "Toppan Bunkyu Mincho";
     line-height: 1.67;
     color: #000;
@@ -2371,6 +2372,21 @@
   }
 
 }
+
+/* ********************** 調整用 **********************************/
+/* @media screen and ( max-width: 360px) { */
+  /* .u-fourParaSP { */
+    /* left: -10px; */
+  /* } */
+/*  */
+  /* .u-fifParaSp2 { */
+    /* margin-left: 20px; */
+  /* } */
+  /* .u-fifPara5 { */
+    /* left: 70px; */
+  /* } */
+/* } */
+
 
 
 /* *******************スマホ340px  **********************/

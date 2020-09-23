@@ -119,7 +119,7 @@ a:link, a:visited, a:hover, a:active {
     position: absolute;
     width: 100%;
     height: 1301px;
-    top: 943px;
+    top: 1224px;
 
   }
 
@@ -138,9 +138,9 @@ a:link, a:visited, a:hover, a:active {
   .ly-secoSec {
     position: relative;
     width: 100%;
-    height: 1412.12px;
+    height: 1550px;
 
-    top: 2244px;
+    top: 2525px;
     background-color: #F8F8F8;
   }
 
@@ -166,9 +166,9 @@ a:link, a:visited, a:hover, a:active {
   .ly-triSec {
     position: absolute;
     width: 100%;
-    height: 1406.24px;
+    height: 1580px;
 
-    top: 3656px;
+    top: 4076px;
     background-color: #ffffff;
   }
 
@@ -185,8 +185,8 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 270.2px;
-    left: 190px;
+    top: 270px;
+    left: 330px;
   }
 
 
@@ -196,7 +196,7 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     height: 1420.24px;
 
-    top: 5062px;
+    top: 5654px;
     background-color: #F8F8F8;
 
   }
@@ -215,7 +215,7 @@ a:link, a:visited, a:hover, a:active {
     flex-direction: column;
     position: relative;
     top: 153px;
-    left: 190px;
+    left: 330px;
   }
 
   /* ********************************secton contact ********************************************/
@@ -224,7 +224,7 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     height: 1425.2px;
 
-    top: 6482.24px;
+    top: 6773px;
     background-color: #ffffff;
 
   }
@@ -240,7 +240,7 @@ a:link, a:visited, a:hover, a:active {
   /* **************************footer *******************************************/ 
   .ly-footer {
     position: absolute;
-    top: 8044.4px;
+    top: 8337px;
     width: 100%;
     height: 399.55px;
 
@@ -264,11 +264,9 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     height: 69px;
   }
-
-
-
-
 }
+
+
 @media screen and ( max-width: 1920px){
 
 
@@ -1433,6 +1431,18 @@ a:link, a:visited, a:hover, a:active {
   }
 
 }
+/* ********************** 調整用 **********************************/
+@media screen and ( max-width: 360px) {
+  .ly-mainContainer {
+    max-width: 360px;
+    width: 100%;
+  }
+
+}
+
+
+
+
 
 /* ********************** 調整用 **********************************/
 
@@ -1525,33 +1535,48 @@ a:link, a:visited, a:hover, a:active {
     left: 0;
   }
 
-/* *******************スマホ340px food **********************/
-.ly-triSec {
-  max-width: 340px;
+  /* *******************スマホ340px food **********************/
+  .ly-triSec {
+    max-width: 340px;
+  }
+
+  /* *******************スマホ340px interactive **********************/
+  .ly-fourSec {
+    max-width: 340px;
+  }
+
+  .ly-fourSecbox {
+    width: 100%;
+  }
+  .ly-fourphotoBox {
+    left: 0;
+  }
+
+  /* *******************スマホ340px contact **********************/
+  .ly-fifSec {
+    max-width: 340px;
+  }
+  /* *******************スマホ340px footer **********************/
+  .ly-footer {
+    max-width: 340px;
+  }
+  .ly-footerImgbox {
+    margin: auto 40px;
+  }
+  .ly-footerShare {
+    top: 170px;
+  }
+
 }
 
-/* *******************スマホ340px interactive **********************/
-.ly-fourSec {
-  max-width: 340px;
-}
 
-.ly-fourSecbox {
-  width: 100%;
-}
-.ly-fourphotoBox {
-  left: 0;
-}
+/* ********************** 調整用 **********************************/
 
-/* *******************スマホ340px contact **********************/
-.ly-fifSec {
-  max-width: 340px;
-}
-/* *******************スマホ340px footer **********************/
-.ly-footer {
-  max-width: 340px;
-}
-.ly-footerImgbox {
-  margin: auto 40px;
-}
+@media screen and ( max-width: 280px) {
+  .ly-wrapper {
+    width: 90%;
+  }
+
 
 }
+
