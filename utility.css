@@ -1,4 +1,4 @@
-@media screen and ( min-width: 2560px){
+@media screen and ( max-width: 2560px){
 
   .u-navTxt {
     font-size: 4rem;
@@ -347,7 +347,7 @@
 
     .u-fifPara, .u-fifPara3,
     .u-fifPara4 {
-      font-size: 3.0rem;
+      font-size: 3.5rem;
       font-family: "Toppan Bunkyu Mincho";
       letter-spacing: 0.1em;
       line-height: 2.3;
@@ -357,7 +357,7 @@
       margin-bottom: 50px;
     }
     .u-fifPara2 {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-family: "Toppan Bunkyu Mincho";
       letter-spacing: 0.1em;
       line-height: 1.67;
@@ -372,7 +372,7 @@
     }
 
     .u-fifPara5 {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-family: "Toppan Bunkyu Mincho";
       letter-spacing: 0.1em;
       line-height: 3.33;
@@ -390,9 +390,9 @@
       border: 1px solid #000;
       text-align: center;
       cursor: pointer;
-      width: 156.42px;
-      height: 49.06px;
-      font-size: 1.5rem;
+      width: 230px;
+      height: 70px;
+      font-size: 2rem;
       font-family: "Toppan Bunkyu Midashi Mincho";
       letter-spacing: 0.1em;
       line-height: 1.8;
@@ -639,8 +639,8 @@
     border: 1px solid #000;
     text-align: center;
     cursor: pointer;
-    width: 200.02px;
-    height: 67.38px;
+    width: 156.42px;
+    height: 49.06px;
     font-size: 1.5rem;
     font-family: "Toppan Bunkyu Midashi Mincho";
     letter-spacing: 0.1em;
@@ -1531,6 +1531,62 @@
 }
 
 /* 調整用 */
+ /* *******************タブレット600px  **********************/
+
+@media screen and (max-width: 600px) {
+
+  .u-secoPara {
+    top: 0;
+  }
+
+  .u-secoPara2 {
+    font-size: .3rem;
+    top: 75px;
+  }
+  .u-secoBtn {
+    width: 100px;
+    height: 34px;
+  }
+
+  .u-triPara {
+    top: 0;
+  }
+
+  .u-triPara2 {
+    top: 90px;
+    font-size: .1rem;
+  }
+
+  .u-triParaSP {
+    display: none;
+  }
+
+  .u-fourPara {
+    top: 0;
+  }
+
+  .u-fourPara2 {
+    font-size: .1rem;
+    top: 90px;
+
+  }
+  .u-fourParaSP {
+    display: none;
+  }
+
+  .u-fouroBtn {
+    width: 100px;
+    height: 34px;
+  }
+
+
+}
+
+
+
+
+
+/* 調整用 */
  /* *******************タブレット512px  **********************/
 
 @media screen and (max-width: 512px) {
@@ -2386,6 +2442,24 @@
     /* left: 70px; */
   /* } */
 /* } */
+
+
+
+/* *******************スマホ360px  **********************/
+
+
+@media screen and (max-width: 360px) {
+
+
+
+  .u-fourPara2 {
+    left: 35px;
+  }
+
+
+}
+
+
 
 
 

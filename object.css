@@ -1,6 +1,6 @@
 /* 接頭辞なし */
 /*  */
-@media screen and ( min-width: 2560px){
+@media screen and ( max-width: 2560px){
 
     body {
         width: 2560px;
@@ -510,8 +510,8 @@
 
     .fourBtnbox {
         position: absolute;
-        top: 372.2px;
-        left: 515px;
+        top: 400px;
+        left: 780px;
 
     }
     .fourbgBox {
@@ -621,7 +621,7 @@
     .fifBtnbox {
         position: absolute;
         top: 280px;
-        left: 546.4px;
+        left: 500px;
     }
 
 
@@ -652,7 +652,7 @@
     .footerParabox {
         display: flex;
         justify-content: space-between;
-        width: 70%;
+        width: 76%;
         margin: 0 104px 0 53px;
     }
 
@@ -670,7 +670,7 @@
     }
 
     .footerParaTitle {
-        font-size: 3rem;
+        font-size: 3.5rem;
         padding-bottom: 5px;
         border-bottom: 1px solid #ffffff;
         font-family: "Toppan Bunkyu Midashi Mincho";
@@ -678,7 +678,7 @@
         line-height: 1;
     }
     .footerPara,.footerPara2 {
-        font-size: 2.3rem;
+        font-size: 2.8rem;
         font-family: "Toppan Bunkyu Midashi Mincho";
         letter-spacing: 0.1em;
         line-height: 1.3;
@@ -1440,9 +1440,9 @@
     }
 
     .footer-fa-stack .fa-facebook-f {
-        font-size: 37px;
+        font-size: 32px;
         left: -45px;
-        top: 2px;
+        top: 7px;
     }
     .footer-fa-stack .fa-stack-2x {
         font-size: 8em;
@@ -1720,6 +1720,25 @@
 
 
 }
+
+/* *****************調整用 ****************************/
+@media screen and ( max-width: 1280px){
+
+    .triParainner {
+        left: 560px;
+    }
+
+    .fifBtnbox {
+        left: 375px;
+    }
+
+    .footerWrap {
+        width: 90%;
+    }
+
+}
+
+
 
 
 
@@ -2431,7 +2450,100 @@
 }
 
 
-/*************************************** タブレット ************************************/
+
+
+
+
+/**************************************************************************************/
+
+@media screen and (max-width: 800px) {
+    .navList {
+        display: none;
+    }
+
+    .toggleBtn {
+        z-index: 2000;
+        position: absolute;
+        top: 0;
+        width: 31px;
+        height: 50px;
+        right: 26.3px;
+        cursor: pointer;
+        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+    }
+
+    .toggleLine {
+        display: block;
+        position: absolute;
+        z-index: 2100;
+        right: 6.3px;
+        top: 14px;
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+    }
+
+    .tg1 {
+        top: 14px;
+    }
+    .tg2 {
+        top: 27.5px;
+    }
+    .tg3 {
+        top: 40.5px;
+    }
+
+    .toggleLine {
+        transition: all 0.3s;
+    }
+
+    /* togglerにclickedクラス付与されたら*/
+
+    .clicked .tg1 {
+        transform: translateY(16px) rotate(-315deg);/*時計回りに45度回転*/
+        /* top: 20px; */
+    }
+    .clicked .tg2 {
+        /* width: 0px; */
+        opacity: 0;
+    }
+    .clicked .tg3 {
+        transform: translateY(-10px) rotate(315deg);/*反時計周りに45度回転*/
+        /* top: 20px; */
+    }
+
+
+    .fa-facebook-official,
+    .fa-square {
+        display: none;
+    }
+    .clicked .fa-square {
+        position: relative;
+        top: 2px;
+    }
+
+    .clicked .fa-facebook-f {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .clicked .fa-stack-2x {
+        font-size: 1.3em;
+    }
+    .clicked .fa-instagram {
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 /**************************************************************************************/
 
@@ -3164,6 +3276,96 @@
 
 
 }
+
+/* *****************調整用 ****************************/
+@media screen and ( max-width: 600px){
+    .bgBox {
+        width: 600px;
+    }
+
+    .navList {
+        height: 30rem;
+    }
+
+    .topImgbox {
+        top: 140px;
+        left: 45px;
+    }
+    .topPhoto1 {
+        width: 220px;
+    }
+
+    .topPhoto2 {
+        width: 130px;
+        top: -10px;
+        left: 45px;
+    }
+
+    .topBgimg {
+        width: 400px;
+        height: 240px;
+        left: 110px;
+    }
+
+    .secobgPhoto {
+        width: 280px;
+        left: 180px;
+
+    }
+
+    .secoParainner {
+        width: 240px;
+        height: 140px;
+    }
+
+    .secoBtnbox {
+        top: 67%;
+        left: 69%;
+    }
+
+    .tribgPhoto {
+        width: 280px;
+        height: 200px;
+        margin-bottom: 0;
+    }
+
+    .triParainner {
+        width: 230px;
+        height: 155px;
+        top: 53px;
+        left: 325px;
+    }
+
+    .triBtnbox {
+        top: 75%;
+        left: 60%;
+    }
+
+    .fourbgPhoto {
+        width: 256px;
+        height: 215;
+        left: 180px;
+        margin-bottom: 0;
+    }
+
+    .fourParainner {
+        width: 240px;
+        height: 145px;
+        top: 85px;
+        left: 68px;
+    }
+
+    .footerWrap {
+        width: 60%;
+    }
+
+    .footerParabox{
+        width: 97%;
+    }
+
+}
+
+
 
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 512px){
@@ -4170,6 +4372,9 @@
 
 ****************************************************************************/
 
+
+
+
 @media screen and ( max-width: 376px){
     .bgimageBox {
         height: 667px;
@@ -4935,20 +5140,27 @@
     }
 }
 /* ********************** 調整用 **********************************/
-/* @media screen and ( max-width: 360px) { */
-    /* .topBtnbox { */
-        /* left: 220px; */
-    /* } */
-/*  */
-    /* .fourPhotobox { */
-        /* width: 100%; */
-    /* } */
-/*  */
-    /* .fifParainner2 { */
-        /* left: 25px; */
-    /* } */
-/* } */
+@media screen and ( max-width: 360px) {
 
+    .topParainner {
+        width: 100%;
+    }
+    .topBgimg {
+        left: auto;
+    }
+    .topBtnbox {
+        left: 220px;
+    }
+
+    .fourPhotobox {
+        width: 100%;
+    }
+
+    .fifParainner2 {
+        left: 25px;
+    }
+}
+/*  */
 
 /* ********************** 調整用 **********************************/
 
