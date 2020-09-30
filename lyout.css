@@ -600,10 +600,16 @@ a:link, a:visited, a:hover, a:active {
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 1280px){
   .ly-navBox {
-      width: 88%;
+      width: 100%;
   }
   .ly-mainContainer {
       width: 90%;
+  }
+  .ly-triSecbox {
+    left: 25px;
+  }
+  .ly-fourSecbox {
+    left: 40px;
   }
   .ly-footerShare {
     left: 910px;
@@ -630,6 +636,10 @@ a:link, a:visited, a:hover, a:active {
 
     }
   /* *************** main top************************************************************/
+
+  .ly-mainContainer {
+    width: initial;
+  }
 
 
     .ly-topSec {
@@ -773,11 +783,20 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-imageBox {
     width: 100%;
+    max-width: 800px;
   }
+
+  
 
   .ly-mainContainer {
     width: 100%;
+    max-width: 800px;
   }
+
+  .ly-topSec {
+    width: 100%;
+  }
+
   .ly-fourSec {
     width: 80%;
   }
@@ -1011,6 +1030,29 @@ a:link, a:visited, a:hover, a:active {
 
 
 
+
+
+
+
+/***************************** 調整用 *****************************
+
+***********************************************************************/
+@media screen and ( max-width: 650px){
+
+  .clicked .ly-share {
+    left: 80%;
+    top: 80%;
+  }
+
+  .ly-mainContainer {
+    max-width: 650px;
+  }
+  .ly-secophotoBox {
+    left: 0;
+  }
+
+
+}
 
 
 

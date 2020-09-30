@@ -1724,8 +1724,51 @@
 /* *****************調整用 ****************************/
 @media screen and ( max-width: 1280px){
 
+    .bgBox {
+        max-width: 1280px;
+    }
+
+    .bgBox .bgImage {
+        background-position-y: -19px;
+        background-repeat: no-repeat;
+    }
+    .bgImage4, .bgImage5, .bgImage7
+    .bgImage7, .bgImage8 {
+        background-position-y: 9px;
+    }
+
+    .secoParainner{
+        top: 240px;
+        left: 153px;
+        width: 520px;
+    }
+
+    .secoBtnbox {
+        top: 72%;
+        left: 61%;
+    }
+
+
     .triParainner {
-        left: 560px;
+        width: 520px;
+        left: 630px;
+    }
+
+    .fourbgPhoto {
+        width: 524px;
+        height: 340px;
+    }
+
+    .fourParainner {
+        width: 548px;
+        height: 300px;
+        top: 150px;
+        left: 124px;
+    }
+
+    .fourBtnbox{
+        top: 70%;
+        left: 73%;
     }
 
     .fifBtnbox {
@@ -1832,11 +1875,6 @@
 
 
 
-.bgBox .bgImage {
-    padding-top: 67%;
-    background-position-y: -52px;
-}
-
 .bgBox .bgImage2 {
     z-index: 100;
     width: 50%;
@@ -1859,7 +1897,7 @@
     z-index: -100;
     position: absolute;
     object-fit: contain;
-    background-position-y: -119px;
+    background-position-y: -54px;
     margin: 0;
     padding: 50%;
     left: 0;
@@ -2464,10 +2502,10 @@
     .toggleBtn {
         z-index: 2000;
         position: absolute;
-        top: 0;
+        top: 18%;
         width: 31px;
         height: 50px;
-        right: 26.3px;
+        right: 25%;
         cursor: pointer;
         transition: all .30s ease-in-out;/*0.3秒かけて変化*/
     }
@@ -2534,6 +2572,30 @@
         cursor: pointer;
     }
 
+    .bgBox .bgImage{
+        background-position-y: -29px;
+    }
+    .bgImage4 {
+        background-position-y: -12px;
+    }
+    .bgImage5 {
+        background-position-y: -12px;
+    }
+    .bgImage6 {
+        background-position-y: -12px;
+    }
+    .bgImage7 {
+        background-position-y: -12px;
+    }
+    .bgImage8 {
+        background-position-y: -12px;
+    }
+
+    .bgImageMin {
+        top: 27%;
+    }
+
+  
 }
 
 
@@ -3278,6 +3340,45 @@
 }
 
 /* *****************調整用 ****************************/
+@media screen and ( max-width: 650px){
+
+    .toggleBtn {
+        right: 18%;
+    }
+    .bgBox {
+        width: 650px;
+    }
+    .bgImageMin {
+        top: 0;
+    }
+    .navList {
+        width: 100%;
+        max-width: 650px;
+        height: 50vw;
+    }
+    .topImgbox {
+        left: 5%;
+    }
+
+    .topPhoto1 {
+        width: 41%;
+    }
+    .topPhoto2 {
+        width: 25%;
+        left: 38px;
+        top: -18px;
+    }
+
+    .topBgimg {
+        top: 40px;
+        left: 25%;
+        width: 400px;
+        height: 240px;
+    }
+
+}
+
+/* *****************調整用 ****************************/
 @media screen and ( max-width: 600px){
     .bgBox {
         width: 600px;
@@ -3337,6 +3438,10 @@
     }
 
     .triBtnbox {
+        top: 75%;
+        left: 60%;
+    }
+    .fourBtnbox {
         top: 75%;
         left: 60%;
     }

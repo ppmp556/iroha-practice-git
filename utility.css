@@ -927,6 +927,45 @@
 
 /* *******************調整用 **********************/
 
+@media screen and (max-width: 1280px) {
+
+  .u-secoBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 1.0rem;
+  }
+  
+
+  .u-triParaSP {
+    display: none;
+  }
+
+  .u-triPara {
+    left: -33px;
+  }
+
+  .u-triPara2 {
+    left: 40px;
+  }
+
+  .u-triBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 1.0rem;
+  }
+  .u-fourBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 1.0rem;
+  }
+
+
+
+}
+
+
+/* *******************調整用 **********************/
+
 @media screen and (max-width: 1024px) {
   /*　ナビ小文字 */
   .u-navTxt-s {
@@ -2449,6 +2488,13 @@
 
 
 @media screen and (max-width: 360px) {
+
+  .u-triParaSP{
+    display: block;
+  }
+  .u-fourParaSP{
+    display: block;
+  }
 
 
 
