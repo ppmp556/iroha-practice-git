@@ -1274,8 +1274,8 @@ a:link, a:visited, a:hover, a:active {
 /* ********************* 512px top ************************************/
 
   .ly-mainContainer {
-    min-width: 512px;
-    margin-top: 270px;
+    max-width: 512px;
+    margin-top: 350px;
   }
 
   .ly-topSec {
@@ -1287,28 +1287,37 @@ a:link, a:visited, a:hover, a:active {
 /* ********************* 512px lodge ************************************/
 
   .ly-secoSec {
+    
     width: 512px;
-    height: 600px;
+    height: 780px;
   }
 
   .ly-secoSecbox {
     top: 29px;
+    width: 100%;
   }
 
   .ly-secophotoBox {
-    top: 215px;
+    top: 290px;
+    left: 0;
   }
 
 /* ********************* 512px food ************************************/
 
   .ly-triSec {
     width: 512px;
-    height: 650px;
+    height: 780px;
 
   }
+
+  .ly-triSecbox {
+    top: 29px;
+    width: 100%;
+  }
+
   .ly-triphotoBox {
-    left: -25px;
-    top: 200px;
+    top: 290px;
+    left: 0;
   }
 
 
@@ -1316,11 +1325,20 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-fourSec {
     width: 512px;
-    height: 650px;
+    height: 780px;
+
   }
+
+  .ly-fourSecbox {
+    top: 29px;
+    width: 100%;
+  }
+
+
+
   .ly-fourphotoBox {
-    left: 25px;
-    top: 200px;
+    top: 290px;
+    left: 0;
   }
 
 
@@ -1328,6 +1346,7 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-fifSec {
     width: 512px;
+    height: 550px;
   }
 
 
@@ -1336,6 +1355,11 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-footerShare {
     left: 325px;
+  }
+
+  .ly-footerShare {
+    left: 300px;
+    top: 100px;
   }
 
 }
@@ -1404,6 +1428,7 @@ a:link, a:visited, a:hover, a:active {
   .ly-topSec {
     position: relative;
     height: 406px;
+    width: 414px;
     top: 0;
 
   }
@@ -1418,18 +1443,19 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-secoSec {
     height: 651.19px;
+    top: -5px;
   }
 
   .ly-secoSecbox {
     top: 0;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
   }
 
   .ly-secophotoBox {
 
     top: 248.5px;
-    left: -75px;
+    left: -50px;
   }
 
 /* ********************************414px section food ********************************************/

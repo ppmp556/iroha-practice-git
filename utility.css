@@ -1991,6 +1991,12 @@
 .u-topPara, .u-topPara2, .u-topPara3 {
   font-size: 1.0rem;
 }
+
+.u-topBtn {
+  width: 95px;
+  height: 33px;
+}
+
 /* ******************* 512px lodge  **********************/
 
 .u-secoTitle {
@@ -2002,6 +2008,7 @@
 }
 
 .u-secoParaSP {
+  display: block;
   font-size: 1.0rem;
   transform: scale(0.9);
   left: 10px;
@@ -2011,11 +2018,20 @@
 
 }
 .u-secoPara2 {
-  font-size: 1.0rem;
+  font-size: 1.4rem;
   transform: scale(0.8);
-  left: 6px;
+  left: 28px;
   top: 80px;
 }
+
+.u-secoBtn {
+  width: 160px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+
+
 /* ******************* 512px food  **********************/
 
 .u-triTitle {
@@ -2026,6 +2042,7 @@
   display: none;
 }
 .u-triParaSP {
+  display: block;
   font-size: 1.0rem;
   transform: scale(0.9);
   left: 10px;
@@ -2034,22 +2051,34 @@
   position: relative;
 }
 .u-triPara2 {
-  font-size: 1.0rem;
+  font-size: 1.4rem;
   transform: scale(0.8);
-  left: 5px;
+  left: 28px;
   top: 80px;
 }
+
+.u-triBtn {
+  width: 160px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
 
 /* ******************* 512px interactive **********************/
 
 .u-fourTitle {
-  font-size: 2.0rem;
+  font-size: 1.6rem;
+}
+
+.u-fourTtl {
+  font-size: 1.6rem;
 }
 
 .u-fourPara {
   display: none;
 }
 .u-fourParaSP {
+  display: block;
   font-size: 1.0rem;
   transform: scale(0.9);
   left: 10px;
@@ -2058,10 +2087,16 @@
   position: relative;
 }
 .u-fourPara2 {
-  font-size: 1.0rem;
+  font-size: 1.4rem;
   transform: scale(0.8);
-  left: 5px;
+  left: 28px;
   top: 80px;
+}
+
+.u-fourBtn {
+  width: 160px;
+  height: 50px;
+  font-size: 1.5rem;
 }
 
 
@@ -2073,8 +2108,10 @@
     font-size: 1.2rem;
   }
   .u-fifPara2 {
+    font-size: 1rem;
+
     top: 30px;
-    left: 3px;
+    left: 15px;
     transform: scale(0.8);
   }
   .u-fifPara5 {
@@ -2085,7 +2122,7 @@
 /* ******************* 512px footer **********************/
 
   .u-footerPara {
-    left: 40px;
+    left: 18px;
   }
 
 

@@ -4004,9 +4004,9 @@
     }
 
     .clicked .fa-facebook-f {
-        font-size: 28px;
+        font-size: 24px;
         top: -9px;
-        left: 5px;
+        left: 4px;
     }
     .clicked .fa-stack-2x {
         font-size: 1.5em;
@@ -4032,8 +4032,8 @@
 
 
 .topBtnbox {
-    top: 83px;
-    width: 100px;
+    top: 140px;
+    width: 90px;
     left: 380px;
 }
 
@@ -4041,12 +4041,21 @@
     width: 240px;
     height: 163px;
 }
+.topPhoto2 {
+    width: 140px;
+    left: 45px;
+    top: 50px;
+}
+
+.topImgbox {
+    width: 75%;
+}
 
 /* ********************* 512px lodge ************************************/
 
 .secobgPhoto {
-    width: 333px;
-    height: 214px;
+    width: 460px;
+    height: 300px;
     margin-bottom: 20px;
 }
 
@@ -4056,6 +4065,10 @@
     z-index: 1;
     width: 102px;
     height: 100px;
+}
+
+.secoPhotobox {
+    width: 100%;
 }
 
 .secobgBox {
@@ -4069,8 +4082,14 @@
 
 .secoParainner {
     top: 57px;
-    left: 73px;
+    left: 120px;
     z-index: 0;
+    width: 345px;
+    height: 200px;
+}
+
+.secoParabox {
+    left: 20px;
 }
 
 
@@ -4084,10 +4103,28 @@
     justify-content: center;
 }
 
+.tribgTitle{
+    left: -133px;
+}
+
+.triParabox {
+    left: 20px;
+}
+
 .triParainner {
-    top: 30px;
-    left: 90px;
+    top: 57px;
+    left: 120px;
     z-index: 0;
+    width: 345px;
+    height: 200px;
+}
+
+.tribgPhotobox {
+    width: 100%;
+}
+
+.triPhotobox {
+    width: 100%;
 }
 
 .triPhoto1,.triPhoto2,.triPhoto3,
@@ -4099,18 +4136,29 @@
 }
 
 .tribgPhoto {
-    width: 365px;
-    height: 214px;
-    margin-bottom: 27px;
+    width: 460px;
+    height: 300px;
+    margin-bottom: 20px;
 }
 
 .triBtnbox {
-    top: 130px;
+    top: 140px;
+    left: 70%;
 }
 
 
 
 /* ********************* 512px interactive ************************************/
+
+.fourbgTitle {
+    top: 124px;
+    left: -210px;
+}
+
+.fourTitle {
+    left: 0;
+}
+
 
 .fourbgBox {
     display: flex;
@@ -4126,24 +4174,40 @@
 }
 
 .fourbgPhoto {
-    width: 365px;
-    height: 214px;
-    margin-bottom: 27px;
+    width: 460px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.fourPhotobox {
+    width: 100%;
+}
+
+.fourParabox {
+    left: 110px;
 }
 
 .fourParainner {
-    top: 45px;
+    top: 57px;
+    left: 37px;
     z-index: 0;
+    width: 345px;
+    height: 200px;
 }
 .fourBtnbox {
-    top: 120px;
+    top: 140px;
+    left: 70%;
 }
 
 
 
 /* ********************* 512px contact ************************************/
 .fifBtnbox {
-    left: 120px;
+    left: 170px;
+}
+
+.fifParainner2 {
+    margin: 0 20px;
 }
 
 
@@ -4155,8 +4219,17 @@
     width: 512px;
 }
 
+.footerImg {
+    width: 26%;
+}
+
 .footerParabox {
-    width: 100%;
+    width: 110%;
+}
+
+.footerParainner {
+    top: 18px;
+    left: 150px;
 }
 
 .footerPara, .footerPara2 {
@@ -4164,16 +4237,16 @@
 }
 
 .footerPara {
-    left: -30px;
+    left: 0;
 }
 .footerPara2 {
-    left: -25px;
+    left: 0px;
 }
 
 
 .copyRight {
     transform: scale(0.8);
-    margin-left: -90px;
+    margin-left: 15px;
 }
 
 
@@ -4469,7 +4542,7 @@
     .secoPhotobox {
         display: flex;
         position: relative;
-        left: 0;
+        left: 33px;
     }
     .secoPhoto1,.secoPhoto2,.secoPhoto3,
     .secoPhoto4,.secoPhoto5 {
