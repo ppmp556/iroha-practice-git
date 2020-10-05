@@ -1485,7 +1485,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
  /* ********************************414px secton interactive ********************************************/
-  .ly-fourSec {
+
+.ly-fourSec {
+  top: 0;
+}
+
+.ly-fourSec {
+    width: 100%;
   height: 567.65px;
   background-color: #ffffff;
 }
@@ -1497,7 +1503,7 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-fourphotoBox {
 
-    left: -90px;
+    left: -20px;
     top: 227.1px;
   }
 
