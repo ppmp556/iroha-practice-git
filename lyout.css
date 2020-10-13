@@ -6,6 +6,18 @@ html {
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+
+  /*画像がはみでるのを防ぐ　max-width*/
+  max-width: 100%;
+
+}
+
 body {
   color: #ffffff;
   background-color: #ffffff;
@@ -22,22 +34,27 @@ body {
 
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   /*テキストデフォルト下線外し*/
   text-decoration: none;
   color: #ffffff;
 }
 
 
-@media screen and ( max-width: 2560px){
+@media screen and (max-width: 2560px) {
   /* lyout 接頭にly-をつける */
 
   .ly-wrapper {
-    width: 100%;
+    max-width: 2560px;
     position: relative;
   }
 
@@ -52,7 +69,7 @@ a:link, a:visited, a:hover, a:active {
     position: relative;
     justify-content: center;
     max-height: 100vh;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 
 
   }
@@ -109,7 +126,7 @@ a:link, a:visited, a:hover, a:active {
 
 
   .ly-mainContainer {
-    width: 100%;
+    max-width: 2560px;
     height: 100%;
     position: relative;
   }
@@ -237,7 +254,7 @@ a:link, a:visited, a:hover, a:active {
 
   }
 
-  /* **************************footer *******************************************/ 
+  /* **************************footer *******************************************/
   .ly-footer {
     position: absolute;
     top: 8763px;
@@ -246,34 +263,37 @@ a:link, a:visited, a:hover, a:active {
 
   }
 
-  .ly-footerImgbox{
+  .ly-footerImgbox {
     position: relative;
     margin-right: 53px;
     margin-left: 57px;
   }
+
   .ly-footerShare {
     position: absolute;
     top: 260px;
     left: 1770px;
   }
+
   .ly-footerCRight {
     position: absolute;
     bottom: 0;
     z-index: 1;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 69px;
   }
 }
 
 
-@media screen and ( max-width: 1920px){
+@media screen and (max-width: 1920px) {
 
 
   /* lyout 接頭にly-をつける */
 
   .ly-wrapper {
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     position: relative;
   }
 
@@ -288,7 +308,7 @@ a:link, a:visited, a:hover, a:active {
     position: relative;
     justify-content: center;
     max-height: 100vh;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 
 
   }
@@ -346,6 +366,7 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-mainContainer {
     width: 100%;
+    max-width: 1920px;
     height: 100%;
     position: relative;
   }
@@ -473,7 +494,7 @@ a:link, a:visited, a:hover, a:active {
 
   }
 
-  /* **************************footer *******************************************/ 
+  /* **************************footer *******************************************/
   .ly-footer {
     position: absolute;
     top: 8044.4px;
@@ -482,29 +503,32 @@ a:link, a:visited, a:hover, a:active {
 
   }
 
-  .ly-footerImgbox{
+  .ly-footerImgbox {
     position: relative;
     margin-right: 53px;
     margin-left: 57px;
   }
+
   .ly-footerShare {
     position: absolute;
     top: 250.9px;
     left: 1283px;
   }
+
   .ly-footerCRight {
     position: absolute;
     bottom: 0;
     z-index: 1;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 69px;
   }
 
 }
+
 /* *************調整用 ***********************/
 
-@media screen and ( max-width: 1440px){
+@media screen and (max-width: 1440px) {
   .ly-wrapper {
     max-width: 1440px;
 
@@ -512,7 +536,11 @@ a:link, a:visited, a:hover, a:active {
 
 
 
-/* *************** main top************************************************************/
+  /* *************** main top************************************************************/
+
+  .ly-mainContainer {
+    max-width: 1440px;
+  }
 
 
   .ly-topSec {
@@ -530,22 +558,23 @@ a:link, a:visited, a:hover, a:active {
     width: 90%;
     margin: 0 auto;
     top: 157.2px;
-}
+  }
 
-/* *************** 1440px lodge************************************************************/
+  /* *************** 1440px lodge************************************************************/
 
   .ly-secoSec {
     top: 1698px;
     height: 1000px;
     /* background-color: red; */
   }
+
   .ly-secophotoBox {
     width: 100%;
-    
+
   }
 
 
-/* *************** 1440px food************************************************************/
+  /* *************** 1440px food************************************************************/
   .ly-triSec {
     top: 2699px;
     height: 1000px;
@@ -553,25 +582,30 @@ a:link, a:visited, a:hover, a:active {
   }
 
   .ly-triphotoBox {
-    width: 100%;
+    width: 89%;
     top: 150px;
-    left: 100px;
+    left: 12%;
+    /* left: 100px; */
   }
 
-/* *************** 1440px interacitve************************************************************/
+  /* *************** 1440px interacitve************************************************************/
   .ly-fourSec {
     top: 3696px;
     height: 920px;
     /* background-color: red; */
   }
 
+  .ly-fourSecbox {
+    left: -1%;
+  }
+
   .ly-fourphotoBox {
     width: 100%;
     top: 70px;
-    left: -30px;
+    left: 2%;
   }
 
-/* *************** 1440px contact************************************************************/
+  /* *************** 1440px contact************************************************************/
   .ly-fifSec {
     top: 4616px;
     height: 1350px;
@@ -579,7 +613,7 @@ a:link, a:visited, a:hover, a:active {
     /* background-color: red; */
   }
 
-/* *************** 1440px footer************************************************************/
+  /* *************** 1440px footer************************************************************/
   .ly-footer {
     top: 6104px;
     height: 368px;
@@ -587,7 +621,7 @@ a:link, a:visited, a:hover, a:active {
 
   .ly-footerShare {
     top: 200px;
-    left: 1020px;
+    left: 70%;
   }
 
 
@@ -598,47 +632,69 @@ a:link, a:visited, a:hover, a:active {
 
 
 /* *****************調整用 ****************************/
-@media screen and ( max-width: 1280px){
+@media screen and (max-width: 1280px) {
+
+  .ly-wrapper {
+
+    max-width: 1280px;
+  }
+
   .ly-navBox {
-      width: 86%;
+    width: 97%;
   }
+
   .ly-mainContainer {
-      width: 90%;
+    /* width: 90%; */
+    max-width: 1280px;
   }
+
   .ly-triSecbox {
-    left: 25px;
+    left: 0%;
   }
-  .ly-fourSecbox {
-    left: 40px;
+
+  /* .ly-fourSecbox { */
+    /* left: 3%; */
+  /* } */
+
+  .ly-footerImgbox {
+    margin-left: 2%;
   }
-  .ly-footerShare {
-    left: 910px;
-  }
+
+  /* .ly-footerShare { */
+    /* left: 910px; */
+  /* } */
 }
 
 
 
 /* *************調整用 ***********************/
 
-@media screen and ( max-width: 1024px){
+@media screen and (max-width: 1024px) {
 
-    .ly-wrapper {
-      max-width: 1024px;
-    }
+  .ly-wrapper {
+    max-width: 1024px;
+  }
 
-    .ly-imageBox {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-    }
-    .ly-nav{
-      width: 100%;
-    }
-    .ly-navBox {
-      width: 95%;
-      height: 76px;
+  .ly-mainContainer {
+    max-width: 1024px;
+  }
 
-    }
+  .ly-imageBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ly-nav {
+    width: 100%;
+  }
+
+  .ly-navBox {
+    width: 95%;
+    height: 76px;
+
+  }
+
   /* *************** main top************************************************************/
 
   .ly-mainContainer {
@@ -646,38 +702,38 @@ a:link, a:visited, a:hover, a:active {
   }
 
 
-    .ly-topSec {
-      height: 900px;
-      top: 574px;
+  .ly-topSec {
+    /* height: 900px; */
+    top: 65%;
+    height: 76%;
 
-    }
-
-    .ly-topSecbox {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      top: 157.2px;
-      position: relative;
-      width: 90%;
-      margin: 0 auto;
-    }
-
-/* ********************************secton lodge ********************************************/
-  .ly-secoSec {
-    height: 950px;
-    top: 1475px;
-    /* background-color: blue; */
   }
 
-  .ly-secoSecbox {
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    top: 128px;
+  .ly-topSecbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 157.2px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* ********************************secton lodge ********************************;
     /* left: -74px; */
     /* position: relative; */
     /* width: 90%; */
     /* margin: 0 auto; */
+
+  .ly-secoSec {
+    top: 1405px;
+    height: 800px;
   }
+  
+  .ly-secoSecbox {
+    top: 9%;
+  }
+
 
   .ly-secophotoBox {
     /* display: flex; */
@@ -687,21 +743,23 @@ a:link, a:visited, a:hover, a:active {
     left: 25px;
   }
 
-/* ********************************secton food ********************************************/
+  /* ********************************secton food ********************************************/
   .ly-triSec {
-
-
     top: 2426px;
 
   }
 
+  .ly-triSecbox {
+    left: 0;
+  }
 
 
   .ly-triphotoBox {
     top: 200px;
     left: 120px;
   }
-/* ********************************secton interactive ********************************************/
+
+  /* ********************************secton interactive ********************************************/
   .ly-fourSec {
     height: 1000px;
 
@@ -714,7 +772,7 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     top: 128px;
     left: 0;
-    width: 90%;
+    width: 84%;
     margin: 0 auto;
     position: relative;
   }
@@ -724,7 +782,8 @@ a:link, a:visited, a:hover, a:active {
     top: 153px;
     left: 25px;
   }
-/* ********************************secton contact ********************************************/
+
+  /* ********************************secton contact ********************************************/
   .ly-fifSec {
     position: absolute;
     width: 100%;
@@ -743,31 +802,35 @@ a:link, a:visited, a:hover, a:active {
 
   }
 
-  /* **************************footer *******************************************/ 
+  /* **************************footer *******************************************/
   .ly-footer {
     top: 5586px;
     height: 363px;
 
   }
 
-  .ly-footerImgbox{
+  .ly-footerImgbox {
     position: relative;
     margin-right: 53px;
     margin-left: 30px;
   }
+
   .ly-footerShare {
     position: absolute;
     top: 210px;
-    left: 740px;
+    /* left: 740px; */
+    left: 67%;
   }
+
   .ly-footerCRight {
     position: absolute;
     bottom: 0;
     z-index: 1;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 69px;
   }
+
 
 }
 
@@ -776,12 +839,12 @@ a:link, a:visited, a:hover, a:active {
 /***************************** 調整用 *****************************
 
 ***********************************************************************/
-@media screen and ( max-width: 800px){
+@media screen and (max-width: 800px) {
   .ly-wrapper {
-    width: 100%;
+    max-width: 800px;
   }
 
-  .ly-header{
+  .ly-header {
     width: 100%;
   }
 
@@ -792,15 +855,14 @@ a:link, a:visited, a:hover, a:active {
 
   .clicked .ly-share {
     position: absolute;
-    top: 350px;
-    left: 624px;
+    top: 75%;
+    left: 75%;
     display: initial;
   }
 
-  
+
 
   .ly-mainContainer {
-    width: 100%;
     max-width: 800px;
   }
 
@@ -809,7 +871,8 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     top: 427px;
   }
-  .ly-secoSec{
+
+  .ly-secoSec {
     height: 670px;
     top: 1067px;
   }
@@ -823,13 +886,15 @@ a:link, a:visited, a:hover, a:active {
     top: 1738px;
     height: 710px;
   }
+
   .ly-triSecbox {
     left: 0;
   }
 
   .ly-triphotoBox {
     top: 140px;
-    left: 83px;
+    /* left: 83px; */
+    left: 12%;
   }
 
   .ly-fourphotoBox {
@@ -875,47 +940,51 @@ a:link, a:visited, a:hover, a:active {
 @media screen and (max-width: 768px) {
 
   .ly-wrapper {
-      width: 100%;
-      height: auto;
-      overflow: hidden;
+    max-width: 768px;
+    height: auto;
+    overflow: hidden;
   }
 
 
 
-    .ly-headerWrapper {
-      display: inherit;
-      position: relative;
-      justify-content: center;
-      min-height: 5;
-      background-color: inherit;
-      max-width: 769px;
-    }
-    .ly-header {
-      position: relative;
-      z-index: 5;
-      width: 100%;
-      height: 100%;
-      display: inherit;
-    }
-    .ly-navBox {
-      width: 100%;
-      height: 54.31px;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      border: 1px bold #707070;
-      background-color: rgba(0,0,0,0.7);
-    }
-    .ly-nav {
-      width: 0;
-      margin-right: auto;
-    }
-    .ly-navTitle {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin: 0;
-    }
+  .ly-headerWrapper {
+    display: inherit;
+    position: relative;
+    justify-content: center;
+    min-height: 5;
+    background-color: inherit;
+    max-width: 769px;
+  }
+
+  .ly-header {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display: inherit;
+  }
+
+  .ly-navBox {
+    width: 100%;
+    height: 54.31px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px bold #707070;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .ly-nav {
+    width: 0;
+    margin-right: auto;
+  }
+
+  .ly-navTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
 
   .ly-bgimageBox {
     height: 100%;
@@ -934,27 +1003,28 @@ a:link, a:visited, a:hover, a:active {
   /* *************** タブレット 768px main top************************************************************/
 
 
-    .ly-mainContainer {
-      max-width: 768px;
-      margin-top: 408px;
+  .ly-mainContainer {
+    max-width: 768px;
+    margin-top: 408px;
 
-    }
-    .ly-topSec {
-      position: relative;
-      width: 100%;
-      height: 519.9px;
-      top: 0;
+  }
 
-    }
+  .ly-topSec {
+    position: relative;
+    width: 100%;
+    height: 519.9px;
+    top: 0;
 
-    .ly-topSecbox {
-      top: 61.5px;
-      position: absolute;
-      width: 98%;
+  }
 
-    }
+  .ly-topSecbox {
+    top: 61.5px;
+    position: absolute;
+    width: 98%;
 
-/* ********************************タブレット 768px secton lodge ********************************************/
+  }
+
+  /* ********************************タブレット 768px secton lodge ********************************************/
   .ly-secoSec {
     position: relative;
     width: 100%;
@@ -1031,7 +1101,8 @@ a:link, a:visited, a:hover, a:active {
     left: 0;
     top: 56.3px;
   }
-/* ********************************タブレット768px secton contact ********************************************/
+
+  /* ********************************タブレット768px secton contact ********************************************/
   .ly-fifSec {
     position: relative;
     width: 100%;
@@ -1050,7 +1121,7 @@ a:link, a:visited, a:hover, a:active {
 
   }
 
-  /* **************************タブレット768px footer *******************************************/ 
+  /* **************************タブレット768px footer *******************************************/
   .ly-footer {
 
     position: relative;
@@ -1059,22 +1130,25 @@ a:link, a:visited, a:hover, a:active {
     height: 160.62px;
   }
 
-  .ly-footerImgbox{
+  .ly-footerImgbox {
     position: relative;
 
     margin-right: 0;
     margin-left: 22.8px;
   }
+
   .ly-footerShare {
     position: absolute;
     top: 100.4px;
-    left: 490.4px;
+    /* left: 490.4px; */
+    left: 64%;
   }
+
   .ly-footerCRight {
     position: absolute;
     bottom: 0;
     z-index: 1;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 27.6px;
   }
@@ -1095,7 +1169,7 @@ a:link, a:visited, a:hover, a:active {
 /***************************** 調整用 *****************************
 
 ***********************************************************************/
-@media screen and ( max-width: 650px){
+@media screen and (max-width: 650px) {
 
   .clicked .ly-share {
     left: 80%;
@@ -1105,16 +1179,17 @@ a:link, a:visited, a:hover, a:active {
   .ly-mainContainer {
     max-width: 650px;
   }
+
   .ly-secophotoBox {
     left: 0;
   }
 
 
   .ly-wrapper {
-    width: 100%;
+    max-width: 650px;
   }
 
-  .ly-header{
+  .ly-header {
     width: 100%;
   }
 
@@ -1136,7 +1211,8 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     top: -75px;
   }
-  .ly-secoSec{
+
+  .ly-secoSec {
     height: 560px;
     top: -76px;
   }
@@ -1150,6 +1226,7 @@ a:link, a:visited, a:hover, a:active {
     top: -80px;
     height: 590px;
   }
+
   .ly-triSecbox {
     left: 0;
   }
@@ -1181,7 +1258,8 @@ a:link, a:visited, a:hover, a:active {
   }
 
   .ly-footerShare {
-    left: 380px;
+    /* left: 380px; */
+    left: 65%;
     top: 110px;
   }
 
@@ -1196,12 +1274,13 @@ a:link, a:visited, a:hover, a:active {
 /***************************** 調整用 *****************************
 
 ***********************************************************************/
-@media screen and ( max-width: 600px){
+@media screen and (max-width: 600px) {
 
   .ly-wrapper {
-    width: 100%;
+    max-width: 600px;
 
   }
+
   .ly-headerWrapper {
     width: 100%;
     max-width: 600px;
@@ -1210,6 +1289,7 @@ a:link, a:visited, a:hover, a:active {
   .ly-header {
     width: 100%;
   }
+
   .ly-imageBox {
     width: 100%;
   }
@@ -1220,7 +1300,8 @@ a:link, a:visited, a:hover, a:active {
   }
 
   .ly-mainContainer {
-    max-width: 600px;;
+    max-width: 600px;
+
   }
 
   .ly-secophotoBox {
@@ -1229,7 +1310,7 @@ a:link, a:visited, a:hover, a:active {
 
 
   .ly-footerShare {
-    left: 375px;
+    left: 60%;
   }
 
 }
@@ -1242,7 +1323,12 @@ a:link, a:visited, a:hover, a:active {
 /***************************** 調整用 *****************************
 
 ***********************************************************************/
-@media screen and ( max-width: 512px){
+@media screen and (max-width: 512px) {
+
+  .ly-wrapper {
+    max-width: 512px;
+
+  }
 
   .ly-headerWrapper {
     max-width: 512px;
@@ -1254,6 +1340,7 @@ a:link, a:visited, a:hover, a:active {
     left: -10px;
     position: relative;
   }
+
   .ly-navBox {
     width: 100%;
     height: 54.31px;
@@ -1261,34 +1348,35 @@ a:link, a:visited, a:hover, a:active {
     justify-content: flex-end;
     align-items: center;
     border: 1px bold #707070;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
-  .clicked .ly-navBox{
+  .clicked .ly-navBox {
     width: 100%;
     left: 0;
     position: relative;
 
   }
 
-/* ********************* 512px top ************************************/
+  /* ********************* 512px top ************************************/
 
   .ly-mainContainer {
     max-width: 512px;
+    width: 100%;
     margin-top: 350px;
   }
 
   .ly-topSec {
-    width: 512px;
+    width: 100%;
     height: 490px;
   }
 
 
-/* ********************* 512px lodge ************************************/
+  /* ********************* 512px lodge ************************************/
 
   .ly-secoSec {
-    
-    width: 512px;
+
+    width: 100%;
     height: 780px;
   }
 
@@ -1302,10 +1390,10 @@ a:link, a:visited, a:hover, a:active {
     left: 0;
   }
 
-/* ********************* 512px food ************************************/
+  /* ********************* 512px food ************************************/
 
   .ly-triSec {
-    width: 512px;
+    width: 100%;
     height: 780px;
 
   }
@@ -1321,10 +1409,10 @@ a:link, a:visited, a:hover, a:active {
   }
 
 
-/* ********************* 512px interactive ************************************/
+  /* ********************* 512px interactive ************************************/
 
   .ly-fourSec {
-    width: 512px;
+    width: 100%;
     height: 780px;
 
   }
@@ -1342,23 +1430,24 @@ a:link, a:visited, a:hover, a:active {
   }
 
 
-/* ********************* 512px contact ************************************/
+  /* ********************* 512px contact ************************************/
 
   .ly-fifSec {
-    width: 512px;
+    width: 100%;
     height: 550px;
   }
 
 
 
-/* ********************* 512px footer ************************************/
+  /* ********************* 512px footer ************************************/
 
-  .ly-footerShare {
-    left: 325px;
+  .ly-footerImgbox {
+    margin-left: 2%;
   }
 
   .ly-footerShare {
-    left: 300px;
+    /* left: 300px; */
+    left: 64%;
     top: 100px;
   }
 
@@ -1370,30 +1459,35 @@ a:link, a:visited, a:hover, a:active {
 /***************************** 調整用 *****************************
 
 ***********************************************************************/
-@media screen and ( max-width: 414px){
+@media screen and (max-width: 414px) {
 
 
-/* ********************* 414px ヘッダー ************************************/
+  /* ********************* 414px ヘッダー ************************************/
   .ly-wrapper {
-    width: 100%;
+    max-width: 414px;
     height: auto;
     overflow: hidden;
   }
+
   .ly-headerWrapper {
     max-width: 414px;
   }
+
   .ly-header {
     width: 100%;
     height: 100%;
   }
+
   .ly-navBox {
     height: 29.24px;
   }
-  .clicked .ly-navBox{
+
+  .clicked .ly-navBox {
     width: 100%;
     left: 0;
 
   }
+
   .ly-nav {
     width: 0;
     margin-right: auto;
@@ -1402,7 +1496,7 @@ a:link, a:visited, a:hover, a:active {
 
 
 
-    .ly-navTitle {
+  .ly-navTitle {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1418,13 +1512,14 @@ a:link, a:visited, a:hover, a:active {
     display: none;
   }
 
-/******************** 414px main top *******************************/
+  /******************** 414px main top *******************************/
 
   .ly-mainContainer {
     max-width: 414px;
     margin-top: 201px;
 
   }
+
   .ly-topSec {
     position: relative;
     height: 406px;
@@ -1439,7 +1534,7 @@ a:link, a:visited, a:hover, a:active {
 
   }
 
-/******************** 414px main lodge *******************************/
+  /******************** 414px main lodge *******************************/
 
   .ly-secoSec {
     height: 651.19px;
@@ -1455,50 +1550,51 @@ a:link, a:visited, a:hover, a:active {
   .ly-secophotoBox {
 
     top: 248.5px;
-    left: -50px;
+    /* left: -50px; */
+    left: -3%;
   }
 
-/* ********************************414px section food ********************************************/
-.ly-triSec {
-  position: relative;
-  width: 100%;
-  height: 502.19px;
-  top: 0;
-  background-color: #ffffff;
-
-}
-
-.ly-triSecbox {
-  display: flex;
-  top: 57.4px;
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.ly-triphotoBox {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 130px;
-  left: 0;
-}
-
- /* ********************************414px secton interactive ********************************************/
-
-.ly-fourSec {
-  top: 0;
-}
-
-.ly-fourSec {
+  /* ********************************414px section food ********************************************/
+  .ly-triSec {
+    position: relative;
     width: 100%;
-  height: 567.65px;
-  background-color: #ffffff;
-}
+    height: 502.19px;
+    top: 0;
+    background-color: #ffffff;
+
+  }
+
+  .ly-triSecbox {
+    display: flex;
+    top: 57.4px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ly-triphotoBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 130px;
+    left: 0;
+  }
+
+  /* ********************************414px secton interactive ********************************************/
+
+  .ly-fourSec {
+    top: 0;
+  }
+
+  .ly-fourSec {
+    width: 100%;
+    height: 567.65px;
+    background-color: #ffffff;
+  }
 
   .ly-fourSecbox {
 
-  top: 41.2px;
+    top: 41.2px;
   }
 
   .ly-fourphotoBox {
@@ -1507,7 +1603,7 @@ a:link, a:visited, a:hover, a:active {
     top: 227.1px;
   }
 
-/* ********************************414px secton contact ********************************************/
+  /* ********************************414px secton contact ********************************************/
   .ly-fifSec {
     position: relative;
     width: 100%;
@@ -1523,7 +1619,8 @@ a:link, a:visited, a:hover, a:active {
     position: relative;
 
   }
-/* **************************414px footer *******************************************/ 
+
+  /* **************************414px footer *******************************************/
   .ly-footer {
     position: relative;
     bottom: 0;
@@ -1532,17 +1629,20 @@ a:link, a:visited, a:hover, a:active {
     margin-top: 54.1px;
   }
 
-  .ly-footerImgbox{
+  .ly-footerImgbox {
     position: relative;
     margin-right: 0;
     margin-left: 12.3px;
   }
+
   .ly-footerShare {
     position: absolute;
     top: 50px;
-    left: 235px;
+    /* left: 235px; */
+    left: 56%;
     transform: scale(0.7);
   }
+
   .ly-footerCRight {
     position: absolute;
     bottom: 0;
@@ -1555,11 +1655,11 @@ a:link, a:visited, a:hover, a:active {
 /***************************** スマホ版 *****************************
 
 ***********************************************************************/
-@media screen and ( max-width: 376px){
+@media screen and (max-width: 376px) {
 
   .ly-wrapper {
-      width: 375px;
-      height: auto;
+    max-width: 375px;
+    height: auto;
   }
 
   .ly-headerWrapper {
@@ -1576,10 +1676,10 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
     border: 1px bold #707070;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
-  .clicked .ly-navBox{
+  .clicked .ly-navBox {
     width: 100%;
     left: 64.7px;
     position: relative;
@@ -1607,6 +1707,7 @@ a:link, a:visited, a:hover, a:active {
 
     margin: 0;
   }
+
   .ly-bgimageBox {
     height: 670.85px;
     width: 100%;
@@ -1625,18 +1726,18 @@ a:link, a:visited, a:hover, a:active {
 
 
 
-/* *************** スマホ 376px main top************************************************************/
+  /* *************** スマホ 376px main top************************************************************/
 
 
   .ly-mainContainer {
     max-width: 375px;
     margin-top: 0;
-    width: 100%;
     min-height: 100vh;
     position: relative;
     padding-bottom: 2553.4px;
 
   }
+
   .ly-topSec {
     height: 375px;
     width: 375px;
@@ -1648,6 +1749,7 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
 
   }
+
   /* ********************************スマホ 376px secton lodge ********************************************/
   .ly-secoSec {
     position: relative;
@@ -1669,6 +1771,7 @@ a:link, a:visited, a:hover, a:active {
     top: 570px;
     left: 0;
   }
+
   /* ********************************スマホ376px secton food ********************************************/
   .ly-triSec {
     position: absolute;
@@ -1689,7 +1792,7 @@ a:link, a:visited, a:hover, a:active {
   }
 
 
-/* ********************************スマホ376px secton interactive ********************************************/
+  /* ********************************スマホ376px secton interactive ********************************************/
 
   .ly-fourSec {
     position: absolute;
@@ -1698,16 +1801,18 @@ a:link, a:visited, a:hover, a:active {
     max-width: 375px;
     background-color: #f8f8f8;
   }
+
   .ly-fourSecbox {
     top: 71.6px;
-    }
+  }
 
   .ly-fourphotoBox {
 
     left: 20px;
     top: 586px;
   }
-/* ********************************スマホ376px secton contact ********************************************/
+
+  /* ********************************スマホ376px secton contact ********************************************/
   .ly-fifSec {
     height: 1023.7px;
     top: 2608px;
@@ -1715,7 +1820,7 @@ a:link, a:visited, a:hover, a:active {
   }
 
 
-/* **************************スマホ376px footer *******************************************/ 
+  /* **************************スマホ376px footer *******************************************/
   .ly-footer {
     max-width: 375px;
     position: relative;
@@ -1725,11 +1830,12 @@ a:link, a:visited, a:hover, a:active {
     margin-top: 0;
   }
 
-  .ly-footerImgbox{
+  .ly-footerImgbox {
     position: absolute;
-    margin:auto 60px;
+    margin: auto 60px;
     top: 0;
   }
+
   .ly-footerShare {
     top: 196px;
     left: 50px;
@@ -1740,16 +1846,22 @@ a:link, a:visited, a:hover, a:active {
     height: 20%;
     transform: inherit;
   }
+
   .ly-footerCRight {
     height: 37px;
   }
 
 }
+
 /* ********************** 調整用 **********************************/
-@media screen and ( max-width: 360px) {
+@media screen and (max-width: 360px) {
+
+  .ly-wrapper {
+    max-width: 360px;
+  }
+
   .ly-mainContainer {
     max-width: 360px;
-    width: 100%;
   }
 
   .ly-fourSecbox {
@@ -1768,7 +1880,7 @@ a:link, a:visited, a:hover, a:active {
 
 /* ********************** 調整用 **********************************/
 
-@media screen and ( max-width: 340px) {
+@media screen and (max-width: 340px) {
 
   .ly-wrapper {
     width: 100%;
@@ -1797,10 +1909,10 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
     border: 1px bold #707070;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
-  .clicked .ly-navBox{
+  .clicked .ly-navBox {
     width: 100%;
     left: 64.7px;
     position: relative;
@@ -1836,7 +1948,7 @@ a:link, a:visited, a:hover, a:active {
 
   }
 
-/* *******************スマホ340px main top **********************/
+  /* *******************スマホ340px main top **********************/
 
   .ly-mainContainer {
     padding-bottom: 2341px;
@@ -1848,7 +1960,7 @@ a:link, a:visited, a:hover, a:active {
     max-width: 340px;
   }
 
-/* *******************スマホ340px lodge **********************/
+  /* *******************スマホ340px lodge **********************/
   .ly-secoSec {
     max-width: 340px;
   }
@@ -1870,6 +1982,7 @@ a:link, a:visited, a:hover, a:active {
   .ly-fourSecbox {
     width: 100%;
   }
+
   .ly-fourphotoBox {
     left: 0;
   }
@@ -1878,13 +1991,16 @@ a:link, a:visited, a:hover, a:active {
   .ly-fifSec {
     max-width: 340px;
   }
+
   /* *******************スマホ340px footer **********************/
   .ly-footer {
     max-width: 340px;
   }
+
   .ly-footerImgbox {
     margin: auto 40px;
   }
+
   .ly-footerShare {
     top: 170px;
   }
@@ -1894,11 +2010,15 @@ a:link, a:visited, a:hover, a:active {
 
 /* ********************** 調整用 **********************************/
 
-@media screen and ( max-width: 280px) {
+@media screen and (max-width: 280px) {
   .ly-wrapper {
-    width: 90%;
+    max-width: 280px;
+
+  }
+
+  .ly-mainContainer {
+    max-width: 280px;
   }
 
 
 }
-

@@ -839,11 +839,17 @@
 
   .u-secoPara {
     font-size: 1.4rem;
-    top: 50px;
+    top: 11%;
+    left: 10%;
   }
   .u-secoPara2 {
     font-size: 1.4rem;
-    top: 170px;
+    top: 50%;
+    left: 10%;
+  }
+
+  .u-secoParaSP {
+    display: none;
   }
 
   /* *************** 1440px food************************************************************/
@@ -861,11 +867,13 @@
 
   .u-triPara {
     font-size: 1.4rem;
-    top: 50px;
+    /* top: 50px; */
+    top: 10%;
   }
   .u-triPara2 {
     font-size: 1.4rem;
-    top: 170px;
+    /* top: 170px; */
+    top: 50%;
   }
   .u-triBtn {
     font-size: 1.2rem;
@@ -890,11 +898,13 @@
 
   .u-fourPara {
     font-size: 1.4rem;
-    top: 50px;
+    /* top: 50px; */
+    top: 10%;
   }
   .u-fourPara2 {
     font-size: 1.4rem;
-    top: 170px;
+    /* top: 170px; */
+    top: 50%;
   }
 
   .u-fourBtn {
@@ -913,6 +923,11 @@
   .u-fifPara, .u-fifPara3, .u-fifPara4 {
     font-size: 3rem;
   }
+
+  .u-fifPara2 {
+    font-size: 1.6rem;
+    top: 30%;
+  }
 /* *************** 1440px footer************************************************************/
 
   .u-footerPara{
@@ -928,6 +943,14 @@
 /* *******************調整用 **********************/
 
 @media screen and (max-width: 1280px) {
+
+  .u-topTitle {
+    font-size: 3.5rem;
+  }
+
+  .u-topPara {
+    font-size: 2.0rem;
+  }
 
   .u-secoBtn {
     width: 120px;
@@ -959,6 +982,20 @@
     font-size: 1.0rem;
   }
 
+  .u-fifPara, .u-fifPara3, .u-fifPara4 {
+    font-size: 2.7rem;
+  }
+
+  .u-fifPara2 {
+    font-size: 1.4rem;
+    left: 7%;
+  }
+
+  .u-fifPara5 {
+    font-size: 1.4rem;
+    left: 7%;
+  }
+
 
 
 }
@@ -978,6 +1015,7 @@
     font-size: 0.7rem;
     line-height: 1.2;
     letter-spacing: 0.2em;
+    transform: scale(.8);
   }
 
 
@@ -985,17 +1023,17 @@
 
 
   .u-topTitle {
-    font-size: 3.0rem;
+    font-size: 2.5rem;
     line-height: 0.4;
 
     margin-bottom: 30px;
 
     position: relative;
-    left: 40px;
+    left: 5%;
   }
 
   .u-topPara, .u-topPara2, .u-topPara3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     line-height: 1.43;
 
   }
@@ -1049,14 +1087,19 @@
 
   .u-secoPara {
     font-size: 1.1rem;
-    top: 50px;
-    left: 50px;
+    /* top: 50px; */
+    top: 10%;
+    /* left: 50px; */
+    left: 0;
+    transform: scale(.8);
   }
-
+  
   .u-secoPara2 {
     font-size: 1.1rem;
-    top: 150px;
-    left: 50px;
+    /* top: 150px; */
+    left: 5%;
+    transform: scale(.8);
+    /* left: 50px; */
   }
 
   .u-secoBtn {
@@ -1090,12 +1133,12 @@
   .u-triPara {
     font-size: 1.1rem;
     top: 50px;
-    padding-left: 50px;
+    left: -8%;
   }
   .u-triPara2 {
     font-size: 1.1rem;
-    top: 150px;
-    left: 50px;
+    /* top: 150px; */
+    /* left: 50px; */
   }
 
   .u-triBtn {
@@ -1167,18 +1210,21 @@
     margin-bottom: 40px;
   }
   .u-fifPara2 {
-    font-size: 1.4rem;
-    top: 111.1px;
-    left: 35px;
+    font-size: 1.1rem;
+    /* top: 111.1px; */
+    /* left: 35px; */
+    transform: scale(.9);
   }
   .u-fifPara3 {
     margin: 50px 0;
   }
 
   .u-fifPara5 {
-    font-size: 1.4rem;
-    top: 195px;
-    left: 35px;
+    font-size: 1.1rem;
+    /* top: 195px; */
+    top: 50%;
+    /* left: 35px; */
+    left: 10%;
   }
 
   .u-fifBtn {
@@ -1189,7 +1235,7 @@
 
   .u-footerPara {
     position: relative;
-    left: 416.5px;
+    left: 54%;
   }
 
 
@@ -1203,16 +1249,16 @@
 @media screen and (max-width: 800px) {
 
   .u-topTitle {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     line-height: 0.57;
     margin-bottom: 29px;
 
     position: relative;
-    left: 20.4px;
+    /* left: 20.4px; */
   }
 
   .u-topPara, .u-topPara2, .u-topPara3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: "凸版文久見出し明朝 Std";
     line-height: 1.46;
 
@@ -1247,16 +1293,16 @@
 
   .u-secoPara {
     font-size: 1rem;
-    top: 33px;
-    left: 35px;
+    /* top: 33px; */
+    /* left: 35px; */
   }
   .u-secoParaSP {
     display: none;
   }
   .u-secoPara2 {
     font-size: 1rem;
-    top: 100px;
-    left: 35px;
+    /* top: 100px; */
+    /* left: 35px; */
   }
 
   .u-secoBtn {
@@ -1268,14 +1314,20 @@
 
   .u-triPara {
     font-size: 1rem;
-    top: 30px;
-    left: 15px;
+    top: 10%;
+    left: -4%;
+    transform: scale(.8);
+    /* top: 30px; */
+    /* left: 15px; */
     padding-left: 0;
   }
   .u-triPara2 {
     font-size: 1rem;
-    top: 110px;
-    left: 15px;
+    transform: scale(.8);
+    /* top: 110px; */
+    /* left: 15px; */
+    top: 50%;
+    left: -1%;
     padding-left: 0;
   }
 
@@ -1298,16 +1350,22 @@
 
   .u-fourPara {
     font-size: 1rem;
-    top: 33px;
-    left: 35px;
+    /* top: 33px; */
+    /* left: 35px; */
+    top: 8%;
+    left: 0%;
+    transform: scale(.8);
   }
   .u-fourParaSP {
     display: none;
   }
   .u-fourPara2 {
     font-size: 1rem;
-    top: 100px;
-    left: 35px;
+    transform: scale(.8);
+    /* top: 100px; */
+    /* left: 35px; */
+    top: 50%;
+    left: 4%;
   }
 
   .u-fourBtn {
@@ -1318,13 +1376,13 @@
   
   .u-fifPara2 {
     font-size: 1.1rem;
-    top: 85px;
+    /* top: 85px; */
 
   }
 
   .u-fifPara5 {
     font-size: 1.1rem;
-    top: 135px;
+    /* top: 135px; */
   }
   .u-footerPara {
     left: 270px;
@@ -1436,13 +1494,16 @@
 
 
 .u-secoPara {
-  font-size: .6rem;
+  width: 120%;
+  font-size: 1.1rem;
   font-family: "凸版文久見出し明朝 StdN";
   line-height: 1.67;
 
   position: relative;
-  top: 30.7px;
-  left: 30.4px;
+  top: 8%;
+  left: 10%;
+  /* top: 30.7px; */
+  /* left: 30.4px; */
 
   transform: scale(0.6);
   transform-origin: left center;
@@ -1508,10 +1569,13 @@
 
 
 .u-triPara {
+  width: 120%;
   font-size: .6rem;
   font-family: "凸版文久見出し明朝 StdN";
   position: relative;
-  top: 29.8px;
+  /* top: 29.8px; */
+  top: 10%;
+  left: 4%;
   padding-left: 30.4px;
 
   transform: scale(0.6);
@@ -1589,8 +1653,9 @@
   font-family: "凸版文久見出し明朝 StdN";
   line-height: 1.67;
   position: relative;
-  top: 30.7px;
-  left: 30.4px;
+  /* top: 30.7px; */
+  /* left: 30.4px; */
+  left: 10%;
 
   transform: scale(0.6);
   transform-origin: left center;
@@ -1602,8 +1667,9 @@
   font-size: .6rem;
   font-family: "凸版文久見出し明朝 StdN";
   position: absolute;
-  top: 100.5px;
-  left: 30.4px;
+  /* top: 100.5px; */
+  /* left: 30.4px; */
+  left: 10%;
 
   transform: scale(0.6);
   transform-origin: left center;
@@ -1704,14 +1770,15 @@
  /* *******************タブレット768px section footer **********************/
 .u-footerPara {
     position: relative;
-    left: 0px;
+    /* left: 0px; */
+    left: 60%;
   }
 
 
 }
 
 /* 調整用 */
- /* *******************タブレット600px  **********************/
+ /* *******************タブレット650px  **********************/
 
 @media screen and (max-width: 650px) {
 
@@ -1854,7 +1921,8 @@
     top: 75px;
   }
   .u-footerPara {
-    left: 270px;
+    /* left: 270px; */
+    left: 60%;
   }
   
 
@@ -1904,12 +1972,14 @@
 
   .u-fourPara {
     top: 0;
+    left: 10%;
     width: 130%;
   }
 
   .u-fourPara2 {
     font-size: .1rem;
     top: 60px;
+    left: 10%;
 
   }
   .u-fourParaSP {
@@ -2010,17 +2080,18 @@
 .u-secoParaSP {
   display: block;
   font-size: 1.0rem;
-  transform: scale(0.9);
-  left: 10px;
+  transform: scale(0.8);
+  left: -4%;
   color: #000;
   top: 10px;
   position: relative;
 
 }
 .u-secoPara2 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   transform: scale(0.8);
-  left: 28px;
+  /* left: 28px; */
+  left: 6%;
   top: 80px;
 }
 
@@ -2044,16 +2115,18 @@
 .u-triParaSP {
   display: block;
   font-size: 1.0rem;
-  transform: scale(0.9);
-  left: 10px;
+  transform: scale(0.8);
+  /* left: 10px; */
+  left: -2%;
   color: #000;
   top: 10px;
   position: relative;
 }
 .u-triPara2 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   transform: scale(0.8);
-  left: 28px;
+  /* left: 28px; */
+  left: 8%;
   top: 80px;
 }
 
@@ -2074,22 +2147,28 @@
   font-size: 1.6rem;
 }
 
+.u-fourSub {
+  font-size: 4rem;
+}
+
 .u-fourPara {
   display: none;
 }
 .u-fourParaSP {
   display: block;
   font-size: 1.0rem;
-  transform: scale(0.9);
-  left: 10px;
+  transform: scale(0.8);
+  /* left: 10px; */
+  left: -2%;
   color: #000;
   top: 10px;
   position: relative;
 }
 .u-fourPara2 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   transform: scale(0.8);
-  left: 28px;
+  /* left: 28px; */
+  left: 8%;
   top: 80px;
 }
 
@@ -2112,17 +2191,18 @@
 
     top: 30px;
     left: 15px;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   .u-fifPara5 {
     top: 75px;
     left: 15px;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
 /* ******************* 512px footer **********************/
 
   .u-footerPara {
-    left: 18px;
+    /* left: 18px; */
+    left: 15%;
   }
 
 
@@ -2234,7 +2314,8 @@
     font-family: "凸版文久見出し明朝 StdN";
     position: absolute;
     top: 97.5px;
-    left: 30.4px;
+    /* left: 30.4px; */
+    left: 6%;
 }
 
 .u-secoBtn {
@@ -2407,7 +2488,7 @@
  /* *******************414px section footer **********************/
   .u-footerPara {
     position: relative;
-    left: 4px;
+    left: 30%;
   }
 
 

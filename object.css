@@ -1,10 +1,15 @@
 /* 接頭辞なし */
 /*  */
-@media screen and ( max-width: 2560px){
+@media screen and (max-width: 2560px) {
 
     body {
-        width: 2560px;
+        width: 100%;
+        max-width: 2560px;
     }
+
+
+
+
     /* ヘッダー */
     .headerTitle {
         position: relative;
@@ -19,7 +24,7 @@
     .headerTitle-min {
         position: relative;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-self: flex-start;
         align-items: flex-end;
         line-height: 1.347;
@@ -72,11 +77,25 @@
     }
 
     @keyframes animeBg {
-        0%{opacity: 0;}
-        1%{opacity: 1;}
-        25%{opacity: 1;}
-        26%{opacity: 0;}
-        100%{opacity: 0;}
+        0% {
+            opacity: 0;
+        }
+
+        1% {
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        26% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
     }
 
     /* スライドショーここまで */
@@ -235,6 +254,7 @@
         position: absolute;
 
     }
+
     .topImgbox {
         height: 926px;
     }
@@ -249,6 +269,7 @@
 
         margin-bottom: 79.9px;
     }
+
     .topPhoto2 {
         background: url("image.svg/topphoto2.png");
         background-size: contain;
@@ -299,6 +320,7 @@
         left: 780px;
 
     }
+
     .secobgBox {
         display: flex;
         justify-content: flex-end;
@@ -407,6 +429,7 @@
         left: 790px;
 
     }
+
     .tribgBox {
         display: flex;
         justify-content: flex-start;
@@ -514,6 +537,7 @@
         left: 780px;
 
     }
+
     .fourbgBox {
         display: flex;
         justify-content: flex-end;
@@ -632,10 +656,11 @@
 
     /* **************************footer ***********************************/
     .footerWrap {
-        background-color: rgba(0,0,0,0.95);
+        background-color: rgba(0, 0, 0, 0.95);
         width: 100%;
         height: 332.55px;
     }
+
     .footerImg {
         background-image: url("image.svg/logo-white.png");
         z-index: -80;
@@ -677,7 +702,9 @@
         letter-spacing: 0.1em;
         line-height: 1;
     }
-    .footerPara,.footerPara2 {
+
+    .footerPara,
+    .footerPara2 {
         font-size: 2.8rem;
         font-family: "Toppan Bunkyu Midashi Mincho";
         letter-spacing: 0.1em;
@@ -685,8 +712,9 @@
         position: relative;
         top: 62.7px;
     }
+
     .footerPara2 {
-    left: 30px;
+        left: 30px;
     }
 
 
@@ -707,10 +735,12 @@
         left: -45px;
         top: 2px;
     }
+
     .footer-fa-stack .fa-stack-2x {
         font-size: 8em;
 
     }
+
     .footer-fa-stack2 .fa-instagram {
         font-size: 5.3rem;
         cursor: pointer;
@@ -729,6 +759,7 @@
         margin-top: 23px;
         margin-left: 64px;
     }
+
     .copyRightSp {
         display: none;
     }
@@ -740,7 +771,7 @@
 
 
 
-@media screen and ( max-width: 1920px){
+@media screen and (max-width: 1920px) {
 
     /* ヘッダー */
     .headerTitle {
@@ -756,7 +787,7 @@
     .headerTitle-min {
         position: relative;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-self: flex-start;
         align-items: flex-end;
         line-height: 1.347;
@@ -809,11 +840,25 @@
     }
 
     @keyframes animeBg {
-        0%{opacity: 0;}
-        1%{opacity: 1;}
-        25%{opacity: 1;}
-        26%{opacity: 0;}
-        100%{opacity: 0;}
+        0% {
+            opacity: 0;
+        }
+
+        1% {
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        26% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
     }
 
     /* スライドショーここまで */
@@ -972,6 +1017,7 @@
         position: absolute;
 
     }
+
     .topImgbox {
         height: 926px;
     }
@@ -986,6 +1032,7 @@
 
         margin-bottom: 79.9px;
     }
+
     .topPhoto2 {
         background: url("image.svg/topphoto2.png");
         background-size: contain;
@@ -1015,7 +1062,7 @@
         height: 465px;
         position: absolute;
         top: 293px;
-        left: 170px;
+        left: 190px;
         z-index: 5;
     }
 
@@ -1036,6 +1083,7 @@
         left: 515px;
 
     }
+
     .secobgBox {
         display: flex;
         justify-content: flex-end;
@@ -1121,7 +1169,7 @@
         height: 455.1px;
         position: absolute;
         top: 125.9px;
-        left: 945px;
+        left: 915px;
         z-index: 5;
     }
 
@@ -1144,6 +1192,7 @@
         left: 560.8px;
 
     }
+
     .tribgBox {
         display: flex;
         justify-content: flex-start;
@@ -1229,7 +1278,7 @@
         height: 465px;
         position: absolute;
         top: 293px;
-        left: 170px;
+        left: 180px;
         z-index: 5;
     }
 
@@ -1251,6 +1300,7 @@
         left: 515px;
 
     }
+
     .fourbgBox {
         display: flex;
         justify-content: flex-end;
@@ -1369,10 +1419,11 @@
 
     /* **************************footer ***********************************/
     .footerWrap {
-        background-color: rgba(0,0,0,0.95);
+        background-color: rgba(0, 0, 0, 0.95);
         width: 100%;
         height: 332.55px;
     }
+
     .footerImg {
         background-image: url("image.svg/logo-white.png");
         z-index: -80;
@@ -1414,7 +1465,9 @@
         letter-spacing: 0.1em;
         line-height: 1;
     }
-    .footerPara,.footerPara2 {
+
+    .footerPara,
+    .footerPara2 {
         font-size: 2.3rem;
         font-family: "Toppan Bunkyu Midashi Mincho";
         letter-spacing: 0.1em;
@@ -1422,8 +1475,9 @@
         position: relative;
         top: 62.7px;
     }
+
     .footerPara2 {
-    left: 30px;
+        left: 30px;
     }
 
 
@@ -1444,10 +1498,12 @@
         left: -45px;
         top: 7px;
     }
+
     .footer-fa-stack .fa-stack-2x {
         font-size: 8em;
 
     }
+
     .footer-fa-stack2 .fa-instagram {
         font-size: 5.3rem;
         cursor: pointer;
@@ -1466,6 +1522,7 @@
         margin-top: 23px;
         margin-left: 64px;
     }
+
     .copyRightSp {
         display: none;
     }
@@ -1481,7 +1538,7 @@
 
 
 /* *****************調整用 ****************************/
-@media screen and ( max-width: 1440px){
+@media screen and (max-width: 1440px) {
 
     .bgBox {
         position: absolute;
@@ -1490,13 +1547,14 @@
         margin: auto;
         overflow: hidden;
     }
+
     .bgBox .bgImage {
         background: url("image.svg/home-image.jpg");
         background-size: contain;
         background-position-y: -65px;
     }
 
-    
+
 
 
     .bgImage4 {
@@ -1573,7 +1631,9 @@
     }
 
     .topImgbox {
-        height: 717px;
+        /* height: 717px; */
+        height: 100%;
+        width: 63%;
     }
 
     .topPhoto1 {
@@ -1581,19 +1641,22 @@
         height: 340px;
         margin-bottom: 50px;
     }
+
     .topPhoto2 {
         width: 500px;
         height: 340px;
     }
+
     .topParabox {
         top: -345px;
     }
+
     .topBtnbox {
         top: 120px;
         width: 50%;
     }
 
-/* *************** 1440px lodge************************************************************/
+    /* *************** 1440px lodge************************************************************/
     .secobgTitle {
         top: -50px;
     }
@@ -1606,20 +1669,24 @@
     .secobgPhoto {
         width: 600px;
         height: 389px;
-        margin-bottom: 60px;
+        margin-bottom: 5%;
     }
+
     .secoParainner {
-        width: 600px;
-        height: 340px;
+        /* width: 600px; */
+        width: 42vw;
+        /* height: 340px; */
+        height: 25vw;
         top: 240px;
-        left: 170px;
+        left: 33%;
     }
+
     .secoBtnbox {
         top: 75%;
         left: 65%;
     }
 
-/* *************** 1440px food************************************************************/
+    /* *************** 1440px food************************************************************/
 
 
 
@@ -1629,31 +1696,37 @@
     }
 
     .triPhotobox {
-        width: 90%;
+        width: 100%;
         /* margin-left: auto; */
     }
 
     .tribgPhoto {
         width: 600px;
         height: 389px;
-        margin-bottom: 60px;
+        margin-bottom: 0%;
     }
+
     .triParainner {
-        width: 600px;
-        height: 340px;
+        width: 94%;
+        /* width: 600px; */
+        height: 23vw;
         top: 60px;
-        left: 660px;
+        /* left: 660px; */
+        left: 50vw;
     }
+
     .triBtnbox {
         top: 75%;
         left: 65%;
     }
+
     .triLine::after {
         width: 280px;
         left: 130px;
         top: 60px;
     }
-/* *************** 1440px interacitve************************************************************/
+
+    /* *************** 1440px interacitve************************************************************/
     .fourbgTitle {
         top: -170px;
         left: -400px;
@@ -1667,37 +1740,48 @@
     .fourbgPhoto {
         width: 600px;
         height: 389px;
-        margin-bottom: 60px;
+        margin-bottom: 4%;
     }
+
     .fourParainner {
-        width: 600px;
-        height: 340px;
+        width: 43vw;
+        height: 24vw;
         top: 150px;
-        left: 137px;
+        left: 22%;
     }
+
     .fourBtnbox {
         top: 75%;
         left: 65%;
     }
+
     .fourLine::after {
         width: 360px;
         top: 60px;
         left: 100px;
     }
 
-/* *************** 1440px contact************************************************************/
+    /* *************** 1440px contact************************************************************/
+
+    .fifParawrap {
+        margin: 0 auto;
+    }
+
     .fifParainner2 {
         height: 350px;
+        margin: 0 6%;
     }
 
     .fifBtnbox {
         top: 260px;
-        left: 450px;
+        left: 83%;
     }
-/* *************** 1440px footer************************************************************/
+
+    /* *************** 1440px footer************************************************************/
     .footerWrap {
         height: 300px;
     }
+
     .footerParaTitle {
         font-size: 2rem;
     }
@@ -1707,12 +1791,15 @@
     }
 
 
-    .footerPara, .footerPara2 {
+    .footerPara,
+    .footerPara2 {
         font-size: 1.5rem;
     }
+
     .footerPara2 {
         left: 30px;
     }
+
     .footerImg {
         height: 300px;
 
@@ -1722,7 +1809,7 @@
 }
 
 /* *****************調整用 ****************************/
-@media screen and ( max-width: 1280px){
+@media screen and (max-width: 1280px) {
 
     .bgBox {
         max-width: 1280px;
@@ -1732,52 +1819,96 @@
         background-position-y: -19px;
         background-repeat: no-repeat;
     }
-    .bgImage4, .bgImage5, .bgImage6,
-    .bgImage7, .bgImage8 {
+
+    .bgImage4,
+    .bgImage5,
+    .bgImage6,
+    .bgImage7,
+    .bgImage8 {
         background-position-y: 9px;
     }
 
-    .secoParainner{
-        top: 240px;
-        left: 153px;
-        width: 520px;
+    .navItem {
+        font-size: 1.8rem;
+    }
+
+    .topPhoto1 {
+        width: 90%;
+    }
+
+    .topPhoto2 {
+        width: 90%;
+    }
+
+    .topBgimg {
+        height: 70%;
+    }
+
+    .secoParainner {
+        /* top: 240px; */
+        left: 29%;
+        /* width: 520px; */
+    }
+
+    .secobgPhoto {
+        width: 48%;
     }
 
     .secoBtnbox {
-        top: 72%;
-        left: 61%;
+        top: 68%;
+        left: 70%;
     }
 
 
     .triParainner {
-        width: 520px;
-        left: 630px;
+        width: 83%;
+        /* width: 520px; */
+        /* left: 630px; */
+        /* left: 47vw; */
+    }
+
+    .tribgPhoto {
+        width: 54%;
     }
 
     .fourbgPhoto {
-        width: 524px;
+        /* width: 524px; */
+        width: 43%;
+
         height: 340px;
     }
 
     .fourParainner {
-        width: 548px;
-        height: 300px;
+        /* width: 548px; */
+        width: 62%;
+        /* height: 300px; */
+        height: 21vw;
         top: 150px;
-        left: 124px;
+        /* left: 124px; */
+        left: 20%;
     }
 
-    .fourBtnbox{
+    .fourBtnbox {
         top: 70%;
         left: 73%;
     }
 
     .fifBtnbox {
-        left: 375px;
+        left: 75%;
     }
 
-    .footerWrap {
-        width: 90%;
+    .footerParainner {
+        left: 40%;
     }
+
+    .footerPara2 {
+        left: 6%;
+    }
+
+    .footerImg {
+        width: 30%;
+    }
+
 
 }
 
@@ -1786,46 +1917,46 @@
 
 
 /* *****************調整用 ****************************/
-@media screen and ( max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .headerTitle {
         position: relative;
         display: flex;
         flex-direction: column;
         padding-left: 23px;
         width: 80%;
-    
-    
+
+
     }
-    
+
     .headerTitle-min {
         position: relative;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-self: flex-start;
         align-items: flex-end;
         line-height: 1.347;
         letter-spacing: 0.2em;
     }
-    
+
     .navWrapper {
         width: 100%;
         height: 100%;
         display: flex;
         justify-content: flex-end;
     }
-    
+
     .navList {
         display: flex;
         align-items: center;
         width: 100%;
         margin: 0 auto;
         justify-content: space-around;
-    
+
         font-size: 2.5rem;
         font-weight: bold;
         color: #ffffff;
     }
-    
+
     .navItem {
         display: flex;
         font-size: 2.0rem;
@@ -1836,170 +1967,184 @@
         justify-content: center;
         cursor: pointer;
     }
-    
-
-
-/* スライドショーここから */
-.pcShow {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    margin: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    animation: animeBg 60s infinite;
-}
-
-@keyframes animeBg {
-    0%{opacity: 0;}
-    1%{opacity: 1;}
-    25%{opacity: 1;}
-    26%{opacity: 0;}
-    100%{opacity: 0;}
-}
-
-/* スライドショーここまで */
-
-.bgBox {
-    position: absolute;
-    height: 463px;
-    /* width:  */
-
-    margin: auto;
-    overflow: hidden;
-}
 
 
 
-.bgBox .bgImage2 {
-    z-index: 100;
-    width: 50%;
-    height: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+    /* スライドショーここから */
+    .pcShow {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        animation: animeBg 60s infinite;
+    }
+
+    @keyframes animeBg {
+        0% {
+            opacity: 0;
+        }
+
+        1% {
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        26% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /* スライドショーここまで */
+
+    .bgBox {
+        position: absolute;
+        height: 463px;
+        /* width:  */
+
+        margin: auto;
+        overflow: hidden;
+    }
+
+
+
+    .bgBox .bgImage2 {
+        z-index: 100;
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 
 
 
 
 
-.bgBox .bgImage {
-    background: url("image.svg/home-image.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    z-index: -100;
-    position: absolute;
-    object-fit: contain;
-    background-position-y: -54px;
-    margin: 0;
-    padding: 50%;
-    left: 0;
-    top: 0;
-}
+    .bgBox .bgImage {
+        background: url("image.svg/home-image.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        z-index: -100;
+        position: absolute;
+        object-fit: contain;
+        background-position-y: -54px;
+        margin: 0;
+        padding: 50%;
+        left: 0;
+        top: 0;
+    }
 
-.bgImageMin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    flex-direction: column;
-    width: 100%;
-    height: 72%;
-    max-width: initial;
-    top: 34%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 7%;
-}
-
-
-.bgImage2 {
-    background-image: url("image.svg/logo-white.png");
-    background-size: contain;
-    background-position: center;
-    position: absolute;
-    background-repeat: no-repeat;
-    z-index: 100;
-    width: 888px;
-    height: 50%;
-    object-fit: cover;
-    top: initial;
-    left: initial;
-    transform: initial;
-}
+    .bgImageMin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: 72%;
+        max-width: initial;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 7%;
+    }
 
 
-.bgImage4 {
-    background-repeat: no-repeat;
-    width: 100%;
-    z-index: -100;
-    position: absolute;
-    margin: 0;
-    background-position-y: -32px;
-    background-position-x: -60px;
-    background-size: contain;
-    padding: 57.4%;
-    animation-delay: 10s;
-}
+    .bgImage2 {
+        background-image: url("image.svg/logo-white.png");
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        background-repeat: no-repeat;
+        z-index: 100;
+        width: 888px;
+        height: 50%;
+        object-fit: cover;
+        top: initial;
+        left: initial;
+        transform: initial;
+    }
 
-.bgImage5 {
-    background-repeat: no-repeat;
-    width: 100%;
-    z-index: -100;
-    position: absolute;
-    margin: 0;
-    background-position-y: -32px;
-    background-position-x: -60px;
-    background-size: contain;
-    padding: 57.4%;
-    animation-delay: 20s;
-}
 
-.bgImage6 {
-    background-repeat: no-repeat;
-    width: 100%;
-    z-index: -100;
-    position: absolute;
-    margin: 0;
-    background-position-y: -32px;
-    background-position-x: -60px;
-    background-size: contain;
-    padding: 57.4%;
-    animation-delay: 30s;
-}
+    .bgImage4 {
+        background-repeat: no-repeat;
+        width: 100%;
+        z-index: -100;
+        position: absolute;
+        margin: 0;
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
+        animation-delay: 10s;
+    }
 
-.bgImage7 {
-    background-repeat: no-repeat;
-    width: 100%;
-    z-index: -100;
-    position: absolute;
-    margin: 0;
-    background-position-y: -32px;
-    background-position-x: -60px;
-    background-size: contain;
-    padding: 57.4%;
-    animation-delay: 40s;
-}
+    .bgImage5 {
+        background-repeat: no-repeat;
+        width: 100%;
+        z-index: -100;
+        position: absolute;
+        margin: 0;
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
+        animation-delay: 20s;
+    }
 
-.bgImage8 {
-    background-repeat: no-repeat;
-    width: 100%;
-    z-index: -100;
-    position: absolute;
-    margin: 0;
-    background-position-y: -32px;
-    background-position-x: -60px;
-    background-size: contain;
-    padding: 57.4%;
-    animation-delay: 50s;
-}
+    .bgImage6 {
+        background-repeat: no-repeat;
+        width: 100%;
+        z-index: -100;
+        position: absolute;
+        margin: 0;
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
+        animation-delay: 30s;
+    }
+
+    .bgImage7 {
+        background-repeat: no-repeat;
+        width: 100%;
+        z-index: -100;
+        position: absolute;
+        margin: 0;
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
+        animation-delay: 40s;
+    }
+
+    .bgImage8 {
+        background-repeat: no-repeat;
+        width: 100%;
+        z-index: -100;
+        position: absolute;
+        margin: 0;
+        background-position-y: -32px;
+        background-position-x: -60px;
+        background-size: contain;
+        padding: 57.4%;
+        animation-delay: 50s;
+    }
 
     .bgBox {
         position: relative;
@@ -2008,11 +2153,11 @@
     }
 
     .navItem {
-        font-size: 1.35rem;
+        font-size: 1.1rem;
     }
 
 
-/* ************************* main top******************************************/
+    /* ************************* main top******************************************/
 
     .topParainner {
         position: relative;
@@ -2034,10 +2179,11 @@
     }
 
     .topBgimg {
-        width: 740px;
+        /* width: 740px; */
         height: 400px;
 
     }
+
     .topImgbox {
         height: 646px;
     }
@@ -2047,21 +2193,22 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 450px;
+        /* width: 450px; */
         height: 307px;
 
         margin-bottom: 46px;
     }
+
     .topPhoto2 {
         background: url("image.svg/topphoto2.png");
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 450px;
+        /* width: 450px; */
         height: 307px;
     }
 
-        /* *****************section lodge ****************************/
+    /* *****************section lodge ****************************/
 
     .secoParabox {
         text-align: left;
@@ -2077,11 +2224,12 @@
     }
 
     .secoParainner {
-        width: 420px;
-        height: 280px;
+        /* width: 420px; */
+        /* height: 280px; */
+        height: 27vw;
         position: absolute;
-        top: 230px;
-        left: 170px;
+        top: 18vw;
+        left: 32%;
         z-index: 5;
     }
 
@@ -2098,10 +2246,12 @@
 
     .secoBtnbox {
         position: absolute;
-        top: 211px;
-        left: 265px;
+        transform: scale(.7);
+        /* top: 211px; */
+        /* left: 265px; */
 
     }
+
     .secobgBox {
         display: flex;
         justify-content: flex-end;
@@ -2112,9 +2262,9 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 530px;
-        height: 340px;
-        margin-bottom: 60px;
+        /* width: 530px; */
+        /* height: 340px; */
+        margin-bottom: -4%;
     }
 
     .secoPhotobox {
@@ -2165,7 +2315,8 @@
         width: 200px;
         height: 193px;
     }
-/* *****************section food ****************************/
+
+    /* *****************section food ****************************/
 
 
     .tribgTitle {
@@ -2177,10 +2328,11 @@
     .triParainner {
         position: absolute;
         top: 90px;
-        left: 533px;
+        left: 96%;
+        /* left: 533px; */
         z-index: 5;
 
-        width: 485px;
+        width: 44vw;
         height: 280px;
     }
 
@@ -2193,10 +2345,12 @@
     }
 
     .triBtnbox {
-        top: 211px;
-        left: 260px;
+        /* top: 211px; */
+        /* left: 260px; */
+        transform: scale(.7);
 
     }
+
     .tribgBox {
         display: flex;
         justify-content: flex-start;
@@ -2211,9 +2365,9 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 450px;
+        /* width: 450px; */
         height: 251px;
-        margin-bottom: 60px;
+        margin-bottom: 5%;
     }
 
 
@@ -2261,7 +2415,8 @@
         width: 200px;
         height: 193px;
     }
-/* *****************section interactive ****************************/
+
+    /* *****************section interactive ****************************/
 
 
 
@@ -2272,10 +2427,10 @@
     }
 
     .fourParainner {
-        width: 485px;
-        height: 280px;
-        top: 230px;
-        left: 100px;
+        width: 66%;
+        height: 23vw;
+        top: 180px;
+        /* left: 100px; */
     }
 
     .fourLine::after {
@@ -2287,8 +2442,11 @@
 
     .fourBtnbox {
         position: absolute;
-        top: 190px;
-        left: 290px;
+        /* top: 190px; */
+        /* left: 290px; */
+        top: 72%;
+        left: 67%;
+        transform: scale(.7);
 
     }
 
@@ -2297,8 +2455,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 530px;
-        height: 340px;
+        /* width: 530px; */
+        height: 238px;
         margin-bottom: 60px;
     }
 
@@ -2351,7 +2509,7 @@
         height: 193px;
     }
 
-/* *****************section contact ****************************/
+    /* *****************section contact ****************************/
 
     .fifParabox {
         text-align: left;
@@ -2376,7 +2534,7 @@
 
     .fifParainner2 {
         width: 677px;
-        height: 300px;
+        height: 250px;
         position: relative;
         top: 470px;
         left: 0;
@@ -2393,8 +2551,9 @@
         position: absolute;
         /* top: 235px; */
         /* left: 280px; */
-        top: 75%;
+        top: 65%;
         left: 70%;
+        transform: scale(.8);
     }
 
 
@@ -2403,12 +2562,13 @@
     }
 
 
-/* **************************footer ***********************************/
+    /* **************************footer ***********************************/
     .footerWrap {
-        background-color: rgba(0,0,0,0.95);
+        background-color: rgba(0, 0, 0, 0.95);
         width: 100%;
         height: 295px;
     }
+
     .footerImg {
         background-image: url("image.svg/logo-white.png");
         z-index: -80;
@@ -2417,8 +2577,8 @@
         position: absolute;
         background-repeat: no-repeat;
         z-index: 1;
-        width: 345px;
-        height: 295px;
+        /* width: 345px; */
+        /* height: 295px; */
         object-fit: contain;
     }
 
@@ -2429,7 +2589,8 @@
 
     .footerParainner {
         top: 42.7px;
-        left: 420px;
+        /* left: 420px; */
+        left: 54%;
 
     }
 
@@ -2441,12 +2602,15 @@
         font-size: 2rem;
         padding-bottom: 5px;
     }
-    .footerPara,.footerPara2 {
-        font-size: 1.4rem;
-        top: 70.7px;
-    }
+
+    .footerPara,
     .footerPara2 {
-    left: 30px;
+        font-size: 1.2rem;
+        top: 100%;
+    }
+
+    .footerPara2 {
+        left: 7%;
     }
 
 
@@ -2463,14 +2627,16 @@
     }
 
     .footer-fa-stack .fa-facebook-f {
-        font-size: 33px;
+        font-size: 28px;
         left: -45px;
-        top: 2px;
+        top: 7px;
     }
+
     .footer-fa-stack .fa-stack-2x {
         font-size: 7em;
 
     }
+
     .footer-fa-stack2 .fa-instagram {
         font-size: 4.5rem;
         top: -45px;
@@ -2481,6 +2647,7 @@
         margin-left: 40px;
         font-size: 1rem;
     }
+
     .copyRightSp {
         display: none;
     }
@@ -2499,8 +2666,8 @@
         display: none;
     }
 
-       /* ハンバーガーメニュー */
-       .navList {
+    /* ハンバーガーメニュー */
+    .navList {
         /* z-index: 10000; */
         position: absolute;
         z-index: 600;
@@ -2508,24 +2675,25 @@
         left: 0px;
         width: 100%;
         height: 40.9rem;
-        overflow-y: auto;/*縦方向の表示*/
+        overflow-y: auto;
+        /*縦方向の表示*/
 
         display: flex;
         flex-direction: column;
         transition: opacity .8s ease, visibility .6s ease;
 
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0, 0, 0, 0.7);
         visibility: .6s ease;
         opacity: 0;
 
     }
+
     .clicked .navList {
         left: 0px;
         visibility: visible;
         opacity: 1;
         top: 75px;
         height: 43rem;
-        width: 80%;
     }
 
     .clicked .navList li {
@@ -2542,15 +2710,16 @@
         transition: transform 6s ease, opacity .2s ease;
     }
 
-    .navList li{
+    .navList li {
         transform: translateY(-220px);
 
         transition: transform .6s ease, opacity .2s ease;
     }
 
-    .navList li:nth-child(2)  {
+    .navList li:nth-child(2) {
         transition-delay: .15s;
     }
+
     .navList li:nth-child(3) {
         transition-delay: .3s;
     }
@@ -2559,6 +2728,7 @@
         transition-delay: .45s;
 
     }
+
     .navList .navItem:nth-child(5) {
         transition-delay: .6s;
 
@@ -2574,9 +2744,10 @@
         top: 18%;
         width: 31px;
         height: 50px;
-        right: 25%;
+        right: 5%;
         cursor: pointer;
-        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+        transition: all .30s ease-in-out;
+        /*0.3秒かけて変化*/
     }
 
     .toggleLine {
@@ -2593,9 +2764,11 @@
     .tg1 {
         top: 14px;
     }
+
     .tg2 {
         top: 27.5px;
     }
+
     .tg3 {
         top: 40.5px;
     }
@@ -2607,15 +2780,19 @@
     /* togglerにclickedクラス付与されたら*/
 
     .clicked .tg1 {
-        transform: translateY(16px) rotate(-315deg);/*時計回りに45度回転*/
+        transform: translateY(16px) rotate(-315deg);
+        /*時計回りに45度回転*/
         /* top: 20px; */
     }
+
     .clicked .tg2 {
         /* width: 0px; */
         opacity: 0;
     }
+
     .clicked .tg3 {
-        transform: translateY(-10px) rotate(315deg);/*反時計周りに45度回転*/
+        transform: translateY(-10px) rotate(315deg);
+        /*反時計周りに45度回転*/
         /* top: 20px; */
     }
 
@@ -2624,6 +2801,7 @@
     .fa-square {
         display: none;
     }
+
     .clicked .fa-square {
         position: relative;
         top: 2px;
@@ -2633,29 +2811,36 @@
         font-size: 20px;
         cursor: pointer;
     }
+
     .clicked .fa-stack-2x {
         font-size: 1.3em;
     }
+
     .clicked .fa-instagram {
         font-size: 30px;
         cursor: pointer;
     }
 
-    .bgBox .bgImage{
+    .bgBox .bgImage {
         background-position-y: -29px;
     }
+
     .bgImage4 {
         background-position-y: -12px;
     }
+
     .bgImage5 {
         background-position-y: -12px;
     }
+
     .bgImage6 {
         background-position-y: -12px;
     }
+
     .bgImage7 {
         background-position-y: -12px;
     }
+
     .bgImage8 {
         background-position-y: -12px;
     }
@@ -2719,28 +2904,33 @@
         top: -64px;
         left: -140px;
     }
-    
+
     .secoLine::after {
         width: 220px;
         left: 95px;
 
     }
-    
+
     .secobgPhoto {
         width: 51%;
         height: 240px;
         margin-bottom: 40px;
     }
+
     .secoParainner {
         top: 140px;
-        left: 93px;
-        width: 350px;
+        left: 26%;
+        /* left: 93px; */
+        /* width: 350px; */
+        width: 39vw;
         height: 195px;
     }
 
     .secoBtnbox {
-        top: 140px;
-        left: 180px;
+        /* top: 140px; */
+        /* left: 180px; */
+        top: 70%;
+        left: 70%;
     }
 
     .tribgPhoto {
@@ -2752,11 +2942,12 @@
 
     .triParainner {
         top: 54px;
-        left: 410px;
-        width: 320px;
+        /* left: 410px; */
+        left: 78%;
+        width: 68%;
         height: 230px;
     }
-    
+
     .triBtnbox {
         top: 180px;
         left: 210px;
@@ -2768,37 +2959,45 @@
     }
 
     .fourbgPhoto {
-        width: 51%;
-        height: 240px;
-        margin-bottom: 40px;
+        width: 45%;
+        /* height: 240px; */
+        height: 197px;
+        margin-bottom: 7%;
     }
+
     .fourParainner {
-        top: 140px;
-        left: 93px;
-        width: 350px;
+        top: 100px;
+        left: 15%;
+        width: 51%;
         height: 195px;
     }
 
     .fourBtnbox {
-        top: 140px;
-        left: 180px;
+        /* top: 140px; */
+        /* left: 180px; */
+        top: 70%;
+        left: 70%;
     }
 
     .fifParainner2 {
-        margin: 0 40px;
+        margin: 0 6%;
     }
 
     .fifBtnbox {
         left: 61%;
     }
 
-    .footerImg{
+    .footerWrap {
+        height: 78%;
+    }
+
+    .footerImg {
         width: 30%;
         height: 204px;
     }
 
     .footerParabox {
-        width: 47%;
+        width: 62%;
         margin: 0;
     }
 
@@ -2807,13 +3006,14 @@
         left: 270px;
     }
 
-    .footerPara, .footerPara2{
+    .footerPara,
+    .footerPara2 {
         font-size: 1.1rem;
         top: 45px;
     }
 
 
-  
+
 }
 
 
@@ -2846,7 +3046,7 @@
         height: 50%;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
 
 
@@ -2859,6 +3059,7 @@
 
         animation-delay: 10s;
     }
+
     .bgImage5 {
         background-position-y: -32px;
         background-position-x: -60px;
@@ -2918,14 +3119,16 @@
     .headerTitle-min {
         position: relative;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-self: flex-start;
         align-items: flex-end;
-        line-height: 1.347;/*行間31px÷fontsize23px*/
-        letter-spacing: 0.2em;/*AV200÷1000 + em*/
+        line-height: 1.347;
+        /*行間31px÷fontsize23px*/
+        letter-spacing: 0.2em;
+        /*AV200÷1000 + em*/
     }
 
-   /* ハンバーガーメニュー */
+    /* ハンバーガーメニュー */
     .navList {
         /* z-index: 10000; */
         position: absolute;
@@ -2934,17 +3137,19 @@
         left: 0px;
         width: 100%;
         height: 40.9rem;
-        overflow-y: auto;/*縦方向の表示*/
+        overflow-y: auto;
+        /*縦方向の表示*/
 
         display: flex;
         flex-direction: column;
         transition: opacity .8s ease, visibility .6s ease;
 
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0, 0, 0, 0.7);
         visibility: .6s ease;
         opacity: 0;
 
     }
+
     .clicked .navList {
         left: 0px;
         visibility: visible;
@@ -2968,15 +3173,16 @@
         transition: transform 6s ease, opacity .2s ease;
     }
 
-    .navList li{
+    .navList li {
         transform: translateY(-220px);
 
         transition: transform .6s ease, opacity .2s ease;
     }
 
-    .navList li:nth-child(2)  {
+    .navList li:nth-child(2) {
         transition-delay: .15s;
     }
+
     .navList li:nth-child(3) {
         transition-delay: .3s;
     }
@@ -2985,6 +3191,7 @@
         transition-delay: .45s;
 
     }
+
     .navList .navItem:nth-child(5) {
         transition-delay: .6s;
 
@@ -2999,7 +3206,8 @@
         height: 50px;
         right: 26.3px;
         cursor: pointer;
-        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+        transition: all .30s ease-in-out;
+        /*0.3秒かけて変化*/
     }
 
     .toggleLine {
@@ -3016,9 +3224,11 @@
     .tg1 {
         top: 14px;
     }
+
     .tg2 {
         top: 27.5px;
     }
+
     .tg3 {
         top: 40.5px;
     }
@@ -3030,15 +3240,19 @@
     /* togglerにclickedクラス付与されたら*/
 
     .clicked .tg1 {
-        transform: translateY(16px) rotate(-315deg);/*時計回りに45度回転*/
+        transform: translateY(16px) rotate(-315deg);
+        /*時計回りに45度回転*/
         /* top: 20px; */
     }
+
     .clicked .tg2 {
         /* width: 0px; */
         opacity: 0;
     }
+
     .clicked .tg3 {
-        transform: translateY(-10px) rotate(315deg);/*反時計周りに45度回転*/
+        transform: translateY(-10px) rotate(315deg);
+        /*反時計周りに45度回転*/
         /* top: 20px; */
     }
 
@@ -3047,6 +3261,7 @@
     .fa-square {
         display: none;
     }
+
     .clicked .fa-square {
         position: relative;
         top: 2px;
@@ -3056,15 +3271,17 @@
         font-size: 20px;
         cursor: pointer;
     }
+
     .clicked .fa-stack-2x {
         font-size: 1.3em;
     }
+
     .clicked .fa-instagram {
         font-size: 30px;
         cursor: pointer;
     }
 
-/* *************************タブレット768px main top******************************************/
+    /* *************************タブレット768px main top******************************************/
 
     .topParainner {
         position: absolute;
@@ -3142,11 +3359,13 @@
     }
 
     .secoParainner {
-        width: 304.56px;
+        /* width: 304.56px; */
+        width: 96%;
         height: 186.1px;
         position: absolute;
         top: 113.1px;
-        left: 69.7px;
+        /* left: 69.7px; */
+        left: 30%;
         z-index: 5;
     }
 
@@ -3167,11 +3386,13 @@
         position: absolute;
         /* top: 148.7px; */
         /* left: 205.7px; */
+        transform: initial;
 
         top: 70%;
         left: 75%;
 
     }
+
     .secobgBox {
         display: flex;
         justify-content: flex-end;
@@ -3192,30 +3413,39 @@
     .secoPhotobox {
         display: flex;
     }
-    .secoPhoto1,.secoPhoto2,.secoPhoto3,
-    .secoPhoto4,.secoPhoto5 {
+
+    .secoPhoto1,
+    .secoPhoto2,
+    .secoPhoto3,
+    .secoPhoto4,
+    .secoPhoto5 {
         background-repeat: no-repeat;
         z-index: 1;
         width: 122.94px;
         height: 119.26px;
     }
+
     .secoPhoto1 {
         background: url("image.svg/Lodgephoto1.png") contain;
     }
+
     .secoPhoto2 {
         background: url("image.svg/Lodgephoto2.png") contain;
     }
+
     .secoPhoto3 {
         background: url("image.svg/Lodgephoto3.png") contain;
     }
+
     .secoPhoto4 {
         background: url("image.svg/Lodgephoto4.png") contain;
     }
+
     .secoPhoto5 {
         background: url("image.svg/Lodgephoto5.png") contain;
     }
 
-/* *****************タブレット768px section food ****************************/
+    /* *****************タブレット768px section food ****************************/
 
     .triParabox {
 
@@ -3232,7 +3462,8 @@
     }
 
     .triParainner {
-        width: 322.47px;
+        /* width: 322.47px; */
+        width: 83%;
         height: 181.9px;
         position: absolute;
         top: 45px;
@@ -3257,8 +3488,10 @@
         /* left: 224px; */
         top: 75%;
         left: 70%;
+        transform: initial;
 
     }
+
     .tribgBox {
         display: flex;
         justify-content: flex-start;
@@ -3278,8 +3511,12 @@
     .triPhotobox {
         display: flex;
     }
-    .triPhoto1,.triPhoto2,.triPhoto3,
-    .triPhoto4,.triPhoto5 {
+
+    .triPhoto1,
+    .triPhoto2,
+    .triPhoto3,
+    .triPhoto4,
+    .triPhoto5 {
         background-repeat: no-repeat;
         z-index: 1;
         width: 122.78px;
@@ -3289,19 +3526,24 @@
     .triPhoto1 {
         background: url("image.svg/foodphoto1.png") contain;
     }
+
     .triPhoto2 {
         background: url("image.svg/foodphoto2.png") contain;
     }
+
     .triPhoto3 {
         background: url("image.svg/foodphoto3.png") contain;
     }
+
     .triPhoto4 {
         background: url("image.svg/foodphoto4.png") contain;
     }
+
     .triPhoto5 {
         background: url("image.svg/foodphoto5.png") contain;
     }
-/* *****************タブレット768px section interactive ****************************/
+
+    /* *****************タブレット768px section interactive ****************************/
 
     .fourParabox {
 
@@ -3322,7 +3564,8 @@
         height: 186.1px;
         position: absolute;
         top: 113.1px;
-        left: 69.7px;
+        /* left: 69.7px; */
+        left: 17%;
         z-index: 5;
     }
 
@@ -3343,8 +3586,10 @@
         /* left: 205.7px; */
         top: 75%;
         left: 68%;
+        transform: initial;
 
     }
+
     .fourbgBox {
         display: flex;
         justify-content: flex-end;
@@ -3365,8 +3610,12 @@
     .fourPhotobox {
         display: flex;
     }
-    .fourPhoto1,.fourPhoto2,.fourPhoto3,
-    .fourPhoto4,.fourPhoto5 {
+
+    .fourPhoto1,
+    .fourPhoto2,
+    .fourPhoto3,
+    .fourPhoto4,
+    .fourPhoto5 {
         background-repeat: no-repeat;
         z-index: 1;
         width: 122.78px;
@@ -3376,21 +3625,25 @@
     .fourPhoto1 {
         background: url("image.svg/intephoto1.png") contain;
     }
+
     .fourPhoto2 {
         background: url("image.svg/intephoto2.png") contain;
     }
+
     .fourPhoto3 {
         background: url("image.svg/intephoto3.png") contain;
     }
+
     .fourPhoto4 {
         background: url("image.svg/intephoto4.png") contain;
     }
+
     .fourPhoto5 {
         background: url("image.svg/intephoto5.png") contain;
 
     }
 
-/* *****************タブレット768px section contact ****************************/
+    /* *****************タブレット768px section contact ****************************/
 
     .fifParabox {
         text-align: left;
@@ -3414,6 +3667,7 @@
         text-align: center;
 
     }
+
     .fifParainner2 {
         width: 270.8px;
         height: 158px;
@@ -3436,21 +3690,23 @@
         position: absolute;
         /* top: 110px; */
         /* left: 200px; */
+        transform: initial;
 
         top: 75%;
         left: 80%;
 
     }
+
     .fifBtnboxSp {
         display: none;
     }
 
-/* **************************タブレット768px footer ***********************************/
+    /* **************************タブレット768px footer ***********************************/
 
     .footerWrap {
-        width: 768px;
+        /* width: 768px; */
         height: 133.02px;
-        background-color: rgba(0,0,0,0.95);
+        background-color: rgba(0, 0, 0, 0.95);
     }
 
     .footerImg {
@@ -3462,7 +3718,8 @@
         background-repeat: no-repeat;
         z-index: 1;
         margin-top: -1%;
-        width: 167.2px;
+        /* width: 167.2px; */
+        width: 23%;
         height: 159.42px;
         object-fit: contain;
     }
@@ -3477,7 +3734,8 @@
     .footerParainner {
         display: flex;
         top: 19.1px;
-        left: 188.4px;
+        /* left: 188.4px; */
+        left: 25%;
         position: relative;
         flex-direction: column;
     }
@@ -3495,7 +3753,8 @@
     }
 
 
-    .footerPara,.footerPara2 {
+    .footerPara,
+    .footerPara2 {
         font-size: .9rem;
         font-family: "凸版文久見出し明朝 StdN";
         line-height: 1.33;
@@ -3510,7 +3769,8 @@
 
 
     .footerPara2 {
-        left: 10px;
+        /* left: 10px; */
+        left: 7%;
     }
 
 
@@ -3527,14 +3787,16 @@
     }
 
     .footer-fa-stack .fa-facebook-f {
-        font-size: 13px;
+        font-size: 11px;
         left: 18px;
         top: 3px;
     }
+
     .footer-fa-stack .fa-stack-2x {
         font-size: 3em;
 
     }
+
     .footer-fa-stack2 .fa-instagram {
         font-size: 2.0rem;
         cursor: pointer;
@@ -3560,17 +3822,20 @@
 }
 
 /* *****************調整用 ****************************/
-@media screen and ( max-width: 650px){
+@media screen and (max-width: 650px) {
 
     .toggleBtn {
-        right: 18%;
+        right: 5%;
     }
+
     .bgBox {
         width: 650px;
     }
+
     .bgImageMin {
         top: 0;
     }
+
     .navList {
         width: 100%;
         max-width: 650px;
@@ -3588,6 +3853,7 @@
     .topPhoto1 {
         width: 41%;
     }
+
     .topPhoto2 {
         width: 25%;
         left: 38px;
@@ -3606,6 +3872,7 @@
         height: 240px;
         margin-bottom: 40px;
     }
+
     .secoParainner {
         top: 130px;
         left: 81px;
@@ -3627,11 +3894,13 @@
 
     .triParainner {
         top: 54px;
-        left: 340px;
-        width: 250px;
+        /* left: 340px; */
+        left: 87%;
+        /* width: 250px; */
+        width: 75%;
         height: 170px;
     }
-    
+
     .triBtnbox {
         top: 130px;
         left: 170px;
@@ -3648,6 +3917,7 @@
         height: 240px;
         margin-bottom: 40px;
     }
+
     .fourParainner {
         top: 130px;
         left: 81px;
@@ -3662,7 +3932,7 @@
 
 
 
-  
+
 
     .fifParainner2 {
         margin: 0 40px;
@@ -3672,34 +3942,42 @@
         left: 83%;
     }
 
-    .footerImg{
-        width: 23%;
+    .footerImg {
+        width: 20%;
         height: 150px;
     }
 
     .footerParabox {
-        width: 49%;
+        width: 65%;
         margin: 0;
     }
 
     .footerParainner {
         top: 18px;
-        left: 200px;
+        /* left: 200px; */
+        left: 39%;
     }
 
-    .footerPara, .footerPara2{
+    .footerPara,
+    .footerPara2 {
         font-size: 1.1rem;
         top: 25px;
         width: 160%;
+        transform: scale(.7);
     }
+
     .footerPara2 {
         left: 0;
+    }
+
+    .footer-fa-stack .fa-facebook-f {
+        top: 4px;
     }
 
 }
 
 /* *****************調整用 ****************************/
-@media screen and ( max-width: 600px){
+@media screen and (max-width: 600px) {
 
     .toggleBtn {
         right: 5%;
@@ -3721,6 +3999,7 @@
         top: 140px;
         left: -9px;
     }
+
     .topPhoto1 {
         width: 220px;
     }
@@ -3770,6 +4049,7 @@
         top: 75%;
         left: 60%;
     }
+
     .fourBtnbox {
         top: 60%;
         left: 71%;
@@ -3790,14 +4070,15 @@
     }
 
     .footerWrap {
-        width: 60%;
+        width: 100%;
     }
 
-    .footerParabox{
+    .footerParabox {
         width: 71%;
     }
 
-    .footerPara, .footerPara2 {
+    .footerPara,
+    .footerPara2 {
         transform: scale(0.7);
     }
 
@@ -3806,23 +4087,38 @@
 
 
 /* *****************調整用 ****************************/
-@media screen and ( max-width: 512px){
+@media screen and (max-width: 512px) {
 
     .bgimageBox {
         height: 736px;
         width: 100%;
         position: absolute;
     }
+
     .resShow {
-            display: none;
+        display: none;
     }
 
     @keyframes animeBg2 {
-        0%{opacity: 0;}
-        1%{opacity: 1;}
-        25%{opacity: 1;}
-        26%{opacity: 0;}
-        100%{opacity: 0;}
+        0% {
+            opacity: 0;
+        }
+
+        1% {
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        26% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
     }
 
     .bgBox {
@@ -3844,7 +4140,7 @@
         height: 50%;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
 
 
@@ -3855,6 +4151,7 @@
         padding: 57.4%;
         animation-delay: 10s;
     }
+
     .bgImage5 {
         background-position-y: -6px;
         background-position-x: -60px;
@@ -3896,9 +4193,9 @@
         transform: initial;
     }
 
-.headerTitle {
-    width: 70%;
-}
+    .headerTitle {
+        width: 70%;
+    }
 
     .navList {
         top: -410px;
@@ -3941,7 +4238,8 @@
         height: 18.02px;
         right: 14px;
         cursor: pointer;
-        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+        transition: all .30s ease-in-out;
+        /*0.3秒かけて変化*/
     }
 
     .toggleLine {
@@ -3954,15 +4252,19 @@
         height: 2px;
         background-color: #ffffff;
     }
+
     .tg1 {
         top: 21.8px;
     }
+
     .tg2 {
         top: 30.8px;
     }
+
     .tg3 {
         top: 39.8px;
     }
+
     .clicked .toggleBtn {
         z-index: 2000;
         position: absolute;
@@ -3971,21 +4273,28 @@
         height: 50px;
         left: 470px;
         cursor: pointer;
-        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+        transition: all .30s ease-in-out;
+        /*0.3秒かけて変化*/
     }
+
     .clicked .tg1 {
-    transform: translateY(9px) rotate(-315deg);/*時計回りに45度回転*/
+        transform: translateY(9px) rotate(-315deg);
+        /*時計回りに45度回転*/
     }
+
     .clicked .tg2 {
         opacity: 0;
     }
+
     .clicked .tg3 {
-        transform: translateY(-9px) rotate(315deg);/*反時計周りに45度回転*/
+        transform: translateY(-9px) rotate(315deg);
+        /*反時計周りに45度回転*/
     }
+
     .navItem {
 
         font-size: 1.35rem;
-        }
+    }
 
 
     .fa-stack {
@@ -3998,6 +4307,7 @@
     .fa-square {
         display: none;
     }
+
     .clicked .fa-square {
         position: relative;
         top: -3px;
@@ -4008,246 +4318,274 @@
         top: -9px;
         left: 4px;
     }
+
     .clicked .fa-stack-2x {
         font-size: 1.5em;
     }
+
     .clicked .fa-instagram {
         font-size: 3.5rem;
         cursor: pointer;
     }
 
-/* ********************* 512px top ************************************/
+    /* ********************* 512px top ************************************/
 
-.topImgbox {
-    left: 20px;
-    top: 195px;
-}
+    .topImgbox {
+        left: 20px;
+        top: 195px;
+    }
 
-.topBgimg {
-    width: 260px;
-    height: 163px;
-    top: 33px;
-    left: 130px;
-}
-
-
-.topBtnbox {
-    top: 140px;
-    width: 90px;
-    left: 380px;
-}
-
-.topPhoto1 {
-    width: 240px;
-    height: 163px;
-}
-.topPhoto2 {
-    width: 140px;
-    left: 45px;
-    top: 50px;
-}
-
-.topImgbox {
-    width: 75%;
-}
-
-/* ********************* 512px lodge ************************************/
-
-.secobgPhoto {
-    width: 460px;
-    height: 300px;
-    margin-bottom: 20px;
-}
-
-.secoPhoto1,.secoPhoto2,.secoPhoto3,
-.secoPhoto4,.secoPhoto5 {
-    background-repeat: no-repeat;
-    z-index: 1;
-    width: 102px;
-    height: 100px;
-}
-
-.secoPhotobox {
-    width: 100%;
-}
-
-.secobgBox {
-    display: flex;
-    justify-content: center;
-}
-
-.secoBtnbox {
-    top: 120px;
-}
-
-.secoParainner {
-    top: 57px;
-    left: 120px;
-    z-index: 0;
-    width: 345px;
-    height: 200px;
-}
-
-.secoParabox {
-    left: 20px;
-}
+    .topBgimg {
+        width: 260px;
+        height: 163px;
+        top: 33px;
+        left: 130px;
+    }
 
 
+    .topBtnbox {
+        top: 140px;
+        width: 90px;
+        left: 73%;
+    }
 
+    .topPhoto1 {
+        width: 240px;
+        height: 163px;
+    }
 
+    .topPhoto2 {
+        width: 140px;
+        left: 45px;
+        top: 50px;
+    }
 
-/* ********************* 512px food ************************************/
+    .topImgbox {
+        width: 75%;
+    }
 
-.tribgBox {
-    display: flex;
-    justify-content: center;
-}
+    /* ********************* 512px lodge ************************************/
 
-.tribgTitle{
-    left: -133px;
-}
+    .secobgPhoto {
+        width: 460px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
 
-.triParabox {
-    left: 20px;
-}
+    .secoPhoto1,
+    .secoPhoto2,
+    .secoPhoto3,
+    .secoPhoto4,
+    .secoPhoto5 {
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 102px;
+        height: 100px;
+    }
 
-.triParainner {
-    top: 57px;
-    left: 120px;
-    z-index: 0;
-    width: 345px;
-    height: 200px;
-}
+    .secoPhotobox {
+        width: 100%;
+    }
 
-.tribgPhotobox {
-    width: 100%;
-}
+    .secobgBox {
+        display: flex;
+        justify-content: center;
+    }
 
-.triPhotobox {
-    width: 100%;
-}
+    .secoBtnbox {
+        /* top: 120px; */
+        top: 60%;
+        left: 67%;
+    }
 
-.triPhoto1,.triPhoto2,.triPhoto3,
-.triPhoto4,.triPhoto5 {
-    background-repeat: no-repeat;
-    z-index: 1;
-    width: 102px;
-    height: 100px;
-}
+    .secoParainner {
+        top: 57px;
+        left: 44%;
+        z-index: 0;
+        /* width: 345px; */
+        width: 67vw;
+        height: 200px;
+    }
 
-.tribgPhoto {
-    width: 460px;
-    height: 300px;
-    margin-bottom: 20px;
-}
-
-.triBtnbox {
-    top: 140px;
-    left: 70%;
-}
+    .secoParabox {
+        left: 20px;
+    }
 
 
 
-/* ********************* 512px interactive ************************************/
-
-.fourbgTitle {
-    top: 124px;
-    left: -210px;
-}
-
-.fourTitle {
-    left: 0;
-}
 
 
-.fourbgBox {
-    display: flex;
-    justify-content: center;
-}
+    /* ********************* 512px food ************************************/
 
-.fourPhoto1,.fourPhoto2,.fourPhoto3,
-.fourPhoto4,.fourPhoto5 {
-    background-repeat: no-repeat;
-    z-index: 1;
-    width: 102px;
-    height: 100px;
-}
+    .tribgBox {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-left: 25px;
+    }
 
-.fourbgPhoto {
-    width: 460px;
-    height: 300px;
-    margin-bottom: 20px;
-}
+    .tribgTitle {
+        left: -133px;
+    }
 
-.fourPhotobox {
-    width: 100%;
-}
+    .triParabox {
+        left: 20px;
+    }
 
-.fourParabox {
-    left: 110px;
-}
+    .triParainner {
+        top: 57px;
+        left: 33%;
+        z-index: 0;
+        /* width: 345px; */
+        width: 67vw;
+        height: 200px;
+    }
 
-.fourParainner {
-    top: 57px;
-    left: 37px;
-    z-index: 0;
-    width: 345px;
-    height: 200px;
-}
-.fourBtnbox {
-    top: 140px;
-    left: 70%;
-}
+    .tribgPhotobox {
+        width: 100%;
+    }
 
+    .triPhotobox {
+        width: 111%;
+    }
 
+    .triPhoto1,
+    .triPhoto2,
+    .triPhoto3,
+    .triPhoto4,
+    .triPhoto5 {
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 102px;
+        height: 100px;
+    }
 
-/* ********************* 512px contact ************************************/
-.fifBtnbox {
-    left: 170px;
-}
+    .tribgPhoto {
+        width: 460px;
+        height: 259px;
+        margin-bottom: 5%;
+    }
 
-.fifParainner2 {
-    margin: 0 20px;
-}
-
-
-/* ********************* 512px footer ************************************/
+    .triBtnbox {
+        /* top: 140px; */
+        top: 60%;
+        left: 67%;
+    }
 
 
 
-.footerWrap {
-    width: 512px;
-}
+    /* ********************* 512px interactive ************************************/
 
-.footerImg {
-    width: 26%;
-}
+    .fourbgTitle {
+        top: 37px;
+        left: -210px;
+    }
 
-.footerParabox {
-    width: 110%;
-}
-
-.footerParainner {
-    top: 18px;
-    left: 150px;
-}
-
-.footerPara, .footerPara2 {
-    transform: scale(0.7);
-}
-
-.footerPara {
-    left: 0;
-}
-.footerPara2 {
-    left: 0px;
-}
+    .fourTitle {
+        left: 0;
+    }
 
 
-.copyRight {
-    transform: scale(0.8);
-    margin-left: 15px;
-}
+    .fourbgBox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fourPhoto1,
+    .fourPhoto2,
+    .fourPhoto3,
+    .fourPhoto4,
+    .fourPhoto5 {
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 102px;
+        height: 100px;
+    }
+
+    .fourbgPhoto {
+        width: 460px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .fourPhotobox {
+        width: 100%;
+    }
+
+    .fourParabox {
+        left: 110px;
+    }
+
+    .fourParainner {
+        top: 57px;
+        left: 8%;
+        z-index: 0;
+        /* width: 345px; */
+        width: 68vw;
+        height: 200px;
+    }
+
+    .fourBtnbox {
+        /* top: 140px; */
+        top: 60%;
+        left: 67%;
+    }
+
+
+
+    /* ********************* 512px contact ************************************/
+    .fifBtnbox {
+        /* left: 170px; */
+        transform: scale(.7);
+    }
+
+    .fifParainner2 {
+        /* margin: 0 20px; */
+        margin: 0 5%;
+    }
+
+
+    /* ********************* 512px footer ************************************/
+
+
+    .footerParaTitle {
+        transform: scale(.7);
+    }
+
+    .footerImg {
+        width: 24%;
+    }
+
+    .footerParabox {
+        width: 100%;
+    }
+
+    .footerParainner {
+        top: 18px;
+        /* left: 150px; */
+        left: 24%;
+    }
+
+    .footerPara,
+    .footerPara2 {
+        transform: scale(0.5);
+        top: 25%;
+    }
+
+    .footerPara {
+        left: 3%;
+    }
+
+    .footerPara2 {
+        /* left: 0px; */
+        left: 5%;
+    }
+
+
+    .copyRight {
+        transform: scale(0.8);
+        margin-left: 15px;
+    }
 
 
 
@@ -4256,44 +4594,55 @@
 /***************************** 調整用 *****************************
 
 ***********************************************************************/
-@media screen and ( max-width: 414px){
-    .responSive,.responSive2,
-    .responSive3,.responSive4 {
+@media screen and (max-width: 414px) {
+
+    .responSive,
+    .responSive2,
+    .responSive3,
+    .responSive4 {
         display: none;
     }
 
 
-    .bgImage, .bgImage2, .bgImage4,
-    .bgImage5, .bgImage6, .bgImage7,
-    .bgImage8, .bgImageMin, .bgBox, .bgImg {
+    .bgImage,
+    .bgImage2,
+    .bgImage4,
+    .bgImage5,
+    .bgImage6,
+    .bgImage7,
+    .bgImage8,
+    .bgImageMin,
+    .bgBox,
+    .bgImg {
         display: block;
     }
 
-    .bgImageMin2,.bgImage3{
+    .bgImageMin2,
+    .bgImage3 {
         display: none;
     }
 
     .bgBox {
-    position: absolute;
-    width: 413.13px;
-    height: 230.47px;
+        position: absolute;
+        width: 413.13px;
+        height: 230.47px;
     }
 
 
     .bgBox .bgImage {
-    padding-top: 67%;
-    background-position-y: -24px;
+        padding-top: 67%;
+        background-position-y: -24px;
     }
 
 
 
     .bgBox .bgImage2 {
-    z-index: 100;
-    width: 193px;
-    height: 50%;
-    top: 55%;
-    left: 51%;
-    transform: translate(-50%,-50%);
+        z-index: 100;
+        width: 193px;
+        height: 50%;
+        top: 55%;
+        left: 51%;
+        transform: translate(-50%, -50%);
 
     }
 
@@ -4307,6 +4656,7 @@
 
         animation-delay: 10s;
     }
+
     .bgImage5 {
         background-position-y: -32px;
         background-position-x: -60px;
@@ -4315,6 +4665,7 @@
 
         animation-delay: 20s;
     }
+
     .bgImage6 {
         background-position-y: -32px;
         background-position-x: -60px;
@@ -4322,6 +4673,7 @@
         padding: 57.4%;
         animation-delay: 30s;
     }
+
     .bgImage7 {
         background-position-y: -32px;
         background-position-x: -60px;
@@ -4329,6 +4681,7 @@
         padding: 57.4%;
         animation-delay: 40s;
     }
+
     .bgImage8 {
         background-position-y: -32px;
         background-position-x: -60px;
@@ -4341,50 +4694,53 @@
         top: 0;
     }
 
-       /* ヘッダー */
+    /* ヘッダー */
     .headerTitle {
-    padding-left: 20px;
+        padding-left: 20px;
 
     }
 
     .headerTitle-min {
-        line-height: 1.347;/*行間31px÷fontsize23px*/
-        letter-spacing: 0.2em;/*AV200÷1000 + em*/
+        line-height: 1.347;
+        /*行間31px÷fontsize23px*/
+        letter-spacing: 0.2em;
+        /*AV200÷1000 + em*/
 
     }
 
     .navList {
-    top: -410px;
-    left: 0px;
-    width: 100%;
-    height: 21.5rem;
+        top: -410px;
+        left: 0px;
+        width: 100%;
+        height: 21.5rem;
     }
+
     .navItem {
-    font-size: 0.9rem;
+        font-size: 0.9rem;
 
     }
 
     .clicked .navList {
-    visibility: visible;
-    opacity: 1;
-    width: 414px;
-    top: 29px;
-    height: 482px;
-    left: 0;
-    display: flex;
-    justify-content: center;
+        visibility: visible;
+        opacity: 1;
+        width: 414px;
+        top: 29px;
+        height: 482px;
+        left: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .clicked .navList .navItem {
-    top: 0;
-    position: relative;
+        top: 0;
+        position: relative;
 
-    /* リスト間の余白調整 */
-    margin-top: 19px;
+        /* リスト間の余白調整 */
+        margin-top: 19px;
 
-    /* リストの位置 */
-    transform: translateX(0px);
-    transform: translateY(-56px);
+        /* リストの位置 */
+        transform: translateX(0px);
+        transform: translateY(-56px);
     }
 
     .toggleBtn {
@@ -4392,7 +4748,8 @@
         top: 0;
         width: 16.69px;
         height: 14px;
-        left: 383.5px;
+        /* left: 383.5px; */
+        left: 92%;
     }
 
     .toggleLine {
@@ -4402,34 +4759,45 @@
         height: 2px;
         background-color: #ffffff;
     }
+
     .tg1 {
         top: 7.8px;
     }
+
     .tg2 {
         top: 14.8px;
     }
+
     .tg3 {
         top: 21.8px;
     }
+
     .clicked .toggleBtn {
         width: 16.23px;
         height: 14px;
         left: 383.5px;
     }
+
     .clicked .tg1 {
-        transform: translateY(10px) rotate(-315deg);/*時計回りに45度回転*/
+        transform: translateY(10px) rotate(-315deg);
+        /*時計回りに45度回転*/
     }
+
     .clicked .tg2 {
         opacity: 0;
     }
+
     .clicked .tg3 {
-        transform: translateY(-5px) rotate(315deg);/*反時計周りに45度回転*/
+        transform: translateY(-5px) rotate(315deg);
+        /*反時計周りに45度回転*/
     }
+
     .navItem {
 
         font-size: 1.35rem;
         font-family: "凸版文久見出し明朝 StdN";
     }
+
     .toggleBtn {
         top: 0;
         width: 16.69px;
@@ -4442,9 +4810,11 @@
         top: 0;
         left: 54px;
     }
+
     .topBgimg {
         display: none;
     }
+
     .topImgbox {
         top: 197.9px;
         left: -26px;
@@ -4477,7 +4847,8 @@
 
     .topBtnbox {
         top: 132.4px;
-        left: 140px;
+        /* left: 140px; */
+        left: 34%;
         width: 100%;
 
     }
@@ -4491,6 +4862,7 @@
         top: 0;
         left: 0;
     }
+
     .secoTitle {
         position: relative;
         top: 20.2px;
@@ -4503,11 +4875,13 @@
     }
 
     .secoParainner {
-        width: 304.56px;
+        /* width: 304.56px; */
+        width: 74vw;
         height: 186.1px;
         position: absolute;
         top: 62.3px;
-        left: 80px;
+        /* left: 80px; */
+        left: 36%;
         z-index: 5;
     }
 
@@ -4519,10 +4893,13 @@
 
     .secoBtnbox {
         position: absolute;
-        top: 145.7px;
-        left: 197.7px;
+        /* top: 145.7px; */
+        /* left: 197.7px; */
+        top: 70%;
+        left: 70%;
 
     }
+
     .secobgBox {
         display: flex;
     }
@@ -4536,49 +4913,61 @@
         height: 233.32px;
 
         margin-bottom: 19.4px;
+        margin-left: 30px;
     }
 
 
     .secoPhotobox {
         display: flex;
         position: relative;
-        left: 33px;
+        /* left: 33px; */
+        width: 106%;
     }
-    .secoPhoto1,.secoPhoto2,.secoPhoto3,
-    .secoPhoto4,.secoPhoto5 {
+
+    .secoPhoto1,
+    .secoPhoto2,
+    .secoPhoto3,
+    .secoPhoto4,
+    .secoPhoto5 {
         z-index: 1;
         width: 83.29px;
         height: 80.8px;
     }
+
     .secoPhoto1 {
         background: url("image.svg/Lodgephoto1.png");
         background-size: contain;
         background-repeat: no-repeat;
     }
+
     .secoPhoto2 {
         background: url("image.svg/Lodgephoto2.png");
         background-size: contain;
         background-repeat: no-repeat;
     }
+
     .secoPhoto3 {
         background: url("image.svg/Lodgephoto3.png");
         background-size: contain;
         background-repeat: no-repeat;
 
     }
+
     .secoPhoto4 {
         background: url("image.svg/Lodgephoto4.png");
         background-size: contain;
         background-repeat: no-repeat;
 
     }
+
     .secoPhoto5 {
         background: url("image.svg/Lodgephoto5.png");
         background-size: contain;
         background-repeat: no-repeat;
 
     }
-/* *****************414px section food ****************************/
+
+    /* *****************414px section food ****************************/
 
     .triParabox {
 
@@ -4590,8 +4979,9 @@
 
     .tribgTitle {
         position: absolute;
-        top: 160px;
-        left: -160px;
+        top: 140px;
+        /* left: -160px; */
+        left: -43%;
     }
 
     .triParainner {
@@ -4607,13 +4997,17 @@
 
     .triBtnbox {
         position: absolute;
-        top: 144.6px;
-        left: 197.7px;
+        /* top: 144.6px; */
+        /* left: 197.7px; */
+        top: 70%;
+        left: 70%;
 
     }
+
     .tribgBox {
         display: flex;
         justify-content: flex-start;
+        margin-left: 0;
     }
 
     .tribgPhoto {
@@ -4632,10 +5026,15 @@
         display: flex;
         position: relative;
         left: -22px;
-        width: 110%;
+        /* width: 110%; */
+        width: 125%;
     }
-    .triPhoto1,.triPhoto2,.triPhoto3,
-    .triPhoto4,.triPhoto5 {
+
+    .triPhoto1,
+    .triPhoto2,
+    .triPhoto3,
+    .triPhoto4,
+    .triPhoto5 {
         background-repeat: no-repeat;
         z-index: 1;
         width: 122.78px;
@@ -4645,21 +5044,25 @@
     .triPhoto1 {
         background: url("image.svg/foodphoto1.png") contain;
     }
+
     .triPhoto2 {
         background: url("image.svg/foodphoto2.png") contain;
     }
+
     .triPhoto3 {
         background: url("image.svg/foodphoto3.png") contain;
     }
+
     .triPhoto4 {
         background: url("image.svg/foodphoto4.png") contain;
 
     }
+
     .triPhoto5 {
         background: url("image.svg/foodphoto5.png") contain;
     }
 
-/* *****************414px section interactive ****************************/
+    /* *****************414px section interactive ****************************/
 
     .fourbgTitle {
         position: absolute;
@@ -4685,10 +5088,13 @@
 
     .fourBtnbox {
         position: absolute;
-        top: 148.7px;
-        left: 205.7px;
+        /* top: 148.7px; */
+        /* left: 205.7px; */
+        top: 70%;
+        left: 70%;
 
     }
+
     .fourbgBox {
         display: flex;
         justify-content: flex-end;
@@ -4711,8 +5117,12 @@
         position: relative;
         left: 20px;
     }
-    .fourPhoto1,.fourPhoto2,.fourPhoto3,
-    .fourPhoto4,.fourPhoto5 {
+
+    .fourPhoto1,
+    .fourPhoto2,
+    .fourPhoto3,
+    .fourPhoto4,
+    .fourPhoto5 {
         background-repeat: no-repeat;
         z-index: 1;
         width: 82.78px;
@@ -4722,21 +5132,25 @@
     .fourPhoto1 {
         background: url("image.svg/intephoto1.png") contain;
     }
+
     .fourPhoto2 {
         background: url("image.svg/intephoto2.png") contain;
     }
+
     .fourPhoto3 {
         background: url("image.svg/intephoto3.png") contain;
     }
+
     .fourPhoto4 {
         background: url("image.svg/intephoto4.png") contain;
     }
+
     .fourPhoto5 {
         background: url("image.svg/intephoto5.png") contain;
 
     }
 
-/* ********************************414px secton contact ********************************************/
+    /* ********************************414px secton contact ********************************************/
 
 
     .fifParawrap {
@@ -4748,11 +5162,13 @@
         margin: 0 auto;
         align-items: center;
     }
+
     .fifParainner {
         position: absolute;
         z-index: 5;
         text-align: center;
     }
+
     .fifParainner2 {
         top: 57px;
         margin-bottom: 19px;
@@ -4766,19 +5182,24 @@
 
     .fifBtnbox {
         position: absolute;
-        top: 110px;
-        left: 220px;
+        /* top: 110px; */
+        /* left: 220px; */
+        top: 70%;
+        left: 84%;
+        transform: initial;
 
     }
+
     .fifBtnboxSp {
         display: none;
     }
- /* **************************タブレット768px footer ***********************************/
+
+    /* **************************タブレット768px footer ***********************************/
 
     .footerWrap {
         width: 100%;
         height: 71.71px;
-        background-color: rgba(0,0,0,0.95);
+        background-color: rgba(0, 0, 0, 0.95);
     }
 
     .footerImg {
@@ -4800,10 +5221,11 @@
     .footerParainner {
         display: flex;
         top: 8.3px;
-        left: 108px;
+        /* left: 108px; */
+        left: 23%;
         position: relative;
         flex-direction: column;
-        width: 23%;
+        width: 30%;
 
 
     }
@@ -4819,12 +5241,15 @@
     }
 
 
-    .footerPara,.footerPara2 {
+    .footerPara,
+    .footerPara2 {
         font-size: .7rem;
         top: 5px;
         transform: scale(0.6);
+        width: 195%;
 
     }
+
     .footerPara {
         margin-left: 10px;
     }
@@ -4850,12 +5275,14 @@
     .footer-fa-stack .fa-facebook-f {
         font-size: 10px;
         left: 18px;
-        top: 3px;
+        top: 5px;
     }
+
     .footer-fa-stack .fa-stack-2x {
         font-size: 3em;
 
     }
+
     .footer-fa-stack2 .fa-instagram {
         font-size: 2.0rem;
         cursor: pointer;
@@ -4872,6 +5299,7 @@
         margin-left: 13px;
         transform: scale(0.3);
     }
+
     .copyRightSp {
         display: none;
     }
@@ -4890,7 +5318,7 @@
 
 
 
-@media screen and ( max-width: 376px){
+@media screen and (max-width: 376px) {
     .bgimageBox {
         height: 667px;
 
@@ -4914,17 +5342,33 @@
 
 
     @keyframes animeBg2 {
-        0%{opacity: 0;}
-        1%{opacity: 1;}
-        25%{opacity: 1;}
-        26%{opacity: 0;}
-        100%{opacity: 0;}
+        0% {
+            opacity: 0;
+        }
+
+        1% {
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        26% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
     }
 
 
-/* スライドショーここまで */
-    .responSive,.responSive2,
-    .responSive3,.responSive4 {
+    /* スライドショーここまで */
+    .responSive,
+    .responSive2,
+    .responSive3,
+    .responSive4 {
         background-repeat: no-repeat;
         max-width: 100%;
         width: 100%;
@@ -4933,7 +5377,7 @@
         position: absolute;
         object-fit: cover;
         background-position-x: 1px;
-   }
+    }
 
 
     .responSive {
@@ -4941,12 +5385,14 @@
         background-image: url("image.svg/アセット-2.jpg");
         background-position-x: 1px;
     }
+
     .responSive2 {
         display: block;
         background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png");
         animation-delay: 10s;
 
     }
+
     .responSive3 {
         display: block;
         background-image: url("image.svg/アセット-6.png");
@@ -4963,11 +5409,16 @@
         display: none;
     }
 
-    .bgImage, .bgImage2, .bgImage4,
-    .bgImage5, .bgImage6, .bgImage7,
+    .bgImage,
+    .bgImage2,
+    .bgImage4,
+    .bgImage5,
+    .bgImage6,
+    .bgImage7,
     .bgImage8 {
         display: none;
     }
+
     .bgImageMin {
         display: none;
     }
@@ -4987,7 +5438,7 @@
         transform: translate(-50%, -50%);
     }
 
-    .bgImage3{
+    .bgImage3 {
         display: block;
         background-image: url("image.svg/logo-white-3.png");
         z-index: 100;
@@ -5003,6 +5454,7 @@
         transform: initial;
 
     }
+
     .clicked .bgImage2 {
         opacity: 0.6;
     }
@@ -5018,11 +5470,12 @@
     .headerTitle-min {
         position: relative;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-self: flex-start;
         align-items: flex-end;
         line-height: 1.347;
-        letter-spacing: 0.2em;/*AV200÷1000 + em*/
+        letter-spacing: 0.2em;
+        /*AV200÷1000 + em*/
 
     }
 
@@ -5035,15 +5488,17 @@
         width: 100%;
         left: 376px;
         max-height: auto;
-        overflow-y: auto;/*縦方向の表示*/
+        overflow-y: auto;
+        /*縦方向の表示*/
         justify-content: center;
         display: flex;
         flex-direction: column;
         transition: opacity .8s ease, visibility .6s ease;
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0, 0, 0, 0.7);
         visibility: .6s ease;
         opacity: 0;
     }
+
     .clicked .navList {
         visibility: visible;
         opacity: 1;
@@ -5058,6 +5513,7 @@
         position: relative;
         transform: translateX(0px);
     }
+
     .clicked .toggleBtn {
         z-index: 2000;
         position: absolute;
@@ -5066,7 +5522,8 @@
         height: 50px;
         left: 266.5px;
         cursor: pointer;
-        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+        transition: all .30s ease-in-out;
+        /*0.3秒かけて変化*/
     }
 
     .navItem {
@@ -5077,6 +5534,7 @@
 
         transition: transform 6s ease, opacity .2s ease;
     }
+
     .navItem:nth-child(5) {
         margin-bottom: 0;
     }
@@ -5090,13 +5548,16 @@
         transition-delay: .15s;
 
     }
+
     .navList li:nth-child(3) {
         transition-delay: .3s;
     }
+
     .navList li:nth-child(4) {
         transition-delay: .45s;
 
     }
+
     .navList .navItem:nth-child(5) {
         transition-delay: .6s;
 
@@ -5104,10 +5565,10 @@
 
 
     .toggleBox {
-    display: flex;
-    justify-content: center;
-    width: calc (25% - -100px);
-}
+        display: flex;
+        justify-content: center;
+        width: calc (25% - -100px);
+    }
 
     .toggleBtn {
         z-index: 2000;
@@ -5117,7 +5578,8 @@
         height: 18.02px;
         left: 327.8px;
         cursor: pointer;
-        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+        transition: all .30s ease-in-out;
+        /*0.3秒かけて変化*/
     }
 
     .toggleLine {
@@ -5134,9 +5596,11 @@
     .tg1 {
         top: 21.8px;
     }
+
     .tg2 {
         top: 30.8px;
     }
+
     .tg3 {
         top: 39.8px;
     }
@@ -5149,13 +5613,17 @@
     /* togglerにclickedクラス付与されたら*/
 
     .clicked .tg1 {
-        transform: translateY(14px) rotate(-315deg);/*時計回りに45度回転*/
+        transform: translateY(14px) rotate(-315deg);
+        /*時計回りに45度回転*/
     }
+
     .clicked .tg2 {
         opacity: 0;
     }
+
     .clicked .tg3 {
-        transform: translateY(-5px) rotate(315deg);/*反時計周りに45度回転*/
+        transform: translateY(-5px) rotate(315deg);
+        /*反時計周りに45度回転*/
     }
 
     .fa-stack {
@@ -5167,6 +5635,7 @@
     .fa-square {
         display: none;
     }
+
     .clicked .fa-square {
         position: relative;
         top: 2px;
@@ -5177,15 +5646,17 @@
         top: 6px;
         left: 6px;
     }
+
     .clicked .fa-stack-2x {
         font-size: 2.3em;
     }
+
     .clicked .fa-instagram {
         font-size: 5.3rem;
         cursor: pointer;
     }
 
-/* *************************スマホ376px main top******************************************/
+    /* *************************スマホ376px main top******************************************/
 
     .topParainner {
         width: 100%;
@@ -5205,6 +5676,7 @@
         top: -69.8px;
         width: 100%;
     }
+
     .topParaboxinner {
         position: relative;
         top: 53px;
@@ -5223,6 +5695,7 @@
         left: 0;
         right: 0;
     }
+
     .topImgbox {
         display: flex;
         flex-direction: column-reverse;
@@ -5241,6 +5714,7 @@
         height: 178.48px;
         margin-left: auto;
     }
+
     .topPhoto2 {
         background: url("image.svg/topphoto2.png");
         background-size: contain;
@@ -5255,13 +5729,14 @@
         margin-right: auto;
     }
 
-/* *****************スマホ 375px section lodge ****************************/
+    /* *****************スマホ 375px section lodge ****************************/
 
     .secoParabox {
         text-align: center;
         top: 44px;
         width: 100%;
     }
+
     .secobgTitle {
         left: -115px;
         top: 150px;
@@ -5291,6 +5766,7 @@
         left: 126.3px;
 
     }
+
     .secobgBox {
         display: flex;
         justify-content: flex-end;
@@ -5313,37 +5789,48 @@
         left: 0;
         width: 100%;
     }
-    .secoPhoto1,.secoPhoto2,.secoPhoto3,
-    .secoPhoto4,.secoPhoto5 {
+
+    .secoPhoto1,
+    .secoPhoto2,
+    .secoPhoto3,
+    .secoPhoto4,
+    .secoPhoto5 {
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
         width: 75px;
         height: 75px;
     }
+
     .secoPhoto1 {
         background: url("image.svg/Lodgephoto1.png") contain;
     }
+
     .secoPhoto2 {
         background: url("image.svg/Lodgephoto2.png") contain;
     }
+
     .secoPhoto3 {
         background: url("image.svg/Lodgephoto3.png") contain;
     }
+
     .secoPhoto4 {
         background: url("image.svg/Lodgephoto4.png") contain;
 
     }
+
     .secoPhoto5 {
         background: url("image.svg/Lodgephoto5.png") contain;
 
     }
-/* *****************スマホ376px section food ****************************/
+
+    /* *****************スマホ376px section food ****************************/
 
     .triParabox {
         width: 100%;
         top: -58px;
     }
+
     .triTitle {
         text-align: center;
         position: relative;
@@ -5375,6 +5862,7 @@
         left: 129.3px;
 
     }
+
     .tribgPhoto {
         background: url("image.svg/65716664_2514457691971614_8615425300211171328_n.png");
         background-size: contain;
@@ -5385,12 +5873,17 @@
 
         margin-bottom: 0;
     }
+
     .triPhotobox {
         left: 0;
         width: 100%;
     }
-    .triPhoto1,.triPhoto2,.triPhoto3,
-    .triPhoto4,.triPhoto5 {
+
+    .triPhoto1,
+    .triPhoto2,
+    .triPhoto3,
+    .triPhoto4,
+    .triPhoto5 {
         background-size: contain;
         background-repeat: no-repeat;
         width: 75px;
@@ -5400,19 +5893,24 @@
     .triPhoto1 {
         background: url("image.svg/foodphoto1.png") contain;
     }
+
     .triPhoto2 {
         background: url("image.svg/foodphoto2.png") contain;
     }
+
     .triPhoto3 {
         background: url("image.svg/foodphoto3.png") contain;
     }
+
     .triPhoto4 {
         background: url("image.svg/foodphoto4.png") contain;
     }
+
     .triPhoto5 {
         background: url("image.svg/foodphoto5.png") contain;
     }
-/* *****************スマホ376px section interactive ****************************/
+
+    /* *****************スマホ376px section interactive ****************************/
 
     .fourParabox {
         text-align: center;
@@ -5439,6 +5937,7 @@
         left: 85px;
         z-index: 5;
     }
+
     .fourLine::after {
         border: 1px solid #000;
         width: 197.5px;
@@ -5461,7 +5960,8 @@
         top: 346.4px;
         left: 126.3px;
     }
-    .fourPhotobox{
+
+    .fourPhotobox {
         left: 0;
     }
 
@@ -5475,31 +5975,40 @@
 
         margin-bottom: 39px;
     }
-    .fourPhoto1,.fourPhoto2,.fourPhoto3,
-    .fourPhoto4,.fourPhoto5 {
+
+    .fourPhoto1,
+    .fourPhoto2,
+    .fourPhoto3,
+    .fourPhoto4,
+    .fourPhoto5 {
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 1;
         width: 75px;
         height: 75px
     }
+
     .fourPhoto1 {
         background: url("image.svg/intephoto1.png") contain;
     }
+
     .fourPhoto2 {
         background: url("image.svg/intephoto2.png") contain;
     }
+
     .fourPhoto3 {
         background: url("image.svg/intephoto3.png") contain;
     }
+
     .fourPhoto4 {
         background: url("image.svg/intephoto4.png") contain;
     }
+
     .fourPhoto5 {
         background: url("image.svg/intephoto5.png") contain;
     }
 
-/* *****************スマホ376px section contact ****************************/
+    /* *****************スマホ376px section contact ****************************/
 
     .fifParabox {
         text-align: left;
@@ -5507,6 +6016,7 @@
         top: 0;
         left: 0;
     }
+
     .fifParawrap {
         width: 100%;
     }
@@ -5546,10 +6056,11 @@
     }
 
 
-/* **************************スマホ376px footer ***********************************/
+    /* **************************スマホ376px footer ***********************************/
     .footerWrap {
         height: 391.55px;
     }
+
     .footerImg {
         background-image: url("image.svg/logo-white.png");
         z-index: -80;
@@ -5605,6 +6116,7 @@
 
         transform: inherit;
     }
+
     .footerPara-min {
         display: none;
     }
@@ -5625,10 +6137,12 @@
         left: -60px;
         top: 32px;
     }
+
     .footer-fa-stack .fa-stack-2x {
         font-size: 7em;
 
     }
+
     .footer-fa-stack2 .fa-instagram {
         font-size: 4.1rem;
         cursor: pointer;
@@ -5647,6 +6161,7 @@
         margin: 5px auto;
         letter-spacing: 0.1em;
     }
+
     .copyRight.u-noshow {
         display: none;
     }
@@ -5655,15 +6170,18 @@
         display: inline-block;
     }
 }
+
 /* ********************** 調整用 **********************************/
-@media screen and ( max-width: 360px) {
+@media screen and (max-width: 360px) {
 
     .topParainner {
         width: 100%;
     }
+
     .topBgimg {
         left: auto;
     }
+
     .topBtnbox {
         left: 220px;
     }
@@ -5676,11 +6194,12 @@
         left: 25px;
     }
 }
+
 /*  */
 
 /* ********************** 調整用 **********************************/
 
-@media screen and ( max-width: 340px) {
+@media screen and (max-width: 340px) {
 
     .resShow {
         position: relative;
@@ -5698,17 +6217,33 @@
 
 
     @keyframes animeBg2 {
-        0%{opacity: 0;}
-        1%{opacity: 1;}
-        25%{opacity: 1;}
-        26%{opacity: 0;}
-        100%{opacity: 0;}
+        0% {
+            opacity: 0;
+        }
+
+        1% {
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        26% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
     }
 
 
-/* スライドショーここまで */
-    .responSive,.responSive2,
-    .responSive3,.responSive4 {
+    /* スライドショーここまで */
+    .responSive,
+    .responSive2,
+    .responSive3,
+    .responSive4 {
         background-repeat: no-repeat;
         max-width: 100%;
         width: 100%;
@@ -5717,7 +6252,7 @@
         position: absolute;
         object-fit: cover;
         background-position-x: 1px;
-   }
+    }
 
 
     .responSive {
@@ -5725,12 +6260,14 @@
         background-image: url("image.svg/アセット-2.jpg") contain;
         background-position-x: 1px;
     }
+
     .responSive2 {
         display: block;
         background-image: url("image.svg/65467291_229361854613821_4553332007173619712_n.png") contain;
         animation-delay: 10s;
 
     }
+
     .responSive3 {
         display: block;
         background-image: url("image.svg/アセット-6.png") contain;
@@ -5752,8 +6289,12 @@
         position: absolute;
     }
 
-    .bgImage, .bgImage2, .bgImage4,
-    .bgImage5, .bgImage6, .bgImage7,
+    .bgImage,
+    .bgImage2,
+    .bgImage4,
+    .bgImage5,
+    .bgImage6,
+    .bgImage7,
     .bgImage8 {
         display: none;
     }
@@ -5765,6 +6306,7 @@
     .bgImageMin {
         display: none;
     }
+
     .bgImageMin2 {
         display: flex;
         justify-content: center;
@@ -5779,7 +6321,8 @@
         transform: translate(-50%, -50%);
 
     }
-    .bgImage3{
+
+    .bgImage3 {
         background-image: url("image.svg/logo-white-3.png");
         z-index: 100;
         background-size: contain;
@@ -5792,20 +6335,25 @@
         left: initial;
         transform: initial;
     }
+
     .toggleBtn {
         position: absolute;
         top: 0;
         left: 290px;
         cursor: pointer;
-        transition: all .30s ease-in-out;/*0.3秒かけて変化*/
+        transition: all .30s ease-in-out;
+        /*0.3秒かけて変化*/
     }
+
     .clicked .navList .navItem {
         top: -12px;
     }
+
     .clicked .toggleBtn {
         top: -3px;
         left: 218px;
     }
+
     .clicked .navList {
         width: 275px;
         visibility: visible;
@@ -5814,21 +6362,24 @@
         height: 513px;
         left: 0;
     }
+
     .clicked .fa-stack-2x {
         font-size: 1.4em;
     }
+
     .clicked .fa-facebook-f {
         font-size: 20px;
         top: -1px;
         left: 3px;
 
     }
+
     .clicked .fa-instagram {
         font-size: 4rem;
         cursor: pointer;
     }
 
-/* *************************スマホ340px main top******************************************/
+    /* *************************スマホ340px main top******************************************/
 
     .topBtnbox {
         position: absolute;
@@ -5838,7 +6389,7 @@
 
     }
 
-/* *************************スマホ340px lodge top******************************************/
+    /* *************************スマホ340px lodge top******************************************/
     .secoBtnbox {
         left: 91px;
         top: 280px;
@@ -5848,7 +6399,7 @@
         height: 360px;
     }
 
-/* *************************スマホ340px food top******************************************/
+    /* *************************スマホ340px food top******************************************/
 
 
     .triTitle {
@@ -5870,11 +6421,12 @@
         top: 280px;
     }
 
-/* *************************スマホ340px interactive top******************************************/
+    /* *************************スマホ340px interactive top******************************************/
 
     .fourTitle {
         margin-left: 25px;
     }
+
     .fourLine::after {
         left: 120px;
         top: 110px;
@@ -5889,20 +6441,21 @@
         left: 91px;
         top: 280px;
     }
+
     .fourPhotobox {
         width: 100%;
         left: 0;
     }
 
-/* *************************スマホ340px contact******************************************/
-.fifParainner2 {
-    top: 270px;
-    left: 30px;
-}
+    /* *************************スマホ340px contact******************************************/
+    .fifParainner2 {
+        top: 270px;
+        left: 30px;
+    }
 
-/* *************************スマホ340px contact******************************************/
-.footerPara2 {
-    top: 270px;
-}
+    /* *************************スマホ340px contact******************************************/
+    .footerPara2 {
+        top: 270px;
+    }
 
 }
