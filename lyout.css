@@ -1406,6 +1406,7 @@ a:active {
   .ly-triphotoBox {
     top: 290px;
     left: 0;
+    width: 100%;
   }
 
 
@@ -1789,6 +1790,8 @@ a:active {
   .ly-triphotoBox {
     top: 622px;
     left: 0;
+
+    width: 100%;
   }
 
 
@@ -1804,6 +1807,8 @@ a:active {
 
   .ly-fourSecbox {
     top: 71.6px;
+
+    left: -5%;
   }
 
   .ly-fourphotoBox {
@@ -1869,7 +1874,7 @@ a:active {
   }
 
   .ly-fourphotoBox {
-    left: 0;
+    left: 5%;
   }
 
 }
@@ -1983,9 +1988,7 @@ a:active {
     width: 100%;
   }
 
-  .ly-fourphotoBox {
-    left: 0;
-  }
+
 
   /* *******************スマホ340px contact **********************/
   .ly-fifSec {

@@ -1132,8 +1132,9 @@
 
   .u-triPara {
     font-size: 1.1rem;
-    top: 50px;
+    top: 10%;
     left: -8%;
+    width: 105%;
   }
   .u-triPara2 {
     font-size: 1.1rem;
@@ -1771,7 +1772,8 @@
 .u-footerPara {
     position: relative;
     /* left: 0px; */
-    left: 60%;
+    /* left: 60%; */
+    left: 0;
   }
 
 
@@ -1957,8 +1959,9 @@
   }
 
   .u-triPara {
-    top: 30px;
-    width: 133%;
+    /* top: 30px; */
+    top: 10%;
+    width: 138%;
   }
 
   .u-triPara2 {
@@ -2607,7 +2610,8 @@
   .u-secoParaSP {
     position: relative;
     top: 7.2px;
-    left: -10px;
+    /* left: -10px; */
+    left: -8%;
     font-size: 1.3rem;
     letter-spacing: 0.1em;
     line-height: 1.9;
@@ -2634,6 +2638,8 @@
     font-size: 1.2rem;
     font-family: "Toppan Bunkyu Midashi Mincho";
     line-height: 2.25;
+
+    transform: initial;
   }
 
   /* *******************スマホ376px section food **********************/
@@ -2671,7 +2677,8 @@
 
 
   .u-triParaSP {
-    left: -10px;
+    /* left: -10px; */
+    left: -8%;
     font-size: 1.3rem;
     font-family: "Toppan Bunkyu Mincho";
     line-height: 1.67;
@@ -2690,6 +2697,7 @@
     position: absolute;
     top: 266.8px;
     left: 27px;
+    width: 90%;
   }
 
 
@@ -2704,6 +2712,8 @@
     height: 34.44px;
     font-size: 1.2rem;
     font-family: "Toppan Bunkyu Midashi Mincho";
+
+    transform: initial;
 
   }
 
@@ -2748,7 +2758,8 @@
     color: #000;
     position: relative;
     top: 0;
-    left: 0;
+    /* left: 0; */
+    left: -5%;
     text-align: left;
     margin: 24.1px 20px 0 22px;
     padding-top: 0;
@@ -2760,9 +2771,12 @@
     font-family: "Toppan Bunkyu Mincho";
     position: absolute;
     top: 276.7px;
-    left: 22px;
+    /* left: 22px; */
+    left: 12%;
     text-align: left;
     line-height: 1.4;
+
+    width: 90%;
   }
 
   .u-fourBtn {
@@ -2771,12 +2785,16 @@
     line-height: 2.27;
     font-size: 1.2rem;
     font-family: "Toppan Bunkyu Mincho";
+
+    transform: initial;
+    padding: 0;
   }
 
  /* *******************スマホ 376px section contact **********************/
 
   .u-noShow {
     display: none;
+    /* display: block; */
   }
 
   .u-fifTitle, .u-fifTitleSp {
@@ -2789,6 +2807,10 @@
 
   }
 
+  .u-fifTitleSp {
+    display: block;
+  }
+
 
   .u-fifTitleSp span {
     font-size: 1.5rem;
@@ -2797,6 +2819,7 @@
     color: #000;
     font-family: "Toppan Bunkyu Midashi Mincho";
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+    display: block;
   }
 
   .u-fifTtl {
@@ -2815,6 +2838,7 @@
     line-height: 2;
     color: #000;
     text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+
   }
   .u-fifParaSp2 {
     display: inline;
@@ -2828,6 +2852,7 @@
 
     position: absolute;
     top: 105.4px;
+    left: 5%;
   }
 
   .u-fifPara3,.u-fifPara4 {
@@ -2845,8 +2870,11 @@
     font-family: "Toppan Bunkyu Mincho";
     position: absolute;
     top: 182.7px;
-    left: 52px;
+    /* left: 52px; */
+    left: 27%;
     text-align: center;
+
+    transform: initial;
   }
 
   .u-fifBtn {
@@ -2918,6 +2946,14 @@
 
 @media screen and (max-width: 360px) {
 
+  .u-navTxt-bgs {
+    line-height: 1;
+  }
+
+  .u-navTxt-s {
+    width: 110%;
+  }
+
   .u-triParaSP{
     display: block;
   }
@@ -2929,6 +2965,14 @@
 
   .u-fourPara2 {
     left: 35px;
+  }
+
+  .u-fifParaSp2 {
+    font-size: 1.3rem;
+  }
+
+  .u-fifPara5 {
+    font-size: 1.3rem;
   }
 
 
@@ -2986,14 +3030,17 @@
 
   .u-secoParaSP {
     font-size: 1rem;
-    transform: scale(0.8);
-    left: -20px;
+    transform: scale(0.7);
+    left: -14%;
+    width: 92%;
   }
 
   .u-secoPara2 {
     font-size: 1rem;
     transform: scale(0.8);
     top: 210px;
+    width: 58%;
+    left: 8%;
   }
 
 /* *******************スマホ340px lodge **********************/
@@ -3004,6 +3051,10 @@
 
   .u-triTtl {
     font-size: 2.0rem;
+  }
+
+  .u-triSub {
+    font-size: 3.5rem;
   }
 
   .u-triParaSP {
@@ -3038,6 +3089,10 @@
     font-size: 1rem;
     transform: scale(0.8);
     top: 210px;
+  }
+
+  .u-fifPara5 {
+    left: 24%;
   }
 
 

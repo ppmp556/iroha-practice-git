@@ -1816,7 +1816,7 @@
     }
 
     .bgBox .bgImage {
-        background-position-y: -19px;
+        background-position-y: -7%;
         background-repeat: no-repeat;
     }
 
@@ -1825,7 +1825,7 @@
     .bgImage6,
     .bgImage7,
     .bgImage8 {
-        background-position-y: 9px;
+        background-position-y: 0;
     }
 
     .navItem {
@@ -2328,7 +2328,7 @@
     .triParainner {
         position: absolute;
         top: 90px;
-        left: 96%;
+        left: 88%;
         /* left: 533px; */
         z-index: 5;
 
@@ -3463,11 +3463,13 @@
 
     .triParainner {
         /* width: 322.47px; */
-        width: 83%;
+        /* width: 83%; */
+        width: 39vw;
         height: 181.9px;
         position: absolute;
         top: 45px;
-        left: 377px;
+        /* left: 377px; */
+        left: 50vw;
         z-index: 5;
     }
 
@@ -3895,7 +3897,7 @@
     .triParainner {
         top: 54px;
         /* left: 340px; */
-        left: 87%;
+        left: 48vw;
         /* width: 250px; */
         width: 75%;
         height: 170px;
@@ -4039,10 +4041,12 @@
     }
 
     .triParainner {
-        width: 230px;
+        /* width: 230px; */
+        width: 37vw;
         height: 155px;
         top: 53px;
-        left: 325px;
+        /* left: 325px; */
+        left: 54vw;
     }
 
     .triBtnbox {
@@ -4421,7 +4425,7 @@
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        margin-left: 25px;
+        /* margin-left: 6%; */
     }
 
     .tribgTitle {
@@ -4441,12 +4445,10 @@
         height: 200px;
     }
 
-    .tribgPhotobox {
-        width: 100%;
-    }
+    
 
     .triPhotobox {
-        width: 111%;
+        width: 100%;
     }
 
     .triPhoto1,
@@ -4461,7 +4463,8 @@
     }
 
     .tribgPhoto {
-        width: 460px;
+        /* width: 460px; */
+        width: 89vw;
         height: 259px;
         margin-bottom: 5%;
     }
@@ -4535,6 +4538,7 @@
 
     /* ********************* 512px contact ************************************/
     .fifBtnbox {
+        left: 79%;
         /* left: 170px; */
         transform: scale(.7);
     }
@@ -5913,6 +5917,7 @@
     /* *****************スマホ376px section interactive ****************************/
 
     .fourParabox {
+        left: 10%;
         text-align: center;
     }
 
@@ -6032,8 +6037,9 @@
         top: 481.7px;
         left: 10px;
         z-index: 5;
-        margin: inherit;
-        margin-right: auto;
+        /* margin: inherit; */
+        margin: initial;
+        margin-left: auto;
     }
 
     .fifTitleSp {
@@ -6049,7 +6055,8 @@
     .fifBtnboxSp {
         position: absolute;
         top: 251px;
-        left: 16.5px;
+        /* left: 16.5px; */
+        left: 15%;
         display: flex;
         flex-direction: column;
 
@@ -6103,7 +6110,8 @@
     }
 
     .footerPara2 {
-        width: 262%;
+        /* width: 262%; */
+        width: 210%;
         display: block;
         font-size: 1.3rem;
         font-family: "YuMincho";
@@ -6174,6 +6182,19 @@
 /* ********************** 調整用 **********************************/
 @media screen and (max-width: 360px) {
 
+    .toggleBtn {
+        left: initial;
+        right: 5%;
+        top: -1%;
+    }
+    .topBtnbox {
+        left: 58%;
+    }
+
+    .topParaboxinner {
+        margin-left: 4%;
+    }
+
     .topParainner {
         width: 100%;
     }
@@ -6183,7 +6204,23 @@
     }
 
     .topBtnbox {
-        left: 220px;
+        /* left: 220px; */
+        left: 58%;
+    }
+
+    .secoBtnbox {
+        top: 85%;
+        left: 40%;
+    }
+
+    .triBtnbox {
+        top: 85%;
+        left: 40%;
+    }
+
+    .fourBtnbox {
+        top: 85%;
+        left: 40%;
     }
 
     .fourPhotobox {
@@ -6317,7 +6354,7 @@
         height: 50%;
         max-height: 50%;
         top: 50%;
-        left: 21%;
+        left: 50%;
         transform: translate(-50%, -50%);
 
     }
@@ -6338,8 +6375,11 @@
 
     .toggleBtn {
         position: absolute;
-        top: 0;
-        left: 290px;
+        /* top: 0; */
+        /* left: 290px; */
+        top: -1%;
+        left: initial;
+        right: 8%;
         cursor: pointer;
         transition: all .30s ease-in-out;
         /*0.3秒かけて変化*/
@@ -6384,7 +6424,7 @@
     .topBtnbox {
         position: absolute;
         top: 280.6px;
-        left: 200px;
+        /* left: 200px; */
         display: block;
 
     }
@@ -6397,6 +6437,16 @@
 
     .secoParainner {
         height: 360px;
+    }
+
+    .secoLine::after {
+        width: 50%;
+        left: 40%;
+    }
+
+    .secobgPhoto {
+        margin-bottom: 0;
+        margin-left: 0;
     }
 
     /* *************************スマホ340px food top******************************************/
@@ -6419,6 +6469,10 @@
     .triBtnbox {
         left: 91px;
         top: 280px;
+    }
+
+    .tribgTitle {
+        left: -38%;
     }
 
     /* *************************スマホ340px interactive top******************************************/
@@ -6456,6 +6510,8 @@
     /* *************************スマホ340px contact******************************************/
     .footerPara2 {
         top: 270px;
+        left: -110%;
+        width: 222%;
     }
 
 }
