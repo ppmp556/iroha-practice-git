@@ -1663,6 +1663,11 @@ a:active {
     height: auto;
   }
 
+  .ly-imageBox {
+    width: 100%;
+    max-width: 375px;
+  }
+
   .ly-headerWrapper {
     display: flex;
     position: relative;
@@ -1863,6 +1868,16 @@ a:active {
 
   .ly-wrapper {
     max-width: 360px;
+    width: 100%;
+  }
+
+  .ly-header {
+    max-width: 360px;
+  }
+
+  .ly-imageBox {
+    max-width: 360px;
+    width: 100%;
   }
 
   .ly-mainContainer {

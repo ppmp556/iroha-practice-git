@@ -1,6 +1,6 @@
 /* 接頭辞なし */
 /*  */
-@media screen and (max-width: 2560px) {
+@media screen and (max-width: 2560px){
 
     body {
         width: 100%;
@@ -115,7 +115,8 @@
         z-index: -100;
         position: absolute;
         object-fit: contain;
-        background-position-y: -190px;
+        /* background-position-y: -190px; */
+        background-position-y: -32%;
         margin: 0;
         padding: 50%;
         left: 0;
@@ -3032,6 +3033,7 @@
         position: absolute;
         height: 463px;
         width: 768px;
+        max-width: 100%;
     }
 
 
@@ -6390,8 +6392,10 @@
     }
 
     .clicked .toggleBtn {
-        top: -3px;
-        left: 218px;
+        /* top: -3px; */
+        /* left: 218px; */
+        top: -20%;
+        left: 65%;
     }
 
     .clicked .navList {
@@ -6431,8 +6435,11 @@
 
     /* *************************スマホ340px lodge top******************************************/
     .secoBtnbox {
-        left: 91px;
-        top: 280px;
+        /* left: 91px; */
+        /* top: 280px; */
+        left: 45%;
+        top: 80%;
+        transform: scale(0.8);
     }
 
     .secoParainner {
@@ -6467,8 +6474,12 @@
     }
 
     .triBtnbox {
-        left: 91px;
-        top: 280px;
+        /* left: 91px; */
+        /* top: 280px; */
+
+        left: 45%;
+        top: 80%;
+        transform: scale(0.8);
     }
 
     .tribgTitle {
@@ -6479,6 +6490,10 @@
 
     .fourTitle {
         margin-left: 25px;
+    }
+
+    .fourbgTitle {
+        left: -31%;
     }
 
     .fourLine::after {
@@ -6492,8 +6507,11 @@
     }
 
     .fourBtnbox {
-        left: 91px;
-        top: 280px;
+        /* left: 91px; */
+        /* top: 280px; */
+        left: 45%;
+        top: 80%;
+        transform: scale(0.8);
     }
 
     .fourPhotobox {
@@ -6514,4 +6532,17 @@
         width: 222%;
     }
 
+}
+
+
+/* ********************** 調整用 **********************************/
+
+@media screen and (max-width: 320px) {
+    .toggleBtn {
+        right: 16%;
+    }
+
+    .clicked .toggleBtn {
+        left: 59%;
+    }
 }
