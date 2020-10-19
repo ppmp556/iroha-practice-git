@@ -30,7 +30,7 @@ body {
   height: 100vh;
 
   overflow: scroll;
-  width: 1920px;
+  /* width: 1920px; */
 
 }
 
@@ -50,11 +50,11 @@ a:active {
 }
 
 
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 1921px){
   /* lyout 接頭にly-をつける */
 
   .ly-wrapper {
-    max-width: 2560px;
+    /* max-width: 2560px; */
     position: relative;
   }
 
@@ -126,7 +126,9 @@ a:active {
 
 
   .ly-mainContainer {
-    max-width: 2560px;
+    /* max-width: 2560px; */
+    max-width: 1921px;
+    margin: 0 auto;
     height: 100%;
     position: relative;
   }
@@ -203,7 +205,7 @@ a:active {
     flex-direction: column;
     position: relative;
     top: 270px;
-    left: 330px;
+    left: 190px;
   }
 
 
@@ -232,7 +234,7 @@ a:active {
     flex-direction: column;
     position: relative;
     top: 153px;
-    left: 330px;
+    left: 190px;
   }
 
   /* ********************************secton contact ********************************************/
@@ -272,7 +274,10 @@ a:active {
   .ly-footerShare {
     position: absolute;
     top: 260px;
-    left: 1770px;
+    /* left: 1770px; */
+    left: 68%;
+    display: flex;
+    width: 9%;
   }
 
   .ly-footerCRight {
@@ -286,7 +291,7 @@ a:active {
 }
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1920px){
 
 
   /* lyout 接頭にly-をつける */
@@ -511,8 +516,10 @@ a:active {
 
   .ly-footerShare {
     position: absolute;
-    top: 250.9px;
+    top: 252px;
     left: 1283px;
+    display: flex;
+    width: 9%;
   }
 
   .ly-footerCRight {
@@ -525,6 +532,57 @@ a:active {
   }
 
 }
+
+/* *************調整用 ***********************/
+
+@media screen and (max-width: 1838px) {
+
+  .ly-triphotoBox {
+
+      left: 14vw;
+  }
+
+  .ly-fourphotoBox {
+    left: 6vw;
+  }
+
+  .ly-footerShare {
+    left: 69%;
+  }
+
+
+}
+
+
+/* *************調整用 ***********************/
+
+@media screen and (max-width: 1720px) {
+
+  .ly-triSecbox {
+    display: block;
+  }
+
+  .ly-triphotoBox {
+
+      left: 14vw;
+  }
+
+  .ly-fourSecbox {
+    display: block;
+  }
+
+  .ly-fourphotoBox {
+    left: 1vw;
+  }
+
+
+  .ly-footerShare {
+    left: 69%;
+  }
+
+
+}
+
 
 /* *************調整用 ***********************/
 
@@ -756,7 +814,9 @@ a:active {
 
   .ly-triphotoBox {
     top: 200px;
-    left: 120px;
+    /* left: 120px; */
+    left: 16%;
+    width: 87%;
   }
 
   /* ********************************secton interactive ********************************************/
@@ -819,7 +879,7 @@ a:active {
     position: absolute;
     top: 210px;
     /* left: 740px; */
-    left: 67%;
+    left: 65%;
   }
 
   .ly-footerCRight {
@@ -993,8 +1053,10 @@ a:active {
 
   .clicked .ly-share {
     position: absolute;
-    top: 311.3px;
-    left: 624px;
+    /* top: 311.3px; */
+    /* left: 624px; */
+    top: 75%;
+    left: 75%;
     display: initial;
   }
 
@@ -1171,11 +1233,6 @@ a:active {
 ***********************************************************************/
 @media screen and (max-width: 650px) {
 
-  .clicked .ly-share {
-    left: 80%;
-    top: 80%;
-  }
-
   .ly-mainContainer {
     max-width: 650px;
   }
@@ -1200,8 +1257,8 @@ a:active {
 
   .clicked .ly-share {
     position: absolute;
-    top: 260px;
-    left: 500px;
+    top: 75%;
+    left: 75%;
     display: initial;
   }
 
@@ -1294,10 +1351,7 @@ a:active {
     width: 100%;
   }
 
-  .clicked .ly-share {
-    top: 240px;
-    left: 470px;
-  }
+
 
   .ly-mainContainer {
     max-width: 600px;
@@ -1310,7 +1364,7 @@ a:active {
 
 
   .ly-footerShare {
-    left: 60%;
+    left: 63%;
   }
 
 }
@@ -1524,7 +1578,7 @@ a:active {
   .ly-topSec {
     position: relative;
     height: 406px;
-    width: 414px;
+    /* width: 414px; */
     top: 0;
 
   }
@@ -1640,7 +1694,7 @@ a:active {
     position: absolute;
     top: 50px;
     /* left: 235px; */
-    left: 56%;
+    left: 59%;
     transform: scale(0.7);
   }
 
@@ -1851,7 +1905,8 @@ a:active {
     left: 50px;
     display: flex;
     justify-content: space-around;
-    width: 72%;
+    /* width: 72%; */
+    width: 100%;
     align-items: center;
     height: 20%;
     transform: inherit;
