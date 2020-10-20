@@ -3216,6 +3216,18 @@
     transform: scale(.8);
   }
 
+  .u-fifParaSp {
+    font-size: 1.3rem;
+  }
+
+  .u-fifPara3, .u-fifPara4 {
+    font-size: 1.3rem;
+  }
+
+  .u-fifPara3 {
+    margin: 20px 0;
+  }
+
   .u-fifPara5 {
     left: 24%;
   }

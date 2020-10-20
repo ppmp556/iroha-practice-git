@@ -108,7 +108,7 @@
     }
 
     .bgBox .bgImage {
-        background: url("image.svg/home-image.jpg");
+        background: url("image.svg/home-image.jpg") center / cover;
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
@@ -116,7 +116,7 @@
         position: absolute;
         object-fit: contain;
         /* background-position-y: -190px; */
-        background-position-y: -32%;
+        background-position-y: -265px;
         margin: 0;
         padding: 50%;
         left: 0;
@@ -146,17 +146,18 @@
         position: absolute;
         background-repeat: no-repeat;
         z-index: 100;
-        width: 888px;
+        /* width: 888px; */
+        width: 60%;
         height: 50%;
         object-fit: cover;
-        top: initial;
-        left: initial;
-        transform: initial;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
 
     .bgImage4 {
-        background: url("image.svg/66785460_332855247605145_6936626599722745856_n.png");
+        background: url("image.svg/66785460_332855247605145_6936626599722745856_n.png") center / cover;
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
@@ -171,26 +172,26 @@
     }
 
     .bgImage5 {
-        background: url("image.svg/65467287_496617880878565_1611677239349346304_n.png");
+        background: url("image.svg/65467287_496617880878565_1611677239349346304_n.png") center / 109%;
         background-repeat: no-repeat;
         width: 100%;
         z-index: -100;
         position: absolute;
         object-fit: contain;
-        background-position-y: 2px;
+        background-position-y: -127px;
         margin: 0;
         padding: 28%;
         animation-delay: 20s;
     }
 
     .bgImage6 {
-        background: url("image.svg/65470401_355624348470844_9079785503418482688_n.png");
+        background: url("image.svg/65470401_355624348470844_9079785503418482688_n.png") center/ 109%;
         background-repeat: no-repeat;
         width: 100%;
         z-index: -100;
         position: absolute;
         object-fit: contain;
-        background-position-y: 2px;
+        background-position-y: -124px;
         background-position-x: 0;
         margin: 0;
         padding: 28%;
@@ -198,26 +199,26 @@
     }
 
     .bgImage7 {
-        background: url("image.svg/65662181_736199493480161_3564494926337015808_n.png");
+        background: url("image.svg/65662181_736199493480161_3564494926337015808_n.png") center / 109%;
         background-repeat: no-repeat;
         width: 100%;
         z-index: -100;
         position: absolute;
         object-fit: contain;
-        background-position-y: 2px;
+        background-position-y: -126px;
         margin: 0;
         padding: 28%;
         animation-delay: 40s;
     }
 
     .bgImage8 {
-        background: url("image.svg/65716664_2514457691971614_8615425300211171328_n.png");
+        background: url("image.svg/65716664_2514457691971614_8615425300211171328_n.png") center / 109%;
         background-repeat: no-repeat;
         width: 100%;
         z-index: -100;
         position: absolute;
         object-fit: contain;
-        background-position-y: 2px;
+        background-position-y: -89px;
         margin: 0;
         padding: 28%;
         animation-delay: 50s;
@@ -2258,9 +2259,9 @@
         width: 100%;
         height: 72%;
         max-width: initial;
-        top: 34%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: initial;
+        left: initial;
+        transform: initial;
         padding-top: 7%;
     }
 
@@ -3047,7 +3048,7 @@
     }
 
     .bgImageMin {
-        top: 27%;
+        top: 4%;
     }
 
     .topBgimg {
