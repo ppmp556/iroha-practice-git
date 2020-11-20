@@ -1673,15 +1673,13 @@
     }
 
     .triPhotobox {
-        /* width: 86%; */
-        width: 96%;
+        width: 86%;
         margin-right: auto;
 
     }
 
     .tribgPhoto {
-        /* width: 45%; */
-        width: 58%;
+        width: 45%;
         height: 389px;
         margin-bottom: 10%;
     }

@@ -819,8 +819,7 @@ a:active {
   .ly-triphotoBox {
     top: 200px;
     /* left: 120px; */
-    /* left: 16%; */
-    left: 8%;
+    left: 16%;
     width: 87%;
   }
 
@@ -966,7 +965,8 @@ a:active {
 
   .ly-triphotoBox {
     top: 140px;
-    left: 30px;
+    /* left: 83px; */
+    left: 12%;
   }
 
   .ly-fourphotoBox {
@@ -1149,8 +1149,7 @@ a:active {
     flex-direction: column;
     position: relative;
     top: 102.9px;
-    /* left: 72.4px; */
-    left: 0;
+    left: 72.4px;
   }
 
 
@@ -1307,8 +1306,7 @@ a:active {
 
   .ly-triphotoBox {
     top: 100px;
-    /* left: 70px; */
-    left: 0;
+    left: 70px;
   }
 
   .ly-fourphotoBox {
@@ -1479,7 +1477,6 @@ a:active {
     top: 290px;
     left: 0;
     width: 100%;
-    margin-left: 0;
   }
 
 

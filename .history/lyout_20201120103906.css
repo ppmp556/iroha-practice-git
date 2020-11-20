@@ -820,7 +820,7 @@ a:active {
     top: 200px;
     /* left: 120px; */
     /* left: 16%; */
-    left: 8%;
+    left: 75px;
     width: 87%;
   }
 
@@ -1307,8 +1307,7 @@ a:active {
 
   .ly-triphotoBox {
     top: 100px;
-    /* left: 70px; */
-    left: 0;
+    left: 70px;
   }
 
   .ly-fourphotoBox {
@@ -1479,7 +1478,6 @@ a:active {
     top: 290px;
     left: 0;
     width: 100%;
-    margin-left: 0;
   }
 
 
