@@ -2058,8 +2058,8 @@
 
 
     .triParainner {
-        width: 83%;
-        /* width: 520px; */
+        /* width: 83%; */
+        width: 41vw;
         /* left: 630px; */
         /* left: 47vw; */
     }
@@ -2094,12 +2094,17 @@
         left: 75%;
     }
 
+    .footerParabox {
+        width: 68%;
+    }
+
     .footerParainner {
         left: 40%;
     }
 
     .footerPara2 {
-        left: 6%;
+        left: 0;
+        font-size: 1.4rem;
     }
 
     .footerImg {
