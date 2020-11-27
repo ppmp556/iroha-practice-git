@@ -4307,6 +4307,12 @@
         transform: scale(0.7);
     }
 
+    .footer-fa-stack .fa-facebook-f {
+    top: 4px;
+    font-size: 10px;
+    left: 4vw;
+}
+
 }
 
 
